@@ -1,0 +1,223 @@
+[
+  { "id": "f4-st-george", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["patron-saints"],
+    "explanation": "St George is the patron saint of England and his day is celebrated on 23 April.",
+    "angles": [
+      { "q": "Of which country is St George the patron saint?", "a": "England", "pool": "uk-countries" },
+      { "q": "Which patron saint's day falls on 23 April?", "a": "St George", "pool": "saints" }
+    ] },
+  { "id": "f4-st-david", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["patron-saints"],
+    "explanation": "St David is the patron saint of Wales and his day is celebrated on 1 March.",
+    "angles": [
+      { "q": "On which date is St David's Day celebrated?", "a": "1 March", "pool": "calendar-dates" },
+      { "q": "Which patron saint's day falls on 1 March?", "a": "St David", "pool": "saints" }
+    ] },
+  { "id": "f4-st-patrick", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["patron-saints"],
+    "explanation": "St Patrick is the patron saint of Northern Ireland and his day is celebrated on 17 March.",
+    "angles": [
+      { "q": "On which date is St Patrick's Day celebrated?", "a": "17 March", "pool": "calendar-dates" },
+      { "q": "Of which part of the UK is St Patrick the patron saint?", "a": "Northern Ireland", "pool": "uk-countries" }
+    ] },
+  { "id": "f4-st-andrew", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["patron-saints"],
+    "explanation": "St Andrew is the patron saint of Scotland and his day is celebrated on 30 November.",
+    "angles": [
+      { "q": "Which patron saint's day falls on 30 November?", "a": "St Andrew", "pool": "saints" }
+    ] },
+  { "id": "f4-christmas", "chapter": 4, "section": "Customs and traditions", "difficulty": 1, "tags": ["festivals"],
+    "explanation": "Christmas Day, 25 December, celebrates the birth of Jesus Christ and is a public holiday.",
+    "angles": [
+      { "q": "On which date is Christmas Day?", "a": "25 December", "pool": "calendar-dates" },
+      { "q": "What does Christmas Day celebrate?", "a": "The birth of Jesus Christ", "wrong": ["The death of Jesus Christ", "The resurrection of Jesus Christ", "The founding of the Church of England"] }
+    ] },
+  { "id": "f4-remembrance", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["remembrance"],
+    "explanation": "Remembrance Day, 11 November, commemorates those who died fighting for the UK and its allies. People wear poppies.",
+    "angles": [
+      { "q": "On which date is Remembrance Day?", "a": "11 November", "pool": "calendar-dates" },
+      { "q": "Which flower is worn to mark Remembrance Day?", "a": "The poppy", "wrong": ["The rose", "The thistle", "The daffodil"] }
+    ] },
+  { "id": "f4-bonfire", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+    "explanation": "Bonfire Night, 5 November, remembers the failure of the Gunpowder Plot of 1605.",
+    "angles": [
+      { "q": "On which date is Bonfire Night?", "a": "5 November", "pool": "calendar-dates" },
+      { "q": "What is traditionally burned on a bonfire on 5 November?", "a": "An effigy of Guy Fawkes", "wrong": ["An effigy of the monarch", "A wooden ship", "A straw harvest figure"] }
+    ] },
+  { "id": "f4-hogmanay", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals", "scotland"],
+    "explanation": "Hogmanay is the Scottish celebration of New Year, and in Scotland 2 January is also a public holiday.",
+    "angles": [
+      { "q": "In which country of the UK is New Year celebrated as Hogmanay?", "a": "Scotland", "pool": "uk-countries" }
+    ] },
+  { "id": "f4-burns-night", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["burns-night"],
+    "explanation": "Burns Night, 25 January, celebrates the Scottish poet Robert Burns with a supper of haggis and readings of his poetry.",
+    "angles": [
+      { "q": "Which poet is celebrated on Burns Night?", "a": "Robert Burns", "pool": "writers" },
+      { "q": "Which dish is traditionally eaten on Burns Night?", "a": "Haggis", "wrong": ["Roast beef", "Welsh cakes", "Fish and chips"] }
+    ] },
+  { "id": "f4-diwali", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+    "explanation": "Diwali, the festival of lights, is celebrated by Hindus and Sikhs in the autumn and lasts for five days.",
+    "angles": [
+      { "q": "Diwali is often known as the festival of what?", "a": "Lights", "wrong": ["Harvest", "Water", "Fire"] },
+      { "q": "For how many days does Diwali last?", "a": "Five", "pool": "small-numbers" }
+    ] },
+  { "id": "f4-eisteddfod", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals", "wales"],
+    "explanation": "The National Eisteddfod of Wales is an annual festival of Welsh music, poetry and performance.",
+    "angles": [
+      { "q": "In which country of the UK is the Eisteddfod held?", "a": "Wales", "pool": "uk-countries" }
+    ] },
+  { "id": "f4-wimbledon", "chapter": 4, "section": "Sport", "difficulty": 2, "tags": ["sport", "tennis"],
+    "explanation": "The Wimbledon Championships is the oldest tennis tournament in the world and the only Grand Slam played on grass.",
+    "angles": [
+      { "q": "On which surface is the Wimbledon tennis tournament played?", "a": "Grass", "wrong": ["Clay", "Hard court", "Carpet"] },
+      { "q": "Wimbledon is the most famous UK event in which sport?", "a": "Tennis", "pool": "sports" }
+    ] },
+  { "id": "f4-ashes", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport", "cricket"],
+    "explanation": "The Ashes is a famous series of test matches played between England and Australia.",
+    "angles": [
+      { "q": "The Ashes is contested in which sport?", "a": "Cricket", "pool": "sports" }
+    ] },
+  { "id": "f4-open-golf", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport", "golf"],
+    "explanation": "The Open Championship is the UK's most famous golf tournament, and St Andrews in Scotland is regarded as the home of golf.",
+    "angles": [
+      { "q": "The Open Championship is the leading UK tournament in which sport?", "a": "Golf", "pool": "sports" },
+      { "q": "In which country of the UK is St Andrews, the home of golf?", "a": "Scotland", "pool": "uk-countries" }
+    ] },
+  { "id": "f4-bannister", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport", "athletics"],
+    "explanation": "Sir Roger Bannister ran a mile in under four minutes in 1954, a record that had been thought impossible.",
+    "angles": [
+      { "q": "Who was the first man to run a mile in under four minutes?", "a": "Sir Roger Bannister", "pool": "sportspeople" }
+    ] },
+  { "id": "f4-redgrave", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport", "rowing"],
+    "explanation": "Sir Steve Redgrave won gold medals at five consecutive Olympic Games in rowing.",
+    "angles": [
+      { "q": "At how many consecutive Olympic Games did Sir Steve Redgrave win gold?", "a": "Five", "pool": "small-numbers" },
+      { "q": "Who won rowing gold medals at five consecutive Olympic Games?", "a": "Sir Steve Redgrave", "pool": "sportspeople" }
+    ] },
+  { "id": "f4-1966", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport", "football"],
+    "explanation": "England won the football World Cup in 1966, captained by Bobby Moore. It remains the only time England has won it.",
+    "angles": [
+      { "q": "Who captained England to victory in the 1966 football World Cup?", "a": "Bobby Moore", "pool": "sportspeople" }
+    ] },
+  { "id": "f4-shakespeare", "chapter": 4, "section": "Arts and culture", "difficulty": 2, "tags": ["shakespeare"],
+    "explanation": "William Shakespeare was born in Stratford-upon-Avon in 1564 and wrote plays and sonnets performed at the Globe Theatre.",
+    "angles": [
+      { "q": "Which famous playwright was born in Stratford-upon-Avon?", "a": "William Shakespeare", "pool": "writers" },
+      { "q": "As well as plays, what form of poetry did Shakespeare write?", "a": "Sonnets", "wrong": ["Limericks", "Haiku", "Ballads"] }
+    ] },
+  { "id": "f4-dickens", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "Charles Dickens wrote novels about social conditions in Victorian Britain, including Oliver Twist and Great Expectations.",
+    "angles": [
+      { "q": "Who wrote Oliver Twist?", "a": "Charles Dickens", "pool": "writers" },
+      { "q": "Charles Dickens wrote about social conditions in which period?", "a": "The Victorian era", "wrong": ["The Tudor era", "The Middle Ages", "The Stuart era"] }
+    ] },
+  { "id": "f4-austen", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "Jane Austen wrote novels about English middle-class life, including Pride and Prejudice and Sense and Sensibility.",
+    "angles": [
+      { "q": "Who wrote Pride and Prejudice?", "a": "Jane Austen", "pool": "writers" }
+    ] },
+  { "id": "f4-conan-doyle", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "Sir Arthur Conan Doyle wrote the Sherlock Holmes stories, among the earliest examples of detective fiction.",
+    "angles": [
+      { "q": "Who created the detective Sherlock Holmes?", "a": "Sir Arthur Conan Doyle", "pool": "writers" }
+    ] },
+  { "id": "f4-bronte", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "Charlotte Bronte wrote Jane Eyre, and her sister Emily wrote Wuthering Heights.",
+    "angles": [
+      { "q": "Who wrote Wuthering Heights?", "a": "Emily Bronte", "pool": "writers" },
+      { "q": "Who wrote Jane Eyre?", "a": "Charlotte Bronte", "pool": "writers" }
+    ] },
+  { "id": "f4-orwell", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "George Orwell wrote Animal Farm and Nineteen Eighty-Four, both reflecting on politics and power.",
+    "angles": [
+      { "q": "Who wrote Animal Farm?", "a": "George Orwell", "pool": "writers" }
+    ] },
+  { "id": "f4-elgar", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+    "explanation": "Sir Edward Elgar's best known work is the Pomp and Circumstance Marches, the first of which is sung as Land of Hope and Glory.",
+    "angles": [
+      { "q": "Which composer wrote the Pomp and Circumstance Marches?", "a": "Sir Edward Elgar", "pool": "composers" }
+    ] },
+  { "id": "f4-holst", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+    "explanation": "Gustav Holst composed The Planets, a suite of pieces themed around the planets of the solar system.",
+    "angles": [
+      { "q": "Which composer wrote The Planets?", "a": "Gustav Holst", "pool": "composers" }
+    ] },
+  { "id": "f4-britten", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+    "explanation": "Benjamin Britten founded the Aldeburgh Festival and wrote operas including Peter Grimes.",
+    "angles": [
+      { "q": "Which composer wrote the opera Peter Grimes?", "a": "Benjamin Britten", "pool": "composers" },
+      { "q": "Benjamin Britten founded a music festival in which town?", "a": "Aldeburgh", "wrong": ["Glyndebourne", "Cheltenham", "Bath"] }
+    ] },
+  { "id": "f4-turner", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["art"],
+    "explanation": "JMW Turner was an influential landscape painter of the 19th century. The Turner Prize is named after him.",
+    "angles": [
+      { "q": "After which artist is the Turner Prize named?", "a": "JMW Turner", "pool": "artists" }
+    ] },
+  { "id": "f4-constable", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["art"],
+    "explanation": "John Constable was a landscape painter best known for his paintings of the Suffolk countryside.",
+    "angles": [
+      { "q": "Which painter is famous for landscapes of the Suffolk countryside?", "a": "John Constable", "pool": "artists" }
+    ] },
+  { "id": "f4-lowry", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["art"],
+    "explanation": "LS Lowry painted urban and industrial landscapes in the north-west of England, using a distinctive matchstick style of figure.",
+    "angles": [
+      { "q": "Which artist is famous for matchstick figures in industrial landscapes?", "a": "LS Lowry", "pool": "artists" }
+    ] },
+  { "id": "f4-moore", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["art"],
+    "explanation": "Henry Moore was a sculptor best known for his large bronze abstract sculptures.",
+    "angles": [
+      { "q": "Which British artist is best known as a sculptor of large bronze abstract works?", "a": "Henry Moore", "pool": "artists" }
+    ] },
+  { "id": "f4-wren", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["architecture"],
+    "explanation": "Sir Christopher Wren rebuilt St Paul's Cathedral after the Great Fire of London in 1666.",
+    "angles": [
+      { "q": "Which architect designed the new St Paul's Cathedral?", "a": "Sir Christopher Wren", "pool": "architects" }
+    ] },
+  { "id": "f4-nash", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["architecture"],
+    "explanation": "John Nash was a Regency architect whose work included Buckingham Palace and the Royal Pavilion in Brighton.",
+    "angles": [
+      { "q": "Which architect designed the Royal Pavilion in Brighton?", "a": "John Nash", "pool": "architects" }
+    ] },
+  { "id": "f4-barry", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["architecture"],
+    "explanation": "Sir Charles Barry designed the Houses of Parliament in the Gothic style after the old palace burned down in 1834.",
+    "angles": [
+      { "q": "In which style did Sir Charles Barry design the Houses of Parliament?", "a": "Gothic", "wrong": ["Classical", "Baroque", "Modernist"] }
+    ] },
+  { "id": "f4-national-trust", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["heritage"],
+    "explanation": "The National Trust was founded in 1895 and preserves important buildings, coastline and countryside.",
+    "angles": [
+      { "q": "The National Trust is what kind of organisation?", "a": "A charity", "wrong": ["A government department", "A private company", "A local council service"] }
+    ] },
+  { "id": "f4-giants-causeway", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+    "explanation": "The Giant's Causeway is a rock formation on the north-east coast of Northern Ireland and a World Heritage Site.",
+    "angles": [
+      { "q": "The Giant's Causeway was formed by what?", "a": "Volcanic activity", "wrong": ["Glacial erosion", "Human construction", "A meteor impact"] }
+    ] },
+  { "id": "f4-ben-nevis", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+    "explanation": "Ben Nevis in Scotland is the highest mountain in the UK, and Snowdon is the highest in Wales.",
+    "angles": [
+      { "q": "What is the highest mountain in the UK?", "a": "Ben Nevis", "wrong": ["Snowdon", "Scafell Pike", "Slieve Donard"] },
+      { "q": "In which country of the UK is Ben Nevis?", "a": "Scotland", "pool": "uk-countries" }
+    ] },
+  { "id": "f4-eden-project", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+    "explanation": "The Eden Project in Cornwall consists of large biomes housing plants from around the world.",
+    "angles": [
+      { "q": "What does the Eden Project in Cornwall house?", "a": "Plants from around the world in large biomes", "wrong": ["A collection of British art", "A motor racing circuit", "A wildlife safari park"] }
+    ] },
+  { "id": "f4-tower-london", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+    "explanation": "The Tower of London was first built by William the Conqueror and is guarded by Yeoman Warders, known as Beefeaters.",
+    "angles": [
+      { "q": "Who first built the Tower of London?", "a": "William the Conqueror", "pool": "monarchs" }
+    ] },
+  { "id": "f4-bbc", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["television"],
+    "explanation": "The BBC is funded by the television licence fee and is independent of government.",
+    "angles": [
+      { "q": "What does BBC stand for?", "a": "British Broadcasting Corporation", "wrong": ["British Business Council", "Britain's Broadcasting Committee", "British Cultural Broadcasting"] }
+    ] },
+  { "id": "f4-census-religion", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["religion", "census"],
+    "explanation": "Christianity is the largest religion in the UK, though a large and growing proportion of people report having no religion.",
+    "angles": [
+      { "q": "Which is the largest religion in the UK?", "a": "Christianity", "pool": "religions" }
+    ] },
+  { "id": "f4-notting-hill", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+    "explanation": "The Notting Hill Carnival, held each August in London, is led by members of the British West Indian community.",
+    "angles": [
+      { "q": "In which month is the Notting Hill Carnival held?", "a": "August", "wrong": ["June", "October", "December"] }
+    ] }
+]

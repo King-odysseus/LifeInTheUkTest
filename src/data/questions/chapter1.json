@@ -1,0 +1,1973 @@
+[
+  {
+    "id": "c1-001",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 1,
+    "tags": [
+      "values"
+    ],
+    "question": "Which of these is a fundamental principle of British life?",
+    "options": [
+      "Participation in community life",
+      "Compulsory military service",
+      "Paying a church tax",
+      "Voting in every foreign election"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Participation in community life is listed as a fundamental principle, alongside democracy, the rule of law, individual liberty, and tolerance of those with different faiths and beliefs."
+  },
+  {
+    "id": "c1-002",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 1,
+    "tags": [
+      "values",
+      "responsibilities"
+    ],
+    "question": "Which of these is a responsibility that permanent residents of the UK are expected to accept?",
+    "options": [
+      "To look after yourself and your family",
+      "To join a political party",
+      "To attend a place of worship weekly",
+      "To own property in the UK"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Looking after yourself and your family is one of the listed responsibilities, along with respecting the law, treating others with fairness, and looking after the area you live in and the environment."
+  },
+  {
+    "id": "c1-003",
+    "type": "boolean",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 1,
+    "tags": [
+      "values"
+    ],
+    "question": "Is the statement below TRUE or FALSE? The UK offers freedom of belief and religion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Freedom of belief and religion is one of the fundamental principles of British life set out in the handbook."
+  },
+  {
+    "id": "c1-004",
+    "type": "single",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 2,
+    "tags": [
+      "citizenship",
+      "test"
+    ],
+    "question": "What must you be able to do to apply to become a permanent resident or citizen of the UK?",
+    "options": [
+      "Speak and read English and have a good understanding of British life",
+      "Own a home in the UK",
+      "Have lived in the UK for 20 years",
+      "Be sponsored by a Member of Parliament"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Applicants must be able to speak and read English and have a good understanding of life in the UK, which is what this test assesses."
+  },
+  {
+    "id": "c1-005",
+    "type": "multi",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
+    "question": "Which TWO of the following are fundamental principles of British life?",
+    "options": [
+      "The rule of law",
+      "Individual liberty",
+      "Free international travel",
+      "Guaranteed employment"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "The rule of law and individual liberty are both fundamental principles, along with democracy, tolerance, and participation in community life."
+  },
+  {
+    "id": "c1-006",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values",
+      "responsibilities"
+    ],
+    "question": "Which of these is NOT a responsibility of a permanent resident of the UK?",
+    "options": [
+      "Voting in the elections of your country of origin",
+      "Respecting and obeying the law",
+      "Treating others with fairness",
+      "Looking after the environment"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Voting in another country's elections is not among the responsibilities listed in the handbook."
+  },
+  {
+    "id": "c1-007",
+    "type": "single",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 2,
+    "tags": [
+      "test"
+    ],
+    "question": "The Life in the UK Test is normally taken in which language?",
+    "options": [
+      "English",
+      "Latin",
+      "French",
+      "Any language of the applicant's choice"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The test is taken in English, though it can be taken in Welsh or Scottish Gaelic by prior arrangement."
+  },
+  {
+    "id": "c1-008",
+    "type": "boolean",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 1,
+    "tags": [
+      "values",
+      "extremism"
+    ],
+    "question": "Is the statement below TRUE or FALSE? Extremism and intolerance are welcomed in the UK.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The UK offers a welcome to those who share its values, but it does not tolerate extremism or intolerance."
+  },
+  {
+    "id": "c1-009",
+    "type": "single",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 2,
+    "tags": [
+      "citizenship",
+      "ceremony"
+    ],
+    "question": "What do successful citizenship applicants attend, at which they make an oath or affirmation of allegiance?",
+    "options": [
+      "A citizenship ceremony",
+      "A parliamentary hearing",
+      "A church service",
+      "A court hearing"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Successful applicants attend a citizenship ceremony, usually at their local council, where they make a pledge and an oath or affirmation of allegiance."
+  },
+  {
+    "id": "c1-010",
+    "type": "single",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship",
+      "ceremony"
+    ],
+    "question": "At a citizenship ceremony, to whom is the oath of allegiance sworn?",
+    "options": [
+      "The monarch and their heirs and successors",
+      "The Prime Minister",
+      "The Speaker of the House of Commons",
+      "The Archbishop of Canterbury"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The oath of allegiance is sworn to the monarch, their heirs and successors. Those who prefer not to swear by God make a solemn affirmation instead."
+  },
+  {
+    "id": "c1-011",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
+    "question": "Which of these best describes what British society is founded on?",
+    "options": [
+      "Fundamental values and principles which all residents should respect",
+      "A single national religion",
+      "A written constitution issued in 1215",
+      "Loyalty to one political party"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "British society is founded on fundamental values and principles which all those living in the UK should respect and support."
+  },
+  {
+    "id": "c1-012",
+    "type": "multi",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 3,
+    "tags": [
+      "values",
+      "responsibilities"
+    ],
+    "question": "Which TWO of the following are things you should do as a resident of the UK?",
+    "options": [
+      "Look after the area in which you live",
+      "Treat others with fairness",
+      "Report your neighbours to the police",
+      "Learn a second European language"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Looking after the area you live in and the environment, and treating others with fairness, are both listed responsibilities."
+  },
+  {
+    "id": "c1-013",
+    "type": "boolean",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 2,
+    "tags": [
+      "test"
+    ],
+    "question": "Is the statement below TRUE or FALSE? The Life in the UK Test can be taken in Welsh or Scottish Gaelic.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The test is normally taken in English, but arrangements can be made to take it in Welsh or Scottish Gaelic."
+  },
+  {
+    "id": "c1-014",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 1,
+    "tags": [
+      "values",
+      "democracy"
+    ],
+    "question": "Which system of government is a fundamental principle of British life?",
+    "options": [
+      "Democracy",
+      "Absolute monarchy",
+      "Military rule",
+      "One-party rule"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Democracy is the first of the fundamental principles of British life listed in the handbook."
+  },
+  {
+    "id": "c1-015",
+    "type": "single",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ],
+    "question": "In addition to the oath or affirmation of allegiance, what else do new citizens make at the ceremony?",
+    "options": [
+      "A pledge to respect the rights, freedoms and laws of the UK",
+      "A donation to charity",
+      "A promise never to leave the UK",
+      "A written examination"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "New citizens also give a pledge to respect the rights, freedoms and laws of the UK."
+  },
+  {
+    "id": "c1-016",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
+    "question": "Tolerance of what is named as a fundamental principle of British life?",
+    "options": [
+      "Different faiths and beliefs",
+      "Breaking the law",
+      "Tax avoidance",
+      "Anti-social behaviour"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle. Tolerating unlawful behaviour is not."
+  },
+  {
+    "id": "c1-017",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ],
+    "question": "Which of these is a right shared by everyone resident in the UK?",
+    "options": [
+      "Freedom of speech",
+      "A guaranteed job",
+      "Free housing",
+      "Exemption from tax"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Freedom of speech is one of the rights shared by everyone in the UK, along with freedom of belief, freedom from unfair discrimination and the right to a fair trial."
+  },
+  {
+    "id": "c1-018",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights",
+      "trial"
+    ],
+    "question": "Which of these is a right shared by everyone in the UK?",
+    "options": [
+      "The right to a fair trial",
+      "The right to free travel abroad",
+      "The right to a free car",
+      "The right to ignore laws you disagree with"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The right to a fair trial is one of the fundamental rights shared by everyone resident in the UK."
+  },
+  {
+    "id": "c1-019",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights",
+      "discrimination"
+    ],
+    "question": "Freedom from unfair discrimination means what?",
+    "options": [
+      "You cannot be treated unfairly because of who you are",
+      "You can never be refused a job",
+      "You do not have to obey the law",
+      "You cannot be questioned by the police"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Everyone in the UK has freedom from unfair discrimination, for example on grounds of race, sex, religion, age or disability."
+  },
+  {
+    "id": "c1-020",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 3,
+    "tags": [
+      "responsibilities"
+    ],
+    "question": "Which of these is a responsibility of everyone living in the UK?",
+    "options": [
+      "Respecting the rights of others, including their right to their own opinions",
+      "Agreeing with the government of the day",
+      "Belonging to a religion",
+      "Serving in the armed forces"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Respecting the rights of others, including their right to hold their own opinions, is one of the listed responsibilities."
+  },
+  {
+    "id": "c1-021",
+    "type": "multi",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 3,
+    "tags": [
+      "rights"
+    ],
+    "question": "Which TWO of these are rights shared by everyone resident in the UK?",
+    "options": [
+      "Freedom of belief and religion",
+      "The right to join in the election of a government",
+      "The right to free university education",
+      "The right to a government-provided home"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Freedom of belief and religion, and the right to take part in electing a government, are both fundamental rights."
+  },
+  {
+    "id": "c1-022",
+    "type": "boolean",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values",
+      "law"
+    ],
+    "question": "Is the statement below TRUE or FALSE? People in the UK may choose which laws they wish to obey.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Everyone in the UK must respect and obey the law. The rule of law means the law applies to everyone equally."
+  },
+  {
+    "id": "c1-023",
+    "type": "single",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ],
+    "question": "Which government department is responsible for immigration and citizenship applications?",
+    "options": [
+      "The Home Office",
+      "The Foreign Office",
+      "The Treasury",
+      "The Department for Education"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "UK Visas and Immigration, part of the Home Office, is responsible for applications to come to, remain in, or become a citizen of the UK."
+  },
+  {
+    "id": "c1-024",
+    "type": "single",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship",
+      "ceremony"
+    ],
+    "question": "Where do citizenship ceremonies usually take place?",
+    "options": [
+      "At the local council",
+      "At the Houses of Parliament",
+      "At a police station",
+      "At a place of worship"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Citizenship ceremonies are usually arranged by the local council, where new citizens make the oath or affirmation and the pledge."
+  },
+  {
+    "id": "c1-025",
+    "type": "single",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship",
+      "oath"
+    ],
+    "question": "What is offered to applicants who prefer not to swear by God at a citizenship ceremony?",
+    "options": [
+      "A solemn affirmation",
+      "An exemption from the ceremony",
+      "A written statement only",
+      "A second ceremony later"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Those who prefer not to swear by God make a solemn affirmation of allegiance instead of an oath."
+  },
+  {
+    "id": "c1-026",
+    "type": "single",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test"
+    ],
+    "question": "Where must the Life in the UK Test be taken?",
+    "options": [
+      "At a registered test centre",
+      "At home online",
+      "At a local council office",
+      "At a police station"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The test must be booked in advance and taken at a registered test centre, where identification is required."
+  },
+  {
+    "id": "c1-027",
+    "type": "single",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test",
+      "english"
+    ],
+    "question": "What does ESOL stand for?",
+    "options": [
+      "English for Speakers of Other Languages",
+      "English Standards of Learning",
+      "Essential Skills of Language",
+      "English School of Literacy"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "ESOL courses help people whose first language is not English to improve their English, which is required for settlement and citizenship."
+  },
+  {
+    "id": "c1-028",
+    "type": "boolean",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 3,
+    "tags": [
+      "values"
+    ],
+    "question": "Is the statement below TRUE or FALSE? Understanding British values helps you take a full part in society.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Understanding the values and principles of the UK helps new residents integrate and play a full part in the life of the community."
+  },
+  {
+    "id": "c1-029",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 3,
+    "tags": [
+      "values",
+      "rule-of-law"
+    ],
+    "question": "What does the rule of law mean?",
+    "options": [
+      "Everyone, including those in power, is subject to the law",
+      "The government can change the law without Parliament",
+      "Only citizens must obey the law",
+      "Judges make the law"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The rule of law means that no one is above the law, including those who govern. It is one of the fundamental principles of British life."
+  },
+  {
+    "id": "c1-030",
+    "type": "single",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 3,
+    "tags": [
+      "values",
+      "community"
+    ],
+    "question": "Which of these is an example of participating in community life?",
+    "options": [
+      "Volunteering to help a local group",
+      "Ignoring your neighbours",
+      "Refusing to vote",
+      "Avoiding local events"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Participation in community life is a fundamental principle. Volunteering, joining local groups and helping neighbours are all examples."
+  },
+  {
+    "id": "c1-031",
+    "type": "single",
+    "question": "Which of these is one of the fundamental principles of British life?",
+    "options": [
+      "Mandatory community service",
+      "Tolerance of those with different faiths and beliefs",
+      "Compulsory religious observance",
+      "Loyalty to a single political party"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-032",
+    "type": "single",
+    "question": "What do new citizens receive at the end of a citizenship ceremony?",
+    "options": [
+      "A certificate of British citizenship",
+      "A British passport",
+      "A voting card",
+      "A national insurance number"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "At a citizenship ceremony, new citizens make an oath or affirmation of allegiance to the monarch and a pledge to respect the rights, freedoms and laws of the UK.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-033",
+    "type": "single",
+    "question": "What does democracy mean?",
+    "options": [
+      "Rule by a single leader",
+      "Government by the people, through elected representatives",
+      "Rule by religious leaders",
+      "Government by the wealthiest citizens"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Democracy is one of the fundamental principles of British life, meaning government by the people through elected representatives.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-034",
+    "type": "single",
+    "question": "Under the rule of law, who is subject to the law?",
+    "options": [
+      "Everyone, including those who govern",
+      "Only those who have been convicted",
+      "Only ordinary citizens",
+      "Only people born in the UK"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The rule of law means that everyone, including those in government, is subject to the law and no one is above it.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-035",
+    "type": "single",
+    "question": "What does individual liberty mean?",
+    "options": [
+      "Freedom to make your own choices within the law",
+      "Freedom granted only to citizens",
+      "Freedom to avoid paying tax",
+      "Freedom to ignore the law"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Individual liberty is a fundamental principle of British life, meaning people are free to make their own choices within the law.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-036",
+    "type": "single",
+    "question": "Tolerance in British life extends to people with different what?",
+    "options": [
+      "Political donations",
+      "Criminal records",
+      "Faiths and beliefs",
+      "Levels of income"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle of British life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-037",
+    "type": "single",
+    "question": "Which of these is an example of participation in community life?",
+    "options": [
+      "Ignoring local news",
+      "Avoiding your neighbours",
+      "Refusing to pay council tax",
+      "Voting in local elections"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Participation in community life is a fundamental principle, and includes volunteering, voting and helping neighbours.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-038",
+    "type": "single",
+    "question": "What is expected of everyone living in the UK regarding the law?",
+    "options": [
+      "To obey only criminal law",
+      "To obey only laws they agree with",
+      "To respect and obey it",
+      "To follow the laws of their home country"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Respecting and obeying the law is the first of the responsibilities expected of everyone living in the UK.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ]
+  },
+  {
+    "id": "c1-039",
+    "type": "single",
+    "question": "Which of these is a listed responsibility of UK residents?",
+    "options": [
+      "Working in the public sector",
+      "Supporting a football team",
+      "Looking after yourself and your family",
+      "Owning a car"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Looking after yourself and your family is one of the responsibilities expected of everyone living in the UK.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ]
+  },
+  {
+    "id": "c1-040",
+    "type": "single",
+    "question": "Which of these shows responsibility towards the environment?",
+    "options": [
+      "Dropping litter in parks",
+      "Recycling your household waste",
+      "Pouring oil down drains",
+      "Burning rubbish in the street"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Looking after the area in which you live and the environment is one of the responsibilities of UK residents.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ]
+  },
+  {
+    "id": "c1-041",
+    "type": "single",
+    "question": "Freedom of speech in the UK is subject to what?",
+    "options": [
+      "The approval of the government",
+      "The permission of the monarch",
+      "The limits set by the law",
+      "Nothing at all"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Freedom of speech is one of the rights shared by everyone in the UK, within the limits set by the law.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ]
+  },
+  {
+    "id": "c1-042",
+    "type": "single",
+    "question": "Which of these rights is shared by everyone in the UK?",
+    "options": [
+      "A right to a fair trial",
+      "A right to choose your own judge",
+      "A right to avoid court",
+      "A right to a jury of your friends"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "A right to a fair trial is one of the rights shared by everyone in the UK.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ]
+  },
+  {
+    "id": "c1-043",
+    "type": "single",
+    "question": "Which of these rights is shared by eligible people in the UK?",
+    "options": [
+      "The right to choose the monarch",
+      "The right to veto laws",
+      "The right to join in electing a government",
+      "The right to appoint the Prime Minister"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "A right to join in the election of a government is one of the rights shared by everyone eligible in the UK.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ]
+  },
+  {
+    "id": "c1-044",
+    "type": "single",
+    "question": "How does the UK treat extremism?",
+    "options": [
+      "It does not tolerate it",
+      "It ignores it",
+      "It funds it",
+      "It protects it as free speech"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK offers a welcome to those who share its values, but does not tolerate extremism or intolerance.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-045",
+    "type": "single",
+    "question": "Which two things must citizenship applicants demonstrate?",
+    "options": [
+      "Employment and a driving licence",
+      "Property ownership and savings",
+      "English language ability and knowledge of life in the UK",
+      "A university degree and a sponsor"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "To apply for permanent residence or citizenship, applicants must be able to speak and read English and understand life in the UK.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 2,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-046",
+    "type": "single",
+    "question": "Who are ESOL courses designed for?",
+    "options": [
+      "Children in primary school",
+      "People learning a second European language",
+      "People whose first language is not English",
+      "People training to be teachers"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "ESOL courses help people whose first language is not English to improve their English for settlement and citizenship.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-047",
+    "type": "single",
+    "question": "Which body handles applications for British citizenship?",
+    "options": [
+      "The local council",
+      "The Department for Work and Pensions",
+      "The Foreign Office",
+      "UK Visas and Immigration"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "UK Visas and Immigration, part of the Home Office, handles applications to come to, remain in, or become a citizen of the UK.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-048",
+    "type": "single",
+    "question": "What does the citizenship pledge commit new citizens to respect?",
+    "options": [
+      "The armed forces",
+      "The policies of the governing party",
+      "The Church of England",
+      "The rights, freedoms and laws of the UK"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "At a citizenship ceremony, new citizens make a pledge to respect the rights, freedoms and laws of the UK.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-049",
+    "type": "single",
+    "question": "What must you bring to a Life in the UK Test centre?",
+    "options": [
+      "A reference from an employer",
+      "Identification",
+      "Two passport photographs",
+      "A copy of the handbook"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Life in the UK Test must be booked in advance and taken at a registered test centre, where identification is required.",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test"
+    ]
+  },
+  {
+    "id": "c1-050",
+    "type": "single",
+    "question": "The Life in the UK Test questions are based on what?",
+    "options": [
+      "A government website",
+      "The official handbook for new residents",
+      "A general knowledge quiz",
+      "Current affairs in the news"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "All questions in the Life in the UK Test are based on the official handbook, Life in the United Kingdom: A Guide for New Residents.",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 2,
+    "tags": [
+      "test"
+    ]
+  },
+  {
+    "id": "c1-051",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Democracy is a fundamental principle of British life.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-052",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? The rule of law means that those who govern are also subject to the law.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-053",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? The UK tolerates extremism as a form of free expression.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-054",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Participation in community life is a fundamental principle of British life.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-055",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Everyone in the UK has the right to a fair trial.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-056",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Residents of the UK are expected to look after the area in which they live.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-057",
+    "type": "multi",
+    "question": "Which TWO of these are fundamental principles of British life?",
+    "options": [
+      "Compulsory military service",
+      "The rule of law",
+      "Democracy",
+      "State control of religion"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-058",
+    "type": "multi",
+    "question": "Which TWO of these are responsibilities of UK residents?",
+    "options": [
+      "Respecting and obeying the law",
+      "Owning property",
+      "Joining a trade union",
+      "Looking after yourself and your family"
+    ],
+    "correct": [
+      0,
+      3
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-059",
+    "type": "single",
+    "question": "How many fundamental principles of British life are listed in the handbook?",
+    "options": [
+      "Fifteen",
+      "Six",
+      "Five",
+      "Eight"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-060",
+    "type": "single",
+    "question": "The handbook lists how many fundamental principles of British life?",
+    "options": [
+      "Seven",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-061",
+    "type": "multi",
+    "question": "Which TWO are fundamental principles of British life?",
+    "options": [
+      "Participation in community life",
+      "Individual liberty",
+      "A single official religion",
+      "Compulsory voting"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "The fundamental principles are democracy, the rule of law, individual liberty, tolerance and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-062",
+    "type": "multi",
+    "question": "Which TWO are rights shared by everyone in the UK?",
+    "options": [
+      "A guaranteed job",
+      "Free housing",
+      "Freedom of speech",
+      "A right to a fair trial"
+    ],
+    "correct": [
+      2,
+      3
+    ],
+    "explanation": "The fundamental principles are democracy, the rule of law, individual liberty, tolerance and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-063",
+    "type": "multi",
+    "question": "Which TWO are responsibilities of UK residents?",
+    "options": [
+      "Looking after the environment",
+      "Belonging to a political party",
+      "Joining the armed forces",
+      "Treating others with fairness"
+    ],
+    "correct": [
+      0,
+      3
+    ],
+    "explanation": "The fundamental principles are democracy, the rule of law, individual liberty, tolerance and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-064",
+    "type": "multi",
+    "question": "Which TWO must citizenship applicants demonstrate?",
+    "options": [
+      "An ability to speak and read English",
+      "Ownership of property",
+      "A university degree",
+      "A knowledge of life in the UK"
+    ],
+    "correct": [
+      0,
+      3
+    ],
+    "explanation": "The fundamental principles are democracy, the rule of law, individual liberty, tolerance and participation in community life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-065",
+    "type": "multi",
+    "question": "Which TWO things do new citizens do at a citizenship ceremony?",
+    "options": [
+      "Sit a written examination",
+      "Give a pledge to respect the UK's laws",
+      "Make an oath or affirmation of allegiance",
+      "Swear loyalty to a political party"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "At a citizenship ceremony, new citizens make an oath or affirmation of allegiance and a pledge to respect the UK's rights, freedoms and laws.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-066",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? In the UK, the government is chosen by the people through elections.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Democracy means government by the people through elected representatives, and is a fundamental principle of British life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-067",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? British values include respect for democratic institutions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Democracy means government by the people through elected representatives, and is a fundamental principle of British life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-068",
+    "type": "single",
+    "question": "In a democracy, who ultimately chooses the government?",
+    "options": [
+      "The civil service",
+      "The courts",
+      "The people, through elections",
+      "The monarch"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Democracy means government by the people through elected representatives, and is a fundamental principle of British life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-069",
+    "type": "single",
+    "question": "Under a democratic system, government is chosen by whom?",
+    "options": [
+      "The civil service",
+      "The monarch",
+      "The courts",
+      "The people, through elections"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Democracy means government by the people through elected representatives, and is a fundamental principle of British life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-070",
+    "type": "single",
+    "question": "Democracy places the choice of government in whose hands?",
+    "options": [
+      "The courts",
+      "The monarch",
+      "The civil service",
+      "The people, through elections"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Democracy means government by the people through elected representatives, and is a fundamental principle of British life.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-071",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? People in the UK are free to make their own choices within the law.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Individual liberty means people are free to make their own choices, within the limits set by the law.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-072",
+    "type": "single",
+    "question": "Individual liberty in the UK is limited by what?",
+    "options": [
+      "The law",
+      "Nothing at all",
+      "The monarch's wishes",
+      "Local custom"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Individual liberty means people are free to make their own choices, within the limits set by the law.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-073",
+    "type": "single",
+    "question": "Personal freedom in the UK operates within which limits?",
+    "options": [
+      "Local custom",
+      "Nothing at all",
+      "The monarch's wishes",
+      "The law"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Individual liberty means people are free to make their own choices, within the limits set by the law.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-074",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? The UK welcomes those who are willing to share its values.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle. The UK does not tolerate extremism.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-075",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Intolerance towards other faiths is acceptable in the UK.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle. The UK does not tolerate extremism.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-076",
+    "type": "single",
+    "question": "British values require tolerance towards people with different what?",
+    "options": [
+      "Faiths and beliefs",
+      "Criminal convictions",
+      "Nationalities only",
+      "Levels of wealth"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle. The UK does not tolerate extremism.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-077",
+    "type": "single",
+    "question": "Tolerance in the UK is expected towards those with different what?",
+    "options": [
+      "Levels of wealth",
+      "Criminal convictions",
+      "Nationalities only",
+      "Faiths and beliefs"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle. The UK does not tolerate extremism.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ]
+  },
+  {
+    "id": "c1-078",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Residents should respect the right of others to hold their own opinions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ]
+  },
+  {
+    "id": "c1-079",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Looking after your family is one of the responsibilities listed in the handbook.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ]
+  },
+  {
+    "id": "c1-080",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? UK residents may choose which laws to obey.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ]
+  },
+  {
+    "id": "c1-081",
+    "type": "single",
+    "question": "Which of these is expected of everyone living in the UK?",
+    "options": [
+      "Supporting the governing party",
+      "Serving in the armed forces",
+      "Owning a home",
+      "Respecting the rights of others"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ]
+  },
+  {
+    "id": "c1-082",
+    "type": "single",
+    "question": "Which responsibility do UK residents share?",
+    "options": [
+      "Owning a home",
+      "Supporting the governing party",
+      "Serving in the armed forces",
+      "Respecting the rights of others"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ]
+  },
+  {
+    "id": "c1-083",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? People in the UK are free to change their religion.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Rights shared by everyone in the UK include freedom of belief, freedom of speech, freedom from unfair discrimination, a fair trial and a vote.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ]
+  },
+  {
+    "id": "c1-084",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Freedom from unfair discrimination is a right in the UK.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Rights shared by everyone in the UK include freedom of belief, freedom of speech, freedom from unfair discrimination, a fair trial and a vote.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ]
+  },
+  {
+    "id": "c1-085",
+    "type": "single",
+    "question": "Everyone resident in the UK shares which of these rights?",
+    "options": [
+      "Free air travel",
+      "A guaranteed pension at 40",
+      "Freedom of belief and religion",
+      "Exemption from tax"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Rights shared by everyone in the UK include freedom of belief, freedom of speech, freedom from unfair discrimination, a fair trial and a vote.",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ]
+  },
+  {
+    "id": "c1-086",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Those who prefer not to swear by God may make a solemn affirmation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-087",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? New citizens receive a certificate of British citizenship.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-088",
+    "type": "single",
+    "question": "Where is a citizenship ceremony usually held?",
+    "options": [
+      "At a police station",
+      "At a court",
+      "At Parliament",
+      "At the local council"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-089",
+    "type": "single",
+    "question": "Citizenship ceremonies normally take place where?",
+    "options": [
+      "At Parliament",
+      "At a police station",
+      "At the local council",
+      "At a court"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-090",
+    "type": "single",
+    "question": "To whom is the oath of allegiance made?",
+    "options": [
+      "Parliament",
+      "The monarch and their heirs and successors",
+      "The Speaker",
+      "The Prime Minister"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-091",
+    "type": "single",
+    "question": "New citizens swear allegiance to whom?",
+    "options": [
+      "The monarch and their heirs and successors",
+      "The Speaker",
+      "The Prime Minister",
+      "Parliament"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ]
+  },
+  {
+    "id": "c1-092",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? The Life in the UK Test must be booked in advance.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Life in the UK Test is taken in English at a registered test centre, though it can be taken in Welsh or Scottish Gaelic by arrangement.",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test"
+    ]
+  },
+  {
+    "id": "c1-093",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? All test questions come from the official handbook.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Life in the UK Test is taken in English at a registered test centre, though it can be taken in Welsh or Scottish Gaelic by arrangement.",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test"
+    ]
+  },
+  {
+    "id": "c1-094",
+    "type": "single",
+    "question": "Besides English, in which languages can the Life in the UK Test be taken?",
+    "options": [
+      "Irish and Cornish",
+      "Welsh and Scottish Gaelic",
+      "French and German",
+      "Any language on request"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Life in the UK Test is taken in English at a registered test centre, though it can be taken in Welsh or Scottish Gaelic by arrangement.",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test"
+    ]
+  },
+  {
+    "id": "c1-095",
+    "type": "single",
+    "question": "The test may be taken in which other languages by arrangement?",
+    "options": [
+      "Any language on request",
+      "Welsh and Scottish Gaelic",
+      "French and German",
+      "Irish and Cornish"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Life in the UK Test is taken in English at a registered test centre, though it can be taken in Welsh or Scottish Gaelic by arrangement.",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test"
+    ]
+  }
+]

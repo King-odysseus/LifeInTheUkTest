@@ -1,0 +1,131 @@
+[
+  { "id": "p4-population-more", "chapter": 4, "section": "The UK population", "difficulty": 3, "tags": ["population"],
+    "explanation": "A census is taken every 10 years. Detailed census information is kept confidential for 100 years before release.",
+    "angles": [
+      { "q": "How often does the UK carry out a census?", "a": "Every 10 years", "wrong": ["Every year", "Every 5 years", "Every 25 years"],
+        "alts": ["The UK census is held at what interval?", "How frequently is the population of the UK formally counted?"] }
+    ],
+    "tf": [
+      { "s": "The UK population has become more diverse over time.", "v": true },
+      { "s": "England has by far the largest share of the UK population.", "v": true },
+      { "s": "People in the UK are living longer than in the past.", "v": true }
+    ] },
+  { "id": "p4-religion-more", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["religion"],
+    "explanation": "The UK is a tolerant society. Everyone has the right to practise a religion, change it, or have none at all.",
+    "angles": [
+      { "q": "Which of these describes religious freedom in the UK?", "a": "Everyone may practise a religion, change it, or have none", "wrong": ["Everyone must belong to the Church of England", "Only Christians may worship publicly", "Religion is banned in public life"],
+        "alts": ["What does freedom of religion mean in the UK?"] }
+    ],
+    "tf": [
+      { "s": "Baptists, Methodists and Presbyterians are Protestant groups in the UK.", "v": true },
+      { "s": "The Church of England is the established Church in Northern Ireland.", "v": false },
+      { "s": "Bishops of the Church of England are appointed on the advice of the Prime Minister.", "v": true }
+    ] },
+  { "id": "p4-customs-more", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+    "explanation": "Festivals celebrated in the UK include Christmas, Easter, Diwali, Eid, Hanukkah, Vaisakhi, Hogmanay, Halloween and Bonfire Night.",
+    "angles": [
+      { "q": "Hanukkah is celebrated by which religious community?", "a": "Jews", "wrong": ["Hindus", "Sikhs", "Muslims"],
+        "alts": ["Which faith community celebrates Hanukkah?"] },
+      { "q": "Vaisakhi is celebrated by which religious community?", "a": "Sikhs", "wrong": ["Jews", "Buddhists", "Christians"],
+        "alts": ["Which faith community marks Vaisakhi in April?"] }
+    ],
+    "tf": [
+      { "s": "Diwali is known as the festival of lights.", "v": true },
+      { "s": "Hogmanay is the Scottish New Year celebration.", "v": true },
+      { "s": "In Scotland, 2 January is also a public holiday.", "v": true },
+      { "s": "Mothering Sunday falls three weeks before Easter.", "v": true },
+      { "s": "April Fool's jokes traditionally stop at midday.", "v": true }
+    ] },
+  { "id": "p4-food-more", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["food"],
+    "explanation": "Traditional foods differ across the UK: roast beef in England, haggis in Scotland, Welsh cakes in Wales and the Ulster fry in Northern Ireland.",
+    "angles": [
+      { "q": "Which traditional dish is eaten with roast beef in England?", "a": "Yorkshire pudding", "wrong": ["Haggis", "Welsh rarebit", "Soda bread"],
+        "alts": ["Roast beef in England is traditionally served with what?"] }
+    ],
+    "tf": [
+      { "s": "Fish and chips is a popular dish across the UK.", "v": true },
+      { "s": "Haggis is a traditional dish of Wales.", "v": false }
+    ] },
+  { "id": "p4-sport-more", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "angles": [
+      { "q": "In which sport did Sir Ian Botham represent England?", "a": "Cricket", "pool": "sports",
+        "alts": ["Sir Ian Botham was a champion in which sport?"] },
+      { "q": "In which sport did Jayne Torvill and Christopher Dean win Olympic gold?", "a": "Ice dancing", "pool": "sports",
+        "alts": ["Torvill and Dean are famous in which sport?"] },
+      { "q": "In which sport did Dame Ellen MacArthur set a world record?", "a": "Sailing", "pool": "sports",
+        "alts": ["Dame Ellen MacArthur is famous for an achievement in which sport?"] }
+    ],
+    "tf": [
+      { "s": "Sir Chris Hoy is a champion cyclist.", "v": true },
+      { "s": "Baroness Tanni Grey-Thompson competed in Paralympic wheelchair racing.", "v": true },
+      { "s": "Sir Roger Bannister was the first man to run a mile in under four minutes.", "v": true },
+      { "s": "The Six Nations is a cricket competition.", "v": false }
+    ] },
+  { "id": "p4-arts-more", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["arts"],
+    "explanation": "The UK has a rich cultural life, with music, theatre, art, literature and film all celebrated by national awards and festivals.",
+    "angles": [
+      { "q": "Which festival of classical music is organised by the BBC each summer?", "a": "The Proms", "wrong": ["Glastonbury", "The Eisteddfod", "The Edinburgh Fringe"],
+        "alts": ["Which eight-week classical music season does the BBC run?"] },
+      { "q": "Which Welsh festival celebrates music and poetry?", "a": "The Eisteddfod", "pool": "festivals",
+        "alts": ["Wales holds which annual festival of music and poetry?"] }
+    ],
+    "tf": [
+      { "s": "The Notting Hill Carnival celebrates British West Indian culture.", "v": true },
+      { "s": "Glastonbury is a well-known UK music festival.", "v": true },
+      { "s": "The Turner Prize is named after the painter JMW Turner.", "v": true },
+      { "s": "Gilbert and Sullivan wrote comic operas.", "v": true }
+    ] },
+  { "id": "p4-writers-more", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "angles": [
+      { "q": "Which author wrote Far from the Madding Crowd?", "a": "Thomas Hardy", "pool": "writers",
+        "alts": ["Far from the Madding Crowd was written by whom?"] },
+      { "q": "Which author created the character of James Bond?", "a": "Ian Fleming", "pool": "writers",
+        "alts": ["The James Bond novels were written by whom?"] },
+      { "q": "Which author is famous for detective novels including Murder on the Orient Express?", "a": "Agatha Christie", "pool": "writers",
+        "alts": ["Which British writer is the best-known author of detective fiction?"] }
+    ],
+    "tf": [
+      { "s": "Shakespeare wrote both plays and sonnets.", "v": true },
+      { "s": "The Canterbury Tales was written by Geoffrey Chaucer.", "v": true },
+      { "s": "William Wordsworth was one of the Romantic poets.", "v": true }
+    ] },
+  { "id": "p4-leisure-more", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["leisure"],
+    "explanation": "Popular leisure activities in the UK include gardening, sport, cinema, eating out, and visiting historic places.",
+    "angles": [
+      { "q": "Which flower show held in London is known internationally?", "a": "The Chelsea Flower Show", "wrong": ["The Hampton Fair", "The Camden Show", "The Notting Hill Show"],
+        "alts": ["The UK's most famous gardening event is which show?"] }
+    ],
+    "tf": [
+      { "s": "Many people in the UK rent an allotment to grow food.", "v": true },
+      { "s": "Ealing Studios is famous for British comedy films.", "v": true },
+      { "s": "A television licence is needed to watch live TV in the UK.", "v": true },
+      { "s": "Dog owners must clean up after their dogs in public places.", "v": true }
+    ] },
+  { "id": "p4-places-more", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "angles": [
+      { "q": "Which landmark on the Northern Ireland coast is a World Heritage Site?", "a": "The Giant's Causeway", "pool": "landmarks",
+        "alts": ["The rock formation on the north-east coast of Northern Ireland is called what?"] },
+      { "q": "Which observation wheel stands on the South Bank in London?", "a": "The London Eye", "pool": "landmarks",
+        "alts": ["The giant wheel beside the Thames is known as what?"] }
+    ],
+    "tf": [
+      { "s": "Edinburgh Castle stands on an extinct volcano.", "v": true },
+      { "s": "The Lake District is England's largest national park.", "v": true },
+      { "s": "Snowdon is the highest mountain in Wales.", "v": true },
+      { "s": "Ben Nevis is the highest mountain in the UK.", "v": true },
+      { "s": "Yeoman Warders guard Windsor Castle.", "v": false }
+    ] },
+  { "id": "p4-charity", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["charities"],
+    "explanation": "Charities play a large part in UK life, and many people give money or volunteer their time to support them.",
+    "angles": [
+      { "q": "Which charity preserves historic buildings and countryside in the UK?", "a": "The National Trust", "pool": "charities",
+        "alts": ["Which organisation looks after historic houses and coastline for the nation?"] }
+    ],
+    "tf": [
+      { "s": "Many people in the UK volunteer their time for charities.", "v": true },
+      { "s": "Charity shops sell goods donated by the public.", "v": true }
+    ] }
+]

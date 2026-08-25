@@ -1,0 +1,154 @@
+[
+  { "id": "b3-claudius", "chapter": 3, "section": "The Romans", "difficulty": 2, "tags": ["romans"],
+    "explanation": "The Romans invaded Britain successfully in AD 43 under Emperor Claudius.",
+    "angles": [
+      { "q": "In which year did the Romans successfully invade Britain?", "a": "AD 43", "pool": "years-ancient",
+        "alts": ["When did the Roman conquest of Britain begin?", "Roman rule in Britain began in which year?", "Complete the sentence: the Romans conquered Britain in ___"] }
+    ] },
+  { "id": "b3-hadrian-year", "chapter": 3, "section": "The Romans", "difficulty": 3, "tags": ["romans"],
+    "explanation": "Hadrian's Wall was built on the orders of Emperor Hadrian to defend the northern frontier of Roman Britain.",
+    "angles": [
+      { "q": "Who ordered the building of Hadrian's Wall?", "a": "Emperor Hadrian", "wrong": ["Emperor Claudius", "Julius Caesar", "Emperor Augustus"],
+        "alts": ["Hadrian's Wall was built on whose orders?", "Which Roman emperor gave his name to a wall in northern Britain?"] }
+    ] },
+  { "id": "b3-alfred-name", "chapter": 3, "section": "The Vikings", "difficulty": 2, "tags": ["vikings"],
+    "explanation": "King Alfred the Great defeated the Vikings and united the Anglo-Saxon kingdoms.",
+    "angles": [
+      { "q": "Which Anglo-Saxon king defeated the Vikings?", "a": "Alfred the Great", "pool": "monarchs",
+        "alts": ["Who united the Anglo-Saxon kingdoms against the Vikings?", "Which king is remembered for defeating the Viking invaders?"] }
+    ] },
+  { "id": "b3-domesday-year", "chapter": 3, "section": "The Norman Conquest", "difficulty": 3, "tags": ["domesday"],
+    "explanation": "The Domesday Book was compiled in 1086, twenty years after the Norman Conquest.",
+    "angles": [
+      { "q": "In which year was the Domesday Book compiled?", "a": "1086", "pool": "years-medieval",
+        "alts": ["When was the Domesday Book written?", "The great survey of England known as the Domesday Book dates from which year?"] }
+    ] },
+  { "id": "b3-black-death-effect", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["black-death"],
+    "explanation": "The Black Death of 1348 killed about a third of the population of England.",
+    "angles": [
+      { "q": "What proportion of England's population died in the Black Death?", "a": "About one third", "wrong": ["About one tenth", "About two thirds", "Almost all"],
+        "alts": ["Roughly how much of the English population was killed by the Black Death?", "The Black Death killed approximately what share of the people of England?"] }
+    ] },
+  { "id": "b3-bosworth-winner", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["bosworth"],
+    "explanation": "Henry Tudor defeated Richard III at Bosworth Field in 1485 and became Henry VII, the first Tudor king.",
+    "angles": [
+      { "q": "Who won the Battle of Bosworth Field?", "a": "Henry Tudor", "wrong": ["Richard III", "Edward IV", "Henry V"],
+        "alts": ["Which claimant defeated Richard III in 1485?", "The Wars of the Roses ended with victory for whom at Bosworth?"] }
+    ] },
+  { "id": "b3-henry8-break", "chapter": 3, "section": "The Tudors", "difficulty": 2, "tags": ["reformation"],
+    "explanation": "Henry VIII broke with the Church of Rome so that he could divorce and remarry, and established the Church of England.",
+    "angles": [
+      { "q": "Why did Henry VIII break with the Church of Rome?", "a": "So that he could divorce and remarry", "wrong": ["To avoid paying taxes to Spain", "To fund a war with Scotland", "Because he became a Lutheran preacher"],
+        "alts": ["What led Henry VIII to break away from Rome?", "Henry VIII established the Church of England for what reason?"] }
+    ] },
+  { "id": "b3-james-1603", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["stuarts"],
+    "explanation": "James VI of Scotland became James I of England, Wales and Ireland in 1603, uniting the crowns.",
+    "angles": [
+      { "q": "Which Scottish king inherited the English throne in 1603?", "a": "James VI of Scotland", "wrong": ["Charles I", "Robert the Bruce", "James II"],
+        "alts": ["Who became king of England, Wales and Ireland in 1603 while already king of Scotland?"] }
+    ] },
+  { "id": "b3-charles1-year", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["civil-war"],
+    "explanation": "Charles I was executed in 1649 and England was declared a republic called the Commonwealth.",
+    "angles": [
+      { "q": "In which year was Charles I executed?", "a": "1649", "pool": "years-tudor-stuart",
+        "alts": ["When was Charles I put to death?", "The execution of Charles I took place in which year?"] }
+    ] },
+  { "id": "b3-cromwell-title", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["cromwell"],
+    "explanation": "Oliver Cromwell led the Parliamentary army and became Lord Protector of the Commonwealth.",
+    "angles": [
+      { "q": "Who led the Parliamentary army during the English Civil War?", "a": "Oliver Cromwell", "wrong": ["Charles I", "William of Orange", "The Duke of Wellington"],
+        "alts": ["Which commander led Parliament's forces in the Civil War?", "Who became Lord Protector after the English Civil War?"] }
+    ] },
+  { "id": "b3-restoration-year", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["restoration"],
+    "explanation": "Charles II was invited to return from exile in 1660, an event known as the Restoration.",
+    "angles": [
+      { "q": "In which year did the monarchy return to England?", "a": "1660", "pool": "years-tudor-stuart",
+        "alts": ["When was the monarchy restored in England?", "Charles II returned from exile in which year?"] }
+    ] },
+  { "id": "b3-1688", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["glorious-revolution"],
+    "explanation": "In 1688 William of Orange took the throne from James II with no significant fighting in England, an event called the Glorious Revolution.",
+    "angles": [
+      { "q": "What is the name given to the events of 1688?", "a": "The Glorious Revolution", "wrong": ["The Restoration", "The Reformation", "The Commonwealth"],
+        "alts": ["The peaceful change of monarch in 1688 is known as what?", "Which revolution brought William of Orange to the English throne?"] }
+    ] },
+  { "id": "b3-walpole-year", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["prime-minister"],
+    "explanation": "Sir Robert Walpole is regarded as the first Prime Minister, serving from 1721 for more than 20 years.",
+    "angles": [
+      { "q": "For roughly how long was Sir Robert Walpole Prime Minister?", "a": "More than 20 years", "wrong": ["About 2 years", "About 5 years", "About 40 years"],
+        "alts": ["How long did Britain's first Prime Minister hold office?"] }
+    ] },
+  { "id": "b3-bonnie-prince", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["jacobites"],
+    "explanation": "Charles Edward Stuart, known as Bonnie Prince Charlie, led the Jacobite rebellion and was defeated at Culloden in 1746.",
+    "angles": [
+      { "q": "By what name is Charles Edward Stuart better known?", "a": "Bonnie Prince Charlie", "wrong": ["The Iron Duke", "The Young Pretender's father", "The Lionheart"],
+        "alts": ["Who led the Jacobite rebellion that ended at Culloden?", "Which prince is remembered for the 1745 Jacobite rising?"] }
+    ] },
+  { "id": "b3-slavery-1807", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["slavery"],
+    "explanation": "The slave trade was made illegal in British ships and ports in 1807, and slavery was abolished throughout the Empire in 1833.",
+    "angles": [
+      { "q": "In which year did it become illegal to trade slaves in British ships?", "a": "1807", "pool": "years-victorian",
+        "alts": ["When was the slave trade made illegal in Britain?"] }
+    ] },
+  { "id": "b3-victoria-years", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["victorian"],
+    "explanation": "Queen Victoria reigned from 1837 to 1901, a period in which Britain became the most powerful nation in the world.",
+    "angles": [
+      { "q": "In which year did Queen Victoria's reign end?", "a": "1901", "pool": "years-victorian",
+        "alts": ["When did Queen Victoria die?", "The Victorian era ended in which year?"] }
+    ] },
+  { "id": "b3-suffrage-1928", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["suffrage"],
+    "explanation": "In 1928 women were given the right to vote at 21, the same age as men.",
+    "angles": [
+      { "q": "In which year did women in Britain get the vote on the same terms as men?", "a": "1928", "pool": "years-modern",
+        "alts": ["When did women achieve equal voting rights with men in Britain?"] }
+    ] },
+  { "id": "b3-churchill-year", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["ww2"],
+    "explanation": "Winston Churchill became Prime Minister in 1940 and led Britain through most of the Second World War.",
+    "angles": [
+      { "q": "In which year did Winston Churchill become Prime Minister?", "a": "1940", "pool": "years-modern",
+        "alts": ["When did Churchill first take office as Prime Minister?"] }
+    ] },
+  { "id": "b3-dday-date", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ww2"],
+    "explanation": "The D-Day landings in Normandy took place on 6 June 1944.",
+    "angles": [
+      { "q": "What was the code name for the Allied landings in Normandy in 1944?", "a": "D-Day", "wrong": ["The Blitz", "Dunkirk", "The Somme"],
+        "alts": ["The Allied landings in Normandy on 6 June 1944 are known as what?"] }
+    ] },
+  { "id": "b3-thatcher-year", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["thatcher"],
+    "explanation": "Margaret Thatcher became Prime Minister in 1979 and served until 1990.",
+    "angles": [
+      { "q": "In which year did Margaret Thatcher become Prime Minister?", "a": "1979", "pool": "years-modern",
+        "alts": ["When did Britain's first female Prime Minister take office?"] }
+    ] },
+  { "id": "b3-blair-year", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["prime-ministers"],
+    "explanation": "Tony Blair became Prime Minister in 1997 after Labour won the general election.",
+    "angles": [
+      { "q": "In which year did Tony Blair become Prime Minister?", "a": "1997", "pool": "years-modern",
+        "alts": ["When did Labour win the general election that brought Tony Blair to power?"] }
+    ] },
+  { "id": "b3-good-friday-name", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["northern-ireland"],
+    "explanation": "The Belfast Agreement of 1998, also known as the Good Friday Agreement, led to the Northern Ireland Assembly.",
+    "angles": [
+      { "q": "By what other name is the Belfast Agreement known?", "a": "The Good Friday Agreement", "wrong": ["The Stormont Accord", "The Ulster Treaty", "The Downing Street Declaration"],
+        "alts": ["The 1998 peace agreement in Northern Ireland is commonly called what?"] }
+    ] },
+  { "id": "b3-brexit-date", "chapter": 3, "section": "The 21st century", "difficulty": 2, "tags": ["brexit"],
+    "explanation": "The UK formally left the European Union on 31 January 2020, following the referendum of 23 June 2016.",
+    "angles": [
+      { "q": "In which year did the UK leave the European Union?", "a": "2020", "pool": "years-modern",
+        "alts": ["When did the UK formally cease to be an EU member?", "The UK's departure from the European Union took effect in which year?"] },
+      { "q": "In which year was the referendum on EU membership held?", "a": "2016", "pool": "years-modern",
+        "alts": ["When did the UK vote on whether to leave the European Union?"] }
+    ] },
+  { "id": "b3-empire-share", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["empire"],
+    "explanation": "At its height the British Empire covered about a quarter of the world's population and was the largest empire in history.",
+    "angles": [
+      { "q": "The British Empire was the largest what in history?", "a": "Empire", "wrong": ["Army", "Navy alone", "Trading company"],
+        "alts": ["What claim is made about the size of the British Empire at its height?"] }
+    ] },
+  { "id": "b3-industrial-lead", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["industrial-revolution"],
+    "explanation": "Britain led the world in the Industrial Revolution, powered by steam, coal and iron.",
+    "angles": [
+      { "q": "Which country led the world during the Industrial Revolution?", "a": "Britain", "wrong": ["France", "Germany", "The United States"],
+        "alts": ["The Industrial Revolution began in which country?"] }
+    ] }
+]

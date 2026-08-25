@@ -1,0 +1,240 @@
+[
+  { "id": "h3-iceni", "chapter": 3, "section": "The Romans", "difficulty": 3, "tags": ["romans"],
+    "explanation": "Boudicca, queen of the Iceni, led a revolt against the Romans in what is now eastern England.",
+    "angles": [
+      { "q": "In which part of Britain was Boudicca's tribe based?", "a": "Eastern England", "wrong": ["The Scottish Highlands", "West Wales", "Cornwall"] }
+    ] },
+  { "id": "h3-roman-towns", "chapter": 3, "section": "The Romans", "difficulty": 3, "tags": ["romans"],
+    "explanation": "The Romans founded many towns in Britain, including London, and built roads that connected them.",
+    "angles": [
+      { "q": "Which major British city was founded by the Romans?", "a": "London", "pool": "uk-cities" }
+    ] },
+  { "id": "h3-christianity-roman", "chapter": 3, "section": "The Romans", "difficulty": 3, "tags": ["religion"],
+    "explanation": "Christian communities existed in Britain from the third century AD, during the Roman occupation.",
+    "angles": [
+      { "q": "From which century did Christian communities exist in Roman Britain?", "a": "The third century AD", "wrong": ["The first century BC", "The eighth century AD", "The eleventh century AD"] }
+    ] },
+  { "id": "h3-jutes", "chapter": 3, "section": "The Anglo-Saxons", "difficulty": 3, "tags": ["anglo-saxons"],
+    "explanation": "The Jutes, Angles and Saxons came to Britain from what is now Denmark, Germany and the Netherlands.",
+    "angles": [
+      { "q": "Which of these peoples settled in Britain after the Romans left?", "a": "The Angles", "pool": "peoples" },
+      { "q": "The name England derives from which of these peoples?", "a": "The Angles", "pool": "peoples" }
+    ] },
+  { "id": "h3-danelaw-names", "chapter": 3, "section": "The Vikings", "difficulty": 3, "tags": ["vikings"],
+    "explanation": "Viking settlement in the Danelaw left many place names ending in -by and -thorpe, especially in the north and east of England.",
+    "angles": [
+      { "q": "Place names ending in -thorpe are evidence of settlement by which people?", "a": "The Vikings", "pool": "peoples" },
+      { "q": "In which parts of England is Viking settlement most evident in place names?", "a": "The north and east", "wrong": ["The south-west", "The Welsh borders", "The Home Counties"] }
+    ] },
+  { "id": "h3-harold-stamford", "chapter": 3, "section": "The Norman Conquest", "difficulty": 3, "tags": ["1066"],
+    "explanation": "Harold was king of England when William of Normandy invaded in 1066, and was killed at the Battle of Hastings.",
+    "angles": [
+      { "q": "What was the nationality of William, who invaded England in 1066?", "a": "Norman", "wrong": ["Danish", "Scottish", "Spanish"] }
+    ] },
+  { "id": "h3-feudal", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["middle-ages"],
+    "explanation": "Under the feudal system, the king granted land to nobles in return for service, and peasants worked the land in return for protection.",
+    "angles": [
+      { "q": "Under the feudal system, what did nobles give the king in return for land?", "a": "Service, including military service", "wrong": ["A share of the harvest only", "Gold coins", "Their eldest son"] }
+    ] },
+  { "id": "h3-parliament-commons", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["parliament"],
+    "explanation": "In the Middle Ages, Parliament developed into two Houses: the Lords, made up of nobles and bishops, and the Commons, made up of knights and wealthy townspeople.",
+    "angles": [
+      { "q": "In the medieval Parliament, who sat in the House of Lords?", "a": "Nobles and bishops", "wrong": ["Knights and townspeople", "Elected representatives", "Merchants only"] },
+      { "q": "In the medieval Parliament, who sat in the House of Commons?", "a": "Knights and wealthy townspeople", "wrong": ["Nobles and bishops", "The king's family", "Peasants"] }
+    ] },
+  { "id": "h3-scots-language", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["languages"],
+    "explanation": "In the Middle Ages many languages were spoken in Britain, including Welsh in Wales and Gaelic in Scotland.",
+    "angles": [
+      { "q": "Which language was spoken in Wales during the Middle Ages?", "a": "Welsh", "pool": "languages" }
+    ] },
+  { "id": "h3-crecy", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["hundred-years-war"],
+    "explanation": "English forces won famous victories over the French during the Hundred Years War, including at Crecy and Agincourt.",
+    "angles": [
+      { "q": "Crecy and Agincourt were English victories in which war?", "a": "The Hundred Years War", "pool": "wars" }
+    ] },
+  { "id": "h3-henry7", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors"],
+    "explanation": "Henry VII was the first Tudor king. He reduced the power of the nobles and strengthened the crown's finances.",
+    "angles": [
+      { "q": "Who was the first Tudor king?", "a": "Henry VII", "pool": "monarchs" },
+      { "q": "Henry VII worked to reduce the power of which group?", "a": "The nobles", "wrong": ["The bishops", "The merchants", "The peasants"] }
+    ] },
+  { "id": "h3-monasteries", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["reformation"],
+    "explanation": "Henry VIII closed the monasteries and took their land and wealth for the crown.",
+    "angles": [
+      { "q": "What did Henry VIII do with the wealth of the monasteries?", "a": "Took it for the crown", "wrong": ["Gave it to the poor", "Sent it to Rome", "Used it to fund universities only"] }
+    ] },
+  { "id": "h3-edward6", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors"],
+    "explanation": "Edward VI became king as a child and was strongly Protestant. The Book of Common Prayer was introduced during his reign.",
+    "angles": [
+      { "q": "During whose reign was the Book of Common Prayer first introduced?", "a": "Edward VI", "pool": "monarchs" },
+      { "q": "How old was Edward VI when he became king?", "a": "He was still a child", "wrong": ["In his forties", "In his sixties", "In his twenties"] }
+    ] },
+  { "id": "h3-mary-scots", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors"],
+    "explanation": "Mary, Queen of Scots fled to England, was imprisoned for about 20 years and was eventually executed.",
+    "angles": [
+      { "q": "For roughly how long was Mary, Queen of Scots imprisoned in England?", "a": "About 20 years", "wrong": ["About 2 years", "About 40 years", "About 6 months"] }
+    ] },
+  { "id": "h3-drake", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["exploration"],
+    "explanation": "Sir Francis Drake was one of the commanders who helped defeat the Spanish Armada and one of the first to sail around the world.",
+    "angles": [
+      { "q": "What was the name of Sir Francis Drake's ship?", "a": "The Golden Hind", "wrong": ["The Mayflower", "HMS Victory", "The Mary Rose"] }
+    ] },
+  { "id": "h3-poor-law", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["society"],
+    "explanation": "During the Tudor period, England became more powerful and the population grew, with more people living in towns.",
+    "angles": [
+      { "q": "During the Tudor period, where were an increasing number of people living?", "a": "In towns", "wrong": ["In monasteries", "In castles", "Overseas"] }
+    ] },
+  { "id": "h3-james-scotland", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["stuarts"],
+    "explanation": "James I was already King James VI of Scotland when he inherited the English throne in 1603.",
+    "angles": [
+      { "q": "James I of England was already king of which country?", "a": "Scotland", "pool": "uk-countries" }
+    ] },
+  { "id": "h3-pilgrims", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["stuarts", "emigration"],
+    "explanation": "In 1620 the Pilgrim Fathers sailed from Plymouth to America on the Mayflower to escape religious persecution.",
+    "angles": [
+      { "q": "On which ship did the Pilgrim Fathers sail to America?", "a": "The Mayflower", "wrong": ["The Golden Hind", "The Endeavour", "The Victory"] },
+      { "q": "Why did the Pilgrim Fathers leave England?", "a": "To escape religious persecution", "wrong": ["To find gold", "To establish a naval base", "To trade in spices"] }
+    ] },
+  { "id": "h3-charles1-parliament", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["civil-war"],
+    "explanation": "Charles I believed in the divine right of kings and tried to rule without Parliament, which led to the Civil War.",
+    "angles": [
+      { "q": "What belief did Charles I hold about his authority to rule?", "a": "The divine right of kings", "wrong": ["That Parliament was supreme", "That the Pope should choose the king", "That the people should elect the monarch"] }
+    ] },
+  { "id": "h3-restoration-theatre", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["restoration"],
+    "explanation": "After the Restoration of 1660, theatres and pubs reopened, and the Puritan restrictions of the Commonwealth were lifted.",
+    "angles": [
+      { "q": "What reopened in England after the Restoration of 1660?", "a": "Theatres and pubs", "wrong": ["Monasteries", "The Roman baths", "Parliament for the first time"] }
+    ] },
+  { "id": "h3-newton", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["science"],
+    "explanation": "Sir Isaac Newton, born in Lincolnshire, studied gravity, light and the laws of motion.",
+    "angles": [
+      { "q": "In which county was Sir Isaac Newton born?", "a": "Lincolnshire", "pool": "uk-places" },
+      { "q": "Which scientist described the laws of motion and gravity?", "a": "Sir Isaac Newton", "pool": "scientists" }
+    ] },
+  { "id": "h3-act-settlement", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["monarchy"],
+    "explanation": "After the Glorious Revolution, laws were passed to ensure that only a Protestant could become monarch.",
+    "angles": [
+      { "q": "After 1688, only a person of which faith could become monarch?", "a": "Protestant", "wrong": ["Roman Catholic", "Any faith", "Presbyterian only"] }
+    ] },
+  { "id": "h3-george3", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["hanoverians"],
+    "explanation": "During the reign of George III, Britain lost the American colonies but gained territory elsewhere and industrialised rapidly.",
+    "angles": [
+      { "q": "Which colonies did Britain lose during the reign of George III?", "a": "The American colonies", "wrong": ["The Indian territories", "The Australian colonies", "The Caribbean islands"] }
+    ] },
+  { "id": "h3-napoleonic", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["napoleonic"],
+    "explanation": "Britain fought a long series of wars against France under Napoleon, ending with victory at Waterloo in 1815.",
+    "angles": [
+      { "q": "The Napoleonic Wars were fought between Britain and which country?", "a": "France", "wrong": ["Spain", "Prussia", "Russia"] }
+    ] },
+  { "id": "h3-ireland-union", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["ireland"],
+    "explanation": "In 1801 Ireland was formally united with Great Britain, creating the United Kingdom of Great Britain and Ireland.",
+    "angles": [
+      { "q": "In which year was Ireland formally united with Great Britain?", "a": "1801", "pool": "years-georgian" }
+    ] },
+  { "id": "h3-famine", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["ireland"],
+    "explanation": "In the middle of the 19th century, a famine in Ireland caused about a million people to die and many more to emigrate.",
+    "angles": [
+      { "q": "Roughly how many people died in the Irish famine of the 19th century?", "a": "About a million", "wrong": ["About a thousand", "About ten thousand", "About ten million"] }
+    ] },
+  { "id": "h3-factory-acts", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["industrial-revolution"],
+    "explanation": "Reforms during the 19th century limited the hours that women and children could work and improved conditions in factories and mines.",
+    "angles": [
+      { "q": "Nineteenth-century reforms limited the working hours of which groups?", "a": "Women and children", "wrong": ["Farmers only", "Soldiers", "Civil servants"] }
+    ] },
+  { "id": "h3-arkwright", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["industrial-revolution"],
+    "explanation": "Richard Arkwright developed efficient machinery and factory methods in the textile industry.",
+    "angles": [
+      { "q": "In which industry did Richard Arkwright make his name?", "a": "Textiles", "wrong": ["Shipbuilding", "Coal mining", "Steelmaking"] }
+    ] },
+  { "id": "h3-sake-dean", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["society"],
+    "explanation": "Sake Dean Mahomet, born in India, opened the first curry house in Britain and introduced shampooing to the country.",
+    "angles": [
+      { "q": "Sake Dean Mahomet is credited with opening Britain's first what?", "a": "Curry house", "wrong": ["Tea room", "Cinema", "Department store"] }
+    ] },
+  { "id": "h3-suffragette-tactics", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["suffrage"],
+    "explanation": "Emmeline Pankhurst founded the Women's Social and Political Union in 1903 to campaign for votes for women.",
+    "angles": [
+      { "q": "Which organisation did Emmeline Pankhurst found?", "a": "The Women's Social and Political Union", "wrong": ["The Women's Institute", "The Fabian Society", "The Labour Party"] }
+    ] },
+  { "id": "h3-ww1-allies", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ww1"],
+    "explanation": "In the First World War, Britain and its allies fought against Germany, Austria-Hungary and Turkey.",
+    "angles": [
+      { "q": "In the First World War, Britain fought against which country?", "a": "Germany", "wrong": ["France", "Russia", "Italy"] }
+    ] },
+  { "id": "h3-depression", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["depression"],
+    "explanation": "The 1930s brought economic depression to Britain, with high unemployment particularly in industrial areas.",
+    "angles": [
+      { "q": "The 1930s in Britain are remembered for what economic condition?", "a": "Depression and high unemployment", "wrong": ["Rapid growth and full employment", "Hyperinflation", "A property boom"] }
+    ] },
+  { "id": "h3-ww2-allies", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ww2"],
+    "explanation": "In the Second World War, Britain and its allies fought against Germany, Italy and Japan.",
+    "angles": [
+      { "q": "Which of these countries was an enemy of Britain in the Second World War?", "a": "Japan", "wrong": ["The United States", "Canada", "Australia"] }
+    ] },
+  { "id": "h3-evacuation", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ww2"],
+    "explanation": "During the Second World War many children were evacuated from British cities to the countryside for their safety.",
+    "angles": [
+      { "q": "Why were children evacuated from British cities during the Second World War?", "a": "To keep them safe from bombing", "wrong": ["To work on farms", "To attend better schools", "To join the army"] }
+    ] },
+  { "id": "h3-un-founding", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["un"],
+    "explanation": "The United Nations was set up after the Second World War to prevent war and promote international peace and security.",
+    "angles": [
+      { "q": "The United Nations was established after which war?", "a": "The Second World War", "pool": "wars" }
+    ] },
+  { "id": "h3-nato-founding", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["nato"],
+    "explanation": "The UK was one of the founding members of NATO, formed in 1949 as an alliance for collective defence.",
+    "angles": [
+      { "q": "In which year was NATO formed?", "a": "1949", "pool": "years-modern" }
+    ] },
+  { "id": "h3-coronation-1953", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["monarchy"],
+    "explanation": "Queen Elizabeth II acceded to the throne in 1952 and was crowned in 1953. She reigned for 70 years.",
+    "angles": [
+      { "q": "In which year did Queen Elizabeth II accede to the throne?", "a": "1952", "wrong": ["1953", "1945", "1966"] }
+    ] },
+  { "id": "h3-sixties", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["society"],
+    "explanation": "The 1960s brought major social change in Britain, including new laws on equality and the growth of British popular music.",
+    "angles": [
+      { "q": "Which decade is associated with a British explosion in popular music and social change?", "a": "The 1960s", "wrong": ["The 1920s", "The 1980s", "The 1900s"] }
+    ] },
+  { "id": "h3-troubles", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["northern-ireland"],
+    "explanation": "From the late 1960s, conflict in Northern Ireland known as the Troubles caused many deaths, before the peace process of the 1990s.",
+    "angles": [
+      { "q": "The period of conflict in Northern Ireland from the late 1960s is known as what?", "a": "The Troubles", "wrong": ["The Emergency", "The Rising", "The Partition"] }
+    ] },
+  { "id": "h3-devolution-year", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["devolution"],
+    "explanation": "Following referendums in 1997, the devolved administrations for Scotland and Wales were formally established in 1999.",
+    "angles": [
+      { "q": "In which year were the devolved administrations formally established?", "a": "1999", "pool": "years-modern" }
+    ] },
+  { "id": "h3-scottish-referendum", "chapter": 3, "section": "The 21st century", "difficulty": 3, "tags": ["scotland"],
+    "explanation": "In the Scottish independence referendum of 2014, a majority voted for Scotland to remain part of the UK.",
+    "angles": [
+      { "q": "In which year was the Scottish independence referendum?", "a": "2014", "pool": "years-modern" },
+      { "q": "What was the outcome of the 2014 Scottish independence referendum?", "a": "Scotland voted to remain part of the UK", "wrong": ["Scotland voted to become independent", "The result was a tie", "The vote was cancelled"] }
+    ] },
+  { "id": "h3-olympics-2012b", "chapter": 3, "section": "The 21st century", "difficulty": 3, "tags": ["olympics"],
+    "explanation": "London hosted the Olympic and Paralympic Games in 2012, the third time the city had hosted the Olympics.",
+    "angles": [
+      { "q": "Which UK city hosted the 2012 Olympic Games?", "a": "London", "pool": "uk-cities" }
+    ] },
+  { "id": "h3-hovercraft", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["inventions"],
+    "explanation": "Sir Christopher Cockerell, a British inventor, invented the hovercraft in the 1950s.",
+    "angles": [
+      { "q": "In which decade was the hovercraft invented?", "a": "The 1950s", "wrong": ["The 1890s", "The 1980s", "The 1920s"] }
+    ] },
+  { "id": "h3-cash-machine", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["inventions"],
+    "explanation": "The cash machine, or ATM, was invented in Britain by James Goodfellow and first used in the 1960s.",
+    "angles": [
+      { "q": "Which everyday banking invention was developed in Britain in the 1960s?", "a": "The cash machine", "pool": "inventions" }
+    ] },
+  { "id": "h3-harrier", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["inventions"],
+    "explanation": "The Harrier jump jet, an aircraft able to take off vertically, was designed and developed in the UK.",
+    "angles": [
+      { "q": "What is unusual about the British-designed Harrier jump jet?", "a": "It can take off vertically", "wrong": ["It is powered by steam", "It carries no pilot", "It travels underwater"] }
+    ] },
+  { "id": "h3-radar-use", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["inventions"],
+    "explanation": "Sir Robert Watson-Watt developed radar, which helped Britain detect incoming aircraft during the Second World War.",
+    "angles": [
+      { "q": "How did radar help Britain during the Second World War?", "a": "It detected incoming enemy aircraft", "wrong": ["It jammed enemy radio", "It powered the Spitfire", "It decoded enemy messages"] }
+    ] }
+]

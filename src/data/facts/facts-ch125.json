@@ -1,0 +1,136 @@
+[
+  { "id": "f5-commons", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["parliament"],
+    "explanation": "There are 650 Members of Parliament in the House of Commons, each elected to represent one constituency.",
+    "angles": [
+      { "q": "How many constituencies is the UK divided into?", "a": "650", "pool": "counts" },
+      { "q": "How many MPs does each constituency elect?", "a": "One", "wrong": ["Two", "Three", "Four"] }
+    ] },
+  { "id": "f5-msps", "chapter": 5, "section": "Devolved administrations", "difficulty": 3, "tags": ["devolution"],
+    "explanation": "The Scottish Parliament has 129 Members of the Scottish Parliament, known as MSPs.",
+    "angles": [
+      { "q": "Members of the Scottish Parliament are known by which abbreviation?", "a": "MSPs", "wrong": ["MPs", "MLAs", "AMs"] }
+    ] },
+  { "id": "f5-holyrood", "chapter": 5, "section": "Devolved administrations", "difficulty": 3, "tags": ["devolution"],
+    "explanation": "The Scottish Parliament sits at Holyrood in Edinburgh.",
+    "angles": [
+      { "q": "The Scottish Parliament building is known by which name?", "a": "Holyrood", "wrong": ["Stormont", "Westminster", "The Senedd"] }
+    ] },
+  { "id": "f5-stormont", "chapter": 5, "section": "Devolved administrations", "difficulty": 3, "tags": ["devolution"],
+    "explanation": "The Northern Ireland Assembly meets at Stormont in Belfast.",
+    "angles": [
+      { "q": "The Northern Ireland Assembly building is known by which name?", "a": "Stormont", "wrong": ["Holyrood", "The Senedd", "Westminster"] }
+    ] },
+  { "id": "f5-crown-court", "chapter": 5, "section": "The law", "difficulty": 2, "tags": ["law", "courts"],
+    "explanation": "Serious criminal offences in England, Wales and Northern Ireland are tried in the Crown Court before a judge and a jury of 12.",
+    "angles": [
+      { "q": "Which court in England and Wales hears the most serious criminal cases?", "a": "The Crown Court", "pool": "courts" },
+      { "q": "How many jurors sit in a Crown Court trial?", "a": "12", "pool": "counts" }
+    ] },
+  { "id": "f5-magistrates", "chapter": 5, "section": "The law", "difficulty": 3, "tags": ["law", "courts"],
+    "explanation": "Minor criminal offences in England, Wales and Northern Ireland are dealt with in Magistrates' Courts by magistrates, who are unpaid members of the local community.",
+    "angles": [
+      { "q": "Which court deals with minor criminal offences in England and Wales?", "a": "The Magistrates' Court", "pool": "courts" },
+      { "q": "Are magistrates paid for their work?", "a": "No, they are unpaid volunteers", "wrong": ["Yes, they receive a full salary", "Yes, they are paid per case", "Only senior magistrates are paid"] }
+    ] },
+  { "id": "f5-scotland-courts", "chapter": 5, "section": "The law", "difficulty": 3, "tags": ["law", "scotland"],
+    "explanation": "Scotland has its own legal system. Minor offences are heard in Justice of the Peace Courts, and serious ones in the Sheriff Court or High Court.",
+    "angles": [
+      { "q": "Which court hears minor criminal cases in Scotland?", "a": "The Justice of the Peace Court", "pool": "courts" },
+      { "q": "How many people sit on a Scottish jury?", "a": "15", "pool": "counts" }
+    ] },
+  { "id": "f5-general-election", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["elections"],
+    "explanation": "A general election must be held at least every five years, and MPs are elected by the first past the post system.",
+    "angles": [
+      { "q": "Under first past the post, which candidate becomes the MP?", "a": "The one with the most votes in the constituency", "wrong": ["The one with more than half of all votes cast", "The one chosen by the party leader", "The one with the most national support"] }
+    ] },
+  { "id": "f5-voting-age", "chapter": 5, "section": "Your role in the community", "difficulty": 2, "tags": ["voting"],
+    "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register and eligible.",
+    "angles": [
+      { "q": "You must be on which list in order to vote?", "a": "The electoral register", "wrong": ["The census", "The council tax roll", "The jury list"] }
+    ] },
+  { "id": "f5-pm-residence", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["government"],
+    "explanation": "The Prime Minister lives at 10 Downing Street and also has a country house called Chequers.",
+    "angles": [
+      { "q": "What is the name of the Prime Minister's country house?", "a": "Chequers", "wrong": ["Balmoral", "Sandringham", "Highgrove"] }
+    ] },
+  { "id": "f5-speaker", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["parliament", "speaker"],
+    "explanation": "The Speaker chairs debates in the House of Commons, keeps order, and must be politically neutral.",
+    "angles": [
+      { "q": "Does the Speaker of the House of Commons remain an MP?", "a": "Yes, they still represent their constituency", "wrong": ["No, they give up their seat", "No, they join the House of Lords", "Only until the next election"] }
+    ] },
+  { "id": "f5-commonwealth", "chapter": 5, "section": "The UK and international institutions", "difficulty": 3, "tags": ["commonwealth"],
+    "explanation": "The Commonwealth is a voluntary association of countries, most of which were once part of the British Empire. It has no power over its members.",
+    "angles": [
+      { "q": "What power does the Commonwealth have over its member states?", "a": "None, membership is voluntary", "wrong": ["It can pass binding laws", "It can impose taxes", "It can declare war on behalf of members"] }
+    ] },
+  { "id": "f5-un", "chapter": 5, "section": "The UK and international institutions", "difficulty": 3, "tags": ["un"],
+    "explanation": "The UK is one of five permanent members of the UN Security Council, which works to resolve international disputes.",
+    "angles": [
+      { "q": "How many permanent members does the UN Security Council have?", "a": "Five", "pool": "small-numbers" }
+    ] },
+  { "id": "f5-nhs-free", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["nhs"],
+    "explanation": "The NHS provides healthcare for everyone normally resident in the UK, and most treatment is free at the point of use.",
+    "angles": [
+      { "q": "To register with a doctor, you normally contact what?", "a": "A local GP surgery", "wrong": ["The Home Office", "Your local council", "A hospital A&E department"] }
+    ] },
+  { "id": "f5-taxes", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["taxes"],
+    "explanation": "Income tax is paid on earnings, and most employees have it deducted automatically through the PAYE system.",
+    "angles": [
+      { "q": "What does PAYE stand for?", "a": "Pay As You Earn", "wrong": ["Personal Annual Yearly Estimate", "Payment After Your Earnings", "Public Allowance for Your Employment"] }
+    ] },
+  { "id": "f5-driving-age", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["driving"],
+    "explanation": "You must be at least 17 to drive a car in the UK, and vehicles over three years old need an annual MOT test.",
+    "angles": [
+      { "q": "At what age can vehicles first require an annual MOT test?", "a": "Three years old", "wrong": ["One year old", "Five years old", "Ten years old"] }
+    ] },
+  { "id": "f1-principles", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs, and participation in community life.",
+    "angles": [
+      { "q": "Which of these is one of the fundamental principles of British life?", "a": "Tolerance of those with different faiths and beliefs", "wrong": ["Loyalty to a single political party", "Compulsory religious observance", "Mandatory community service"] },
+      { "q": "Which of these is one of the fundamental principles of British life?", "a": "Individual liberty", "wrong": ["State control of the press", "A single official religion", "Restrictions on travel"] }
+    ] },
+  { "id": "f1-responsibilities", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["responsibilities"],
+    "explanation": "Residents are expected to respect and obey the law, respect the rights of others, treat others with fairness, look after themselves and their family, and look after the area they live in and the environment.",
+    "angles": [
+      { "q": "Which of these is a responsibility of everyone living in the UK?", "a": "Looking after the area you live in and the environment", "wrong": ["Attending a place of worship", "Joining a political party", "Owning your own home"] },
+      { "q": "Which of these is a responsibility of everyone living in the UK?", "a": "Treating others with fairness", "wrong": ["Reporting neighbours to the council", "Supporting the governing party", "Working in a public service job"] }
+    ] },
+  { "id": "f1-rights", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["rights"],
+    "explanation": "Rights shared by everyone in the UK include freedom of belief and religion, freedom of speech, freedom from unfair discrimination, a right to a fair trial, and a right to join in the election of a government.",
+    "angles": [
+      { "q": "Which of these is a right shared by everyone resident in the UK?", "a": "Freedom from unfair discrimination", "wrong": ["A guaranteed income", "Free international travel", "Exemption from jury service"] }
+    ] },
+  { "id": "f1-ceremony", "chapter": 1, "section": "Becoming a permanent resident", "difficulty": 3, "tags": ["citizenship"],
+    "explanation": "At a citizenship ceremony, new citizens make an oath or affirmation of allegiance to the monarch and a pledge to respect the rights, freedoms and laws of the UK.",
+    "angles": [
+      { "q": "What do new citizens receive at the end of a citizenship ceremony?", "a": "A certificate of British citizenship", "wrong": ["A British passport", "A national insurance number", "A voting card"] }
+    ] },
+  { "id": "f2-uk-nations", "chapter": 2, "section": "What is the UK?", "difficulty": 1, "tags": ["geography"],
+    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland. Great Britain refers only to England, Scotland and Wales.",
+    "angles": [
+      { "q": "Which country is part of the UK but not part of Great Britain?", "a": "Northern Ireland", "pool": "uk-countries" },
+      { "q": "What do the letters UK stand for?", "a": "The United Kingdom of Great Britain and Northern Ireland", "wrong": ["The United Kingdom of England and Wales", "The Union of Kingdoms", "The United Kingdom of Great Britain and Ireland"] }
+    ] },
+  { "id": "f2-capitals", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["geography", "capitals"],
+    "explanation": "The capital of the UK is London. Edinburgh is the capital of Scotland, Cardiff of Wales and Belfast of Northern Ireland.",
+    "angles": [
+      { "q": "What is the capital city of Scotland?", "a": "Edinburgh", "pool": "uk-capitals" },
+      { "q": "Of which country is Cardiff the capital?", "a": "Wales", "pool": "uk-countries" }
+    ] },
+  { "id": "f2-currency", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["currency"],
+    "explanation": "The currency of the UK is the pound sterling, with the symbol £. There are 100 pence in a pound.",
+    "angles": [
+      { "q": "How many pence are there in a pound?", "a": "100", "pool": "counts" },
+      { "q": "What symbol is used for the pound sterling?", "a": "£", "wrong": ["€", "$", "¥"] }
+    ] },
+  { "id": "f2-union-flag", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["flag"],
+    "explanation": "The Union Flag, often called the Union Jack, combines the crosses of St George, St Andrew and St Patrick. Wales is not represented.",
+    "angles": [
+      { "q": "By what other name is the Union Flag commonly known?", "a": "The Union Jack", "wrong": ["The Royal Standard", "The King's Colours", "The British Ensign"] }
+    ] },
+  { "id": "f2-crown-dependencies", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["crown-dependencies"],
+    "explanation": "The Channel Islands and the Isle of Man are Crown dependencies. They are not part of the UK and have their own governments.",
+    "angles": [
+      { "q": "Are the Channel Islands part of the UK?", "a": "No, they are Crown dependencies", "wrong": ["Yes, they are part of England", "Yes, they are a fifth country of the UK", "No, they are part of France"] }
+    ] }
+]

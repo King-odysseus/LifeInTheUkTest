@@ -1,0 +1,245 @@
+[
+  { "id": "g3-stonehenge", "chapter": 3, "section": "Early Britain", "difficulty": 1, "tags": ["stone-age"],
+    "explanation": "Stonehenge in Wiltshire is a World Heritage Site, probably a place of religious and ceremonial importance built in the Bronze Age.",
+    "angles": [
+      { "q": "In which English county is Stonehenge?", "a": "Wiltshire", "pool": "uk-places", "difficulty": 2 },
+      { "q": "Stonehenge is an example of what?", "a": "A prehistoric monument", "wrong": ["A Roman temple", "A Norman castle", "A Viking settlement"], "difficulty": 1 }
+    ] },
+  { "id": "g3-farming", "chapter": 3, "section": "Early Britain", "difficulty": 2, "tags": ["stone-age"],
+    "explanation": "The first farmers arrived in Britain about 6,000 years ago, probably from south-east Europe, and built houses, tombs and monuments.",
+    "angles": [
+      { "q": "Roughly how long ago did the first farmers arrive in Britain?", "a": "About 6,000 years ago", "wrong": ["About 1,000 years ago", "About 500 years ago", "About 100,000 years ago"] },
+      { "q": "What did the first farmers in Britain build to bury their dead?", "a": "Tombs and monuments", "wrong": ["Round churches", "Stone castles", "Roman villas"] }
+    ] },
+  { "id": "g3-bronze", "chapter": 3, "section": "Early Britain", "difficulty": 2, "tags": ["bronze-age"],
+    "explanation": "In the Bronze Age, about 4,000 years ago, people learned to make bronze from copper and tin. They lived in roundhouses.",
+    "angles": [
+      { "q": "Bronze is made by combining copper with which other metal?", "a": "Tin", "wrong": ["Iron", "Lead", "Silver"] },
+      { "q": "Roughly how long ago did the Bronze Age begin in Britain?", "a": "About 4,000 years ago", "wrong": ["About 500 years ago", "About 20,000 years ago", "About 1,000 years ago"] }
+    ] },
+  { "id": "g3-maiden-castle", "chapter": 3, "section": "Early Britain", "difficulty": 3, "tags": ["iron-age"],
+    "explanation": "Maiden Castle in Dorset is one of the most impressive Iron Age hill forts that survives in Britain.",
+    "angles": [
+      { "q": "In which county is the Iron Age hill fort of Maiden Castle?", "a": "Dorset", "pool": "uk-places" }
+    ] },
+  { "id": "g3-roman-roads", "chapter": 3, "section": "The Romans", "difficulty": 2, "tags": ["romans"],
+    "explanation": "The Romans built roads and public buildings, created a structure of law, and introduced new plants and animals to Britain.",
+    "angles": [
+      { "q": "Which of these did the Romans introduce to Britain?", "a": "A structure of law", "wrong": ["The printing press", "Gunpowder", "The steam engine"] },
+      { "q": "Roman roads in Britain were mainly built for what purpose?", "a": "Moving soldiers and goods quickly", "wrong": ["Horse racing", "Religious processions", "Marking county boundaries"] }
+    ] },
+  { "id": "g3-anglo-saxon-kingdoms", "chapter": 3, "section": "The Anglo-Saxons", "difficulty": 3, "tags": ["anglo-saxons"],
+    "explanation": "By about AD 600, Anglo-Saxon kingdoms were established in Britain, mainly in what is now England. The west of Britain remained largely Celtic.",
+    "angles": [
+      { "q": "Which part of Britain remained largely free of Anglo-Saxon rule?", "a": "The west, including Wales", "wrong": ["The south-east", "East Anglia", "Kent"] },
+      { "q": "The Anglo-Saxon kingdoms were established mainly in which part of Britain?", "a": "What is now England", "wrong": ["What is now Scotland", "What is now Wales", "What is now Ireland"] }
+    ] },
+  { "id": "g3-sutton-hoo", "chapter": 3, "section": "The Anglo-Saxons", "difficulty": 3, "tags": ["anglo-saxons"],
+    "explanation": "Sutton Hoo in Suffolk is the burial place of an Anglo-Saxon king, buried in a ship surrounded by treasure and armour.",
+    "angles": [
+      { "q": "In which county is the Anglo-Saxon burial site of Sutton Hoo?", "a": "Suffolk", "pool": "uk-places" },
+      { "q": "An Anglo-Saxon king at Sutton Hoo was buried inside what?", "a": "A ship", "wrong": ["A stone tomb", "A wooden hall", "A burial mound of chalk"] }
+    ] },
+  { "id": "g3-viking-raids", "chapter": 3, "section": "The Vikings", "difficulty": 3, "tags": ["vikings"],
+    "explanation": "The Vikings first came to Britain in AD 789 to raid coastal towns and take goods and slaves, and later began to settle.",
+    "angles": [
+      { "q": "What did the Vikings do when they first came to Britain?", "a": "Raided coastal towns", "wrong": ["Established peaceful trade only", "Built stone cathedrals", "Founded universities"] }
+    ] },
+  { "id": "g3-norman-castles", "chapter": 3, "section": "The Norman Conquest", "difficulty": 3, "tags": ["normans"],
+    "explanation": "The Normans built castles across England and Wales to control the land they had conquered.",
+    "angles": [
+      { "q": "Why did the Normans build castles across England and Wales?", "a": "To control the land they had conquered", "wrong": ["To store grain for the winter", "As places of worship", "To house Parliament"] }
+    ] },
+  { "id": "g3-1066-last", "chapter": 3, "section": "The Norman Conquest", "difficulty": 3, "tags": ["normans", "1066"],
+    "explanation": "The Norman Conquest of 1066 was the last successful foreign invasion of England.",
+    "angles": [
+      { "q": "The Norman Conquest was the last successful what?", "a": "Foreign invasion of England", "wrong": ["Rebellion against the Church", "Peasant uprising", "Scottish invasion of England"] }
+    ] },
+  { "id": "g3-rhuddlan", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["wales"],
+    "explanation": "The Statute of Rhuddlan of 1284 annexed Wales to the Crown of England, following Edward I's campaign against the Welsh.",
+    "angles": [
+      { "q": "In which year was the Statute of Rhuddlan?", "a": "1284", "pool": "years-medieval" },
+      { "q": "Which English king annexed Wales through the Statute of Rhuddlan?", "a": "Edward I", "pool": "monarchs" }
+    ] },
+  { "id": "g3-welsh-castles", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["wales"],
+    "explanation": "Edward I built a ring of castles in Wales, including Conwy and Caernarfon, to hold the country after his conquest.",
+    "angles": [
+      { "q": "Caernarfon and Conwy are examples of what, built by Edward I?", "a": "Castles in Wales", "wrong": ["Cathedrals in Scotland", "Abbeys in Ireland", "Forts on Hadrian's Wall"] }
+    ] },
+  { "id": "g3-hundred-years", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["hundred-years-war"],
+    "explanation": "The Hundred Years War between England and France lasted from 1337 to 1453, a total of 116 years.",
+    "angles": [
+      { "q": "In which year did the Hundred Years War begin?", "a": "1337", "pool": "years-medieval" },
+      { "q": "The Hundred Years War was fought between England and which country?", "a": "France", "wrong": ["Spain", "The Netherlands", "Scotland"] }
+    ] },
+  { "id": "g3-wars-roses-start", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["wars-of-the-roses"],
+    "explanation": "The Wars of the Roses began in 1455 and were fought between the House of Lancaster and the House of York.",
+    "angles": [
+      { "q": "In which year did the Wars of the Roses begin?", "a": "1455", "pool": "years-medieval" },
+      { "q": "Which house was represented by a red rose?", "a": "The House of Lancaster", "wrong": ["The House of York", "The House of Tudor", "The House of Stuart"] }
+    ] },
+  { "id": "g3-caxton", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["printing"],
+    "explanation": "William Caxton was the first person in England to print books using a printing press.",
+    "angles": [
+      { "q": "What did William Caxton introduce to England?", "a": "The printing press", "pool": "inventions" }
+    ] },
+  { "id": "g3-chaucer", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["chaucer"],
+    "explanation": "Geoffrey Chaucer wrote The Canterbury Tales, a series of poems in English about a group of pilgrims travelling to Canterbury.",
+    "angles": [
+      { "q": "The pilgrims in The Canterbury Tales were travelling to which city?", "a": "Canterbury", "pool": "uk-cities" },
+      { "q": "In which language did Geoffrey Chaucer write The Canterbury Tales?", "a": "English", "pool": "languages" }
+    ] },
+  { "id": "g3-wales-union", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors", "wales"],
+    "explanation": "Wales was formally united with England during the reign of Henry VIII, and the Welsh sent representatives to the English Parliament.",
+    "angles": [
+      { "q": "After Wales was united with England, where did Welsh representatives sit?", "a": "The English Parliament", "wrong": ["A separate Welsh Parliament", "The Scottish Parliament", "The House of Lords only"] }
+    ] },
+  { "id": "g3-mary-i", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors"],
+    "explanation": "Mary I was a devout Catholic who persecuted Protestants, earning the nickname Bloody Mary. She was succeeded by Elizabeth I.",
+    "angles": [
+      { "q": "Which monarch was known as Bloody Mary?", "a": "Mary I", "pool": "monarchs" },
+      { "q": "Who succeeded Mary I on the throne of England?", "a": "Elizabeth I", "pool": "monarchs" }
+    ] },
+  { "id": "g3-elizabeth-religion", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors", "religion"],
+    "explanation": "Elizabeth I was a Protestant who reached a compromise between Catholics and Protestants that became the basis of the Church of England.",
+    "angles": [
+      { "q": "What was Elizabeth I's religion?", "a": "Protestant", "wrong": ["Roman Catholic", "Presbyterian", "Methodist"] }
+    ] },
+  { "id": "g3-shakespeare-era", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["shakespeare"],
+    "explanation": "William Shakespeare lived and wrote during the Tudor and early Stuart periods, and his plays were performed at the Globe Theatre.",
+    "angles": [
+      { "q": "In which London theatre were many of Shakespeare's plays performed?", "a": "The Globe", "wrong": ["The Old Vic", "Drury Lane", "The Palladium"] }
+    ] },
+  { "id": "g3-king-james-bible", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["stuarts", "bible"],
+    "explanation": "The King James Version of the Bible, also called the Authorised Version, was produced during the reign of James I.",
+    "angles": [
+      { "q": "The King James Bible is also known by what name?", "a": "The Authorised Version", "wrong": ["The Book of Common Prayer", "The Revised Standard Version", "The Great Bible"] }
+    ] },
+  { "id": "g3-cavaliers", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["civil-war"],
+    "explanation": "During the English Civil War, supporters of the king were called Cavaliers and supporters of Parliament were called Roundheads.",
+    "angles": [
+      { "q": "Supporters of the king during the Civil War were known as what?", "a": "Cavaliers", "wrong": ["Roundheads", "Jacobites", "Chartists"] }
+    ] },
+  { "id": "g3-cromwell-death", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["cromwell"],
+    "explanation": "Oliver Cromwell died in 1658 and was briefly succeeded as Lord Protector by his son Richard, before the monarchy was restored in 1660.",
+    "angles": [
+      { "q": "Who briefly succeeded Oliver Cromwell as Lord Protector?", "a": "His son Richard", "wrong": ["His brother Thomas", "General Monck", "Charles II"] }
+    ] },
+  { "id": "g3-royal-society", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["royal-society"],
+    "explanation": "The Royal Society was formed in about 1660 to promote natural knowledge and is the oldest surviving scientific society in the world.",
+    "angles": [
+      { "q": "The Royal Society was formed to promote what?", "a": "Natural knowledge and science", "wrong": ["Trade with the colonies", "Religious reform", "Parliamentary democracy"] }
+    ] },
+  { "id": "g3-boyne", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["glorious-revolution"],
+    "explanation": "William III defeated James II at the Battle of the Boyne in Ireland in 1690, an event still commemorated by some in Northern Ireland.",
+    "angles": [
+      { "q": "In which year was the Battle of the Boyne?", "a": "1690", "pool": "years-tudor-stuart" },
+      { "q": "In which country was the Battle of the Boyne fought?", "a": "Ireland", "wrong": ["Scotland", "France", "England"] }
+    ] },
+  { "id": "g3-constitutional-monarchy", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["constitution"],
+    "explanation": "After 1688 the monarch could no longer raise taxes or keep an army without the agreement of Parliament, and Britain became a constitutional monarchy.",
+    "angles": [
+      { "q": "After 1688, what could the monarch no longer do without Parliament's agreement?", "a": "Raise taxes or keep an army", "wrong": ["Travel abroad", "Marry", "Attend church"] }
+    ] },
+  { "id": "g3-clearances", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["scotland", "clearances"],
+    "explanation": "During the Highland Clearances, many Scottish landlords destroyed small farms to make way for sheep, and many people emigrated.",
+    "angles": [
+      { "q": "During the Highland Clearances, small farms were cleared to make way for what?", "a": "Sheep farming", "wrong": ["Coal mines", "Railways", "Forestry"] },
+      { "q": "Many people affected by the Highland Clearances did what?", "a": "Emigrated overseas", "wrong": ["Joined the navy", "Moved to London", "Became landowners"] }
+    ] },
+  { "id": "g3-empire-1913", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["empire"],
+    "explanation": "By 1913 the British Empire covered about a quarter of the world's population and was the largest empire the world has seen.",
+    "angles": [
+      { "q": "By which year did the British Empire cover about a quarter of the world's population?", "a": "1913", "pool": "years-modern" }
+    ] },
+  { "id": "g3-wilberforce", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["slavery"],
+    "explanation": "William Wilberforce, an evangelical Christian and MP, led the parliamentary campaign to abolish the slave trade.",
+    "angles": [
+      { "q": "William Wilberforce campaigned against what?", "a": "The slave trade", "wrong": ["Child labour in mines", "The Corn Laws", "Capital punishment"] }
+    ] },
+  { "id": "g3-nightingale", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["victorian"],
+    "explanation": "Florence Nightingale served in the Crimean War and later established a nursing school. She is considered the founder of modern nursing.",
+    "angles": [
+      { "q": "In which war did Florence Nightingale serve?", "a": "The Crimean War", "pool": "wars" },
+      { "q": "Where did Florence Nightingale set up her nursing school?", "a": "St Thomas' Hospital in London", "wrong": ["Edinburgh Royal Infirmary", "Great Ormond Street", "The Royal London Hospital"] }
+    ] },
+  { "id": "g3-reform-act", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["reform"],
+    "explanation": "The Reform Act of 1832 abolished many rotten boroughs and greatly increased the number of people who could vote.",
+    "angles": [
+      { "q": "In which year was the Reform Act that greatly increased the number of voters?", "a": "1832", "pool": "years-georgian" },
+      { "q": "What did the Reform Act of 1832 abolish?", "a": "Rotten boroughs", "wrong": ["The House of Lords", "The monarchy", "Local councils"] }
+    ] },
+  { "id": "g3-brunel", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["engineering"],
+    "explanation": "Isambard Kingdom Brunel built the Great Western Railway, bridges and steamships including the SS Great Britain.",
+    "angles": [
+      { "q": "Which railway did Isambard Kingdom Brunel build?", "a": "The Great Western Railway", "wrong": ["The London Underground", "The Flying Scotsman line", "The Settle to Carlisle railway"] }
+    ] },
+  { "id": "g3-first-railway", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["industrial-revolution"],
+    "explanation": "George Stephenson built early steam locomotives, and Britain led the world in developing the railway.",
+    "angles": [
+      { "q": "George Stephenson is associated with the development of what?", "a": "The railway locomotive", "pool": "inventions" }
+    ] },
+  { "id": "g3-somme", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ww1"],
+    "explanation": "The British suffered around 60,000 casualties on the first day of the Battle of the Somme in 1916.",
+    "angles": [
+      { "q": "In which war was the Battle of the Somme fought?", "a": "The First World War", "pool": "wars" }
+    ] },
+  { "id": "g3-blitz", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ww2"],
+    "explanation": "The Blitz was the sustained bombing of London and other British cities by the German air force during the Second World War.",
+    "angles": [
+      { "q": "During which war did the Blitz take place?", "a": "The Second World War", "pool": "wars" }
+    ] },
+  { "id": "g3-turing", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["turing"],
+    "explanation": "Alan Turing helped break German codes at Bletchley Park during the Second World War and is regarded as a founder of computer science.",
+    "angles": [
+      { "q": "At which site did Alan Turing work on breaking German codes?", "a": "Bletchley Park", "wrong": ["Portsmouth Dockyard", "Greenwich Observatory", "The Tower of London"] },
+      { "q": "Alan Turing is regarded as a founder of which field?", "a": "Computer science", "wrong": ["Genetics", "Astronomy", "Economics"] }
+    ] },
+  { "id": "g3-fleming", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["penicillin"],
+    "explanation": "Sir Alexander Fleming discovered penicillin in 1928 and shared the Nobel Prize for Medicine in 1945.",
+    "angles": [
+      { "q": "In which year did Alexander Fleming discover penicillin?", "a": "1928", "pool": "years-modern" },
+      { "q": "What did Alexander Fleming discover?", "a": "Penicillin", "pool": "inventions" }
+    ] },
+  { "id": "g3-baird", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["television"],
+    "explanation": "John Logie Baird, a Scottish inventor, made the first television broadcast of a moving picture in 1924.",
+    "angles": [
+      { "q": "Which invention is John Logie Baird credited with demonstrating?", "a": "Television", "pool": "inventions" }
+    ] },
+  { "id": "g3-whittle", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["jet-engine"],
+    "explanation": "Sir Frank Whittle, a British RAF engineer, developed the jet engine in the 1930s.",
+    "angles": [
+      { "q": "Which invention is Sir Frank Whittle credited with?", "a": "The jet engine", "pool": "inventions" }
+    ] },
+  { "id": "g3-ivf", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ivf"],
+    "explanation": "Sir Robert Edwards and Patrick Steptoe pioneered IVF, and the world's first test-tube baby was born in Britain in 1978.",
+    "angles": [
+      { "q": "In which country was the world's first test-tube baby born?", "a": "The UK", "wrong": ["The United States", "France", "Australia"] }
+    ] },
+  { "id": "g3-dolly", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["cloning"],
+    "explanation": "Dolly the sheep was cloned at the Roslin Institute near Edinburgh in 1996, the first mammal cloned from an adult cell.",
+    "angles": [
+      { "q": "Near which city was Dolly the sheep cloned?", "a": "Edinburgh", "pool": "uk-cities" },
+      { "q": "What kind of animal was Dolly, the first mammal cloned from an adult cell?", "a": "A sheep", "wrong": ["A cow", "A goat", "A pig"] }
+    ] },
+  { "id": "g3-attlee-nhs", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["nhs"],
+    "explanation": "The NHS was established in 1948 by the Labour government led by Clement Attlee, with Aneurin Bevan as Minister for Health.",
+    "angles": [
+      { "q": "Which Prime Minister led the government that founded the NHS?", "a": "Clement Attlee", "pool": "prime-ministers" }
+    ] },
+  { "id": "g3-thatcher-first", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["thatcher"],
+    "explanation": "Margaret Thatcher became the UK's first female Prime Minister in 1979 and was the longest-serving Prime Minister of the 20th century.",
+    "angles": [
+      { "q": "Who was the UK's first female Prime Minister?", "a": "Margaret Thatcher", "pool": "prime-ministers" }
+    ] },
+  { "id": "g3-decolonisation", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["empire"],
+    "explanation": "After the Second World War, many countries of the British Empire gained independence, and most joined the Commonwealth.",
+    "angles": [
+      { "q": "Most former British colonies that became independent joined what?", "a": "The Commonwealth", "pool": "institutions" }
+    ] },
+  { "id": "g3-postwar-migration", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["immigration"],
+    "explanation": "After the Second World War the UK needed workers to rebuild, and encouraged migration from the West Indies, India, Pakistan and Bangladesh.",
+    "angles": [
+      { "q": "Why did the UK encourage migration after the Second World War?", "a": "There was a shortage of workers to rebuild the country", "wrong": ["To increase the size of the army", "To settle empty farmland", "To replace people who had emigrated"] }
+    ] }
+]

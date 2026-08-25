@@ -1,0 +1,284 @@
+[
+  { "id": "f3-caesar", "chapter": 3, "section": "The Romans", "difficulty": 2, "tags": ["romans"],
+    "explanation": "Julius Caesar led an unsuccessful invasion of Britain in 55 BC. Britain was not conquered until AD 43.",
+    "angles": [
+      { "q": "In which year did Julius Caesar lead an unsuccessful invasion of Britain?", "a": "55 BC", "pool": "years-ancient" },
+      { "q": "Who led the failed Roman invasion of Britain in 55 BC?", "a": "Julius Caesar", "wrong": ["Emperor Claudius", "Emperor Hadrian", "Boudicca"] }
+    ] },
+  { "id": "f3-claudius", "chapter": 3, "section": "The Romans", "difficulty": 2, "tags": ["romans"],
+    "explanation": "The Roman conquest of Britain began in AD 43 under Emperor Claudius, and most of Britain came under Roman control.",
+    "angles": [
+      { "q": "Under which emperor did the Romans successfully conquer Britain?", "a": "Emperor Claudius", "wrong": ["Julius Caesar", "Emperor Hadrian", "Emperor Augustus"] },
+      { "q": "What happened in Britain in AD 43?", "a": "The Romans invaded and began their conquest", "wrong": ["The Romans left Britain", "The Vikings first raided Britain", "Hadrian's Wall was completed"] }
+    ] },
+  { "id": "f3-hadrian", "chapter": 3, "section": "The Romans", "difficulty": 3, "tags": ["romans", "hadrian"],
+    "explanation": "Hadrian's Wall was built on the orders of Emperor Hadrian to keep out the Picts, the ancestors of the Scottish people.",
+    "angles": [
+      { "q": "Hadrian's Wall was built to keep out which people?", "a": "The Picts", "pool": "peoples" },
+      { "q": "In which part of Britain was Hadrian's Wall built?", "a": "The north of England", "wrong": ["The south coast of England", "West Wales", "Central Ireland"] },
+      { "q": "Parts of which Roman structure can still be visited in northern England today?", "a": "Hadrian's Wall", "pool": "landmarks" }
+    ] },
+  { "id": "f3-boudicca", "chapter": 3, "section": "The Romans", "difficulty": 3, "tags": ["romans", "boudicca"],
+    "explanation": "Boudicca was queen of the Iceni and led a revolt against the Romans. Her statue stands on Westminster Bridge in London.",
+    "angles": [
+      { "q": "Boudicca was the queen of which tribe?", "a": "The Iceni", "wrong": ["The Picts", "The Jutes", "The Saxons"] },
+      { "q": "Where in London does a statue of Boudicca stand?", "a": "Westminster Bridge", "wrong": ["Trafalgar Square", "Tower Bridge", "Hyde Park"] }
+    ] },
+  { "id": "f3-romans-leave", "chapter": 3, "section": "The Romans", "difficulty": 3, "tags": ["romans"],
+    "explanation": "The Roman army left Britain in AD 410 to defend other parts of the Roman Empire, and never returned.",
+    "angles": [
+      { "q": "Why did the Roman army leave Britain in AD 410?", "a": "To defend other parts of the Roman Empire", "wrong": ["They were defeated by the Vikings", "They were driven out by the Normans", "The emperor lost interest in Britain"] },
+      { "q": "How long did the Roman occupation of Britain last?", "a": "About 400 years", "wrong": ["About 50 years", "About 1,000 years", "About 150 years"] }
+    ] },
+  { "id": "f3-augustine", "chapter": 3, "section": "The Anglo-Saxons", "difficulty": 3, "tags": ["anglo-saxons", "religion"],
+    "explanation": "St Augustine led missionaries from Rome and became the first Archbishop of Canterbury. St Columba founded a monastery on Iona.",
+    "angles": [
+      { "q": "Which saint founded a monastery on the island of Iona in Scotland?", "a": "St Columba", "pool": "saints" },
+      { "q": "St Augustine spread Christianity in which part of Britain?", "a": "The south of England", "wrong": ["The north of Scotland", "West Wales", "The Isle of Man"] }
+    ] },
+  { "id": "f3-alfred", "chapter": 3, "section": "The Vikings", "difficulty": 3, "tags": ["vikings", "alfred"],
+    "explanation": "King Alfred the Great defeated the Vikings, though they were allowed to settle in the east and north of England in an area called the Danelaw.",
+    "angles": [
+      { "q": "What was the name of the area of England where the Vikings were allowed to settle?", "a": "The Danelaw", "wrong": ["The Pale", "Wessex", "Mercia"] },
+      { "q": "In which year did the Vikings first raid Britain?", "a": "AD 789", "pool": "years-ancient" }
+    ] },
+  { "id": "f3-cnut", "chapter": 3, "section": "The Vikings", "difficulty": 3, "tags": ["vikings"],
+    "explanation": "King Cnut, a Danish king, ruled England in the 11th century before the Anglo-Saxon line was restored.",
+    "angles": [
+      { "q": "Which Danish king ruled England in the 11th century?", "a": "King Cnut", "pool": "monarchs" }
+    ] },
+  { "id": "f3-hastings", "chapter": 3, "section": "The Norman Conquest", "difficulty": 2, "tags": ["normans", "1066"],
+    "explanation": "William of Normandy defeated Harold, the Saxon king of England, at the Battle of Hastings in 1066. Harold was killed in the battle.",
+    "angles": [
+      { "q": "Which battle took place in 1066?", "a": "The Battle of Hastings", "pool": "battles" },
+      { "q": "Which English king was killed at the Battle of Hastings?", "a": "Harold", "wrong": ["Richard III", "King John", "Edward I"] },
+      { "q": "After winning at Hastings, William of Normandy became known as what?", "a": "William the Conqueror", "wrong": ["William the Lionheart", "William the Bold", "William the Great"] }
+    ] },
+  { "id": "f3-domesday", "chapter": 3, "section": "The Norman Conquest", "difficulty": 3, "tags": ["normans", "domesday"],
+    "explanation": "The Domesday Book, compiled in 1086, lists the towns and villages of England, who lived there and what they owned.",
+    "angles": [
+      { "q": "What information does the Domesday Book record?", "a": "The towns and villages of England and who lived in them", "wrong": ["The battles of the Norman Conquest", "The laws of the Anglo-Saxons", "The genealogy of the Norman kings"] },
+      { "q": "Which king ordered the compiling of the Domesday Book?", "a": "William the Conqueror", "pool": "monarchs" }
+    ] },
+  { "id": "f3-magna-carta", "chapter": 3, "section": "The Middle Ages", "difficulty": 2, "tags": ["magna-carta"],
+    "explanation": "King John was forced by his noblemen to agree to Magna Carta in 1215, establishing that the king was subject to the law.",
+    "angles": [
+      { "q": "Which king was forced to agree to Magna Carta?", "a": "King John", "pool": "monarchs" },
+      { "q": "What does Magna Carta mean?", "a": "The Great Charter", "wrong": ["The Great Council", "The Royal Promise", "The King's Book"] },
+      { "q": "Who forced King John to agree to Magna Carta?", "a": "His noblemen", "wrong": ["The Church", "The merchants of London", "The Scottish king"] }
+    ] },
+  { "id": "f3-black-death", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["black-death"],
+    "explanation": "The Black Death arrived in England in 1348 and killed about a third of the population.",
+    "angles": [
+      { "q": "In which year did the Black Death arrive in England?", "a": "1348", "pool": "years-medieval" },
+      { "q": "One effect of the Black Death was that labourers could do what?", "a": "Demand higher wages, because workers were scarce", "wrong": ["Be forced to work for nothing", "Be forbidden to leave their village", "Be taxed at a higher rate"] }
+    ] },
+  { "id": "f3-bannockburn", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["scotland", "bannockburn"],
+    "explanation": "Robert the Bruce defeated the English at the Battle of Bannockburn in 1314, and Scotland remained independent.",
+    "angles": [
+      { "q": "In which year was the Battle of Bannockburn fought?", "a": "1314", "pool": "years-medieval" },
+      { "q": "Which battle did Robert the Bruce win against the English?", "a": "The Battle of Bannockburn", "pool": "battles" }
+    ] },
+  { "id": "f3-agincourt", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["agincourt"],
+    "explanation": "Henry V defeated the French at the Battle of Agincourt in 1415, during the Hundred Years War.",
+    "angles": [
+      { "q": "In which year was the Battle of Agincourt fought?", "a": "1415", "pool": "years-medieval" },
+      { "q": "The Battle of Agincourt was fought during which conflict?", "a": "The Hundred Years War", "pool": "wars" }
+    ] },
+  { "id": "f3-bosworth", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["wars-of-the-roses", "bosworth"],
+    "explanation": "Henry Tudor defeated Richard III at the Battle of Bosworth Field in 1485, ending the Wars of the Roses and beginning the Tudor age.",
+    "angles": [
+      { "q": "In which year was the Battle of Bosworth Field fought?", "a": "1485", "pool": "years-medieval" },
+      { "q": "Which king was killed at the Battle of Bosworth Field?", "a": "Richard III", "pool": "monarchs" },
+      { "q": "Which royal house came to power after the Battle of Bosworth Field?", "a": "The House of Tudor", "wrong": ["The House of York", "The House of Lancaster", "The House of Stuart"] }
+    ] },
+  { "id": "f3-tudor-rose", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors", "wars-of-the-roses"],
+    "explanation": "Henry VII married Elizabeth of York and created the Tudor rose, combining the red rose of Lancaster with the white rose of York.",
+    "angles": [
+      { "q": "The Tudor rose combined the emblems of which two houses?", "a": "Lancaster and York", "wrong": ["Tudor and Stuart", "York and Normandy", "Lancaster and Wessex"] }
+    ] },
+  { "id": "f3-henry8-wives", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors", "henry-viii"],
+    "explanation": "Henry VIII's six wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.",
+    "angles": [
+      { "q": "Which of Henry VIII's wives was the mother of Edward VI?", "a": "Jane Seymour", "wrong": ["Anne Boleyn", "Catherine of Aragon", "Catherine Parr"] },
+      { "q": "Which of Henry VIII's wives was the mother of Mary I?", "a": "Catherine of Aragon", "wrong": ["Anne Boleyn", "Jane Seymour", "Anne of Cleves"] },
+      { "q": "Which of Henry VIII's wives outlived him?", "a": "Catherine Parr", "wrong": ["Anne Boleyn", "Jane Seymour", "Catherine Howard"] }
+    ] },
+  { "id": "f3-reformation", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors", "reformation"],
+    "explanation": "Henry VIII broke with the Church of Rome and established the Church of England, with himself as its head.",
+    "angles": [
+      { "q": "Which Church did Henry VIII establish?", "a": "The Church of England", "pool": "denominations" },
+      { "q": "What happened to the monasteries during the reign of Henry VIII?", "a": "They were closed and their land and wealth taken", "wrong": ["They were expanded and given more land", "They were handed to the Pope", "They were converted into universities"] }
+    ] },
+  { "id": "f3-elizabeth-armada", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors", "armada"],
+    "explanation": "The Spanish Armada, sent by Philip II of Spain to invade England, was defeated in 1588 during the reign of Elizabeth I.",
+    "angles": [
+      { "q": "Which country sent the Armada that was defeated in 1588?", "a": "Spain", "wrong": ["France", "The Netherlands", "Portugal"] },
+      { "q": "Who was the monarch of England when the Spanish Armada was defeated?", "a": "Elizabeth I", "pool": "monarchs" }
+    ] },
+  { "id": "f3-james-union", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["stuarts", "union-of-crowns"],
+    "explanation": "James VI of Scotland became James I of England in 1603, uniting the crowns of the two countries under one monarch.",
+    "angles": [
+      { "q": "In which year did James VI of Scotland become king of England?", "a": "1603", "pool": "years-tudor-stuart" },
+      { "q": "What is the name given to the joining of the Scottish and English crowns under one monarch in 1603?", "a": "The Union of the Crowns", "wrong": ["The Act of Union", "The Glorious Revolution", "The Restoration"] }
+    ] },
+  { "id": "f3-gunpowder", "chapter": 3, "section": "The Stuarts", "difficulty": 2, "tags": ["gunpowder-plot"],
+    "explanation": "In 1605 a group of Catholics led by Guy Fawkes failed in a plot to kill James I by blowing up the Houses of Parliament.",
+    "angles": [
+      { "q": "In which year was the Gunpowder Plot?", "a": "1605", "pool": "years-tudor-stuart" },
+      { "q": "Which king was the target of the Gunpowder Plot?", "a": "James I", "pool": "monarchs" }
+    ] },
+  { "id": "f3-civil-war", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["civil-war"],
+    "explanation": "The English Civil War began in 1642 between the supporters of Charles I, the Cavaliers, and the supporters of Parliament, the Roundheads.",
+    "angles": [
+      { "q": "In which year did the English Civil War begin?", "a": "1642", "pool": "years-tudor-stuart" },
+      { "q": "Supporters of Parliament during the Civil War were known as what?", "a": "Roundheads", "wrong": ["Cavaliers", "Jacobites", "Tories"] },
+      { "q": "At which 1645 battle was the King's army defeated by Parliament's forces?", "a": "The Battle of Naseby", "pool": "battles" }
+    ] },
+  { "id": "f3-commonwealth", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["cromwell", "commonwealth"],
+    "explanation": "After Charles I was executed in 1649, England was declared a republic called the Commonwealth, with Oliver Cromwell as Lord Protector.",
+    "angles": [
+      { "q": "What was England called during the republic that followed the execution of Charles I?", "a": "The Commonwealth", "wrong": ["The Protectorate of Britain", "The Free State", "The Dominion"] },
+      { "q": "What title did Oliver Cromwell take?", "a": "Lord Protector", "wrong": ["King of England", "Lord Chancellor", "Prime Minister"] }
+    ] },
+  { "id": "f3-restoration", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["restoration"],
+    "explanation": "Parliament invited Charles II to return from exile in 1660, an event known as the Restoration.",
+    "angles": [
+      { "q": "In which year did the Restoration take place?", "a": "1660", "pool": "years-tudor-stuart" },
+      { "q": "Which king returned from exile in 1660?", "a": "Charles II", "pool": "monarchs" }
+    ] },
+  { "id": "f3-plague-fire", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["great-fire", "plague"],
+    "explanation": "The Great Plague struck London in 1665 and the Great Fire of London followed in 1666, after which much of the city was rebuilt.",
+    "angles": [
+      { "q": "In which year did the Great Plague strike London?", "a": "1665", "pool": "years-tudor-stuart" },
+      { "q": "Where did the Great Fire of London begin in 1666?", "a": "A baker's shop in Pudding Lane", "wrong": ["The Tower of London", "Westminster Abbey", "A warehouse on the Thames"] },
+      { "q": "Which architect rebuilt St Paul's Cathedral after the Great Fire?", "a": "Sir Christopher Wren", "pool": "architects" }
+    ] },
+  { "id": "f3-glorious-revolution", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["glorious-revolution"],
+    "explanation": "In 1688 William of Orange was invited to take the throne from James II. He became William III and ruled jointly with his wife Mary.",
+    "angles": [
+      { "q": "In which year did the Glorious Revolution take place?", "a": "1688", "pool": "years-tudor-stuart" },
+      { "q": "William of Orange ruled jointly with whom?", "a": "His wife Mary", "wrong": ["His brother James", "His mother Anne", "His cousin Charles"] },
+      { "q": "From which country did William of Orange come?", "a": "The Netherlands", "wrong": ["France", "Spain", "Germany"] }
+    ] },
+  { "id": "f3-bill-of-rights", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["bill-of-rights"],
+    "explanation": "The Bill of Rights of 1689 confirmed the rights of Parliament and limited the power of the monarch.",
+    "angles": [
+      { "q": "In which year was the Bill of Rights passed?", "a": "1689", "pool": "years-tudor-stuart" }
+    ] },
+  { "id": "f3-act-of-union", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["union", "1707"],
+    "explanation": "The Act of Union of 1707 joined the English and Scottish parliaments, creating the Kingdom of Great Britain.",
+    "angles": [
+      { "q": "In which year was the Act of Union between England and Scotland?", "a": "1707", "pool": "years-georgian" },
+      { "q": "What was the Act of Union of 1707 also known as?", "a": "The Treaty of Union", "wrong": ["The Treaty of Edinburgh", "The Statute of Rhuddlan", "The Bill of Rights"] }
+    ] },
+  { "id": "f3-walpole", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["prime-minister", "walpole"],
+    "explanation": "Sir Robert Walpole, from 1721, is regarded as the first Prime Minister, and held the office for more than 20 years.",
+    "angles": [
+      { "q": "From which year is Sir Robert Walpole regarded as Prime Minister?", "a": "1721", "pool": "years-georgian" },
+      { "q": "Who is regarded as Britain's first Prime Minister?", "a": "Sir Robert Walpole", "pool": "prime-ministers" }
+    ] },
+  { "id": "f3-culloden", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["jacobites", "culloden"],
+    "explanation": "Bonnie Prince Charlie was defeated at the Battle of Culloden in 1746, the last battle fought on British soil.",
+    "angles": [
+      { "q": "In which year was the Battle of Culloden?", "a": "1746", "pool": "years-georgian" },
+      { "q": "Which battle ended the Jacobite cause?", "a": "The Battle of Culloden", "pool": "battles" }
+    ] },
+  { "id": "f3-trafalgar", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["trafalgar", "nelson"],
+    "explanation": "Admiral Nelson was killed at the Battle of Trafalgar in 1805, in which the British navy defeated the French and Spanish fleets.",
+    "angles": [
+      { "q": "In which year was the Battle of Trafalgar?", "a": "1805", "pool": "years-georgian" },
+      { "q": "Nelson's Column stands in which London square?", "a": "Trafalgar Square", "wrong": ["Leicester Square", "Russell Square", "Parliament Square"] },
+      { "q": "Which was Nelson's flagship at Trafalgar?", "a": "HMS Victory", "wrong": ["HMS Bounty", "SS Great Britain", "HMS Beagle"] }
+    ] },
+  { "id": "f3-waterloo", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["waterloo", "wellington"],
+    "explanation": "The Duke of Wellington defeated Napoleon at the Battle of Waterloo in 1815. He was known as the Iron Duke and later became Prime Minister.",
+    "angles": [
+      { "q": "In which year was the Battle of Waterloo?", "a": "1815", "pool": "years-georgian" },
+      { "q": "By what nickname was the Duke of Wellington known?", "a": "The Iron Duke", "wrong": ["The Iron Chancellor", "The Lionheart", "The Great Commoner"] },
+      { "q": "Who was defeated at the Battle of Waterloo?", "a": "Napoleon", "wrong": ["Philip II of Spain", "Louis XIV", "Kaiser Wilhelm"] }
+    ] },
+  { "id": "f3-emancipation", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["slavery"],
+    "explanation": "The Emancipation Act of 1833 abolished slavery throughout the British Empire, 26 years after the trade itself was made illegal.",
+    "angles": [
+      { "q": "In which year was slavery abolished throughout the British Empire?", "a": "1833", "pool": "years-victorian" },
+      { "q": "What was the name of the 1833 Act that abolished slavery in the British Empire?", "a": "The Emancipation Act", "wrong": ["The Reform Act", "The Abolition Charter", "The Freedom Act"] }
+    ] },
+  { "id": "f3-victoria", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["victorian"],
+    "explanation": "Queen Victoria came to the throne in 1837 at the age of 18 and reigned until 1901, more than 60 years.",
+    "angles": [
+      { "q": "In which year did Queen Victoria come to the throne?", "a": "1837", "pool": "years-victorian" },
+      { "q": "How old was Queen Victoria when she became queen?", "a": "18", "wrong": ["25", "30", "12"] }
+    ] },
+  { "id": "f3-great-exhibition", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["great-exhibition"],
+    "explanation": "The Great Exhibition of 1851 was held in the Crystal Palace in Hyde Park and displayed goods from Britain and around the world.",
+    "angles": [
+      { "q": "In which year was the Great Exhibition held?", "a": "1851", "pool": "years-victorian" },
+      { "q": "In which London park was the Crystal Palace built for the Great Exhibition?", "a": "Hyde Park", "wrong": ["Regent's Park", "Green Park", "Richmond Park"] }
+    ] },
+  { "id": "f3-ww1", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["ww1"],
+    "explanation": "The First World War lasted from 1914 to 1918 and ended at 11am on 11 November 1918.",
+    "angles": [
+      { "q": "In which year did the First World War end?", "a": "1918", "pool": "years-modern" },
+      { "q": "How many years did the First World War last?", "a": "Four", "pool": "small-numbers" }
+    ] },
+  { "id": "f3-ww2-start", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["ww2"],
+    "explanation": "The Second World War began in 1939 when Germany invaded Poland, and ended in 1945.",
+    "angles": [
+      { "q": "In which year did the Second World War begin?", "a": "1939", "pool": "years-modern" },
+      { "q": "The invasion of which country led Britain to declare war in 1939?", "a": "Poland", "wrong": ["France", "Belgium", "Norway"] }
+    ] },
+  { "id": "f3-dunkirk", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ww2", "dunkirk"],
+    "explanation": "In 1940 more than 300,000 British and Allied troops were evacuated from the beaches of Dunkirk, many rescued by small civilian boats.",
+    "angles": [
+      { "q": "In which year did the Dunkirk evacuation take place?", "a": "1940", "pool": "years-modern" },
+      { "q": "Roughly how many troops were rescued from Dunkirk?", "a": "More than 300,000", "wrong": ["About 10,000", "About 50,000", "More than 2 million"] }
+    ] },
+  { "id": "f3-dday", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ww2", "d-day"],
+    "explanation": "On D-Day, 6 June 1944, Allied forces landed in Normandy, beginning the liberation of western Europe.",
+    "angles": [
+      { "q": "In which year did the D-Day landings take place?", "a": "1944", "pool": "years-modern" },
+      { "q": "In which part of France did the Allies land on D-Day?", "a": "Normandy", "wrong": ["Brittany", "Provence", "Calais"] }
+    ] },
+  { "id": "f3-nhs-founding", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["nhs"],
+    "explanation": "The NHS was established in 1948, based on the principle that healthcare should be available to all, free at the point of use.",
+    "angles": [
+      { "q": "What principle is the NHS based on?", "a": "Healthcare should be available to all and free at the point of use", "wrong": ["Healthcare should be paid for by insurance", "Healthcare should be available only to citizens", "Healthcare should be run for profit"] }
+    ] },
+  { "id": "f3-suffrage-1918", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["suffrage", "women"],
+    "explanation": "Women over 30 were given the vote in 1918, and in 1928 women received the vote at 21, the same age as men.",
+    "angles": [
+      { "q": "In which year were some women in Britain first given the right to vote?", "a": "1918", "pool": "years-modern" },
+      { "q": "In 1918, women had to be over what age to vote?", "a": "30", "wrong": ["21", "25", "18"] },
+      { "q": "In which year did women get the vote on the same terms as men?", "a": "1928", "pool": "years-modern" }
+    ] },
+  { "id": "f3-suffragettes", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["suffrage", "pankhurst"],
+    "explanation": "Emmeline Pankhurst founded the Women's Social and Political Union, whose members became known as suffragettes.",
+    "angles": [
+      { "q": "What were the campaigners for women's votes led by Emmeline Pankhurst known as?", "a": "Suffragettes", "wrong": ["Chartists", "Levellers", "Abolitionists"] }
+    ] },
+  { "id": "f3-berners-lee", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["berners-lee", "internet"],
+    "explanation": "Sir Tim Berners-Lee, a British inventor, created the World Wide Web in 1989 while working in Switzerland.",
+    "angles": [
+      { "q": "In which year did Sir Tim Berners-Lee invent the World Wide Web?", "a": "1989", "pool": "years-modern" },
+      { "q": "What did Sir Tim Berners-Lee invent?", "a": "The World Wide Web", "pool": "inventions" }
+    ] },
+  { "id": "f3-dna", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["dna", "science"],
+    "explanation": "Francis Crick and James Watson, working at Cambridge, discovered the structure of DNA in 1953.",
+    "angles": [
+      { "q": "In which year was the structure of DNA discovered?", "a": "1953", "pool": "years-modern" },
+      { "q": "At which university were Crick and Watson working when they discovered the structure of DNA?", "a": "Cambridge", "wrong": ["Oxford", "Edinburgh", "Manchester"] }
+    ] },
+  { "id": "f3-good-friday", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["northern-ireland"],
+    "explanation": "The Belfast Agreement, also called the Good Friday Agreement, was signed in 1998 and led to the establishment of the Northern Ireland Assembly.",
+    "angles": [
+      { "q": "In which year was the Belfast, or Good Friday, Agreement signed?", "a": "1998", "pool": "years-modern" },
+      { "q": "What did the Belfast Agreement of 1998 lead to?", "a": "The establishment of the Northern Ireland Assembly", "wrong": ["The partition of Ireland", "Irish independence", "The end of devolution in Scotland"] }
+    ] },
+  { "id": "f3-partition", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["ireland", "partition"],
+    "explanation": "In 1921 Ireland was divided, with the six counties of the north remaining part of the UK and the south becoming the Irish Free State.",
+    "angles": [
+      { "q": "In which year was Ireland divided into two parts?", "a": "1921", "pool": "years-modern" },
+      { "q": "How many counties of the north of Ireland remained part of the UK?", "a": "Six", "pool": "small-numbers" }
+    ] }
+]

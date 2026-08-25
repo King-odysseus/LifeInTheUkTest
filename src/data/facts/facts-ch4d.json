@@ -1,0 +1,230 @@
+[
+  { "id": "d4-cofe", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["religion"],
+    "explanation": "The Church of England is the established Church in England. The monarch is its Supreme Governor and the Archbishop of Canterbury its spiritual leader.",
+    "angles": [
+      { "q": "Which Church is the official Church of the state in England?", "a": "The Church of England", "pool": "denominations",
+        "alts": ["What is the established Church in England?", "England's state Church is which of these?"] },
+      { "q": "Who is the Supreme Governor of the Church of England?", "a": "The monarch", "wrong": ["The Prime Minister", "The Pope", "The Moderator"],
+        "alts": ["Who heads the Church of England?"] }
+    ],
+    "tf": [
+      { "s": "The Archbishop of Canterbury is the spiritual leader of the Church of England.", "v": true },
+      { "s": "The Church of England is also known as the Anglican Church.", "v": true }
+    ] },
+  { "id": "d4-scotland-kirk", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["religion"],
+    "explanation": "The Church of Scotland is a Presbyterian Church, governed by ministers and elders, whose chair is the Moderator, appointed for one year.",
+    "angles": [
+      { "q": "Who chairs the General Assembly of the Church of Scotland?", "a": "The Moderator", "wrong": ["The Archbishop", "The monarch", "The First Minister"],
+        "alts": ["The General Assembly of the Church of Scotland is chaired by whom?"] }
+    ],
+    "tf": [
+      { "s": "The Moderator of the Church of Scotland is appointed for one year.", "v": true },
+      { "s": "The Church of Scotland is governed by ministers and elders.", "v": true }
+    ] },
+  { "id": "d4-diversity", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["religion"],
+    "explanation": "The UK is a diverse society. People of many religions live and worship freely, and everyone has the right to have no religion.",
+    "tf": [
+      { "s": "Muslims, Hindus, Sikhs, Jews and Buddhists all worship freely in the UK.", "v": true },
+      { "s": "It is compulsory to belong to a religion in the UK.", "v": false },
+      { "s": "A growing proportion of people in the UK report having no religion.", "v": true }
+    ] },
+  { "id": "d4-lent-easter", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+    "explanation": "Lent lasts 40 days before Easter, beginning on Ash Wednesday. Good Friday marks the death of Jesus and Easter Sunday his resurrection.",
+    "angles": [
+      { "q": "How many days does Lent last?", "a": "40", "pool": "counts",
+        "alts": ["Lent is a period of how many days?", "The fasting period before Easter lasts how long?"] },
+      { "q": "Which day is the day before Lent begins?", "a": "Shrove Tuesday", "wrong": ["Ash Wednesday", "Good Friday", "Palm Sunday"],
+        "alts": ["Pancake Day is another name for which day?"] }
+    ],
+    "tf": [
+      { "s": "Good Friday marks the death of Jesus Christ.", "v": true },
+      { "s": "Easter Monday is a public holiday in Scotland.", "v": false }
+    ] },
+  { "id": "d4-guy-fawkes", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+    "explanation": "Bonfire Night on 5 November recalls the Gunpowder Plot of 1605, when Guy Fawkes and others tried to blow up Parliament.",
+    "angles": [
+      { "q": "Which event is remembered on 5 November?", "a": "The Gunpowder Plot", "wrong": ["The Great Fire of London", "The end of the First World War", "The Battle of Trafalgar"],
+        "alts": ["Bonfire Night commemorates what?", "What failed plot is remembered each 5 November?"] }
+    ],
+    "tf": [
+      { "s": "Fireworks and bonfires are traditional on 5 November.", "v": true }
+    ] },
+  { "id": "d4-remembrance-detail", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["remembrance"],
+    "explanation": "Remembrance Day on 11 November commemorates those who died in war. A two-minute silence is held at 11am and poppies are worn.",
+    "angles": [
+      { "q": "How long is the silence held on Remembrance Day?", "a": "Two minutes", "wrong": ["One minute", "Five minutes", "Ten minutes"],
+        "alts": ["A silence of what length is observed on Remembrance Day?"] }
+    ],
+    "tf": [
+      { "s": "The two-minute silence on Remembrance Day is held at 11am.", "v": true },
+      { "s": "Remembrance Day commemorates those who died fighting for the UK and its allies.", "v": true }
+    ] },
+  { "id": "d4-uk-food", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["food"],
+    "explanation": "Traditional foods include roast beef and Yorkshire pudding in England, haggis in Scotland, Welsh cakes in Wales and the Ulster fry in Northern Ireland.",
+    "angles": [
+      { "q": "The Ulster fry is a traditional dish from which part of the UK?", "a": "Northern Ireland", "pool": "uk-countries",
+        "alts": ["Which country of the UK is the Ulster fry associated with?"] },
+      { "q": "Welsh cakes are a traditional dish from which country?", "a": "Wales", "pool": "uk-countries",
+        "alts": ["Which part of the UK is known for Welsh cakes?"] }
+    ],
+    "multi": [
+      { "q": "Which TWO of these are traditional Scottish foods?", "a": ["Haggis", "Shortbread"], "wrong": ["Welsh cakes", "The Ulster fry"] }
+    ] },
+  { "id": "d4-football-detail", "chapter": 4, "section": "Sport", "difficulty": 2, "tags": ["sport"],
+    "explanation": "Football is the most popular sport in the UK, with professional leagues in all four countries.",
+    "angles": [
+      { "q": "Which is the most popular spectator sport in the UK?", "a": "Football", "pool": "sports",
+        "alts": ["What is the UK's best-supported sport?", "Which sport attracts the largest following in the UK?"] }
+    ],
+    "tf": [
+      { "s": "There are professional football leagues in all four countries of the UK.", "v": true },
+      { "s": "England won the football World Cup in 1966.", "v": true }
+    ] },
+  { "id": "d4-cricket-home", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+    "explanation": "Cricket originated in England. Lord's in London is regarded as the home of cricket, and test matches can last five days.",
+    "angles": [
+      { "q": "Which London ground is known as the home of cricket?", "a": "Lord's", "wrong": ["Wembley", "Twickenham", "Wimbledon"],
+        "alts": ["Cricket's most famous ground in London is which?"] }
+    ],
+    "tf": [
+      { "s": "Twenty20 is a shorter form of cricket played in a single day.", "v": true }
+    ] },
+  { "id": "d4-rugby-detail", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+    "explanation": "Rugby originated in England. There are two forms, union and league, and rugby league began in the north of England.",
+    "angles": [
+      { "q": "What are the two main forms of rugby?", "a": "Union and league", "wrong": ["Union and county", "League and county", "Amateur and Olympic"],
+        "alts": ["Rugby is played in which two codes?"] }
+    ],
+    "tf": [
+      { "s": "The Six Nations is an annual rugby union competition.", "v": true },
+      { "s": "Twickenham is the home of English rugby union.", "v": true }
+    ] },
+  { "id": "d4-olympic-detail", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["olympics"],
+    "explanation": "London hosted the Olympics in 1908, 1948 and 2012. The Paralympics grew from competitions at Stoke Mandeville Hospital.",
+    "angles": [
+      { "q": "Which British hospital gave rise to the Paralympic Games?", "a": "Stoke Mandeville", "wrong": ["Great Ormond Street", "St Thomas'", "The Royal London"],
+        "alts": ["The Paralympic movement began at which hospital?"] }
+    ],
+    "tf": [
+      { "s": "London was the first city to host the modern Olympics three times.", "v": true }
+    ] },
+  { "id": "d4-music-awards", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+    "explanation": "The Brit Awards recognise popular music and the Mercury Music Prize is awarded for the best album from the UK and Ireland.",
+    "angles": [
+      { "q": "Which awards recognise achievement in British popular music?", "a": "The Brit Awards", "wrong": ["The BAFTAs", "The Turner Prize", "The Booker Prize"],
+        "alts": ["The annual awards for UK popular music are called what?"] }
+    ],
+    "tf": [
+      { "s": "The Mercury Music Prize is awarded for the best album from the UK and Ireland.", "v": true },
+      { "s": "The Brit Awards are given for achievement in film.", "v": false }
+    ] },
+  { "id": "d4-classical", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+    "explanation": "British composers include Henry Purcell, Sir Edward Elgar, Gustav Holst, Ralph Vaughan Williams and Benjamin Britten.",
+    "angles": [
+      { "q": "Which of these is a well-known British composer?", "a": "Sir Edward Elgar", "pool": "composers",
+        "alts": ["Which of these composers was British?"] }
+    ],
+    "tf": [
+      { "s": "Gustav Holst composed The Planets.", "v": true },
+      { "s": "Henry Purcell was an organist at Westminster Abbey.", "v": true }
+    ] },
+  { "id": "d4-theatre", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["theatre"],
+    "explanation": "The Laurence Olivier Awards recognise achievement in London theatre, and the Edinburgh Festival includes the Fringe.",
+    "angles": [
+      { "q": "The Laurence Olivier Awards are given for excellence in what?", "a": "Theatre", "wrong": ["Film", "Music", "Sport"],
+        "alts": ["Which field do the Olivier Awards recognise?"] }
+    ],
+    "tf": [
+      { "s": "The Edinburgh Festival takes place every summer.", "v": true },
+      { "s": "Pantomime is traditionally performed at Christmas.", "v": true }
+    ] },
+  { "id": "d4-literature-prizes", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "The Booker Prize is awarded annually for fiction, and the Turner Prize for contemporary art.",
+    "angles": [
+      { "q": "Which prize is awarded annually for the best novel?", "a": "The Booker Prize", "wrong": ["The Turner Prize", "The Mercury Prize", "The BAFTA"],
+        "alts": ["The leading UK award for fiction is which prize?"] }
+    ] },
+  { "id": "d4-british-authors", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "Famous British authors include Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell and Conan Doyle.",
+    "angles": [
+      { "q": "Which author wrote Great Expectations?", "a": "Charles Dickens", "pool": "writers",
+        "alts": ["Great Expectations was written by whom?"] },
+      { "q": "Which author wrote Nineteen Eighty-Four?", "a": "George Orwell", "pool": "writers",
+        "alts": ["Nineteen Eighty-Four is the work of which writer?"] }
+    ],
+    "multi": [
+      { "q": "Which TWO of these were written by Jane Austen?", "a": ["Pride and Prejudice", "Sense and Sensibility"], "wrong": ["Jane Eyre", "Wuthering Heights"] }
+    ] },
+  { "id": "d4-poets", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+    "explanation": "Robert Burns is the national poet of Scotland, and Dylan Thomas was a Welsh poet. William Wordsworth was one of the Romantic poets.",
+    "angles": [
+      { "q": "Who is known as the national poet of Scotland?", "a": "Robert Burns", "pool": "writers",
+        "alts": ["Scotland's national poet is who?", "Which poet is celebrated each 25 January in Scotland?"] }
+    ],
+    "tf": [
+      { "s": "Auld Lang Syne was written by Robert Burns.", "v": true },
+      { "s": "Poets' Corner is in Westminster Abbey.", "v": true }
+    ] },
+  { "id": "d4-architecture-list", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["architecture"],
+    "explanation": "Notable British architects include Sir Christopher Wren, Robert Adam, John Nash, Sir Charles Barry and Sir Norman Foster.",
+    "angles": [
+      { "q": "Who designed the Houses of Parliament?", "a": "Sir Charles Barry", "pool": "architects",
+        "alts": ["The Houses of Parliament were designed by which architect?"] }
+    ],
+    "tf": [
+      { "s": "Sir Christopher Wren rebuilt St Paul's Cathedral after the Great Fire.", "v": true },
+      { "s": "John Nash designed Buckingham Palace.", "v": true }
+    ] },
+  { "id": "d4-film", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["film"],
+    "explanation": "British cinema includes Ealing comedies, the films of Sir Alfred Hitchcock and Sir Charlie Chaplin, and the James Bond series.",
+    "angles": [
+      { "q": "Which British director is famous for films including Psycho and The Birds?", "a": "Sir Alfred Hitchcock", "wrong": ["Sir Charlie Chaplin", "David Lean", "Ridley Scott"],
+        "alts": ["Psycho and The Birds were directed by whom?"] }
+    ],
+    "tf": [
+      { "s": "Sir Charlie Chaplin became famous in silent films.", "v": true },
+      { "s": "The James Bond films are based on novels by Ian Fleming.", "v": true }
+    ] },
+  { "id": "d4-tv-radio", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["television"],
+    "explanation": "A television licence is required for each household that watches or records live TV, and it funds the BBC.",
+    "angles": [
+      { "q": "What funds the BBC?", "a": "The television licence fee", "wrong": ["Advertising revenue", "A government grant", "Subscriptions"],
+        "alts": ["The BBC's main source of income is what?"] }
+    ],
+    "tf": [
+      { "s": "It is a criminal offence to watch live television without a licence.", "v": true },
+      { "s": "The BBC is independent of government.", "v": true }
+    ] },
+  { "id": "d4-leisure-life", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["leisure"],
+    "explanation": "Popular pastimes in the UK include gardening, shopping, cooking, sport and going to the pub.",
+    "angles": [
+      { "q": "What is an allotment used for?", "a": "Growing vegetables and flowers", "wrong": ["Parking cars", "Keeping livestock only", "Playing sport"],
+        "alts": ["People rent allotments in order to do what?"] }
+    ],
+    "tf": [
+      { "s": "You normally have to be 18 to buy alcohol in a UK pub.", "v": true },
+      { "s": "Gardening is a popular pastime in the UK.", "v": true }
+    ] },
+  { "id": "d4-landmarks-more", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+    "explanation": "UK landmarks include Big Ben, the Tower of London, Edinburgh Castle, the Giant's Causeway, Snowdonia and the Eden Project.",
+    "angles": [
+      { "q": "Where is Edinburgh Castle?", "a": "Scotland", "pool": "uk-countries",
+        "alts": ["Edinburgh Castle stands in which country of the UK?"] },
+      { "q": "In which country of the UK is Snowdonia National Park?", "a": "Wales", "pool": "uk-countries",
+        "alts": ["Snowdonia is found in which part of the UK?"] }
+    ],
+    "tf": [
+      { "s": "Big Ben is the nickname of the great bell at the Houses of Parliament.", "v": true },
+      { "s": "The Eden Project is in Cornwall.", "v": true },
+      { "s": "Loch Lomond is in Wales.", "v": false }
+    ] },
+  { "id": "d4-national-trust-more", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["heritage"],
+    "explanation": "The National Trust, founded in 1895, is a charity that preserves important buildings, coastline and countryside.",
+    "angles": [
+      { "q": "In which year was the National Trust founded?", "a": "1895", "wrong": ["1945", "1815", "1975"],
+        "alts": ["The National Trust was established in which year?"] }
+    ],
+    "tf": [
+      { "s": "The National Trust is one of the UK's largest charities.", "v": true }
+    ] }
+]

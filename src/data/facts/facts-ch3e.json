@@ -1,0 +1,187 @@
+[
+  { "id": "k3-prehistory", "chapter": 3, "section": "Early Britain", "difficulty": 2, "tags": ["stone-age"],
+    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago. The first farmers arrived about 6,000 years ago.",
+    "angles": [
+      { "q": "Roughly how long ago did Britain become separated from the continent?", "a": "About 10,000 years ago", "wrong": ["About 1,000 years ago", "About 500 years ago", "About 100,000 years ago"],
+        "alts": ["When did the Channel finally separate Britain from Europe?"] }
+    ],
+    "tf": [
+      { "s": "Britain was once connected to the continent by a land bridge.", "v": true },
+      { "s": "Skara Brae in Orkney is a prehistoric village.", "v": true },
+      { "s": "Stonehenge was built by the Romans.", "v": false },
+      { "s": "Iron Age people built hill forts such as Maiden Castle.", "v": true },
+      { "s": "The first coins minted in Britain date from the Iron Age.", "v": true }
+    ] },
+  { "id": "k3-roman-legacy", "chapter": 3, "section": "The Romans", "difficulty": 3, "tags": ["romans"],
+    "explanation": "Roman Britain lasted nearly 400 years. The Romans built roads and towns, introduced law, and Christianity spread during their rule.",
+    "angles": [
+      { "q": "Which of these was a lasting Roman legacy in Britain?", "a": "A network of roads", "wrong": ["The printing press", "Gothic cathedrals", "The steam engine"],
+        "alts": ["What did the Romans leave behind in Britain that is still visible today?"] }
+    ],
+    "tf": [
+      { "s": "Roman rule in Britain lasted nearly 400 years.", "v": true },
+      { "s": "Boudicca led a revolt against Roman rule.", "v": true },
+      { "s": "The Romans founded the city of London.", "v": true }
+    ] },
+  { "id": "k3-conversion", "chapter": 3, "section": "The Anglo-Saxons", "difficulty": 3, "tags": ["religion"],
+    "explanation": "Missionaries including St Augustine and St Columba spread Christianity in Britain during the Anglo-Saxon period.",
+    "angles": [
+      { "q": "Which missionary was sent from Rome to convert the Anglo-Saxons?", "a": "St Augustine", "pool": "saints",
+        "alts": ["Who led the Roman mission to convert southern England to Christianity?"] }
+    ],
+    "tf": [
+      { "s": "St Columba founded a monastery on the island of Iona.", "v": true },
+      { "s": "The Anglo-Saxon kingdoms were established by about AD 600.", "v": true }
+    ] },
+  { "id": "k3-viking-legacy", "chapter": 3, "section": "The Vikings", "difficulty": 3, "tags": ["vikings"],
+    "explanation": "The Vikings settled in the Danelaw in the north and east of England, leaving place names ending in -by and -thorpe.",
+    "angles": [
+      { "q": "Which of these place-name endings shows Viking settlement?", "a": "-by", "wrong": ["-chester", "-ton", "-ford"],
+        "alts": ["Viking settlement is reflected in place names ending how?"] }
+    ],
+    "tf": [
+      { "s": "King Cnut, a Danish king, ruled England in the 11th century.", "v": true },
+      { "s": "The Vikings first raided Britain in AD 789.", "v": true }
+    ] },
+  { "id": "k3-norman-effect", "chapter": 3, "section": "The Norman Conquest", "difficulty": 3, "tags": ["normans"],
+    "explanation": "After 1066 the Normans built castles, compiled the Domesday Book and introduced Norman French, which shaped the English language.",
+    "angles": [
+      { "q": "Which language did the Normans bring to England?", "a": "Norman French", "pool": "languages",
+        "alts": ["The Norman rulers of England spoke which language?"] }
+    ],
+    "tf": [
+      { "s": "The Normans built castles across England and Wales.", "v": true },
+      { "s": "By 1400 English had become the language of the royal court.", "v": true }
+    ] },
+  { "id": "k3-medieval-life", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["middle-ages"],
+    "explanation": "In the Middle Ages, Parliament began to develop, the wool trade was important, and the Black Death changed society.",
+    "angles": [
+      { "q": "Which trade was especially important to medieval England?", "a": "The wool trade", "wrong": ["The cotton trade", "The coal trade", "The tea trade"],
+        "alts": ["English exports in the Middle Ages were dominated by which product?"] }
+    ],
+    "tf": [
+      { "s": "The medieval House of Lords included nobles and bishops.", "v": true },
+      { "s": "Knights and wealthy townspeople sat in the medieval House of Commons.", "v": true },
+      { "s": "William Caxton set up the first printing press in England.", "v": true },
+      { "s": "The Statute of Rhuddlan annexed Scotland to England.", "v": false }
+    ] },
+  { "id": "k3-wars-france", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["hundred-years-war"],
+    "explanation": "The Hundred Years War against France lasted 116 years and included English victories at Crecy and Agincourt.",
+    "angles": [
+      { "q": "Which English king won at Agincourt in 1415?", "a": "Henry V", "pool": "monarchs",
+        "alts": ["Agincourt was a victory for which English king?"] }
+    ],
+    "tf": [
+      { "s": "Calais was the last English possession in France.", "v": true },
+      { "s": "The Hundred Years War ended in 1453.", "v": true }
+    ] },
+  { "id": "k3-tudor-monarchs", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors"],
+    "explanation": "The Tudor monarchs were Henry VII, Henry VIII, Edward VI, Mary I and Elizabeth I.",
+    "angles": [
+      { "q": "Who succeeded Henry VIII on the throne?", "a": "Edward VI", "pool": "monarchs",
+        "alts": ["Which monarch came to the throne after Henry VIII?"] }
+    ],
+    "tf": [
+      { "s": "Elizabeth I was the last Tudor monarch.", "v": true },
+      { "s": "The Book of Common Prayer was introduced under Edward VI.", "v": true },
+      { "s": "Henry VIII closed the monasteries and took their wealth.", "v": true },
+      { "s": "Mary, Queen of Scots was executed in England.", "v": true }
+    ] },
+  { "id": "k3-stuart-events", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["stuarts"],
+    "explanation": "Stuart events include the Gunpowder Plot of 1605, the Civil War, the Commonwealth, the Restoration, the Great Plague and Fire, and the Glorious Revolution.",
+    "angles": [
+      { "q": "Which plot of 1605 aimed to blow up Parliament?", "a": "The Gunpowder Plot", "wrong": ["The Rye House Plot", "The Popish Plot", "The Jacobite Rising"],
+        "alts": ["Guy Fawkes was involved in which plot?"] }
+    ],
+    "tf": [
+      { "s": "The Habeas Corpus Act of 1679 protected against unlawful imprisonment.", "v": true },
+      { "s": "The Royal Society is the oldest surviving scientific society in the world.", "v": true },
+      { "s": "The Pilgrim Fathers sailed to America on the Mayflower.", "v": true },
+      { "s": "Charles I believed in the divine right of kings.", "v": true }
+    ] },
+  { "id": "k3-georgian-events", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["georgian"],
+    "explanation": "Georgian Britain saw the Act of Union of 1707, the rise of the office of Prime Minister, the Jacobite risings and the Industrial Revolution.",
+    "angles": [
+      { "q": "Which German ruler became King George I in 1714?", "a": "The Elector of Hanover", "wrong": ["The King of Prussia", "The Duke of Saxony", "The Prince of Orange"],
+        "alts": ["George I came to the British throne from which German state?"] }
+    ],
+    "tf": [
+      { "s": "George I spoke little English and relied on his ministers.", "v": true },
+      { "s": "The Highland Clearances forced many Scots to emigrate.", "v": true },
+      { "s": "Adam Smith and David Hume were figures of the Scottish Enlightenment.", "v": true },
+      { "s": "Ireland was formally united with Great Britain in 1801.", "v": true }
+    ] },
+  { "id": "k3-victorian-events", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["victorian"],
+    "explanation": "The Victorian era saw the growth of the Empire, the Crimean War, the Great Exhibition, and social and political reform.",
+    "angles": [
+      { "q": "Which medal for bravery was introduced during the Crimean War?", "a": "The Victoria Cross", "wrong": ["The George Cross", "The Distinguished Service Order", "The Order of the Garter"],
+        "alts": ["The Crimean War saw the creation of which award for outstanding bravery?"] }
+    ],
+    "tf": [
+      { "s": "In the Crimean War Britain fought alongside Turkey and France against Russia.", "v": true },
+      { "s": "Rudyard Kipling won the Nobel Prize in Literature.", "v": true },
+      { "s": "Trade unions grew during the 19th century to improve pay and conditions.", "v": true },
+      { "s": "The Boer War was fought in South Africa.", "v": true },
+      { "s": "Isambard Kingdom Brunel built the Great Western Railway.", "v": true }
+    ] },
+  { "id": "k3-20c-events", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["20th-century"],
+    "explanation": "The 20th century brought two world wars, votes for women, the welfare state, decolonisation and devolution.",
+    "angles": [
+      { "q": "Whose 1942 report set out the plans for the welfare state?", "a": "William Beveridge", "wrong": ["Clement Attlee", "Aneurin Bevan", "Winston Churchill"],
+        "alts": ["The blueprint for the welfare state was written by whom?"] },
+      { "q": "Which minister led the creation of the NHS?", "a": "Aneurin Bevan", "wrong": ["William Beveridge", "Clement Attlee", "Winston Churchill"],
+        "alts": ["Who was Minister for Health when the NHS was founded?"] }
+    ],
+    "tf": [
+      { "s": "India and Pakistan became independent in 1947.", "v": true },
+      { "s": "Ireland was partitioned in 1921.", "v": true },
+      { "s": "The UK went to war over the Falkland Islands in 1982.", "v": true },
+      { "s": "The Troubles refers to conflict in Northern Ireland from the late 1960s.", "v": true },
+      { "s": "The UK was a founding member of NATO in 1949.", "v": true }
+    ] },
+  { "id": "k3-science-list", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["inventions"],
+    "explanation": "British scientific achievements include the discovery of penicillin, the structure of DNA, radar, the jet engine, IVF and the World Wide Web.",
+    "angles": [
+      { "q": "Who discovered the structure of DNA at Cambridge?", "a": "Crick and Watson", "wrong": ["Fleming and Florey", "Turing and Babbage", "Darwin and Wallace"],
+        "alts": ["The double helix structure of DNA was discovered by whom?"] }
+    ],
+    "tf": [
+      { "s": "Sir Robert Watson-Watt developed radar.", "v": true },
+      { "s": "Sir Christopher Cockerell invented the hovercraft.", "v": true },
+      { "s": "The Harrier jump jet can take off vertically.", "v": true },
+      { "s": "Sir Frank Whittle developed the jet engine.", "v": true }
+    ] },
+  { "id": "k3-earlier-science", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["science"],
+    "explanation": "Earlier British scientists include Sir Isaac Newton, Edward Jenner, Michael Faraday and Charles Darwin.",
+    "angles": [
+      { "q": "Who developed a vaccination against smallpox?", "a": "Edward Jenner", "pool": "scientists",
+        "alts": ["The smallpox vaccine was developed by which British doctor?"] },
+      { "q": "Who developed the theory of evolution by natural selection?", "a": "Charles Darwin", "pool": "scientists",
+        "alts": ["On the Origin of Species was written by whom?"] }
+    ],
+    "tf": [
+      { "s": "Sir Isaac Newton studied gravity and the laws of motion.", "v": true },
+      { "s": "Charles Darwin published On the Origin of Species in 1859.", "v": true }
+    ] },
+  { "id": "k3-21c", "chapter": 3, "section": "The 21st century", "difficulty": 2, "tags": ["21st-century"],
+    "explanation": "In the 21st century the UK hosted the 2012 Olympics, held the Scottish independence referendum in 2014, and left the EU in 2020.",
+    "angles": [
+      { "q": "Which of these took place in the 21st century?", "a": "The UK's departure from the European Union", "wrong": ["The founding of the NHS", "The Battle of Britain", "The Great Exhibition"],
+        "alts": ["Which of these is a 21st-century event in the UK?"] }
+    ],
+    "tf": [
+      { "s": "London hosted the Olympic and Paralympic Games in 2012.", "v": true },
+      { "s": "Theresa May became Prime Minister in 2016.", "v": true },
+      { "s": "Boris Johnson became Prime Minister in 2019.", "v": true }
+    ] },
+  { "id": "k3-suffrage-story", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["suffrage"],
+    "explanation": "The suffragettes campaigned for votes for women. Some women won the vote in 1918 and equal voting rights followed in 1928.",
+    "angles": [
+      { "q": "Who founded the Women's Social and Political Union?", "a": "Emmeline Pankhurst", "wrong": ["Florence Nightingale", "Mary Seacole", "Millicent Fawcett"],
+        "alts": ["The suffragette movement was led by whom?"] }
+    ],
+    "tf": [
+      { "s": "Women over 30 were first given the vote in 1918.", "v": true },
+      { "s": "Women had the same voting rights as men before the First World War.", "v": false }
+    ] }
+]

@@ -1,0 +1,1572 @@
+[
+  {
+    "id": "c2-001",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ],
+    "question": "How many countries make up the United Kingdom?",
+    "options": [
+      "Four",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland."
+  },
+  {
+    "id": "c2-002",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ],
+    "question": "Which of these is NOT part of the United Kingdom?",
+    "options": [
+      "The Republic of Ireland",
+      "Northern Ireland",
+      "Scotland",
+      "Wales"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Republic of Ireland is an independent country. Northern Ireland, Scotland, Wales and England make up the UK."
+  },
+  {
+    "id": "c2-003",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
+    "question": "What term describes England, Scotland and Wales together?",
+    "options": [
+      "Great Britain",
+      "The British Isles",
+      "The United Kingdom",
+      "The Commonwealth"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Great Britain refers to England, Scotland and Wales only. It does not include Northern Ireland."
+  },
+  {
+    "id": "c2-004",
+    "type": "boolean",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography",
+      "crown-dependencies"
+    ],
+    "question": "Is the statement below TRUE or FALSE? The Channel Islands and the Isle of Man are part of the UK.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Channel Islands and the Isle of Man are Crown dependencies. They are not part of the UK and have their own governments."
+  },
+  {
+    "id": "c2-005",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
+    "question": "Which country of the UK shares a land border with the Republic of Ireland?",
+    "options": [
+      "Northern Ireland",
+      "Scotland",
+      "Wales",
+      "England"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Northern Ireland is the only part of the UK with a land border with another country, the Republic of Ireland."
+  },
+  {
+    "id": "c2-006",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "parliament"
+    ],
+    "question": "Where is the UK Parliament located?",
+    "options": [
+      "London",
+      "Edinburgh",
+      "Cardiff",
+      "Belfast"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK Parliament sits in London, which is the capital of the UK."
+  },
+  {
+    "id": "c2-007",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "crown-dependencies",
+      "territories"
+    ],
+    "question": "Which of these is a British overseas territory?",
+    "options": [
+      "The Falkland Islands",
+      "The Isle of Man",
+      "Jersey",
+      "Guernsey"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Falkland Islands and St Helena are British overseas territories. Jersey, Guernsey and the Isle of Man are Crown dependencies."
+  },
+  {
+    "id": "c2-008",
+    "type": "boolean",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ],
+    "question": "Is the statement below TRUE or FALSE? The UK is governed by the Parliament sitting in Westminster.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is governed by the Parliament at Westminster, although Scotland, Wales and Northern Ireland also have devolved administrations."
+  },
+  {
+    "id": "c2-009",
+    "type": "multi",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
+    "question": "Which TWO of these countries are part of Great Britain?",
+    "options": [
+      "Scotland",
+      "Wales",
+      "Northern Ireland",
+      "The Republic of Ireland"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Great Britain is England, Scotland and Wales. Northern Ireland is part of the UK but not of Great Britain."
+  },
+  {
+    "id": "c2-010",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "crown-dependencies"
+    ],
+    "question": "Crown dependencies such as Jersey are linked to the UK but are not part of it. Who are they closely linked to?",
+    "options": [
+      "The Crown",
+      "The European Union",
+      "The Commonwealth Secretariat",
+      "The Republic of Ireland"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Crown dependencies are linked to the Crown but are self-governing and are not part of the UK."
+  },
+  {
+    "id": "c2-011",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
+    "question": "Which of these is the capital city of Wales?",
+    "options": [
+      "Cardiff",
+      "Swansea",
+      "Newport",
+      "Bangor"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Cardiff is the capital of Wales. Edinburgh is the capital of Scotland and Belfast the capital of Northern Ireland."
+  },
+  {
+    "id": "c2-012",
+    "type": "boolean",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
+    "question": "Is the statement below TRUE or FALSE? Great Britain and the United Kingdom mean exactly the same thing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Great Britain refers only to England, Scotland and Wales. The UK also includes Northern Ireland."
+  },
+  {
+    "id": "c2-013",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography",
+      "capitals"
+    ],
+    "question": "What is the capital city of the UK?",
+    "options": [
+      "London",
+      "Edinburgh",
+      "Birmingham",
+      "Manchester"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "London is the capital of the UK. Edinburgh, Cardiff and Belfast are the capitals of Scotland, Wales and Northern Ireland."
+  },
+  {
+    "id": "c2-014",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography",
+      "capitals"
+    ],
+    "question": "What is the capital city of Northern Ireland?",
+    "options": [
+      "Belfast",
+      "Londonderry",
+      "Dublin",
+      "Armagh"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Belfast is the capital of Northern Ireland and the seat of the Northern Ireland Assembly at Stormont."
+  },
+  {
+    "id": "c2-015",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "currency"
+    ],
+    "question": "What is the currency of the UK?",
+    "options": [
+      "The pound sterling",
+      "The euro",
+      "The dollar",
+      "The crown"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The currency of the UK is the pound sterling, with the symbol £. There are 100 pence in a pound."
+  },
+  {
+    "id": "c2-016",
+    "type": "boolean",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "currency"
+    ],
+    "question": "Is the statement below TRUE or FALSE? Scotland and Northern Ireland can issue their own banknotes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Scotland and Northern Ireland have their own banknotes, which are valid everywhere in the UK, though shops elsewhere may not always accept them."
+  },
+  {
+    "id": "c2-017",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag",
+      "union-jack"
+    ],
+    "question": "The Union Flag is made up of the crosses of which three saints?",
+    "options": [
+      "St George, St Andrew and St Patrick",
+      "St George, St David and St Andrew",
+      "St David, St Patrick and St Andrew",
+      "St George, St David and St Patrick"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Union Flag combines the crosses of St George (England), St Andrew (Scotland) and St Patrick (Ireland)."
+  },
+  {
+    "id": "c2-018",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag",
+      "wales"
+    ],
+    "question": "Which country of the UK is not represented on the Union Flag?",
+    "options": [
+      "Wales",
+      "Scotland",
+      "England",
+      "Northern Ireland"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Wales is not represented on the Union Flag because it was already united with England when the flag was first designed."
+  },
+  {
+    "id": "c2-019",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag",
+      "wales"
+    ],
+    "question": "What appears on the flag of Wales?",
+    "options": [
+      "A red dragon",
+      "A white cross",
+      "A gold harp",
+      "A blue saltire"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The flag of Wales shows a red dragon on a green and white background."
+  },
+  {
+    "id": "c2-020",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages",
+      "welsh"
+    ],
+    "question": "In which part of the UK is Welsh an official language taught in schools?",
+    "options": [
+      "Wales",
+      "Scotland",
+      "Northern Ireland",
+      "Cornwall"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Welsh is spoken in Wales, is taught in schools there, and is used on road signs and official documents alongside English."
+  },
+  {
+    "id": "c2-021",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages",
+      "gaelic"
+    ],
+    "question": "Gaelic is a language spoken in which part of the UK?",
+    "options": [
+      "Scotland",
+      "Wales",
+      "England",
+      "The Channel Islands"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Gaelic is spoken in parts of Scotland, particularly the Highlands and Islands. Irish Gaelic and Ulster Scots are spoken in Northern Ireland."
+  },
+  {
+    "id": "c2-022",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages",
+      "northern-ireland"
+    ],
+    "question": "Which of these languages is spoken in Northern Ireland?",
+    "options": [
+      "Ulster Scots",
+      "Cornish",
+      "Manx",
+      "Welsh"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Irish Gaelic and Ulster Scots are both spoken in Northern Ireland alongside English."
+  },
+  {
+    "id": "c2-023",
+    "type": "multi",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "crown-dependencies"
+    ],
+    "question": "Which TWO of these are Crown dependencies?",
+    "options": [
+      "The Isle of Man",
+      "The Channel Islands",
+      "The Falkland Islands",
+      "St Helena"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "The Isle of Man and the Channel Islands are Crown dependencies. The Falkland Islands and St Helena are British overseas territories."
+  },
+  {
+    "id": "c2-024",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "geography",
+      "distance"
+    ],
+    "question": "Which two places mark the traditional end-to-end journey across mainland Britain?",
+    "options": [
+      "John O'Groats and Land's End",
+      "Dover and Holyhead",
+      "Edinburgh and Cardiff",
+      "Belfast and Brighton"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The journey from John O'Groats in the north of Scotland to Land's End in the south-west of England is about 870 miles."
+  },
+  {
+    "id": "c2-025",
+    "type": "boolean",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
+    "question": "Is the statement below TRUE or FALSE? Northern Ireland has its own devolved government as well as being part of the UK.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Northern Ireland is part of the UK and is governed from Westminster, but also has a devolved Assembly with powers over many domestic matters."
+  },
+  {
+    "id": "c2-026",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "geography",
+      "cities"
+    ],
+    "question": "Which of these is a city in Scotland?",
+    "options": [
+      "Glasgow",
+      "Cardiff",
+      "Leeds",
+      "Belfast"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Glasgow is Scotland's largest city. Other major Scottish cities include Edinburgh, Aberdeen and Dundee."
+  },
+  {
+    "id": "c2-027",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "geography",
+      "cities"
+    ],
+    "question": "Which of these is a city in Wales?",
+    "options": [
+      "Swansea",
+      "Liverpool",
+      "Aberdeen",
+      "Coventry"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Swansea is a city in Wales, along with Cardiff and Newport."
+  },
+  {
+    "id": "c2-028",
+    "type": "single",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "geography",
+      "cities"
+    ],
+    "question": "Which of these is a city in Northern Ireland?",
+    "options": [
+      "Londonderry",
+      "Dundee",
+      "Bangor in Wales",
+      "Norwich"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Londonderry, also known as Derry, is a city in Northern Ireland, as is the capital Belfast."
+  },
+  {
+    "id": "c2-029",
+    "type": "single",
+    "question": "Which country is part of the UK but not part of Great Britain?",
+    "options": [
+      "Wales",
+      "Scotland",
+      "England",
+      "Northern Ireland"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland. Great Britain refers only to England, Scotland and Wales.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-030",
+    "type": "single",
+    "question": "What do the letters UK stand for?",
+    "options": [
+      "The United Kingdom of Great Britain and Northern Ireland",
+      "The Union of Kingdoms",
+      "The United Kingdom of England and Wales",
+      "The United Kingdom of Great Britain and Ireland"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland. Great Britain refers only to England, Scotland and Wales.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-031",
+    "type": "single",
+    "question": "What is the capital city of Scotland?",
+    "options": [
+      "London",
+      "Edinburgh",
+      "Belfast",
+      "Cardiff"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The capital of the UK is London. Edinburgh is the capital of Scotland, Cardiff of Wales and Belfast of Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography",
+      "capitals"
+    ]
+  },
+  {
+    "id": "c2-032",
+    "type": "single",
+    "question": "Of which country is Cardiff the capital?",
+    "options": [
+      "Northern Ireland",
+      "England",
+      "Wales",
+      "Scotland"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The capital of the UK is London. Edinburgh is the capital of Scotland, Cardiff of Wales and Belfast of Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography",
+      "capitals"
+    ]
+  },
+  {
+    "id": "c2-033",
+    "type": "single",
+    "question": "How many pence are there in a pound?",
+    "options": [
+      "18",
+      "100",
+      "90",
+      "129"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The currency of the UK is the pound sterling, with the symbol £. There are 100 pence in a pound.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "c2-035",
+    "type": "single",
+    "question": "By what other name is the Union Flag commonly known?",
+    "options": [
+      "The British Ensign",
+      "The Union Jack",
+      "The Royal Standard",
+      "The King's Colours"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Union Flag, often called the Union Jack, combines the crosses of St George, St Andrew and St Patrick. Wales is not represented.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag"
+    ]
+  },
+  {
+    "id": "c2-036",
+    "type": "single",
+    "question": "Are the Channel Islands part of the UK?",
+    "options": [
+      "No, they are Crown dependencies",
+      "No, they are part of France",
+      "Yes, they are part of England",
+      "Yes, they are a fifth country of the UK"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Channel Islands and the Isle of Man are Crown dependencies. They are not part of the UK and have their own governments.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "crown-dependencies"
+    ]
+  },
+  {
+    "id": "c2-037",
+    "type": "single",
+    "question": "What symbol is used for the pound sterling?",
+    "options": [
+      "€",
+      "£",
+      "¥",
+      "$"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The currency of the UK is the pound sterling, with the symbol £. There are 100 pence in a pound.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "c2-038",
+    "type": "single",
+    "question": "Which of these is one of the four countries of the UK?",
+    "options": [
+      "Jersey",
+      "Wales",
+      "The Republic of Ireland",
+      "The Isle of Man"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-039",
+    "type": "single",
+    "question": "Which three countries make up Great Britain?",
+    "options": [
+      "England, Scotland and Wales",
+      "England, Scotland and Ireland",
+      "England, Wales and Northern Ireland",
+      "Scotland, Wales and Northern Ireland"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Great Britain refers to England, Scotland and Wales. The UK also includes Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-040",
+    "type": "single",
+    "question": "Of which country is Edinburgh the capital?",
+    "options": [
+      "Northern Ireland",
+      "Scotland",
+      "England",
+      "Wales"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Edinburgh is the capital of Scotland, and the Scottish Parliament sits there at Holyrood.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "capitals"
+    ]
+  },
+  {
+    "id": "c2-041",
+    "type": "single",
+    "question": "What is the capital city of Wales?",
+    "options": [
+      "Belfast",
+      "Edinburgh",
+      "London",
+      "Cardiff"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Cardiff is the capital of Wales and the home of the Welsh Parliament, the Senedd.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "capitals"
+    ]
+  },
+  {
+    "id": "c2-042",
+    "type": "single",
+    "question": "What is the currency of the UK called?",
+    "options": [
+      "The euro",
+      "The crown",
+      "The British dollar",
+      "The pound sterling"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The currency of the UK is the pound sterling. There are 100 pence in a pound.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "c2-043",
+    "type": "single",
+    "question": "Which parts of the UK issue their own banknotes?",
+    "options": [
+      "The Channel Islands",
+      "Scotland and Northern Ireland",
+      "Wales only",
+      "England and Wales"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Scotland and Northern Ireland issue their own banknotes, which are valid throughout the UK though shops elsewhere may not accept them.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "c2-044",
+    "type": "single",
+    "question": "Whose cross on the Union Flag represents Scotland?",
+    "options": [
+      "St David",
+      "St Andrew",
+      "St George",
+      "St Columba"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Union Flag combines the crosses of St George, St Andrew and St Patrick. Wales is not represented on it.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag"
+    ]
+  },
+  {
+    "id": "c2-045",
+    "type": "single",
+    "question": "Whose cross on the Union Flag represents England?",
+    "options": [
+      "St Andrew",
+      "St David",
+      "St George",
+      "St Columba"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The Union Flag combines the crosses of St George, St Andrew and St Patrick. Wales is not represented on it.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag"
+    ]
+  },
+  {
+    "id": "c2-046",
+    "type": "single",
+    "question": "Which creature appears on the flag of Wales?",
+    "options": [
+      "A red dragon",
+      "A white horse",
+      "A golden lion",
+      "A black eagle"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The flag of Wales shows a red dragon. Wales is not represented on the Union Flag because it was already united with England.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag"
+    ]
+  },
+  {
+    "id": "c2-047",
+    "type": "single",
+    "question": "In which part of Scotland is Gaelic most spoken?",
+    "options": [
+      "Fife",
+      "Glasgow city centre",
+      "The Borders",
+      "The Highlands and Islands"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Gaelic is spoken in parts of Scotland, particularly the Highlands and Islands.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages"
+    ]
+  },
+  {
+    "id": "c2-048",
+    "type": "single",
+    "question": "Where in Wales would you see the Welsh language used officially?",
+    "options": [
+      "Only in private homes",
+      "Only in churches",
+      "On road signs and official documents",
+      "Only in museums"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Welsh is taught in schools in Wales and is used on road signs and official documents alongside English.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages"
+    ]
+  },
+  {
+    "id": "c2-049",
+    "type": "single",
+    "question": "The Isle of Man has what relationship to the UK?",
+    "options": [
+      "It is a British overseas territory",
+      "It is a county of England",
+      "It is a Crown dependency, not part of the UK",
+      "It is a fifth country of the UK"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The Isle of Man and the Channel Islands are Crown dependencies with their own governments, and are not part of the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "crown-dependencies"
+    ]
+  },
+  {
+    "id": "c2-050",
+    "type": "single",
+    "question": "With which country does Northern Ireland share a land border?",
+    "options": [
+      "Scotland",
+      "Wales",
+      "The Republic of Ireland",
+      "France"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Northern Ireland is the only part of the UK with a land border with another country, the Republic of Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-051",
+    "type": "single",
+    "question": "In which part of London does the UK Parliament sit?",
+    "options": [
+      "Whitehall",
+      "Greenwich",
+      "Kensington",
+      "Westminster"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The UK Parliament sits at Westminster in London and governs the whole of the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "parliament"
+    ]
+  },
+  {
+    "id": "c2-052",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? The UK is made up of four countries.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-053",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Great Britain includes Northern Ireland.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-054",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? The Isle of Man is a Crown dependency, not part of the UK.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-055",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Cardiff is the capital of Wales.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-056",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? The currency of the UK is the euro.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-057",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Wales is represented on the Union Flag.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-058",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Northern Ireland shares a land border with the Republic of Ireland.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-059",
+    "type": "multi",
+    "question": "Which TWO of these are countries of the UK?",
+    "options": [
+      "The Republic of Ireland",
+      "The Isle of Man",
+      "Northern Ireland",
+      "Scotland"
+    ],
+    "correct": [
+      2,
+      3
+    ],
+    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-060",
+    "type": "single",
+    "question": "How many countries make up the UK?",
+    "options": [
+      "Four",
+      "Six",
+      "Twelve",
+      "Seven"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-061",
+    "type": "single",
+    "question": "The United Kingdom consists of how many countries?",
+    "options": [
+      "Twelve",
+      "Four",
+      "Three",
+      "Eight"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-062",
+    "type": "single",
+    "question": "How many nations are there in the UK?",
+    "options": [
+      "Two",
+      "Four",
+      "Ten",
+      "Fifteen"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-063",
+    "type": "multi",
+    "question": "Which TWO of these are capital cities in the UK?",
+    "options": [
+      "Dublin",
+      "Belfast",
+      "Edinburgh",
+      "Glasgow"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Crown dependencies and overseas territories are not part of the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-064",
+    "type": "multi",
+    "question": "Which TWO are British overseas territories?",
+    "options": [
+      "Jersey",
+      "St Helena",
+      "The Falkland Islands",
+      "The Isle of Man"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Crown dependencies and overseas territories are not part of the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-065",
+    "type": "multi",
+    "question": "Which TWO languages other than English are spoken in the UK?",
+    "options": [
+      "Welsh",
+      "Norman French",
+      "Gaelic",
+      "Latin"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Crown dependencies and overseas territories are not part of the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-066",
+    "type": "multi",
+    "question": "Which TWO crosses appear on the Union Flag?",
+    "options": [
+      "The cross of St David",
+      "The cross of St Andrew",
+      "The cross of St George",
+      "The Welsh dragon"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Crown dependencies and overseas territories are not part of the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-067",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? The UK is governed by the Parliament at Westminster.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is the United Kingdom of Great Britain and Northern Ireland. Great Britain is England, Scotland and Wales.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-068",
+    "type": "boolean",
+    "question": "Is the statement below TRUE or FALSE? Scotland, Wales and Northern Ireland also have devolved administrations.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The UK is the United Kingdom of Great Britain and Northern Ireland. Great Britain is England, Scotland and Wales.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-069",
+    "type": "single",
+    "question": "Which country is part of Great Britain but not a separate island?",
+    "options": [
+      "Scotland",
+      "England",
+      "Northern Ireland",
+      "Wales"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The UK is the United Kingdom of Great Britain and Northern Ireland. Great Britain is England, Scotland and Wales.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-070",
+    "type": "single",
+    "question": "Which of these countries shares the island of Great Britain with England and Scotland?",
+    "options": [
+      "England",
+      "Wales",
+      "Scotland",
+      "Northern Ireland"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The UK is the United Kingdom of Great Britain and Northern Ireland. Great Britain is England, Scotland and Wales.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "id": "c2-071",
+    "type": "single",
+    "question": "Banknotes issued in Scotland are valid where?",
+    "options": [
+      "Only in Scotland",
+      "Throughout the UK",
+      "Nowhere outside Edinburgh",
+      "Only in Scotland and Wales"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The pound sterling is the UK currency. Scotland and Northern Ireland issue their own banknotes, valid throughout the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "c2-072",
+    "type": "single",
+    "question": "Where can Scottish banknotes legally be used?",
+    "options": [
+      "Only in Scotland and Wales",
+      "Nowhere outside Edinburgh",
+      "Only in Scotland",
+      "Throughout the UK"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The pound sterling is the UK currency. Scotland and Northern Ireland issue their own banknotes, valid throughout the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "c2-073",
+    "type": "single",
+    "question": "Which language is taught in schools throughout Wales?",
+    "options": [
+      "Gaelic",
+      "Welsh",
+      "English",
+      "Scots"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Welsh is spoken in Wales, Gaelic in parts of Scotland, and Irish Gaelic and Ulster Scots in Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages"
+    ]
+  },
+  {
+    "id": "c2-074",
+    "type": "single",
+    "question": "Alongside English, which language do Welsh schools teach?",
+    "options": [
+      "English",
+      "Latin",
+      "Scots",
+      "Welsh"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Welsh is spoken in Wales, Gaelic in parts of Scotland, and Irish Gaelic and Ulster Scots in Northern Ireland.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages"
+    ]
+  },
+  {
+    "id": "c2-075",
+    "type": "single",
+    "question": "Crown dependencies are linked to what?",
+    "options": [
+      "The Crown",
+      "The Republic of Ireland",
+      "The UK Parliament",
+      "The Commonwealth Secretariat"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Crown dependencies such as Jersey and the Isle of Man are self-governing and linked to the Crown, but are not part of the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "territories"
+    ]
+  },
+  {
+    "id": "c2-076",
+    "type": "single",
+    "question": "Jersey and the Isle of Man are closely linked to what?",
+    "options": [
+      "The UK Parliament",
+      "The Crown",
+      "The Republic of Ireland",
+      "The Commonwealth Secretariat"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Crown dependencies such as Jersey and the Isle of Man are self-governing and linked to the Crown, but are not part of the UK.",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "territories"
+    ]
+  }
+]

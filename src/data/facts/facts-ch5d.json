@@ -1,0 +1,205 @@
+[
+  { "id": "e5-monarch", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["monarchy"],
+    "explanation": "The UK is a constitutional monarchy. The monarch is Head of State with a ceremonial role and must remain politically neutral.",
+    "angles": [
+      { "q": "What kind of monarchy does the UK have?", "a": "A constitutional monarchy", "wrong": ["An absolute monarchy", "An elective monarchy", "A ceremonial republic"],
+        "alts": ["The UK system of government is described as what?", "How is the UK's monarchy described?"] }
+    ],
+    "tf": [
+      { "s": "The monarch opens a new session of Parliament each year.", "v": true },
+      { "s": "The monarch can refuse to sign any law passed by Parliament.", "v": false },
+      { "s": "The monarch may advise, warn and encourage ministers in private.", "v": true }
+    ] },
+  { "id": "e5-anthem", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["monarchy"],
+    "explanation": "The National Anthem of the UK is God Save the King, sung as God Save the Queen when the monarch is female.",
+    "angles": [
+      { "q": "What is the UK's National Anthem?", "a": "God Save the King", "wrong": ["Land of Hope and Glory", "Jerusalem", "Rule, Britannia!"],
+        "alts": ["Which song is the National Anthem of the UK?"] }
+    ] },
+  { "id": "e5-lords", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["lords"],
+    "explanation": "Members of the House of Lords are appointed, not elected. They include life peers, some hereditary peers and senior bishops.",
+    "angles": [
+      { "q": "How are most members of the House of Lords chosen?", "a": "They are appointed", "wrong": ["They are elected by the public", "They are chosen by local councils", "They all inherit their seats"],
+        "alts": ["Members of the House of Lords reach the chamber how?"] }
+    ],
+    "tf": [
+      { "s": "The House of Lords can delay a law passed by the Commons.", "v": true },
+      { "s": "The House of Lords can permanently block any law.", "v": false },
+      { "s": "Life peers cannot pass their title to their children.", "v": true }
+    ] },
+  { "id": "e5-elections", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["elections"],
+    "explanation": "A general election must be held at least every five years. If an MP dies or resigns, a by-election is held.",
+    "angles": [
+      { "q": "How often must a general election be held at the latest?", "a": "Every five years", "wrong": ["Every three years", "Every seven years", "Every year"],
+        "alts": ["What is the maximum period between UK general elections?", "General elections must take place at least how often?"] },
+      { "q": "What is held when an MP resigns between general elections?", "a": "A by-election", "wrong": ["A referendum", "A general election", "A recount"],
+        "alts": ["If a seat in the Commons becomes vacant, what takes place?"] }
+    ],
+    "tf": [
+      { "s": "Voting in UK elections is by secret ballot.", "v": true },
+      { "s": "You can apply for a postal vote if you cannot attend a polling station.", "v": true }
+    ] },
+  { "id": "e5-ministers", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["government"],
+    "explanation": "The Chancellor of the Exchequer runs the economy, the Home Secretary handles crime and immigration, and the Foreign Secretary manages relations abroad.",
+    "angles": [
+      { "q": "Which minister is responsible for the economy?", "a": "The Chancellor of the Exchequer", "pool": "ministers",
+        "alts": ["Who runs the UK economy in government?", "The Treasury is led by which minister?"] },
+      { "q": "Which minister is responsible for crime and policing?", "a": "The Home Secretary", "pool": "ministers",
+        "alts": ["Policing and immigration fall to which minister?"] },
+      { "q": "Which minister manages relations with other countries?", "a": "The Foreign Secretary", "pool": "ministers",
+        "alts": ["Who is responsible for the UK's foreign relations?"] }
+    ],
+    "multi": [
+      { "q": "Which TWO of these are senior government ministers?", "a": ["The Home Secretary", "The Chancellor of the Exchequer"], "wrong": ["The Speaker", "The Lord Mayor"] }
+    ] },
+  { "id": "e5-cabinet-more", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["government"],
+    "explanation": "The Cabinet is a committee of about 20 senior ministers appointed by the Prime Minister, meeting weekly to decide government policy.",
+    "angles": [
+      { "q": "About how many senior ministers sit in the Cabinet?", "a": "About 20", "wrong": ["About 5", "About 50", "About 100"],
+        "alts": ["The Cabinet is made up of roughly how many ministers?"] }
+    ],
+    "tf": [
+      { "s": "The Prime Minister chooses the members of the Cabinet.", "v": true },
+      { "s": "The Opposition leader appoints a shadow cabinet.", "v": true }
+    ] },
+  { "id": "e5-speaker-more", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["speaker"],
+    "explanation": "The Speaker chairs debates in the Commons, keeps order and is politically neutral, though still an MP for a constituency.",
+    "angles": [
+      { "q": "Who keeps order during debates in the House of Commons?", "a": "The Speaker", "pool": "ministers",
+        "alts": ["Debates in the Commons are chaired by whom?"] }
+    ],
+    "tf": [
+      { "s": "The Speaker is elected by other MPs in a secret ballot.", "v": true },
+      { "s": "The Speaker campaigns for their political party at elections.", "v": false }
+    ] },
+  { "id": "e5-devolved-powers", "chapter": 5, "section": "Devolved administrations", "difficulty": 3, "tags": ["devolution"],
+    "explanation": "Education, health, housing and social services are devolved. Defence, foreign affairs, immigration and national security are reserved to the UK government.",
+    "angles": [
+      { "q": "Which of these is a devolved matter?", "a": "Education", "wrong": ["Defence", "Immigration", "Foreign affairs"],
+        "alts": ["Which policy area is controlled by the devolved administrations?"] },
+      { "q": "Which of these remains with the UK government at Westminster?", "a": "Immigration", "wrong": ["Health", "Education", "Housing"],
+        "alts": ["Which matter is reserved to the UK Parliament rather than devolved?"] }
+    ],
+    "multi": [
+      { "q": "Which TWO of these are reserved to the UK government?", "a": ["Defence", "Foreign affairs"], "wrong": ["Health services", "Education"] }
+    ] },
+  { "id": "e5-assemblies", "chapter": 5, "section": "Devolved administrations", "difficulty": 3, "tags": ["devolution"],
+    "explanation": "Members of the Scottish Parliament are MSPs, and members of the Northern Ireland Assembly are MLAs.",
+    "angles": [
+      { "q": "Members of the Northern Ireland Assembly are called what?", "a": "MLAs", "wrong": ["MSPs", "MPs", "AMs"],
+        "alts": ["What abbreviation is used for members of the Northern Ireland Assembly?"] }
+    ],
+    "tf": [
+      { "s": "The Scottish Parliament has 129 members.", "v": true },
+      { "s": "The UK government can suspend the Northern Ireland Assembly.", "v": true }
+    ] },
+  { "id": "e5-courts-more", "chapter": 5, "section": "The law", "difficulty": 3, "tags": ["courts"],
+    "explanation": "County Courts deal with civil disputes, Crown Courts with serious crime, Magistrates' Courts with minor offences and Youth Courts with those aged 10 to 17.",
+    "angles": [
+      { "q": "Which court deals with civil disputes such as debt and breach of contract?", "a": "The County Court", "pool": "courts",
+        "alts": ["Debt and contract disputes are heard in which court?"] },
+      { "q": "Which court deals with defendants aged 10 to 17 in England and Wales?", "a": "The Youth Court", "pool": "courts",
+        "alts": ["Young people accused of crime appear in which court?"] }
+    ],
+    "tf": [
+      { "s": "The small claims procedure handles disputes over small sums of money.", "v": true },
+      { "s": "In Scotland, the Children's Hearings System deals with most young offenders.", "v": true }
+    ] },
+  { "id": "e5-judiciary", "chapter": 5, "section": "The law", "difficulty": 3, "tags": ["law"],
+    "explanation": "Judges interpret the law and ensure trials are fair. They are independent of government.",
+    "angles": [
+      { "q": "What is the collective term for judges in the UK?", "a": "The judiciary", "wrong": ["The executive", "The legislature", "The magistracy"],
+        "alts": ["Judges are collectively known as what?"] }
+    ],
+    "tf": [
+      { "s": "Judges in the UK are independent of the government.", "v": true },
+      { "s": "Judges decide whether the government has acted within the law.", "v": true }
+    ] },
+  { "id": "e5-police-more", "chapter": 5, "section": "The law", "difficulty": 2, "tags": ["police"],
+    "explanation": "The police protect life and property, prevent disturbances and detect crime. They must obey the law themselves.",
+    "angles": [
+      { "q": "What is the main duty of the police?", "a": "To protect life and property and prevent crime", "wrong": ["To make new laws", "To sentence offenders", "To collect taxes"],
+        "alts": ["The police in the UK are responsible for what?"] }
+    ],
+    "tf": [
+      { "s": "Complaints about the police can be made to an independent body.", "v": true },
+      { "s": "The police may be corrupt without consequence.", "v": false }
+    ] },
+  { "id": "e5-equality", "chapter": 5, "section": "Fundamental principles", "difficulty": 2, "tags": ["rights"],
+    "explanation": "Discrimination on grounds such as race, sex, religion, disability, age or sexual orientation is unlawful in the UK.",
+    "angles": [
+      { "q": "Which of these is unlawful in the UK?", "a": "Discriminating against someone because of their disability", "wrong": ["Requiring qualifications for a job", "Refusing service to a violent customer", "Charging all customers the same"],
+        "alts": ["Which of these actions breaks UK equality law?"] }
+    ],
+    "tf": [
+      { "s": "Domestic violence is a serious crime in the UK.", "v": true },
+      { "s": "Female genital mutilation is illegal in the UK.", "v": true },
+      { "s": "Forced marriage is a criminal offence in the UK.", "v": true },
+      { "s": "It is legal to take a girl abroad for female genital mutilation.", "v": false }
+    ] },
+  { "id": "e5-register", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["voting"],
+    "explanation": "To vote you must be on the electoral register, which is updated each year by an annual canvass carried out by local councils.",
+    "angles": [
+      { "q": "Who maintains the electoral register?", "a": "The local council", "wrong": ["The Home Office", "The police", "Parliament"],
+        "alts": ["Which body keeps the register of electors?"] }
+    ],
+    "tf": [
+      { "s": "The electoral register is updated each year.", "v": true }
+    ] },
+  { "id": "e5-mps-surgery", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["mps"],
+    "explanation": "MPs hold surgeries in their constituency so local people can discuss problems with them directly.",
+    "angles": [
+      { "q": "What is an MP's surgery?", "a": "A local meeting where constituents can raise problems", "wrong": ["A medical clinic for MPs", "A committee of Parliament", "A party fundraising event"],
+        "alts": ["Where can constituents meet their MP to discuss a problem?"] }
+    ],
+    "tf": [
+      { "s": "You can contact your MP by letter, email or telephone.", "v": true },
+      { "s": "Members of the public can watch debates in Parliament from the public gallery.", "v": true }
+    ] },
+  { "id": "e5-taxation", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["taxes"],
+    "explanation": "Income tax funds government services. Most employees pay through PAYE, while self-employed people complete a self-assessment tax return.",
+    "angles": [
+      { "q": "How do most employees pay income tax?", "a": "Through PAYE, deducted from wages", "wrong": ["By annual cash payment", "Through their local council", "They do not pay income tax"],
+        "alts": ["Income tax is normally collected from employees by which method?"] }
+    ],
+    "tf": [
+      { "s": "Self-employed people usually complete a self-assessment tax return.", "v": true },
+      { "s": "National Insurance contributions are paid by almost everyone who works.", "v": true }
+    ] },
+  { "id": "e5-driving-more", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["driving"],
+    "explanation": "You must be 17 to drive a car, hold a valid licence, and have insurance. Vehicles over three years old need an annual MOT.",
+    "angles": [
+      { "q": "What is the minimum age to drive a car in the UK?", "a": "17", "pool": "counts",
+        "alts": ["You must be at least how old to drive a car in the UK?"] }
+    ],
+    "tf": [
+      { "s": "Driving without valid insurance is a criminal offence.", "v": true },
+      { "s": "Vehicles over three years old must pass an annual MOT test.", "v": true }
+    ] },
+  { "id": "e5-community-roles", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["community"],
+    "explanation": "Ways of contributing include volunteering, becoming a school governor, helping at a local charity and looking after the environment.",
+    "angles": [
+      { "q": "In Scotland, what is the equivalent of a school governor?", "a": "A member of the parent council or school board", "wrong": ["A magistrate", "A councillor", "A trustee of the Crown"],
+        "alts": ["Parents in Scotland can serve on which school body?"] }
+    ],
+    "tf": [
+      { "s": "Volunteering is a way of taking part in community life.", "v": true },
+      { "s": "Recycling household waste helps protect the environment.", "v": true }
+    ] },
+  { "id": "e5-media", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["media"],
+    "explanation": "Newspapers may support a political party, but broadcasters must give balanced coverage of rival viewpoints, especially during elections.",
+    "angles": [
+      { "q": "Which of these must be politically balanced by law?", "a": "Television and radio broadcasters", "wrong": ["Newspapers", "Political party leaflets", "Personal blogs"],
+        "alts": ["Who is legally required to give balanced political coverage in the UK?"] }
+    ],
+    "tf": [
+      { "s": "UK newspapers are allowed to support a political party.", "v": true },
+      { "s": "Hansard is the official record of proceedings in Parliament.", "v": true }
+    ] },
+  { "id": "e5-pressure", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["parliament"],
+    "explanation": "Pressure and lobby groups try to influence government policy on particular issues and play an important part in public debate.",
+    "angles": [
+      { "q": "What do pressure groups try to do?", "a": "Influence government policy", "wrong": ["Elect the monarch", "Run the courts", "Collect taxes"],
+        "alts": ["The purpose of a lobby group is to do what?"] }
+    ] }
+]
