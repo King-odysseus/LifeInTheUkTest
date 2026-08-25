@@ -204,7 +204,7 @@
     ],
     "question": "Which prize is awarded annually for the best novel written by an author from the Commonwealth, Ireland or Zimbabwe?",
     "options": [
-      "The Man Booker Prize",
+      "The Booker Prize",
       "The Turner Prize",
       "The Mercury Prize",
       "The BAFTA"
@@ -212,7 +212,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Man Booker Prize for Fiction has been awarded annually since 1968."
+    "explanation": "The Booker Prize for Fiction has been awarded annually since 1968 for the best novel by a writer from the Commonwealth, Ireland or Zimbabwe. It was called the Man Booker Prize from 2002 until 2019."
   },
   {
     "id": "c4-011",
@@ -9025,7 +9025,7 @@
       2,
       3
     ],
-    "explanation": "British arts prizes include the Booker Prize for fiction, the Turner Prize for art, the BAFTAs for film and the Mercury Prize for music.",
+    "explanation": "John Constable and JMW Turner were both British landscape painters. Henry Moore was a sculptor and Sir Christopher Wren an architect.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -9047,7 +9047,7 @@
       1,
       3
     ],
-    "explanation": "British arts prizes include the Booker Prize for fiction, the Turner Prize for art, the BAFTAs for film and the Mercury Prize for music.",
+    "explanation": "Gustav Holst wrote The Planets and Benjamin Britten the opera Peter Grimes. Robert Burns was a poet and Charles Dickens a novelist.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
