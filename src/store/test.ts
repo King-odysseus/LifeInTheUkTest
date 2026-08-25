@@ -10,6 +10,7 @@ import {
 import { buildExam, isCorrect, sampleQuestions } from '../lib/questions'
 import { saveAttempt, weakQuestionIds } from '../lib/db'
 import { recordReview } from '../lib/srs'
+import { newId } from '../lib/id'
 import { useAuth } from './auth'
 
 export interface TestConfig {
@@ -206,7 +207,7 @@ export const useTest = create<TestStore>((set, get) => ({
     const score = answers.filter((a) => a.correct).length
     const mode = config?.mode ?? 'custom'
     const attempt: Attempt = {
-      id: crypto.randomUUID(),
+      id: newId(),
       mode,
       chapters: config?.chapters ?? [],
       score,

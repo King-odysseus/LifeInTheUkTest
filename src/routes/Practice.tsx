@@ -4,6 +4,7 @@ import { Infinity as InfinityIcon, Play, Target, Zap } from 'lucide-react'
 import { Button, Card, Field } from '../components/ui'
 import { useTest } from '../store/test'
 import { saveCustomTestPreset } from '../lib/db'
+import { newId } from '../lib/id'
 import { CHAPTERS, type ChapterId, type CustomTestPreset, type Difficulty } from '../lib/types'
 
 export default function Practice() {
@@ -18,6 +19,7 @@ export default function Practice() {
   const [rapid, setRapid] = useState(false)
   const [focusWeak, setFocusWeak] = useState(false)
   const [busy, setBusy] = useState(false)
+  const [error, setError] = useState('')
 
   const toggle = (id: ChapterId) =>
     setChapters((prev) => (prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id]))
@@ -31,7 +33,7 @@ export default function Practice() {
   const buildAndBegin = async () => {
     const now = Date.now()
     const preset: CustomTestPreset = {
-      id: crypto.randomUUID(),
+      id: newId(),
       name: name.trim(),
       chapters,
       count,
@@ -43,17 +45,28 @@ export default function Practice() {
       lastUsedAt: now,
     }
     setBusy(true)
-    await saveCustomTestPreset(preset)
-    await start({
-      mode: rapid ? 'rapid' : 'custom',
-      chapters: chapters.length ? chapters : undefined,
-      difficulty: difficulty ? [difficulty] : undefined,
-      count,
-      timed: rapid ? false : timed,
-      instantFeedback: rapid || !timed,
-      focusWeak,
-    })
-    navigate('/test')
+    setError('')
+    try {
+      // Saving first means the test is on the home screen even if the user
+      // abandons this run part way through.
+      await saveCustomTestPreset(preset)
+      await start({
+        mode: rapid ? 'rapid' : 'custom',
+        chapters: chapters.length ? chapters : undefined,
+        difficulty: difficulty ? [difficulty] : undefined,
+        count,
+        timed: rapid ? false : timed,
+        instantFeedback: rapid || !timed,
+        focusWeak,
+      })
+      navigate('/test')
+    } catch (err) {
+      // Previously this threw into a floating promise: the button stayed
+      // disabled, nothing was saved, and nothing said why.
+      console.error('[practice] could not save or start the custom test', err)
+      setError('Could not save this test. Your browser may be blocking local storage.')
+      setBusy(false)
+    }
   }
 
   return (
@@ -213,6 +226,12 @@ export default function Practice() {
               </span>
             </span>
           </label>
+
+          {error && (
+            <p role="alert" className="mt-4 rounded-lg bg-bad-soft px-3 py-2.5 text-sm text-bad">
+              {error}
+            </p>
+          )}
 
           <Button
             className="mt-4 w-full"
