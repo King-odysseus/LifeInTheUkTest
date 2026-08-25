@@ -1,187 +1,728 @@
 [
-  { "id": "h4-uk-growth", "chapter": 4, "section": "The UK population", "difficulty": 3, "tags": ["population"],
+  {
+    "id": "h4-uk-growth",
+    "chapter": 4,
+    "section": "The UK population",
+    "difficulty": 3,
+    "tags": [
+      "population"
+    ],
     "explanation": "The UK population has grown over time through natural increase and migration, and people are living longer than before.",
     "angles": [
-      { "q": "What has contributed to the growth of the UK population?", "a": "Migration and longer life expectancy", "wrong": ["A falling birth rate alone", "Emigration", "A shrinking workforce"] }
-    ] },
-  { "id": "h4-lords-spiritual-count", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["religion"],
+      {
+        "q": "What has contributed to the growth of the UK population?",
+        "a": "Migration and longer life expectancy",
+        "wrong": [
+          "A falling birth rate alone",
+          "Emigration",
+          "A shrinking workforce"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-lords-spiritual-count",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 3,
+    "tags": [
+      "religion"
+    ],
     "explanation": "The Church of England is the established Church in England, and its bishops are appointed on the advice of the Prime Minister.",
     "angles": [
-      { "q": "The Church of England is described as the what Church in England?", "a": "Established Church", "wrong": ["Free Church", "Independent Church", "Reformed Church"] }
-    ] },
-  { "id": "h4-quakers", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["religion"],
+      {
+        "q": "The Church of England is described as the what Church in England?",
+        "a": "Established Church",
+        "wrong": [
+          "Free Church",
+          "Independent Church",
+          "Reformed Church"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-quakers",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 3,
+    "tags": [
+      "religion"
+    ],
     "explanation": "Protestant Christian groups in the UK include Baptists, Methodists, Presbyterians and Quakers.",
     "angles": [
-      { "q": "Which of these is a Protestant Christian group in the UK?", "a": "The Quakers", "pool": "denominations" },
-      { "q": "Which of these is a Protestant Christian group in the UK?", "a": "The Baptist Church", "pool": "denominations" }
-    ] },
-  { "id": "h4-gurdwara", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["religion"],
+      {
+        "q": "Which of these is a Protestant Christian group in the UK?",
+        "a": "The Quakers",
+        "pool": "denominations"
+      },
+      {
+        "q": "Which of these is a Protestant Christian group in the UK?",
+        "a": "The Baptist Church",
+        "pool": "denominations"
+      }
+    ]
+  },
+  {
+    "id": "h4-gurdwara",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 3,
+    "tags": [
+      "religion"
+    ],
     "explanation": "The UK is a diverse society in which people of many religions worship freely, including Muslims, Hindus, Sikhs, Jews and Buddhists.",
     "angles": [
-      { "q": "Which of these religions is practised in the UK?", "a": "Sikhism", "pool": "religions" },
-      { "q": "Which of these religions is practised in the UK?", "a": "Buddhism", "pool": "religions" }
-    ] },
-  { "id": "h4-april-fools", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+      {
+        "q": "Which of these religions is practised in the UK?",
+        "a": "Sikhism",
+        "pool": "religions"
+      },
+      {
+        "q": "Which of these religions is practised in the UK?",
+        "a": "Buddhism",
+        "pool": "religions"
+      }
+    ]
+  },
+  {
+    "id": "h4-april-fools",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 3,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "On April Fool's Day, 1 April, people play jokes on each other, but only until midday.",
     "angles": [
-      { "q": "On which date is April Fool's Day?", "a": "1 April", "pool": "calendar-dates" }
-    ] },
-  { "id": "h4-new-year", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+      {
+        "q": "On which date is April Fool's Day?",
+        "a": "1 April",
+        "pool": "calendar-dates"
+      }
+    ]
+  },
+  {
+    "id": "h4-new-year",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 2,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "New Year is celebrated on 1 January, and in Scotland Hogmanay is a major celebration with 2 January also a public holiday.",
     "angles": [
-      { "q": "On which date is New Year's Day?", "a": "1 January", "pool": "calendar-dates" }
-    ] },
-  { "id": "h4-halloween-origin", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+      {
+        "q": "On which date is New Year's Day?",
+        "a": "1 January",
+        "pool": "calendar-dates"
+      }
+    ]
+  },
+  {
+    "id": "h4-halloween-origin",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 3,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Halloween, on 31 October, has ancient origins as a festival marking the beginning of winter.",
     "angles": [
-      { "q": "What did Halloween originally mark?", "a": "The beginning of winter", "wrong": ["The harvest", "The summer solstice", "The new year"] },
-      { "q": "What do children traditionally do at Halloween?", "a": "Dress up and go trick or treating", "wrong": ["Light bonfires", "Sing carols", "Give flowers"] }
-    ] },
-  { "id": "h4-poppy-origin", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["remembrance"],
+      {
+        "q": "What did Halloween originally mark?",
+        "a": "The beginning of winter",
+        "wrong": [
+          "The harvest",
+          "The summer solstice",
+          "The new year"
+        ]
+      },
+      {
+        "q": "What do children traditionally do at Halloween?",
+        "a": "Dress up and go trick or treating",
+        "wrong": [
+          "Light bonfires",
+          "Sing carols",
+          "Give flowers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-poppy-origin",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 3,
+    "tags": [
+      "remembrance"
+    ],
     "explanation": "Poppies are worn on Remembrance Day because they flowered on the battlefields of the First World War.",
     "angles": [
-      { "q": "Why is the poppy the symbol of Remembrance Day?", "a": "Poppies grew on the First World War battlefields", "wrong": ["It is the national flower of England", "It was the emblem of the army", "It flowers in November"] }
-    ] },
-  { "id": "h4-cenotaph", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["remembrance"],
+      {
+        "q": "Why is the poppy the symbol of Remembrance Day?",
+        "a": "Poppies grew on the First World War battlefields",
+        "wrong": [
+          "It is the national flower of England",
+          "It was the emblem of the army",
+          "It flowers in November"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-cenotaph",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 3,
+    "tags": [
+      "remembrance"
+    ],
     "explanation": "The main national ceremony of remembrance is held at the Cenotaph in Whitehall, London.",
     "angles": [
-      { "q": "Where is the main national remembrance ceremony held?", "a": "The Cenotaph in Whitehall", "wrong": ["Westminster Abbey", "The Tower of London", "Trafalgar Square"] }
-    ] },
-  { "id": "h4-cricket-test", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "Where is the main national remembrance ceremony held?",
+        "a": "The Cenotaph in Whitehall",
+        "wrong": [
+          "Westminster Abbey",
+          "The Tower of London",
+          "Trafalgar Square"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-cricket-test",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Cricket test matches can last up to five days, while shorter forms such as Twenty20 are played in a single day.",
     "angles": [
-      { "q": "How long can a cricket test match last?", "a": "Up to five days", "wrong": ["Two hours", "One day only", "Up to two weeks"] }
-    ] },
-  { "id": "h4-murrayfield", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "How long can a cricket test match last?",
+        "a": "Up to five days",
+        "wrong": [
+          "Two hours",
+          "One day only",
+          "Up to two weeks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-murrayfield",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Murrayfield in Edinburgh is the home of Scottish rugby union, and Twickenham is the home of English rugby union.",
     "angles": [
-      { "q": "Murrayfield is the home ground of rugby union in which country?", "a": "Scotland", "pool": "uk-countries" }
-    ] },
-  { "id": "h4-golf-open", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "Murrayfield is the home ground of rugby union in which country?",
+        "a": "Scotland",
+        "pool": "uk-countries"
+      }
+    ]
+  },
+  {
+    "id": "h4-golf-open",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "The Open Championship is the UK's most famous golf tournament and the oldest golf major in the world.",
     "angles": [
-      { "q": "In which country did golf originate?", "a": "Scotland", "pool": "uk-countries" }
-    ] },
-  { "id": "h4-skiing", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "In which country did golf originate?",
+        "a": "Scotland",
+        "pool": "uk-countries"
+      }
+    ]
+  },
+  {
+    "id": "h4-skiing",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "There are skiing centres in Scotland, and other outdoor activities such as walking and cycling are popular across the UK.",
     "angles": [
-      { "q": "In which part of the UK are there skiing centres?", "a": "Scotland", "pool": "uk-countries" }
-    ] },
-  { "id": "h4-farah", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "In which part of the UK are there skiing centres?",
+        "a": "Scotland",
+        "pool": "uk-countries"
+      }
+    ]
+  },
+  {
+    "id": "h4-farah",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Sir Mo Farah is a British distance runner who won Olympic gold medals in the 5,000 and 10,000 metres.",
     "angles": [
-      { "q": "Sir Mo Farah competes in which sport?", "a": "Athletics", "pool": "sports" }
-    ] },
-  { "id": "h4-wiggins", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "Sir Mo Farah competes in which sport?",
+        "a": "Athletics",
+        "pool": "sports"
+      }
+    ]
+  },
+  {
+    "id": "h4-wiggins",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Sir Bradley Wiggins was the first Briton to win the Tour de France, and has also won Olympic gold medals.",
     "angles": [
-      { "q": "Sir Bradley Wiggins was the first Briton to win which race?", "a": "The Tour de France", "wrong": ["The Grand National", "The London Marathon", "The Monaco Grand Prix"] }
-    ] },
-  { "id": "h4-hamilton", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "Sir Bradley Wiggins was the first Briton to win which race?",
+        "a": "The Tour de France",
+        "wrong": [
+          "The Grand National",
+          "The London Marathon",
+          "The Monaco Grand Prix"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-hamilton",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Sir Lewis Hamilton is a British Formula 1 driver who has won multiple world championships.",
     "angles": [
-      { "q": "Sir Lewis Hamilton competes in which sport?", "a": "Motor racing", "pool": "sports" }
-    ] },
-  { "id": "h4-purcell-abbey", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+      {
+        "q": "Sir Lewis Hamilton competes in which sport?",
+        "a": "Motor racing",
+        "pool": "sports"
+      }
+    ]
+  },
+  {
+    "id": "h4-purcell-abbey",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "music"
+    ],
     "explanation": "Henry Purcell was an organist at Westminster Abbey and wrote church music, operas and other works.",
     "angles": [
-      { "q": "At which building was Henry Purcell an organist?", "a": "Westminster Abbey", "pool": "landmarks" }
-    ] },
-  { "id": "h4-vaughan-williams", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+      {
+        "q": "At which building was Henry Purcell an organist?",
+        "a": "Westminster Abbey",
+        "pool": "landmarks"
+      }
+    ]
+  },
+  {
+    "id": "h4-vaughan-williams",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "music"
+    ],
     "explanation": "Ralph Vaughan Williams was a composer strongly influenced by traditional English folk tunes.",
     "angles": [
-      { "q": "Which composer was strongly influenced by English folk music?", "a": "Ralph Vaughan Williams", "pool": "composers" }
-    ] },
-  { "id": "h4-last-night", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+      {
+        "q": "Which composer was strongly influenced by English folk music?",
+        "a": "Ralph Vaughan Williams",
+        "pool": "composers"
+      }
+    ]
+  },
+  {
+    "id": "h4-last-night",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "music"
+    ],
     "explanation": "The Last Night of the Proms is the final concert of the season and is a well-known celebration of British classical music.",
     "angles": [
-      { "q": "What is the final concert of the Proms season called?", "a": "The Last Night of the Proms", "wrong": ["The Grand Finale", "The Closing Gala", "The Royal Concert"] }
-    ] },
-  { "id": "h4-hogarth", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["art"],
+      {
+        "q": "What is the final concert of the Proms season called?",
+        "a": "The Last Night of the Proms",
+        "wrong": [
+          "The Grand Finale",
+          "The Closing Gala",
+          "The Royal Concert"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-hogarth",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "art"
+    ],
     "explanation": "William Hogarth was an 18th-century painter and engraver known for satirical works about society.",
     "angles": [
-      { "q": "William Hogarth is known for artworks that were what?", "a": "Satirical comments on society", "wrong": ["Religious frescoes", "Abstract sculptures", "Landscape watercolours"] }
-    ] },
-  { "id": "h4-hepworth", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["art"],
+      {
+        "q": "William Hogarth is known for artworks that were what?",
+        "a": "Satirical comments on society",
+        "wrong": [
+          "Religious frescoes",
+          "Abstract sculptures",
+          "Landscape watercolours"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-hepworth",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "art"
+    ],
     "explanation": "Barbara Hepworth was a British sculptor whose abstract works are exhibited around the world.",
     "angles": [
-      { "q": "Barbara Hepworth is best known as what?", "a": "A sculptor", "wrong": ["A novelist", "A composer", "A film director"] }
-    ] },
-  { "id": "h4-national-gallery", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["art"],
+      {
+        "q": "Barbara Hepworth is best known as what?",
+        "a": "A sculptor",
+        "wrong": [
+          "A novelist",
+          "A composer",
+          "A film director"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-national-gallery",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "art"
+    ],
     "explanation": "Major UK galleries include the National Gallery, Tate Britain, Tate Modern and the National Museum of Wales.",
     "angles": [
-      { "q": "Which London gallery stands in Trafalgar Square?", "a": "The National Gallery", "wrong": ["Tate Modern", "The Royal Academy", "The British Museum"] }
-    ] },
-  { "id": "h4-dylan-thomas", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+      {
+        "q": "Which London gallery stands in Trafalgar Square?",
+        "a": "The National Gallery",
+        "wrong": [
+          "Tate Modern",
+          "The Royal Academy",
+          "The British Museum"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-dylan-thomas",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "literature"
+    ],
     "explanation": "Dylan Thomas was a Welsh poet and writer, best known for Under Milk Wood.",
     "angles": [
-      { "q": "Dylan Thomas was a poet from which country of the UK?", "a": "Wales", "pool": "uk-countries" }
-    ] },
-  { "id": "h4-rowling", "chapter": 4, "section": "Arts and culture", "difficulty": 2, "tags": ["literature"],
+      {
+        "q": "Dylan Thomas was a poet from which country of the UK?",
+        "a": "Wales",
+        "pool": "uk-countries"
+      }
+    ]
+  },
+  {
+    "id": "h4-rowling",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 2,
+    "tags": [
+      "literature"
+    ],
     "explanation": "JK Rowling wrote the Harry Potter series, among the best-selling books in the world.",
     "angles": [
-      { "q": "Who wrote the Harry Potter books?", "a": "JK Rowling", "pool": "writers" }
-    ] },
-  { "id": "h4-poet-laureate", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+      {
+        "q": "Who wrote the Harry Potter books?",
+        "a": "JK Rowling",
+        "pool": "writers"
+      }
+    ]
+  },
+  {
+    "id": "h4-poet-laureate",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "literature"
+    ],
     "explanation": "The Poet Laureate is an honorary position given to a leading poet in the UK.",
     "angles": [
-      { "q": "What is the Poet Laureate?", "a": "An honorary position given to a leading poet", "wrong": ["A prize for the best novel", "The head of the British Library", "A university professorship"] }
-    ] },
-  { "id": "h4-fashion", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["fashion"],
+      {
+        "q": "What is the Poet Laureate?",
+        "a": "An honorary position given to a leading poet",
+        "wrong": [
+          "A prize for the best novel",
+          "The head of the British Library",
+          "A university professorship"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-fashion",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "fashion"
+    ],
     "explanation": "British fashion designers such as Mary Quant, Alexander McQueen and Vivienne Westwood have been internationally influential.",
     "angles": [
-      { "q": "Vivienne Westwood was influential in which field?", "a": "Fashion design", "wrong": ["Architecture", "Film directing", "Sculpture"] }
-    ] },
-  { "id": "h4-tv-soaps", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["television"],
+      {
+        "q": "Vivienne Westwood was influential in which field?",
+        "a": "Fashion design",
+        "wrong": [
+          "Architecture",
+          "Film directing",
+          "Sculpture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-tv-soaps",
+    "chapter": 4,
+    "section": "Leisure",
+    "difficulty": 3,
+    "tags": [
+      "television"
+    ],
     "explanation": "Television is a popular pastime in the UK, and long-running soap operas are watched by millions.",
     "angles": [
-      { "q": "What is a soap opera?", "a": "A long-running television drama serial", "wrong": ["A type of radio comedy", "A stage musical", "A televised sports programme"] }
-    ] },
-  { "id": "h4-pubs", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["pubs"],
+      {
+        "q": "What is a soap opera?",
+        "a": "A long-running television drama serial",
+        "wrong": [
+          "A type of radio comedy",
+          "A stage musical",
+          "A televised sports programme"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-pubs",
+    "chapter": 4,
+    "section": "Leisure",
+    "difficulty": 3,
+    "tags": [
+      "pubs"
+    ],
     "explanation": "Public houses, or pubs, are an important part of UK social culture. You must normally be 18 to buy alcohol.",
     "angles": [
-      { "q": "What is the minimum age to buy alcohol in a UK pub?", "a": "18", "pool": "counts" },
-      { "q": "What is a public house more commonly called?", "a": "A pub", "wrong": ["A club", "A hall", "An inn house"] }
-    ] },
-  { "id": "h4-gardening", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["gardening"],
+      {
+        "q": "What is the minimum age to buy alcohol in a UK pub?",
+        "a": "18",
+        "pool": "counts"
+      },
+      {
+        "q": "What is a public house more commonly called?",
+        "a": "A pub",
+        "wrong": [
+          "A club",
+          "A hall",
+          "An inn house"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-gardening",
+    "chapter": 4,
+    "section": "Leisure",
+    "difficulty": 3,
+    "tags": [
+      "gardening"
+    ],
     "explanation": "Gardening is a popular pastime in the UK, and many people who have no garden of their own rent an allotment.",
     "angles": [
-      { "q": "What is an allotment?", "a": "A small plot of land rented for growing vegetables and flowers", "wrong": ["A public park", "A type of greenhouse", "A garden centre"] }
-    ] },
-  { "id": "h4-charity-shops", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["charities"],
+      {
+        "q": "What is an allotment?",
+        "a": "A small plot of land rented for growing vegetables and flowers",
+        "wrong": [
+          "A public park",
+          "A type of greenhouse",
+          "A garden centre"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-charity-shops",
+    "chapter": 4,
+    "section": "Leisure",
+    "difficulty": 3,
+    "tags": [
+      "charities"
+    ],
     "explanation": "Many charities run shops selling second-hand goods, and volunteering in one is a common way of supporting a good cause.",
     "angles": [
-      { "q": "What do charity shops in the UK mainly sell?", "a": "Second-hand goods donated by the public", "wrong": ["Only new goods", "Government surplus items", "Imported luxury goods"] }
-    ] },
-  { "id": "h4-dog-collar", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["pets"],
+      {
+        "q": "What do charity shops in the UK mainly sell?",
+        "a": "Second-hand goods donated by the public",
+        "wrong": [
+          "Only new goods",
+          "Government surplus items",
+          "Imported luxury goods"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-dog-collar",
+    "chapter": 4,
+    "section": "Leisure",
+    "difficulty": 3,
+    "tags": [
+      "pets"
+    ],
     "explanation": "In public places dogs must wear a collar showing the owner's name and address, and owners must clean up after them.",
     "angles": [
-      { "q": "What must a dog's collar show in a public place?", "a": "The owner's name and address", "wrong": ["The dog's name only", "A vaccination record", "A council licence number"] }
-    ] },
-  { "id": "h4-york-minster", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "q": "What must a dog's collar show in a public place?",
+        "a": "The owner's name and address",
+        "wrong": [
+          "The dog's name only",
+          "A vaccination record",
+          "A council licence number"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-york-minster",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "The UK has many historic cathedrals and castles, and many are open to the public as visitor attractions.",
     "angles": [
-      { "q": "Which of these is a famous castle in Wales?", "a": "Caernarfon Castle", "wrong": ["Edinburgh Castle", "Windsor Castle", "The Tower of London"] }
-    ] },
-  { "id": "h4-lake-district", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "q": "Which of these is a famous castle in Wales?",
+        "a": "Caernarfon Castle",
+        "wrong": [
+          "Edinburgh Castle",
+          "Windsor Castle",
+          "The Tower of London"
+        ],
+        "e": "Caernarfon Castle in north Wales is one of the ring of castles built by Edward I to hold Wales after his conquest."
+      }
+    ]
+  },
+  {
+    "id": "h4-lake-district",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "The Lake District in Cumbria is England's largest national park, famous for its lakes and fells.",
     "angles": [
-      { "q": "In which county is the Lake District?", "a": "Cumbria", "pool": "uk-places" },
-      { "q": "What is the largest national park in England?", "a": "The Lake District", "pool": "landmarks" }
-    ] },
-  { "id": "h4-world-heritage", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "q": "In which county is the Lake District?",
+        "a": "Cumbria",
+        "pool": "uk-places"
+      },
+      {
+        "q": "What is the largest national park in England?",
+        "a": "The Lake District",
+        "pool": "landmarks"
+      }
+    ]
+  },
+  {
+    "id": "h4-world-heritage",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "The UK has many UNESCO World Heritage Sites, including Stonehenge, the Giant's Causeway and the Tower of London.",
     "angles": [
-      { "q": "Which organisation designates World Heritage Sites?", "a": "UNESCO", "wrong": ["The National Trust", "English Heritage", "The Council of Europe"] }
-    ] },
-  { "id": "h4-big-ben-tower", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "q": "Which organisation designates World Heritage Sites?",
+        "a": "UNESCO",
+        "wrong": [
+          "The National Trust",
+          "English Heritage",
+          "The Council of Europe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "h4-big-ben-tower",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "Big Ben is the nickname of the great bell in the clock tower at the Houses of Parliament in London.",
     "angles": [
-      { "q": "In which city is Big Ben?", "a": "London", "pool": "uk-capitals" }
-    ] },
-  { "id": "h4-national-parks", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "q": "In which city is Big Ben?",
+        "a": "London",
+        "pool": "uk-capitals"
+      }
+    ]
+  },
+  {
+    "id": "h4-national-parks",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "National parks in the UK protect areas of countryside for people to enjoy and for wildlife to thrive.",
     "angles": [
-      { "q": "What is the purpose of a national park?", "a": "To protect countryside for people and wildlife", "wrong": ["To provide land for building", "To create military training grounds", "To store national archives"] }
-    ] }
+      {
+        "q": "What is the purpose of a national park?",
+        "a": "To protect countryside for people and wildlife",
+        "wrong": [
+          "To provide land for building",
+          "To create military training grounds",
+          "To store national archives"
+        ]
+      }
+    ]
+  }
 ]

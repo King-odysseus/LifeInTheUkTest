@@ -1,169 +1,694 @@
 [
-  { "id": "j1-democracy", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+  {
+    "id": "j1-democracy",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "Democracy is one of the fundamental principles of British life, meaning government by the people through elected representatives.",
     "angles": [
-      { "q": "What does democracy mean?", "a": "Government by the people, through elected representatives", "wrong": ["Government by the wealthiest citizens", "Rule by a single leader", "Rule by religious leaders"] },
-      { "q": "Which of these is a fundamental principle of British life?", "a": "Democracy", "wrong": ["Absolute monarchy", "One-party rule", "Military government"] }
-    ] },
-  { "id": "j1-rule-of-law", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "q": "What does democracy mean?",
+        "a": "Government by the people, through elected representatives",
+        "wrong": [
+          "Government by the wealthiest citizens",
+          "Rule by a single leader",
+          "Rule by religious leaders"
+        ]
+      },
+      {
+        "q": "Which of these is a fundamental principle of British life?",
+        "a": "Democracy",
+        "wrong": [
+          "Absolute monarchy",
+          "One-party rule",
+          "Military government"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-rule-of-law",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "The rule of law means that everyone, including those in government, is subject to the law and no one is above it.",
     "angles": [
-      { "q": "Under the rule of law, who is subject to the law?", "a": "Everyone, including those who govern", "wrong": ["Only ordinary citizens", "Only people born in the UK", "Only those who have been convicted"] }
-    ] },
-  { "id": "j1-liberty", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "q": "Under the rule of law, who is subject to the law?",
+        "a": "Everyone, including those who govern",
+        "wrong": [
+          "Only ordinary citizens",
+          "Only people born in the UK",
+          "Only those who have been convicted"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-liberty",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "Individual liberty is a fundamental principle of British life, meaning people are free to make their own choices within the law.",
     "angles": [
-      { "q": "What does individual liberty mean?", "a": "Freedom to make your own choices within the law", "wrong": ["Freedom to ignore the law", "Freedom granted only to citizens", "Freedom to avoid paying tax"] }
-    ] },
-  { "id": "j1-tolerance", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "q": "What does individual liberty mean?",
+        "a": "Freedom to make your own choices within the law",
+        "wrong": [
+          "Freedom to ignore the law",
+          "Freedom granted only to citizens",
+          "Freedom to avoid paying tax"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-tolerance",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle of British life.",
     "angles": [
-      { "q": "Tolerance in British life extends to people with different what?", "a": "Faiths and beliefs", "wrong": ["Levels of income", "Criminal records", "Political donations"] }
-    ] },
-  { "id": "j1-participation", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "q": "Tolerance in British life extends to people with different what?",
+        "a": "Faiths and beliefs",
+        "wrong": [
+          "Levels of income",
+          "Criminal records",
+          "Political donations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-participation",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "Participation in community life is a fundamental principle, and includes volunteering, voting and helping neighbours.",
     "angles": [
-      { "q": "Which of these is an example of participation in community life?", "a": "Voting in local elections", "wrong": ["Avoiding your neighbours", "Refusing to pay council tax", "Ignoring local news"] }
-    ] },
-  { "id": "j1-obey-law", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["responsibilities"],
+      {
+        "q": "Which of these is an example of participation in community life?",
+        "a": "Voting in local elections",
+        "wrong": [
+          "Avoiding your neighbours",
+          "Refusing to pay council tax",
+          "Ignoring local news"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-obey-law",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ],
     "explanation": "Respecting and obeying the law is the first of the responsibilities expected of everyone living in the UK.",
     "angles": [
-      { "q": "What is expected of everyone living in the UK regarding the law?", "a": "To respect and obey it", "wrong": ["To obey only laws they agree with", "To obey only criminal law", "To follow the laws of their home country"] }
-    ] },
-  { "id": "j1-look-after-family", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["responsibilities"],
+      {
+        "q": "What is expected of everyone living in the UK regarding the law?",
+        "a": "To respect and obey it",
+        "wrong": [
+          "To obey only laws they agree with",
+          "To obey only criminal law",
+          "To follow the laws of their home country"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-look-after-family",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ],
     "explanation": "Looking after yourself and your family is one of the responsibilities expected of everyone living in the UK.",
     "angles": [
-      { "q": "Which of these is a listed responsibility of UK residents?", "a": "Looking after yourself and your family", "wrong": ["Supporting a football team", "Owning a car", "Working in the public sector"] }
-    ] },
-  { "id": "j1-environment", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["responsibilities"],
+      {
+        "q": "Which of these is a listed responsibility of UK residents?",
+        "a": "Looking after yourself and your family",
+        "wrong": [
+          "Supporting a football team",
+          "Owning a car",
+          "Working in the public sector"
+        ],
+        "e": "Looking after yourself and your family is one of the listed responsibilities, along with obeying the law, treating others fairly and caring for your area and the environment."
+      }
+    ]
+  },
+  {
+    "id": "j1-environment",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ],
     "explanation": "Looking after the area in which you live and the environment is one of the responsibilities of UK residents.",
     "angles": [
-      { "q": "Which of these shows responsibility towards the environment?", "a": "Recycling your household waste", "wrong": ["Dropping litter in parks", "Pouring oil down drains", "Burning rubbish in the street"] }
-    ] },
-  { "id": "j1-free-speech", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["rights"],
+      {
+        "q": "Which of these shows responsibility towards the environment?",
+        "a": "Recycling your household waste",
+        "wrong": [
+          "Dropping litter in parks",
+          "Pouring oil down drains",
+          "Burning rubbish in the street"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-free-speech",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ],
     "explanation": "Freedom of speech is one of the rights shared by everyone in the UK, within the limits set by the law.",
     "angles": [
-      { "q": "Freedom of speech in the UK is subject to what?", "a": "The limits set by the law", "wrong": ["The approval of the government", "The permission of the monarch", "Nothing at all"] }
-    ] },
-  { "id": "j1-fair-trial", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["rights"],
+      {
+        "q": "Freedom of speech in the UK is subject to what?",
+        "a": "The limits set by the law",
+        "wrong": [
+          "The approval of the government",
+          "The permission of the monarch",
+          "Nothing at all"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-fair-trial",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ],
     "explanation": "A right to a fair trial is one of the rights shared by everyone in the UK.",
     "angles": [
-      { "q": "Which of these rights is shared by everyone in the UK?", "a": "A right to a fair trial", "wrong": ["A right to choose your own judge", "A right to avoid court", "A right to a jury of your friends"] }
-    ] },
-  { "id": "j1-vote-right", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["rights"],
+      {
+        "q": "Which of these rights is shared by everyone in the UK?",
+        "a": "A right to a fair trial",
+        "wrong": [
+          "A right to choose your own judge",
+          "A right to avoid court",
+          "A right to a jury of your friends"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-vote-right",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ],
     "explanation": "A right to join in the election of a government is one of the rights shared by everyone eligible in the UK.",
     "angles": [
-      { "q": "Which of these rights is shared by eligible people in the UK?", "a": "The right to join in electing a government", "wrong": ["The right to appoint the Prime Minister", "The right to veto laws", "The right to choose the monarch"] }
-    ] },
-  { "id": "j1-extremism", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "q": "Which of these rights is shared by eligible people in the UK?",
+        "a": "The right to join in electing a government",
+        "wrong": [
+          "The right to appoint the Prime Minister",
+          "The right to veto laws",
+          "The right to choose the monarch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-extremism",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "The UK offers a welcome to those who share its values, but does not tolerate extremism or intolerance.",
     "angles": [
-      { "q": "How does the UK treat extremism?", "a": "It does not tolerate it", "wrong": ["It protects it as free speech", "It funds it", "It ignores it"] }
-    ] },
-  { "id": "j1-english-requirement", "chapter": 1, "section": "Becoming a permanent resident", "difficulty": 2, "tags": ["citizenship"],
+      {
+        "q": "How does the UK treat extremism?",
+        "a": "It does not tolerate it",
+        "wrong": [
+          "It protects it as free speech",
+          "It funds it",
+          "It ignores it"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-english-requirement",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 2,
+    "tags": [
+      "citizenship"
+    ],
     "explanation": "To apply for permanent residence or citizenship, applicants must be able to speak and read English and understand life in the UK.",
     "angles": [
-      { "q": "Which two things must citizenship applicants demonstrate?", "a": "English language ability and knowledge of life in the UK", "wrong": ["Property ownership and savings", "Employment and a driving licence", "A university degree and a sponsor"] }
-    ] },
-  { "id": "j1-esol", "chapter": 1, "section": "Becoming a permanent resident", "difficulty": 3, "tags": ["citizenship"],
+      {
+        "q": "Which two things must citizenship applicants demonstrate?",
+        "a": "English language ability and knowledge of life in the UK",
+        "wrong": [
+          "Property ownership and savings",
+          "Employment and a driving licence",
+          "A university degree and a sponsor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-esol",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ],
     "explanation": "ESOL courses help people whose first language is not English to improve their English for settlement and citizenship.",
     "angles": [
-      { "q": "Who are ESOL courses designed for?", "a": "People whose first language is not English", "wrong": ["People learning a second European language", "Children in primary school", "People training to be teachers"] }
-    ] },
-  { "id": "j1-home-office", "chapter": 1, "section": "Becoming a permanent resident", "difficulty": 3, "tags": ["citizenship"],
+      {
+        "q": "Who are ESOL courses designed for?",
+        "a": "People whose first language is not English",
+        "wrong": [
+          "People learning a second European language",
+          "Children in primary school",
+          "People training to be teachers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-home-office",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ],
     "explanation": "UK Visas and Immigration, part of the Home Office, handles applications to come to, remain in, or become a citizen of the UK.",
     "angles": [
-      { "q": "Which body handles applications for British citizenship?", "a": "UK Visas and Immigration", "wrong": ["The Foreign Office", "The Department for Work and Pensions", "The local council"] }
-    ] },
-  { "id": "j1-pledge", "chapter": 1, "section": "Becoming a permanent resident", "difficulty": 3, "tags": ["citizenship"],
+      {
+        "q": "Which body handles applications for British citizenship?",
+        "a": "UK Visas and Immigration",
+        "wrong": [
+          "The Foreign Office",
+          "The Department for Work and Pensions",
+          "The local council"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-pledge",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ],
     "explanation": "At a citizenship ceremony, new citizens make a pledge to respect the rights, freedoms and laws of the UK.",
     "angles": [
-      { "q": "What does the citizenship pledge commit new citizens to respect?", "a": "The rights, freedoms and laws of the UK", "wrong": ["The policies of the governing party", "The Church of England", "The armed forces"] }
-    ] },
-  { "id": "j1-test-booking", "chapter": 1, "section": "Taking the Life in the UK Test", "difficulty": 3, "tags": ["test"],
+      {
+        "q": "What does the citizenship pledge commit new citizens to respect?",
+        "a": "The rights, freedoms and laws of the UK",
+        "wrong": [
+          "The policies of the governing party",
+          "The Church of England",
+          "The armed forces"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-test-booking",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test"
+    ],
     "explanation": "The Life in the UK Test must be booked in advance and taken at a registered test centre, where identification is required.",
     "angles": [
-      { "q": "What must you bring to a Life in the UK Test centre?", "a": "Identification", "wrong": ["A reference from an employer", "A copy of the handbook", "Two passport photographs"] }
-    ] },
-  { "id": "j1-test-basis", "chapter": 1, "section": "Taking the Life in the UK Test", "difficulty": 2, "tags": ["test"],
+      {
+        "q": "What must you bring to a Life in the UK Test centre?",
+        "a": "Identification",
+        "wrong": [
+          "A reference from an employer",
+          "A copy of the handbook",
+          "Two passport photographs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j1-test-basis",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 2,
+    "tags": [
+      "test"
+    ],
     "explanation": "All questions in the Life in the UK Test are based on the official handbook, Life in the United Kingdom: A Guide for New Residents.",
     "angles": [
-      { "q": "The Life in the UK Test questions are based on what?", "a": "The official handbook for new residents", "wrong": ["Current affairs in the news", "A government website", "A general knowledge quiz"] }
-    ] },
-  { "id": "j2-nations-count", "chapter": 2, "section": "What is the UK?", "difficulty": 1, "tags": ["geography"],
+      {
+        "q": "The Life in the UK Test questions are based on what?",
+        "a": "The official handbook for new residents",
+        "wrong": [
+          "Current affairs in the news",
+          "A government website",
+          "A general knowledge quiz"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-nations-count",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ],
     "explanation": "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland.",
     "angles": [
-      { "q": "Which of these is one of the four countries of the UK?", "a": "Wales", "wrong": ["The Republic of Ireland", "The Isle of Man", "Jersey"] }
-    ] },
-  { "id": "j2-british-isles", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["geography"],
+      {
+        "q": "Which of these is one of the four countries of the UK?",
+        "a": "Wales",
+        "wrong": [
+          "The Republic of Ireland",
+          "The Isle of Man",
+          "Jersey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-british-isles",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "geography"
+    ],
     "explanation": "Great Britain refers to England, Scotland and Wales. The UK also includes Northern Ireland.",
     "angles": [
-      { "q": "Which three countries make up Great Britain?", "a": "England, Scotland and Wales", "wrong": ["England, Wales and Northern Ireland", "Scotland, Wales and Northern Ireland", "England, Scotland and Ireland"] }
-    ] },
-  { "id": "j2-edinburgh", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["capitals"],
+      {
+        "q": "Which three countries make up Great Britain?",
+        "a": "England, Scotland and Wales",
+        "wrong": [
+          "England, Wales and Northern Ireland",
+          "Scotland, Wales and Northern Ireland",
+          "England, Scotland and Ireland"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-edinburgh",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "capitals"
+    ],
     "explanation": "Edinburgh is the capital of Scotland, and the Scottish Parliament sits there at Holyrood.",
     "angles": [
-      { "q": "Of which country is Edinburgh the capital?", "a": "Scotland", "pool": "uk-countries" }
-    ] },
-  { "id": "j2-belfast", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["capitals"],
+      {
+        "q": "Of which country is Edinburgh the capital?",
+        "a": "Scotland",
+        "pool": "uk-countries"
+      }
+    ]
+  },
+  {
+    "id": "j2-belfast",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "capitals"
+    ],
     "explanation": "Belfast is the capital of Northern Ireland and the seat of the Northern Ireland Assembly.",
     "angles": [
-      { "q": "What is the capital city of Northern Ireland?", "a": "Belfast", "pool": "uk-capitals" }
-    ] },
-  { "id": "j2-cardiff", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["capitals"],
+      {
+        "q": "What is the capital city of Northern Ireland?",
+        "a": "Belfast",
+        "pool": "uk-capitals"
+      }
+    ]
+  },
+  {
+    "id": "j2-cardiff",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "capitals"
+    ],
     "explanation": "Cardiff is the capital of Wales and the home of the Welsh Parliament, the Senedd.",
     "angles": [
-      { "q": "What is the capital city of Wales?", "a": "Cardiff", "pool": "uk-capitals" }
-    ] },
-  { "id": "j2-pence", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["currency"],
+      {
+        "q": "What is the capital city of Wales?",
+        "a": "Cardiff",
+        "pool": "uk-capitals"
+      }
+    ]
+  },
+  {
+    "id": "j2-pence",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "currency"
+    ],
     "explanation": "The currency of the UK is the pound sterling. There are 100 pence in a pound.",
     "angles": [
-      { "q": "What is the currency of the UK called?", "a": "The pound sterling", "wrong": ["The euro", "The British dollar", "The crown"] }
-    ] },
-  { "id": "j2-banknotes", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["currency"],
+      {
+        "q": "What is the currency of the UK called?",
+        "a": "The pound sterling",
+        "wrong": [
+          "The euro",
+          "The British dollar",
+          "The crown"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-banknotes",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "currency"
+    ],
     "explanation": "Scotland and Northern Ireland issue their own banknotes, which are valid throughout the UK though shops elsewhere may not accept them.",
     "angles": [
-      { "q": "Which parts of the UK issue their own banknotes?", "a": "Scotland and Northern Ireland", "wrong": ["England and Wales", "Wales only", "The Channel Islands"] }
-    ] },
-  { "id": "j2-flag-crosses", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["flag"],
+      {
+        "q": "Which parts of the UK issue their own banknotes?",
+        "a": "Scotland and Northern Ireland",
+        "wrong": [
+          "England and Wales",
+          "Wales only",
+          "The Channel Islands"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-flag-crosses",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag"
+    ],
     "explanation": "The Union Flag combines the crosses of St George, St Andrew and St Patrick. Wales is not represented on it.",
     "angles": [
-      { "q": "Whose cross on the Union Flag represents Scotland?", "a": "St Andrew", "pool": "saints" },
-      { "q": "Whose cross on the Union Flag represents England?", "a": "St George", "pool": "saints" }
-    ] },
-  { "id": "j2-welsh-dragon", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["flag"],
+      {
+        "q": "Whose cross on the Union Flag represents Scotland?",
+        "a": "St Andrew",
+        "pool": "saints"
+      },
+      {
+        "q": "Whose cross on the Union Flag represents England?",
+        "a": "St George",
+        "pool": "saints"
+      }
+    ]
+  },
+  {
+    "id": "j2-welsh-dragon",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "flag"
+    ],
     "explanation": "The flag of Wales shows a red dragon. Wales is not represented on the Union Flag because it was already united with England.",
     "angles": [
-      { "q": "Which creature appears on the flag of Wales?", "a": "A red dragon", "wrong": ["A golden lion", "A white horse", "A black eagle"] }
-    ] },
-  { "id": "j2-gaelic-place", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["languages"],
+      {
+        "q": "Which creature appears on the flag of Wales?",
+        "a": "A red dragon",
+        "wrong": [
+          "A golden lion",
+          "A white horse",
+          "A black eagle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-gaelic-place",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages"
+    ],
     "explanation": "Gaelic is spoken in parts of Scotland, particularly the Highlands and Islands.",
     "angles": [
-      { "q": "In which part of Scotland is Gaelic most spoken?", "a": "The Highlands and Islands", "wrong": ["The Borders", "Glasgow city centre", "Fife"] }
-    ] },
-  { "id": "j2-welsh-signs", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["languages"],
+      {
+        "q": "In which part of Scotland is Gaelic most spoken?",
+        "a": "The Highlands and Islands",
+        "wrong": [
+          "The Borders",
+          "Glasgow city centre",
+          "Fife"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-welsh-signs",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages"
+    ],
     "explanation": "Welsh is taught in schools in Wales and is used on road signs and official documents alongside English.",
     "angles": [
-      { "q": "Where in Wales would you see the Welsh language used officially?", "a": "On road signs and official documents", "wrong": ["Only in museums", "Only in churches", "Only in private homes"] }
-    ] },
-  { "id": "j2-overseas", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["territories"],
+      {
+        "q": "Where in Wales would you see the Welsh language used officially?",
+        "a": "On road signs and official documents",
+        "wrong": [
+          "Only in museums",
+          "Only in churches",
+          "Only in private homes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-overseas",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "territories"
+    ],
     "explanation": "British overseas territories include St Helena and the Falkland Islands. They are not part of the UK.",
     "angles": [
-      { "q": "Which of these is a British overseas territory?", "a": "St Helena", "wrong": ["The Isle of Man", "Jersey", "Guernsey"] }
-    ] },
-  { "id": "j2-isle-of-man", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["crown-dependencies"],
+      {
+        "q": "Which of these is a British overseas territory?",
+        "a": "St Helena",
+        "wrong": [
+          "The Isle of Man",
+          "Jersey",
+          "Guernsey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-isle-of-man",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "crown-dependencies"
+    ],
     "explanation": "The Isle of Man and the Channel Islands are Crown dependencies with their own governments, and are not part of the UK.",
     "angles": [
-      { "q": "The Isle of Man has what relationship to the UK?", "a": "It is a Crown dependency, not part of the UK", "wrong": ["It is a county of England", "It is a fifth country of the UK", "It is a British overseas territory"] }
-    ] },
-  { "id": "j2-ni-border", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["geography"],
+      {
+        "q": "The Isle of Man has what relationship to the UK?",
+        "a": "It is a Crown dependency, not part of the UK",
+        "wrong": [
+          "It is a county of England",
+          "It is a fifth country of the UK",
+          "It is a British overseas territory"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-ni-border",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
     "explanation": "Northern Ireland is the only part of the UK with a land border with another country, the Republic of Ireland.",
     "angles": [
-      { "q": "With which country does Northern Ireland share a land border?", "a": "The Republic of Ireland", "wrong": ["Scotland", "France", "Wales"] }
-    ] },
-  { "id": "j2-westminster", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["parliament"],
+      {
+        "q": "With which country does Northern Ireland share a land border?",
+        "a": "The Republic of Ireland",
+        "wrong": [
+          "Scotland",
+          "France",
+          "Wales"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2-westminster",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "parliament"
+    ],
     "explanation": "The UK Parliament sits at Westminster in London and governs the whole of the UK.",
     "angles": [
-      { "q": "In which part of London does the UK Parliament sit?", "a": "Westminster", "wrong": ["Whitehall", "Kensington", "Greenwich"] }
-    ] }
+      {
+        "q": "In which part of London does the UK Parliament sit?",
+        "a": "Westminster",
+        "wrong": [
+          "Whitehall",
+          "Kensington",
+          "Greenwich"
+        ]
+      }
+    ]
+  }
 ]

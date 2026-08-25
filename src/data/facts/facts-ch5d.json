@@ -20,7 +20,8 @@
         "alts": [
           "The UK system of government is described as what?",
           "How is the UK's monarchy described?"
-        ]
+        ],
+        "e": "The UK is a constitutional monarchy: the monarch is Head of State but does not rule, and the country is governed by ministers accountable to an elected Parliament."
       }
     ],
     "tf": [
@@ -172,7 +173,8 @@
         "alts": [
           "Who runs the UK economy in government?",
           "The Treasury is led by which minister?"
-        ]
+        ],
+        "e": "The Chancellor of the Exchequer is responsible for the economy and lives at 11 Downing Street."
       },
       {
         "q": "Which minister is responsible for crime and policing?",
@@ -201,7 +203,8 @@
         "wrong": [
           "The Speaker",
           "The Lord Mayor"
-        ]
+        ],
+        "e": "The Chancellor of the Exchequer runs the economy and the Home Secretary is responsible for crime, policing and immigration."
       }
     ]
   },
@@ -490,7 +493,8 @@
         ],
         "alts": [
           "Which of these actions breaks UK equality law?"
-        ]
+        ],
+        "e": "Discriminating against someone because of their disability is unlawful, as is discrimination on grounds of race, sex, religion, age or sexual orientation."
       }
     ],
     "tf": [

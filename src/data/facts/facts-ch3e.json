@@ -19,7 +19,8 @@
         ],
         "alts": [
           "When did the Channel finally separate Britain from Europe?"
-        ]
+        ],
+        "e": "Britain was joined to the continent by a land bridge until about 10,000 years ago, when rising seas made it an island."
       }
     ],
     "tf": [
@@ -377,7 +378,8 @@
         ],
         "alts": [
           "George I came to the British throne from which German state?"
-        ]
+        ],
+        "e": "George I was the German Elector of Hanover, chosen as the nearest Protestant relative of Queen Anne. He spoke little English and relied on his ministers."
       }
     ],
     "tf": [
@@ -486,7 +488,8 @@
         ],
         "alts": [
           "Who was Minister for Health when the NHS was founded?"
-        ]
+        ],
+        "e": "Aneurin Bevan, Minister for Health in Clement Attlee's Labour government, led the creation of the NHS in 1948."
       }
     ],
     "tf": [
@@ -579,7 +582,8 @@
         "pool": "scientists",
         "alts": [
           "The smallpox vaccine was developed by which British doctor?"
-        ]
+        ],
+        "e": "Edward Jenner, working in Gloucestershire, developed a vaccination against smallpox in the 1790s."
       },
       {
         "q": "Who developed the theory of evolution by natural selection?",
@@ -587,7 +591,8 @@
         "pool": "scientists",
         "alts": [
           "On the Origin of Species was written by whom?"
-        ]
+        ],
+        "e": "Charles Darwin set out the theory of evolution by natural selection in On the Origin of Species, published in 1859."
       }
     ],
     "tf": [
@@ -664,7 +669,8 @@
         ],
         "alts": [
           "The suffragette movement was led by whom?"
-        ]
+        ],
+        "e": "Emmeline Pankhurst founded the Women's Social and Political Union, whose members became known as suffragettes."
       }
     ],
     "tf": [

@@ -1,188 +1,737 @@
 [
-  { "id": "a3-hastings", "chapter": 3, "section": "The Norman Conquest", "difficulty": 2, "tags": ["normans", "1066"],
+  {
+    "id": "a3-hastings",
+    "chapter": 3,
+    "section": "The Norman Conquest",
+    "difficulty": 2,
+    "tags": [
+      "normans",
+      "1066"
+    ],
     "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
     "angles": [
-      { "q": "The Battle of Hastings took place in which year?", "a": "1066", "pool": "years-medieval",
-        "alts": ["When was the Battle of Hastings fought?", "In which year did William of Normandy invade England?", "Complete the sentence: the Norman Conquest of England took place in ___"] },
-      { "q": "Who led the Norman invasion of England?", "a": "William of Normandy", "pool": "monarchs",
-        "alts": ["Which Norman duke won the Battle of Hastings?", "Who became king of England after the Battle of Hastings?"] }
+      {
+        "q": "The Battle of Hastings took place in which year?",
+        "a": "1066",
+        "pool": "years-medieval",
+        "alts": [
+          "When was the Battle of Hastings fought?",
+          "In which year did William of Normandy invade England?",
+          "Complete the sentence: the Norman Conquest of England took place in ___"
+        ],
+        "e": "William of Normandy defeated Harold at the Battle of Hastings in 1066, the last successful foreign invasion of England."
+      },
+      {
+        "q": "Who led the Norman invasion of England?",
+        "a": "William of Normandy",
+        "pool": "monarchs",
+        "alts": [
+          "Which Norman duke won the Battle of Hastings?",
+          "Who became king of England after the Battle of Hastings?"
+        ],
+        "e": "William of Normandy led the invasion, defeated Harold at Hastings in 1066, and became known as William the Conqueror."
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these are associated with the Norman Conquest?", "a": ["The Battle of Hastings", "The Domesday Book"], "wrong": ["Magna Carta", "The Spanish Armada"] }
-    ] },
-  { "id": "a3-magna-carta", "chapter": 3, "section": "The Middle Ages", "difficulty": 2, "tags": ["magna-carta"],
+      {
+        "q": "Which TWO of these are associated with the Norman Conquest?",
+        "a": [
+          "The Battle of Hastings",
+          "The Domesday Book"
+        ],
+        "wrong": [
+          "Magna Carta",
+          "The Spanish Armada"
+        ],
+        "e": "The Battle of Hastings in 1066 brought the Normans to power, and the Domesday Book was compiled in 1086 to record who held what."
+      }
+    ]
+  },
+  {
+    "id": "a3-magna-carta",
+    "chapter": 3,
+    "section": "The Middle Ages",
+    "difficulty": 2,
+    "tags": [
+      "magna-carta"
+    ],
     "explanation": "King John agreed to Magna Carta in 1215, establishing that the king was subject to the law.",
     "angles": [
-      { "q": "Magna Carta was agreed in which year?", "a": "1215", "pool": "years-medieval",
-        "alts": ["When did King John agree to Magna Carta?", "In which year was the Great Charter signed?", "Complete the sentence: Magna Carta was agreed in ___"] },
-      { "q": "What principle did Magna Carta establish?", "a": "That the king was subject to the law", "wrong": ["That Parliament could tax the Church", "That England would be Protestant", "That serfs were free"],
-        "alts": ["Magna Carta is important because it established what?", "What was the significance of Magna Carta?"] }
-    ] },
-  { "id": "a3-armada", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["armada"],
+      {
+        "q": "Magna Carta was agreed in which year?",
+        "a": "1215",
+        "pool": "years-medieval",
+        "alts": [
+          "When did King John agree to Magna Carta?",
+          "In which year was the Great Charter signed?",
+          "Complete the sentence: Magna Carta was agreed in ___"
+        ],
+        "e": "Magna Carta, the Great Charter, was agreed by King John in 1215 and established that even the king was subject to the law."
+      },
+      {
+        "q": "What principle did Magna Carta establish?",
+        "a": "That the king was subject to the law",
+        "wrong": [
+          "That Parliament could tax the Church",
+          "That England would be Protestant",
+          "That serfs were free"
+        ],
+        "alts": [
+          "Magna Carta is important because it established what?",
+          "What was the significance of Magna Carta?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-armada",
+    "chapter": 3,
+    "section": "The Tudors",
+    "difficulty": 3,
+    "tags": [
+      "armada"
+    ],
     "explanation": "The Spanish Armada was defeated in 1588 during the reign of Elizabeth I.",
     "angles": [
-      { "q": "The Spanish Armada was defeated in which year?", "a": "1588", "pool": "years-tudor-stuart",
-        "alts": ["When was the Spanish Armada defeated?", "In which year did England defeat the Spanish fleet?"] },
-      { "q": "Which monarch reigned when the Spanish Armada was defeated?", "a": "Elizabeth I", "pool": "monarchs",
-        "alts": ["Who was on the English throne when the Armada was defeated?"] }
+      {
+        "q": "The Spanish Armada was defeated in which year?",
+        "a": "1588",
+        "pool": "years-tudor-stuart",
+        "alts": [
+          "When was the Spanish Armada defeated?",
+          "In which year did England defeat the Spanish fleet?"
+        ]
+      },
+      {
+        "q": "Which monarch reigned when the Spanish Armada was defeated?",
+        "a": "Elizabeth I",
+        "pool": "monarchs",
+        "alts": [
+          "Who was on the English throne when the Armada was defeated?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these happened during the reign of Elizabeth I?", "a": ["The defeat of the Spanish Armada", "The execution of Mary, Queen of Scots"], "wrong": ["The Great Fire of London", "The signing of Magna Carta"] }
-    ] },
-  { "id": "a3-civil-war", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["civil-war"],
+      {
+        "q": "Which TWO of these happened during the reign of Elizabeth I?",
+        "a": [
+          "The defeat of the Spanish Armada",
+          "The execution of Mary, Queen of Scots"
+        ],
+        "wrong": [
+          "The Great Fire of London",
+          "The signing of Magna Carta"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-civil-war",
+    "chapter": 3,
+    "section": "The Stuarts",
+    "difficulty": 3,
+    "tags": [
+      "civil-war"
+    ],
     "explanation": "The English Civil War began in 1642 between the Cavaliers, who supported the king, and the Roundheads, who supported Parliament.",
     "angles": [
-      { "q": "The English Civil War began in which year?", "a": "1642", "pool": "years-tudor-stuart",
-        "alts": ["When did the English Civil War break out?", "In which year did fighting begin between the king and Parliament?"] },
-      { "q": "What were supporters of Parliament called during the Civil War?", "a": "Roundheads", "wrong": ["Cavaliers", "Jacobites", "Chartists"],
-        "alts": ["Which name was given to those who fought for Parliament in the Civil War?"] }
+      {
+        "q": "The English Civil War began in which year?",
+        "a": "1642",
+        "pool": "years-tudor-stuart",
+        "alts": [
+          "When did the English Civil War break out?",
+          "In which year did fighting begin between the king and Parliament?"
+        ]
+      },
+      {
+        "q": "What were supporters of Parliament called during the Civil War?",
+        "a": "Roundheads",
+        "wrong": [
+          "Cavaliers",
+          "Jacobites",
+          "Chartists"
+        ],
+        "alts": [
+          "Which name was given to those who fought for Parliament in the Civil War?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO names were used for the sides in the English Civil War?", "a": ["Cavaliers", "Roundheads"], "wrong": ["Jacobites", "Suffragettes"] }
-    ] },
-  { "id": "a3-great-fire", "chapter": 3, "section": "The Stuarts", "difficulty": 2, "tags": ["great-fire"],
+      {
+        "q": "Which TWO names were used for the sides in the English Civil War?",
+        "a": [
+          "Cavaliers",
+          "Roundheads"
+        ],
+        "wrong": [
+          "Jacobites",
+          "Suffragettes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-great-fire",
+    "chapter": 3,
+    "section": "The Stuarts",
+    "difficulty": 2,
+    "tags": [
+      "great-fire"
+    ],
     "explanation": "The Great Fire of London took place in 1666, the year after the Great Plague, and destroyed much of the city.",
     "angles": [
-      { "q": "The Great Fire of London happened in which year?", "a": "1666", "pool": "years-tudor-stuart",
-        "alts": ["When did the Great Fire of London take place?", "In which year was much of London destroyed by fire?"] }
-    ] },
-  { "id": "a3-union-1707", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["union"],
+      {
+        "q": "The Great Fire of London happened in which year?",
+        "a": "1666",
+        "pool": "years-tudor-stuart",
+        "alts": [
+          "When did the Great Fire of London take place?",
+          "In which year was much of London destroyed by fire?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-union-1707",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "union"
+    ],
     "explanation": "The Act of Union of 1707 joined the parliaments of England and Scotland, creating the Kingdom of Great Britain.",
     "angles": [
-      { "q": "The Act of Union joining England and Scotland was passed in which year?", "a": "1707", "pool": "years-georgian",
-        "alts": ["When were the English and Scottish parliaments joined?", "In which year was the Kingdom of Great Britain created?"] }
-    ] },
-  { "id": "a3-trafalgar", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["trafalgar"],
+      {
+        "q": "The Act of Union joining England and Scotland was passed in which year?",
+        "a": "1707",
+        "pool": "years-georgian",
+        "alts": [
+          "When were the English and Scottish parliaments joined?",
+          "In which year was the Kingdom of Great Britain created?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-trafalgar",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "trafalgar"
+    ],
     "explanation": "Admiral Nelson was killed at the Battle of Trafalgar in 1805, where the British navy defeated the French and Spanish fleets.",
     "angles": [
-      { "q": "In which battle was Admiral Nelson killed?", "a": "The Battle of Trafalgar", "pool": "battles",
-        "alts": ["Nelson died during which naval battle?", "Which 1805 battle cost Admiral Nelson his life?"] },
-      { "q": "The Battle of Trafalgar was fought in which year?", "a": "1805", "pool": "years-georgian",
-        "alts": ["When was the Battle of Trafalgar?"] }
-    ] },
-  { "id": "a3-waterloo", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["waterloo"],
+      {
+        "q": "In which battle was Admiral Nelson killed?",
+        "a": "The Battle of Trafalgar",
+        "pool": "battles",
+        "alts": [
+          "Nelson died during which naval battle?",
+          "Which 1805 battle cost Admiral Nelson his life?"
+        ]
+      },
+      {
+        "q": "The Battle of Trafalgar was fought in which year?",
+        "a": "1805",
+        "pool": "years-georgian",
+        "alts": [
+          "When was the Battle of Trafalgar?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-waterloo",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "waterloo"
+    ],
     "explanation": "The Duke of Wellington defeated Napoleon at the Battle of Waterloo in 1815.",
     "angles": [
-      { "q": "Who commanded the British forces at Waterloo?", "a": "The Duke of Wellington", "pool": "prime-ministers",
-        "alts": ["Which British commander defeated Napoleon in 1815?", "Napoleon was defeated at Waterloo by which general?"] },
-      { "q": "The Battle of Waterloo was fought in which year?", "a": "1815", "pool": "years-georgian",
-        "alts": ["When was Napoleon finally defeated at Waterloo?"] }
-    ] },
-  { "id": "a3-nhs", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["nhs"],
+      {
+        "q": "Who commanded the British forces at Waterloo?",
+        "a": "The Duke of Wellington",
+        "pool": "prime-ministers",
+        "alts": [
+          "Which British commander defeated Napoleon in 1815?",
+          "Napoleon was defeated at Waterloo by which general?"
+        ]
+      },
+      {
+        "q": "The Battle of Waterloo was fought in which year?",
+        "a": "1815",
+        "pool": "years-georgian",
+        "alts": [
+          "When was Napoleon finally defeated at Waterloo?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-nhs",
+    "chapter": 3,
+    "section": "The 20th century",
+    "difficulty": 2,
+    "tags": [
+      "nhs"
+    ],
     "explanation": "The National Health Service was established in 1948 by the Labour government, free at the point of use.",
     "angles": [
-      { "q": "The National Health Service was founded in which year?", "a": "1948", "pool": "years-modern",
-        "alts": ["When was the NHS established?", "In which year did the UK create a health service free at the point of use?"] }
+      {
+        "q": "The National Health Service was founded in which year?",
+        "a": "1948",
+        "pool": "years-modern",
+        "alts": [
+          "When was the NHS established?",
+          "In which year did the UK create a health service free at the point of use?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these were created by the post-war Labour government?", "a": ["The National Health Service", "The modern welfare state"], "wrong": ["The British Empire", "The Church of England"] }
-    ] },
-  { "id": "a3-ww2", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["ww2"],
+      {
+        "q": "Which TWO of these were created by the post-war Labour government?",
+        "a": [
+          "The National Health Service",
+          "The modern welfare state"
+        ],
+        "wrong": [
+          "The British Empire",
+          "The Church of England"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-ww2",
+    "chapter": 3,
+    "section": "The 20th century",
+    "difficulty": 2,
+    "tags": [
+      "ww2"
+    ],
     "explanation": "The Second World War lasted from 1939 to 1945. Winston Churchill became Prime Minister in 1940.",
     "angles": [
-      { "q": "In which year did the Second World War end?", "a": "1945", "pool": "years-modern",
-        "alts": ["When did the Second World War finish?", "The Second World War came to an end in which year?"] },
-      { "q": "Who led Britain through most of the Second World War as Prime Minister?", "a": "Sir Winston Churchill", "pool": "prime-ministers",
-        "alts": ["Which Prime Minister took office in 1940?", "Who was Britain's wartime Prime Minister from 1940?"] }
+      {
+        "q": "In which year did the Second World War end?",
+        "a": "1945",
+        "pool": "years-modern",
+        "alts": [
+          "When did the Second World War finish?",
+          "The Second World War came to an end in which year?"
+        ]
+      },
+      {
+        "q": "Who led Britain through most of the Second World War as Prime Minister?",
+        "a": "Sir Winston Churchill",
+        "pool": "prime-ministers",
+        "alts": [
+          "Which Prime Minister took office in 1940?",
+          "Who was Britain's wartime Prime Minister from 1940?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these took place during the Second World War?", "a": ["The Dunkirk evacuation", "The D-Day landings"], "wrong": ["The Battle of Trafalgar", "The Great Exhibition"] }
-    ] },
-  { "id": "a3-ww1", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["ww1"],
+      {
+        "q": "Which TWO of these took place during the Second World War?",
+        "a": [
+          "The Dunkirk evacuation",
+          "The D-Day landings"
+        ],
+        "wrong": [
+          "The Battle of Trafalgar",
+          "The Great Exhibition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3-ww1",
+    "chapter": 3,
+    "section": "The 20th century",
+    "difficulty": 2,
+    "tags": [
+      "ww1"
+    ],
     "explanation": "The First World War began in 1914 and ended at 11am on 11 November 1918.",
     "angles": [
-      { "q": "In which year did the First World War begin?", "a": "1914", "pool": "years-modern",
-        "alts": ["When did the First World War start?", "The First World War broke out in which year?"] }
-    ] },
-  { "id": "a4-patron-saints", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["patron-saints"],
+      {
+        "q": "In which year did the First World War begin?",
+        "a": "1914",
+        "pool": "years-modern",
+        "alts": [
+          "When did the First World War start?",
+          "The First World War broke out in which year?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a4-patron-saints",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 2,
+    "tags": [
+      "patron-saints"
+    ],
     "explanation": "St George is patron saint of England, St David of Wales, St Patrick of Northern Ireland and St Andrew of Scotland.",
     "angles": [
-      { "q": "Who is the patron saint of England?", "a": "St George", "pool": "saints",
-        "alts": ["England's patron saint is which of these?", "Which saint is celebrated as the patron of England?"] },
-      { "q": "Who is the patron saint of Wales?", "a": "St David", "pool": "saints",
-        "alts": ["Wales has which patron saint?"] }
+      {
+        "q": "Who is the patron saint of England?",
+        "a": "St George",
+        "pool": "saints",
+        "alts": [
+          "England's patron saint is which of these?",
+          "Which saint is celebrated as the patron of England?"
+        ]
+      },
+      {
+        "q": "Who is the patron saint of Wales?",
+        "a": "St David",
+        "pool": "saints",
+        "alts": [
+          "Wales has which patron saint?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these are patron saints of countries in the UK?", "a": ["St Andrew", "St Patrick"], "wrong": ["St Augustine", "St Columba"] }
-    ] },
-  { "id": "a4-christmas", "chapter": 4, "section": "Customs and traditions", "difficulty": 1, "tags": ["festivals"],
+      {
+        "q": "Which TWO of these are patron saints of countries in the UK?",
+        "a": [
+          "St Andrew",
+          "St Patrick"
+        ],
+        "wrong": [
+          "St Augustine",
+          "St Columba"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a4-christmas",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 1,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Christmas Day is 25 December and Boxing Day is 26 December. Both are public holidays.",
     "angles": [
-      { "q": "Which festival falls on 25 December?", "a": "Christmas", "pool": "festivals",
-        "alts": ["What is celebrated in the UK on 25 December?", "25 December marks which celebration?"] }
+      {
+        "q": "Which festival falls on 25 December?",
+        "a": "Christmas",
+        "pool": "festivals",
+        "alts": [
+          "What is celebrated in the UK on 25 December?",
+          "25 December marks which celebration?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these are UK bank holidays?", "a": ["Christmas Day", "Boxing Day"], "wrong": ["Halloween", "Valentine's Day"] }
-    ] },
-  { "id": "a4-wimbledon", "chapter": 4, "section": "Sport", "difficulty": 2, "tags": ["sport"],
+      {
+        "q": "Which TWO of these are UK bank holidays?",
+        "a": [
+          "Christmas Day",
+          "Boxing Day"
+        ],
+        "wrong": [
+          "Halloween",
+          "Valentine's Day"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a4-wimbledon",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 2,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Wimbledon is the oldest tennis tournament in the world and the only Grand Slam played on grass.",
     "angles": [
-      { "q": "Which sport is played at Wimbledon?", "a": "Tennis", "pool": "sports",
-        "alts": ["Wimbledon hosts a famous championship in which sport?", "The Wimbledon Championships are contested in which sport?"] }
+      {
+        "q": "Which sport is played at Wimbledon?",
+        "a": "Tennis",
+        "pool": "sports",
+        "alts": [
+          "Wimbledon hosts a famous championship in which sport?",
+          "The Wimbledon Championships are contested in which sport?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO sports originated in England?", "a": ["Cricket", "Rugby"], "wrong": ["Basketball", "Ice hockey"] }
-    ] },
-  { "id": "a4-shakespeare", "chapter": 4, "section": "Arts and culture", "difficulty": 2, "tags": ["shakespeare"],
+      {
+        "q": "Which TWO sports originated in England?",
+        "a": [
+          "Cricket",
+          "Rugby"
+        ],
+        "wrong": [
+          "Basketball",
+          "Ice hockey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a4-shakespeare",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 2,
+    "tags": [
+      "shakespeare"
+    ],
     "explanation": "William Shakespeare, born in Stratford-upon-Avon in 1564, wrote plays and sonnets performed at the Globe Theatre.",
     "angles": [
-      { "q": "Where was William Shakespeare born?", "a": "Stratford-upon-Avon", "wrong": ["Canterbury", "Oxford", "Bath"],
-        "alts": ["Shakespeare's birthplace was which town?", "In which town did William Shakespeare grow up?"] }
+      {
+        "q": "Where was William Shakespeare born?",
+        "a": "Stratford-upon-Avon",
+        "wrong": [
+          "Canterbury",
+          "Oxford",
+          "Bath"
+        ],
+        "alts": [
+          "Shakespeare's birthplace was which town?",
+          "In which town did William Shakespeare grow up?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these were written by William Shakespeare?", "a": ["Hamlet", "Macbeth"], "wrong": ["Oliver Twist", "Jane Eyre"] }
-    ] },
-  { "id": "a5-commons", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["parliament"],
+      {
+        "q": "Which TWO of these were written by William Shakespeare?",
+        "a": [
+          "Hamlet",
+          "Macbeth"
+        ],
+        "wrong": [
+          "Oliver Twist",
+          "Jane Eyre"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a5-commons",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 2,
+    "tags": [
+      "parliament"
+    ],
     "explanation": "There are 650 MPs in the House of Commons, each representing one constituency, elected by first past the post.",
     "angles": [
-      { "q": "How many MPs are there in the House of Commons?", "a": "650", "pool": "counts",
-        "alts": ["The House of Commons has how many members?", "How many Members of Parliament sit in the Commons?"] },
-      { "q": "Which voting system is used to elect MPs?", "a": "First past the post", "wrong": ["Proportional representation", "The single transferable vote", "The alternative vote"],
-        "alts": ["MPs are elected to the House of Commons using which system?"] }
+      {
+        "q": "How many MPs are there in the House of Commons?",
+        "a": "650",
+        "pool": "counts",
+        "alts": [
+          "The House of Commons has how many members?",
+          "How many Members of Parliament sit in the Commons?"
+        ]
+      },
+      {
+        "q": "Which voting system is used to elect MPs?",
+        "a": "First past the post",
+        "wrong": [
+          "Proportional representation",
+          "The single transferable vote",
+          "The alternative vote"
+        ],
+        "alts": [
+          "MPs are elected to the House of Commons using which system?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO chambers make up the UK Parliament?", "a": ["The House of Commons", "The House of Lords"], "wrong": ["The Scottish Parliament", "The Supreme Court"] }
-    ] },
-  { "id": "a5-pm", "chapter": 5, "section": "The British constitution", "difficulty": 1, "tags": ["government"],
+      {
+        "q": "Which TWO chambers make up the UK Parliament?",
+        "a": [
+          "The House of Commons",
+          "The House of Lords"
+        ],
+        "wrong": [
+          "The Scottish Parliament",
+          "The Supreme Court"
+        ],
+        "e": "Parliament consists of the House of Commons, whose 650 members are elected, and the House of Lords, whose members are appointed."
+      }
+    ]
+  },
+  {
+    "id": "a5-pm",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 1,
+    "tags": [
+      "government"
+    ],
     "explanation": "The Prime Minister is Head of Government and lives at 10 Downing Street.",
     "angles": [
-      { "q": "Where does the Prime Minister officially live?", "a": "10 Downing Street", "wrong": ["11 Downing Street", "Buckingham Palace", "The Palace of Westminster"],
-        "alts": ["What is the official London residence of the Prime Minister?", "The Prime Minister's official home is at which address?"] }
-    ] },
-  { "id": "a5-jury", "chapter": 5, "section": "The law", "difficulty": 2, "tags": ["jury"],
+      {
+        "q": "Where does the Prime Minister officially live?",
+        "a": "10 Downing Street",
+        "wrong": [
+          "11 Downing Street",
+          "Buckingham Palace",
+          "The Palace of Westminster"
+        ],
+        "alts": [
+          "What is the official London residence of the Prime Minister?",
+          "The Prime Minister's official home is at which address?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a5-jury",
+    "chapter": 5,
+    "section": "The law",
+    "difficulty": 2,
+    "tags": [
+      "jury"
+    ],
     "explanation": "A jury has 12 members in England, Wales and Northern Ireland, and 15 in Scotland.",
     "angles": [
-      { "q": "How many people sit on a jury in England and Wales?", "a": "12", "pool": "counts",
-        "alts": ["A jury in England and Wales is made up of how many people?", "How many jurors hear a Crown Court trial?"] },
-      { "q": "How many people sit on a jury in Scotland?", "a": "15", "pool": "counts",
-        "alts": ["A Scottish jury has how many members?"] }
-    ] },
-  { "id": "a5-voting", "chapter": 5, "section": "Your role in the community", "difficulty": 2, "tags": ["voting"],
+      {
+        "q": "How many people sit on a jury in England and Wales?",
+        "a": "12",
+        "pool": "counts",
+        "alts": [
+          "A jury in England and Wales is made up of how many people?",
+          "How many jurors hear a Crown Court trial?"
+        ],
+        "e": "Serious criminal cases in England and Wales are heard in the Crown Court before a judge and a jury of 12."
+      },
+      {
+        "q": "How many people sit on a jury in Scotland?",
+        "a": "15",
+        "pool": "counts",
+        "alts": [
+          "A Scottish jury has how many members?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a5-voting",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 2,
+    "tags": [
+      "voting"
+    ],
     "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register.",
     "angles": [
-      { "q": "At what age can you vote in a UK general election?", "a": "18", "pool": "counts",
-        "alts": ["What is the minimum voting age in the UK?", "You must be at least how old to vote in a general election?"] }
+      {
+        "q": "At what age can you vote in a UK general election?",
+        "a": "18",
+        "pool": "counts",
+        "alts": [
+          "What is the minimum voting age in the UK?",
+          "You must be at least how old to vote in a general election?"
+        ],
+        "e": "You can vote in a UK general election at 18, provided you are on the electoral register and eligible."
+      }
     ],
     "multi": [
-      { "q": "Which TWO are civic duties of residents in the UK?", "a": ["Serving on a jury when called", "Obeying the law"], "wrong": ["Joining a political party", "Attending a place of worship"] }
-    ] },
-  { "id": "a2-nations", "chapter": 2, "section": "What is the UK?", "difficulty": 1, "tags": ["geography"],
+      {
+        "q": "Which TWO are civic duties of residents in the UK?",
+        "a": [
+          "Serving on a jury when called",
+          "Obeying the law"
+        ],
+        "wrong": [
+          "Joining a political party",
+          "Attending a place of worship"
+        ],
+        "e": "Obeying the law and serving on a jury when called are both civic duties expected of residents in the UK."
+      }
+    ]
+  },
+  {
+    "id": "a2-nations",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 1,
+    "tags": [
+      "geography"
+    ],
     "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland.",
     "angles": [
-      { "q": "How many countries make up the UK?", "a": "Four", "pool": "small-numbers",
-        "alts": ["The United Kingdom consists of how many countries?", "How many nations are there in the UK?"] }
+      {
+        "q": "How many countries make up the UK?",
+        "a": "Four",
+        "pool": "small-numbers",
+        "alts": [
+          "The United Kingdom consists of how many countries?",
+          "How many nations are there in the UK?"
+        ],
+        "e": "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland."
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these are countries of the UK?", "a": ["Scotland", "Northern Ireland"], "wrong": ["The Republic of Ireland", "The Isle of Man"] }
-    ] },
-  { "id": "a1-principles", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "q": "Which TWO of these are countries of the UK?",
+        "a": [
+          "Scotland",
+          "Northern Ireland"
+        ],
+        "wrong": [
+          "The Republic of Ireland",
+          "The Isle of Man"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a1-principles",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
     "angles": [
-      { "q": "How many fundamental principles of British life are listed in the handbook?", "a": "Five", "pool": "small-numbers",
-        "alts": ["The handbook lists how many fundamental principles of British life?"] }
+      {
+        "q": "How many fundamental principles of British life are listed in the handbook?",
+        "a": "Five",
+        "pool": "small-numbers",
+        "alts": [
+          "The handbook lists how many fundamental principles of British life?"
+        ]
+      }
     ],
     "multi": [
-      { "q": "Which TWO of these are fundamental principles of British life?", "a": ["Democracy", "The rule of law"], "wrong": ["Compulsory military service", "State control of religion"] },
-      { "q": "Which TWO of these are responsibilities of UK residents?", "a": ["Respecting and obeying the law", "Looking after yourself and your family"], "wrong": ["Owning property", "Joining a trade union"] }
-    ] }
+      {
+        "q": "Which TWO of these are fundamental principles of British life?",
+        "a": [
+          "Democracy",
+          "The rule of law"
+        ],
+        "wrong": [
+          "Compulsory military service",
+          "State control of religion"
+        ]
+      },
+      {
+        "q": "Which TWO of these are responsibilities of UK residents?",
+        "a": [
+          "Respecting and obeying the law",
+          "Looking after yourself and your family"
+        ],
+        "wrong": [
+          "Owning property",
+          "Joining a trade union"
+        ]
+      }
+    ]
+  }
 ]

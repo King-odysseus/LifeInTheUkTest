@@ -1225,7 +1225,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland.",
+    "explanation": "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 1,
@@ -1246,7 +1246,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland.",
+    "explanation": "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 1,
@@ -1267,7 +1267,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland.",
+    "explanation": "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 1,
@@ -1333,7 +1333,7 @@
       0,
       2
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Crown dependencies and overseas territories are not part of the UK.",
+    "explanation": "Welsh is spoken in Wales and Gaelic in parts of Scotland. Irish Gaelic and Ulster Scots are spoken in Northern Ireland.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1355,7 +1355,7 @@
       1,
       2
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Crown dependencies and overseas territories are not part of the UK.",
+    "explanation": "The Union Flag combines the crosses of St George for England, St Andrew for Scotland and St Patrick for Ireland. Wales is not represented.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,

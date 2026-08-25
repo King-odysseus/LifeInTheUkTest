@@ -728,7 +728,7 @@
     "correct": [
       0
     ],
-    "explanation": "A by-election is held in the constituency concerned to elect a new MP."
+    "explanation": "A by-election is held in that constituency to elect a new MP."
   },
   {
     "id": "c5-035",
@@ -1329,7 +1329,7 @@
     "correct": [
       0
     ],
-    "explanation": "Police Community Support Officers work alongside police officers and have different powers from them."
+    "explanation": "PCSO stands for Police Community Support Officer. They work alongside police officers and have different powers from them."
   },
   {
     "id": "c5-063",
@@ -1696,7 +1696,7 @@
     "correct": [
       0
     ],
-    "explanation": "Recycling, walking or cycling short distances and shopping locally all help to reduce environmental damage."
+    "explanation": "Recycling household waste helps protect the environment, as do walking or cycling short journeys and shopping locally."
   },
   {
     "id": "c5-080",
@@ -2055,7 +2055,7 @@
     "correct": [
       0
     ],
-    "explanation": "Scotland has its own legal system. Minor offences are heard in Justice of the Peace Courts, and serious ones in the Sheriff Court or High Court.",
+    "explanation": "A jury in Scotland has 15 members. In England, Wales and Northern Ireland a jury has 12.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 3,
@@ -3177,7 +3177,7 @@
       0,
       1
     ],
-    "explanation": "There are 650 MPs in the House of Commons, each representing one constituency, elected by first past the post.",
+    "explanation": "Parliament consists of the House of Commons, whose 650 members are elected, and the House of Lords, whose members are appointed.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -3366,7 +3366,7 @@
     "correct": [
       1
     ],
-    "explanation": "A jury has 12 members in England, Wales and Northern Ireland, and 15 in Scotland.",
+    "explanation": "Serious criminal cases in England and Wales are heard in the Crown Court before a judge and a jury of 12.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -3387,7 +3387,7 @@
     "correct": [
       1
     ],
-    "explanation": "A jury has 12 members in England, Wales and Northern Ireland, and 15 in Scotland.",
+    "explanation": "Serious criminal cases in England and Wales are heard in the Crown Court before a judge and a jury of 12.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -3408,7 +3408,7 @@
     "correct": [
       2
     ],
-    "explanation": "A jury has 12 members in England, Wales and Northern Ireland, and 15 in Scotland.",
+    "explanation": "Serious criminal cases in England and Wales are heard in the Crown Court before a judge and a jury of 12.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -3451,7 +3451,7 @@
       0,
       1
     ],
-    "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register.",
+    "explanation": "Obeying the law and serving on a jury when called are both civic duties expected of residents in the UK.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3472,7 +3472,7 @@
     "correct": [
       3
     ],
-    "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register.",
+    "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register and eligible.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3493,7 +3493,7 @@
     "correct": [
       2
     ],
-    "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register.",
+    "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register and eligible.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3514,7 +3514,7 @@
     "correct": [
       3
     ],
-    "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register.",
+    "explanation": "You can vote in a UK general election at 18, provided you are on the electoral register and eligible.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3592,7 +3592,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is a constitutional monarchy. The monarch is Head of State with a ceremonial role and must remain politically neutral.",
+    "explanation": "The UK is a constitutional monarchy: the monarch is Head of State but does not rule, and the country is governed by ministers accountable to an elected Parliament.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -3613,7 +3613,7 @@
     "correct": [
       3
     ],
-    "explanation": "The UK is a constitutional monarchy. The monarch is Head of State with a ceremonial role and must remain politically neutral.",
+    "explanation": "The UK is a constitutional monarchy: the monarch is Head of State but does not rule, and the country is governed by ministers accountable to an elected Parliament.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -3634,7 +3634,7 @@
     "correct": [
       2
     ],
-    "explanation": "The UK is a constitutional monarchy. The monarch is Head of State with a ceremonial role and must remain politically neutral.",
+    "explanation": "The UK is a constitutional monarchy: the monarch is Head of State but does not rule, and the country is governed by ministers accountable to an elected Parliament.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -3919,7 +3919,7 @@
       2,
       3
     ],
-    "explanation": "The Chancellor of the Exchequer runs the economy, the Home Secretary handles crime and immigration, and the Foreign Secretary manages relations abroad.",
+    "explanation": "The Chancellor of the Exchequer runs the economy and the Home Secretary is responsible for crime, policing and immigration.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -3940,7 +3940,7 @@
     "correct": [
       2
     ],
-    "explanation": "The Chancellor of the Exchequer runs the economy, the Home Secretary handles crime and immigration, and the Foreign Secretary manages relations abroad.",
+    "explanation": "The Chancellor of the Exchequer is responsible for the economy and lives at 11 Downing Street.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -3961,7 +3961,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Chancellor of the Exchequer runs the economy, the Home Secretary handles crime and immigration, and the Foreign Secretary manages relations abroad.",
+    "explanation": "The Chancellor of the Exchequer is responsible for the economy and lives at 11 Downing Street.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -3982,7 +3982,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Chancellor of the Exchequer runs the economy, the Home Secretary handles crime and immigration, and the Foreign Secretary manages relations abroad.",
+    "explanation": "The Chancellor of the Exchequer is responsible for the economy and lives at 11 Downing Street.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -4791,7 +4791,7 @@
     "correct": [
       3
     ],
-    "explanation": "Discrimination on grounds such as race, sex, religion, disability, age or sexual orientation is unlawful in the UK.",
+    "explanation": "Discriminating against someone because of their disability is unlawful, as is discrimination on grounds of race, sex, religion, age or sexual orientation.",
     "chapter": 5,
     "section": "Fundamental principles",
     "difficulty": 2,
@@ -4812,7 +4812,7 @@
     "correct": [
       3
     ],
-    "explanation": "Discrimination on grounds such as race, sex, religion, disability, age or sexual orientation is unlawful in the UK.",
+    "explanation": "Discriminating against someone because of their disability is unlawful, as is discrimination on grounds of race, sex, religion, age or sexual orientation.",
     "chapter": 5,
     "section": "Fundamental principles",
     "difficulty": 2,
@@ -5339,7 +5339,7 @@
       0,
       1
     ],
-    "explanation": "Parliament consists of the House of Commons and the House of Lords, with the monarch as Head of State.",
+    "explanation": "The Prime Minister is Head of Government and appoints the Cabinet of about 20 senior ministers. The monarch is Head of State.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -5559,7 +5559,7 @@
       0,
       2
     ],
-    "explanation": "Ways to take part include voting, jury service, volunteering, becoming a school governor and helping the environment.",
+    "explanation": "Most workers pay income tax, usually deducted through PAYE, and National Insurance contributions, which fund state benefits and the State Pension.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,

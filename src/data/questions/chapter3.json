@@ -2848,7 +2848,7 @@
       0,
       1
     ],
-    "explanation": "Dunkirk and the Battle of Britain both took place in 1940. Trafalgar was in 1805 and the Great Fire in 1666."
+    "explanation": "Over 300,000 troops were evacuated from Dunkirk in 1940, and the RAF won the Battle of Britain in the summer of the same year."
   },
   {
     "id": "c3-133",
@@ -3149,7 +3149,7 @@
       0,
       1
     ],
-    "explanation": "The Scottish independence referendum was in 2014 and the UK left the EU in 2020. The NHS was founded in 1948 and the Battle of Britain fought in 1940."
+    "explanation": "The Scottish independence referendum was held in 2014 and the UK left the European Union in 2020. The NHS was founded in 1948 and the Battle of Britain fought in 1940."
   },
   {
     "id": "c3-147",
@@ -3292,7 +3292,7 @@
     "correct": [
       0
     ],
-    "explanation": "Hadrian's Wall was built on the orders of Emperor Hadrian to keep out the Picts, the ancestors of the Scottish people.",
+    "explanation": "Hadrian's Wall was built across northern England on the orders of Emperor Hadrian, and long stretches of it survive today.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 3,
@@ -6674,7 +6674,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Jutes, Angles and Saxons came to Britain from what is now Denmark, Germany and the Netherlands.",
+    "explanation": "The Angles, Saxons and Jutes came from northern Europe after the Romans left. England takes its name from the Angles.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -6695,7 +6695,7 @@
     "correct": [
       2
     ],
-    "explanation": "The Jutes, Angles and Saxons came to Britain from what is now Denmark, Germany and the Netherlands.",
+    "explanation": "England takes its name from the Angles, one of the peoples who settled in Britain after the Romans left.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -8919,7 +8919,7 @@
       2,
       3
     ],
-    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
+    "explanation": "The Battle of Hastings in 1066 brought the Normans to power, and the Domesday Book was compiled in 1086 to record who held what.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -8941,7 +8941,7 @@
     "correct": [
       0
     ],
-    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
+    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, the last successful foreign invasion of England.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -8963,7 +8963,7 @@
     "correct": [
       3
     ],
-    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
+    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, the last successful foreign invasion of England.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -8985,7 +8985,7 @@
     "correct": [
       0
     ],
-    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
+    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, the last successful foreign invasion of England.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -9007,7 +9007,7 @@
     "correct": [
       2
     ],
-    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
+    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, the last successful foreign invasion of England.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -9029,7 +9029,7 @@
     "correct": [
       2
     ],
-    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
+    "explanation": "William of Normandy led the invasion, defeated Harold at Hastings in 1066, and became known as William the Conqueror.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -9051,7 +9051,7 @@
     "correct": [
       2
     ],
-    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
+    "explanation": "William of Normandy led the invasion, defeated Harold at Hastings in 1066, and became known as William the Conqueror.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -9073,7 +9073,7 @@
     "correct": [
       3
     ],
-    "explanation": "William of Normandy defeated Harold at the Battle of Hastings in 1066, becoming William the Conqueror.",
+    "explanation": "William of Normandy led the invasion, defeated Harold at Hastings in 1066, and became known as William the Conqueror.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -9095,7 +9095,7 @@
     "correct": [
       0
     ],
-    "explanation": "King John agreed to Magna Carta in 1215, establishing that the king was subject to the law.",
+    "explanation": "Magna Carta, the Great Charter, was agreed by King John in 1215 and established that even the king was subject to the law.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 2,
@@ -9116,7 +9116,7 @@
     "correct": [
       2
     ],
-    "explanation": "King John agreed to Magna Carta in 1215, establishing that the king was subject to the law.",
+    "explanation": "Magna Carta, the Great Charter, was agreed by King John in 1215 and established that even the king was subject to the law.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 2,
@@ -9137,7 +9137,7 @@
     "correct": [
       2
     ],
-    "explanation": "King John agreed to Magna Carta in 1215, establishing that the king was subject to the law.",
+    "explanation": "Magna Carta, the Great Charter, was agreed by King John in 1215 and established that even the king was subject to the law.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 2,
@@ -9158,7 +9158,7 @@
     "correct": [
       2
     ],
-    "explanation": "King John agreed to Magna Carta in 1215, establishing that the king was subject to the law.",
+    "explanation": "Magna Carta, the Great Charter, was agreed by King John in 1215 and established that even the king was subject to the law.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 2,
@@ -10086,7 +10086,7 @@
     "correct": [
       3
     ],
-    "explanation": "The Romans invaded Britain successfully in AD 43 under Emperor Claudius.",
+    "explanation": "The Romans invaded successfully in AD 43 under Emperor Claudius. Julius Caesar's earlier attempt in 55 BC had failed.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -10107,7 +10107,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Romans invaded Britain successfully in AD 43 under Emperor Claudius.",
+    "explanation": "The Romans invaded successfully in AD 43 under Emperor Claudius. Julius Caesar's earlier attempt in 55 BC had failed.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -10128,7 +10128,7 @@
     "correct": [
       2
     ],
-    "explanation": "The Romans invaded Britain successfully in AD 43 under Emperor Claudius.",
+    "explanation": "The Romans invaded successfully in AD 43 under Emperor Claudius. Julius Caesar's earlier attempt in 55 BC had failed.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -10149,7 +10149,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Romans invaded Britain successfully in AD 43 under Emperor Claudius.",
+    "explanation": "The Romans invaded successfully in AD 43 under Emperor Claudius. Julius Caesar's earlier attempt in 55 BC had failed.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -10926,7 +10926,7 @@
     "correct": [
       0
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901, a period in which Britain became the most powerful nation in the world.",
+    "explanation": "Queen Victoria reigned from 1837 until her death in 1901, more than 60 years.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -10947,7 +10947,7 @@
     "correct": [
       3
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901, a period in which Britain became the most powerful nation in the world.",
+    "explanation": "Queen Victoria reigned from 1837 until her death in 1901, more than 60 years.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -10968,7 +10968,7 @@
     "correct": [
       3
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901, a period in which Britain became the most powerful nation in the world.",
+    "explanation": "Queen Victoria reigned from 1837 until her death in 1901, more than 60 years.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -11504,7 +11504,7 @@
     "correct": [
       2
     ],
-    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago. The first farmers arrived about 6,000 years ago.",
+    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago, when rising seas made it an island.",
     "chapter": 3,
     "section": "Early Britain",
     "difficulty": 2,
@@ -11525,7 +11525,7 @@
     "correct": [
       0
     ],
-    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago. The first farmers arrived about 6,000 years ago.",
+    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago, when rising seas made it an island.",
     "chapter": 3,
     "section": "Early Britain",
     "difficulty": 2,
@@ -12395,7 +12395,7 @@
     "correct": [
       0
     ],
-    "explanation": "Georgian Britain saw the Act of Union of 1707, the rise of the office of Prime Minister, the Jacobite risings and the Industrial Revolution.",
+    "explanation": "George I was the German Elector of Hanover, chosen as the nearest Protestant relative of Queen Anne. He spoke little English and relied on his ministers.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12416,7 +12416,7 @@
     "correct": [
       3
     ],
-    "explanation": "Georgian Britain saw the Act of Union of 1707, the rise of the office of Prime Minister, the Jacobite risings and the Industrial Revolution.",
+    "explanation": "George I was the German Elector of Hanover, chosen as the nearest Protestant relative of Queen Anne. He spoke little English and relied on his ministers.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12711,7 +12711,7 @@
     "correct": [
       3
     ],
-    "explanation": "The 20th century brought two world wars, votes for women, the welfare state, decolonisation and devolution.",
+    "explanation": "Aneurin Bevan, Minister for Health in Clement Attlee's Labour government, led the creation of the NHS in 1948.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12732,7 +12732,7 @@
     "correct": [
       3
     ],
-    "explanation": "The 20th century brought two world wars, votes for women, the welfare state, decolonisation and devolution.",
+    "explanation": "Aneurin Bevan, Minister for Health in Clement Attlee's Labour government, led the creation of the NHS in 1948.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12909,7 +12909,7 @@
     "correct": [
       3
     ],
-    "explanation": "Earlier British scientists include Sir Isaac Newton, Edward Jenner, Michael Faraday and Charles Darwin.",
+    "explanation": "Edward Jenner, working in Gloucestershire, developed a vaccination against smallpox in the 1790s.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12930,7 +12930,7 @@
     "correct": [
       2
     ],
-    "explanation": "Earlier British scientists include Sir Isaac Newton, Edward Jenner, Michael Faraday and Charles Darwin.",
+    "explanation": "Edward Jenner, working in Gloucestershire, developed a vaccination against smallpox in the 1790s.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12951,7 +12951,7 @@
     "correct": [
       2
     ],
-    "explanation": "Earlier British scientists include Sir Isaac Newton, Edward Jenner, Michael Faraday and Charles Darwin.",
+    "explanation": "Charles Darwin set out the theory of evolution by natural selection in On the Origin of Species, published in 1859.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12972,7 +12972,7 @@
     "correct": [
       2
     ],
-    "explanation": "Earlier British scientists include Sir Isaac Newton, Edward Jenner, Michael Faraday and Charles Darwin.",
+    "explanation": "Charles Darwin set out the theory of evolution by natural selection in On the Origin of Species, published in 1859.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -13130,7 +13130,7 @@
     "correct": [
       0
     ],
-    "explanation": "The suffragettes campaigned for votes for women. Some women won the vote in 1918 and equal voting rights followed in 1928.",
+    "explanation": "Emmeline Pankhurst founded the Women's Social and Political Union, whose members became known as suffragettes.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -13151,7 +13151,7 @@
     "correct": [
       2
     ],
-    "explanation": "The suffragettes campaigned for votes for women. Some women won the vote in 1918 and equal voting rights followed in 1928.",
+    "explanation": "Emmeline Pankhurst founded the Women's Social and Political Union, whose members became known as suffragettes.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -13195,7 +13195,7 @@
       0,
       3
     ],
-    "explanation": "Stonehenge and Skara Brae are prehistoric sites. Hadrian's Wall is Roman and the Tower of London is Norman.",
+    "explanation": "The Bronze Age and Iron Age both preceded the Roman invasion of AD 43. Iron Age people built hill forts and minted the first British coins.",
     "chapter": 3,
     "section": "Early Britain",
     "difficulty": 3,
@@ -13217,7 +13217,7 @@
       2,
       3
     ],
-    "explanation": "The Angles, Saxons and Jutes came from northern Europe. The Vikings came from Denmark and Norway.",
+    "explanation": "The Angles and Saxons came from northern Europe, along with the Jutes, after the Roman army withdrew in AD 410.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -13261,7 +13261,7 @@
       0,
       2
     ],
-    "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348 and the Wars of the Roses ended in 1485.",
+    "explanation": "Magna Carta was agreed in 1215 and the Black Death reached England in 1348, killing about a third of the population.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -13305,7 +13305,7 @@
       1,
       2
     ],
-    "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348 and the Wars of the Roses ended in 1485.",
+    "explanation": "Henry V won at Agincourt in 1415, and Richard III was killed at Bosworth Field in 1485, ending the Wars of the Roses.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -13481,7 +13481,7 @@
       2,
       3
     ],
-    "explanation": "Trafalgar and Waterloo were fought against Napoleonic France. The Act of Union of 1707 created Great Britain.",
+    "explanation": "Admiral Nelson won at Trafalgar in 1805, where he was killed, and the Duke of Wellington defeated Napoleon at Waterloo in 1815.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -13525,7 +13525,7 @@
       2,
       3
     ],
-    "explanation": "The Victorian era saw the Great Exhibition, the abolition of slavery across the Empire and major social reform.",
+    "explanation": "The Quakers formed the first anti-slavery groups, and William Wilberforce led the campaign in Parliament. The trade was banned in 1807.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -13591,7 +13591,7 @@
       0,
       1
     ],
-    "explanation": "The 20th century brought two world wars, votes for women, the NHS and the welfare state.",
+    "explanation": "Clement Attlee's Labour government, elected in 1945, created the National Health Service in 1948 and the modern welfare state.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -13635,7 +13635,7 @@
       1,
       2
     ],
-    "explanation": "British discoveries include penicillin, radar, the jet engine, television, DNA's structure and the World Wide Web.",
+    "explanation": "Sir Frank Whittle developed the jet engine in the 1930s, and Sir Robert Watson-Watt developed radar, which helped detect incoming aircraft in the war.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,

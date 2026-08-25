@@ -446,7 +446,7 @@
     "correct": [
       0
     ],
-    "explanation": "Welsh cakes are a traditional Welsh dish. Haggis is Scottish and the Ulster fry comes from Northern Ireland."
+    "explanation": "Welsh cakes are a traditional Welsh dish. Haggis is Scottish, the Ulster fry comes from Northern Ireland, and roast beef with Yorkshire pudding is English."
   },
   {
     "id": "c4-022",
@@ -3021,7 +3021,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is an increasingly diverse society, with people from many different backgrounds, cultures and religions living together."
+    "explanation": "The UK is an increasingly diverse society, with people of many different cultures, backgrounds and religions living together."
   },
   {
     "id": "c4-140",
@@ -4835,7 +4835,7 @@
     "correct": [
       2
     ],
-    "explanation": "The British Academy Film Awards, known as the BAFTAs, are the UK's main film awards ceremony.",
+    "explanation": "BAFTA stands for the British Academy of Film and Television Arts, which runs the UK's main film awards.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -5675,7 +5675,7 @@
     "correct": [
       3
     ],
-    "explanation": "The UK has many historic cathedrals and castles, and many are open to the public as visitor attractions.",
+    "explanation": "Caernarfon Castle in north Wales is one of the ring of castles built by Edward I to hold Wales after his conquest.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -7994,7 +7994,7 @@
     "correct": [
       3
     ],
-    "explanation": "British composers include Henry Purcell, Sir Edward Elgar, Gustav Holst, Ralph Vaughan Williams and Benjamin Britten.",
+    "explanation": "Sir Edward Elgar is best known for the Pomp and Circumstance Marches, the first of which is sung as Land of Hope and Glory.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8015,7 +8015,7 @@
     "correct": [
       0
     ],
-    "explanation": "British composers include Henry Purcell, Sir Edward Elgar, Gustav Holst, Ralph Vaughan Williams and Benjamin Britten.",
+    "explanation": "Sir Edward Elgar is best known for the Pomp and Circumstance Marches, the first of which is sung as Land of Hope and Glory.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8159,7 +8159,7 @@
     "correct": [
       1
     ],
-    "explanation": "Famous British authors include Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell and Conan Doyle.",
+    "explanation": "Charles Dickens wrote Great Expectations and Oliver Twist, novels about social conditions in Victorian Britain.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8180,7 +8180,7 @@
     "correct": [
       3
     ],
-    "explanation": "Famous British authors include Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell and Conan Doyle.",
+    "explanation": "Charles Dickens wrote Great Expectations and Oliver Twist, novels about social conditions in Victorian Britain.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8201,7 +8201,7 @@
     "correct": [
       0
     ],
-    "explanation": "Famous British authors include Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell and Conan Doyle.",
+    "explanation": "George Orwell wrote Nineteen Eighty-Four and Animal Farm, both reflecting on politics and power.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8222,7 +8222,7 @@
     "correct": [
       0
     ],
-    "explanation": "Famous British authors include Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell and Conan Doyle.",
+    "explanation": "George Orwell wrote Nineteen Eighty-Four and Animal Farm, both reflecting on politics and power.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8382,7 +8382,7 @@
     "correct": [
       3
     ],
-    "explanation": "Notable British architects include Sir Christopher Wren, Robert Adam, John Nash, Sir Charles Barry and Sir Norman Foster.",
+    "explanation": "Sir Charles Barry designed the Houses of Parliament in the Gothic style, after the old palace burned down in 1834.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8403,7 +8403,7 @@
     "correct": [
       1
     ],
-    "explanation": "Notable British architects include Sir Christopher Wren, Robert Adam, John Nash, Sir Charles Barry and Sir Norman Foster.",
+    "explanation": "Sir Charles Barry designed the Houses of Parliament in the Gothic style, after the old palace burned down in 1834.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8462,7 +8462,7 @@
     "correct": [
       2
     ],
-    "explanation": "British cinema includes Ealing comedies, the films of Sir Alfred Hitchcock and Sir Charlie Chaplin, and the James Bond series.",
+    "explanation": "Sir Alfred Hitchcock directed Psycho and The Birds and was a leading figure in British and American cinema.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8483,7 +8483,7 @@
     "correct": [
       1
     ],
-    "explanation": "British cinema includes Ealing comedies, the films of Sir Alfred Hitchcock and Sir Charlie Chaplin, and the James Bond series.",
+    "explanation": "Sir Alfred Hitchcock directed Psycho and The Birds and was a leading figure in British and American cinema.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8622,7 +8622,7 @@
     "correct": [
       3
     ],
-    "explanation": "Popular pastimes in the UK include gardening, shopping, cooking, sport and going to the pub.",
+    "explanation": "An allotment is a small plot of land rented for growing vegetables and flowers, popular with people who have no garden of their own.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8643,7 +8643,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular pastimes in the UK include gardening, shopping, cooking, sport and going to the pub.",
+    "explanation": "An allotment is a small plot of land rented for growing vegetables and flowers, popular with people who have no garden of their own.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8915,7 +8915,7 @@
       0,
       1
     ],
-    "explanation": "Christmas, Easter, Diwali, Eid, Hanukkah and Vaisakhi are all celebrated in the UK, but only some days are bank holidays.",
+    "explanation": "Bonfires and fireworks mark 5 November, remembering the failure of the Gunpowder Plot of 1605.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -8937,7 +8937,7 @@
       0,
       1
     ],
-    "explanation": "Cricket, rugby, football, tennis and golf all have strong roots in the UK.",
+    "explanation": "The Wimbledon Championships is the oldest tennis tournament in the world, and the Grand National is a steeplechase run at Aintree.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -9069,7 +9069,7 @@
       2,
       3
     ],
-    "explanation": "British arts prizes include the Booker Prize for fiction, the Turner Prize for art, the BAFTAs for film and the Mercury Prize for music.",
+    "explanation": "Charlotte Bronte wrote Jane Eyre and her sister Emily wrote Wuthering Heights.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -9191,7 +9191,7 @@
     "correct": [
       3
     ],
-    "explanation": "A census is taken every 10 years. Detailed census information is kept confidential for 100 years before release.",
+    "explanation": "A census of the UK population is taken every 10 years, and the detailed information is made public after 100 years.",
     "chapter": 4,
     "section": "The UK population",
     "difficulty": 3,
@@ -9212,7 +9212,7 @@
     "correct": [
       2
     ],
-    "explanation": "A census is taken every 10 years. Detailed census information is kept confidential for 100 years before release.",
+    "explanation": "A census of the UK population is taken every 10 years, and the detailed information is made public after 100 years.",
     "chapter": 4,
     "section": "The UK population",
     "difficulty": 3,
@@ -9233,7 +9233,7 @@
     "correct": [
       1
     ],
-    "explanation": "A census is taken every 10 years. Detailed census information is kept confidential for 100 years before release.",
+    "explanation": "A census of the UK population is taken every 10 years, and the detailed information is made public after 100 years.",
     "chapter": 4,
     "section": "The UK population",
     "difficulty": 3,
@@ -9311,7 +9311,7 @@
     "correct": [
       3
     ],
-    "explanation": "The UK is a tolerant society. Everyone has the right to practise a religion, change it, or have none at all.",
+    "explanation": "The UK is a tolerant society: everyone may practise a religion, change it, or have no religion at all.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -9332,7 +9332,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is a tolerant society. Everyone has the right to practise a religion, change it, or have none at all.",
+    "explanation": "The UK is a tolerant society: everyone may practise a religion, change it, or have no religion at all.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -9688,7 +9688,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "explanation": "Sir Ian Botham captained the English cricket team and held records for both runs scored and wickets taken.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -9709,7 +9709,7 @@
     "correct": [
       2
     ],
-    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "explanation": "Sir Ian Botham captained the English cricket team and held records for both runs scored and wickets taken.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -9730,7 +9730,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "explanation": "Torvill and Dean won Olympic gold for ice dancing in 1984 and were world champions four times.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -9751,7 +9751,7 @@
     "correct": [
       2
     ],
-    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "explanation": "Torvill and Dean won Olympic gold for ice dancing in 1984 and were world champions four times.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -10031,7 +10031,7 @@
     "correct": [
       2
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "Thomas Hardy wrote Far from the Madding Crowd and other novels set in the rural south-west of England.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -10052,7 +10052,7 @@
     "correct": [
       2
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "Thomas Hardy wrote Far from the Madding Crowd and other novels set in the rural south-west of England.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -10073,7 +10073,7 @@
     "correct": [
       3
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "Ian Fleming wrote the James Bond novels, which have been filmed in Britain since the 1960s.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -10094,7 +10094,7 @@
     "correct": [
       3
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "Ian Fleming wrote the James Bond novels, which have been filmed in Britain since the 1960s.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -10115,7 +10115,7 @@
     "correct": [
       1
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "Agatha Christie is the best-known British author of detective fiction, and her novels have sold worldwide.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -10136,7 +10136,7 @@
     "correct": [
       0
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "Agatha Christie is the best-known British author of detective fiction, and her novels have sold worldwide.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -10233,7 +10233,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular leisure activities in the UK include gardening, sport, cinema, eating out, and visiting historic places.",
+    "explanation": "The Chelsea Flower Show is held in London each year and reflects the British enthusiasm for gardening.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -10254,7 +10254,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular leisure activities in the UK include gardening, sport, cinema, eating out, and visiting historic places.",
+    "explanation": "The Chelsea Flower Show is held in London each year and reflects the British enthusiasm for gardening.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -10370,7 +10370,7 @@
     "correct": [
       3
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "The Giant's Causeway is a volcanic rock formation on the north-east coast of Northern Ireland and a World Heritage Site.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10391,7 +10391,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "The Giant's Causeway is a volcanic rock formation on the north-east coast of Northern Ireland and a World Heritage Site.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10412,7 +10412,7 @@
     "correct": [
       3
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "The London Eye is a giant observation wheel on the South Bank of the Thames, built to mark the millennium.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10433,7 +10433,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "The London Eye is a giant observation wheel on the South Bank of the Thames, built to mark the millennium.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10492,7 +10492,7 @@
     "correct": [
       0
     ],
-    "explanation": "Charities play a large part in UK life, and many people give money or volunteer their time to support them.",
+    "explanation": "The National Trust, founded in 1895, is a charity that preserves important buildings, coastline and countryside.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -10513,7 +10513,7 @@
     "correct": [
       0
     ],
-    "explanation": "Charities play a large part in UK life, and many people give money or volunteer their time to support them.",
+    "explanation": "The National Trust, founded in 1895, is a charity that preserves important buildings, coastline and countryside.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,

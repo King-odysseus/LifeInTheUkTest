@@ -84,6 +84,22 @@ for (const file of files) {
       (d) => d.length > 6 && expl.includes(d.toLowerCase()),
     )
 
+    // An explanation that shares almost no vocabulary with the question is
+    // usually a fact-level summary inherited by a specific item - the NHS
+    // founder answered with a paragraph about the whole 20th century.
+    const qWords = words(q.question)
+    const qOverlap = qWords.filter((w) => explWords.has(w)).length
+    if (qWords.length >= 3 && qOverlap === 0) {
+      findings.push({
+        id: q.id,
+        file,
+        kind: 'explanation-is-off-topic',
+        detail: `no key term of the question appears in the explanation`,
+        question: q.question,
+      })
+      continue
+    }
+
     if (!correctHit && quotedDistractor) {
       findings.push({
         id: q.id,

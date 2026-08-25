@@ -1,154 +1,955 @@
 [
-  { "id": "m3-early", "chapter": 3, "section": "Early Britain", "difficulty": 3, "tags": ["early-britain"],
+  {
+    "id": "m3-early",
+    "chapter": 3,
+    "section": "Early Britain",
+    "difficulty": 3,
+    "tags": [
+      "early-britain"
+    ],
     "explanation": "Stonehenge and Skara Brae are prehistoric sites. Hadrian's Wall is Roman and the Tower of London is Norman.",
     "multi": [
-      { "q": "Which TWO of these are prehistoric sites in Britain?", "a": ["Stonehenge", "Skara Brae"], "wrong": ["Hadrian's Wall", "The Tower of London"] },
-      { "q": "Which TWO periods came before the Romans arrived in Britain?", "a": ["The Bronze Age", "The Iron Age"], "wrong": ["The Middle Ages", "The Tudor period"] }
-    ] },
-  { "id": "m3-invaders", "chapter": 3, "section": "The Anglo-Saxons", "difficulty": 3, "tags": ["peoples"],
+      {
+        "q": "Which TWO of these are prehistoric sites in Britain?",
+        "a": [
+          "Stonehenge",
+          "Skara Brae"
+        ],
+        "wrong": [
+          "Hadrian's Wall",
+          "The Tower of London"
+        ]
+      },
+      {
+        "q": "Which TWO periods came before the Romans arrived in Britain?",
+        "a": [
+          "The Bronze Age",
+          "The Iron Age"
+        ],
+        "wrong": [
+          "The Middle Ages",
+          "The Tudor period"
+        ],
+        "e": "The Bronze Age and Iron Age both preceded the Roman invasion of AD 43. Iron Age people built hill forts and minted the first British coins."
+      }
+    ]
+  },
+  {
+    "id": "m3-invaders",
+    "chapter": 3,
+    "section": "The Anglo-Saxons",
+    "difficulty": 3,
+    "tags": [
+      "peoples"
+    ],
     "explanation": "The Angles, Saxons and Jutes came from northern Europe. The Vikings came from Denmark and Norway.",
     "multi": [
-      { "q": "Which TWO peoples settled in Britain after the Romans left?", "a": ["The Angles", "The Saxons"], "wrong": ["The Picts", "The Celts"] },
-      { "q": "Which TWO countries did the Vikings come from?", "a": ["Denmark", "Norway"], "wrong": ["Spain", "France"] }
-    ] },
-  { "id": "m3-medieval", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["middle-ages"],
+      {
+        "q": "Which TWO peoples settled in Britain after the Romans left?",
+        "a": [
+          "The Angles",
+          "The Saxons"
+        ],
+        "wrong": [
+          "The Picts",
+          "The Celts"
+        ],
+        "e": "The Angles and Saxons came from northern Europe, along with the Jutes, after the Roman army withdrew in AD 410."
+      },
+      {
+        "q": "Which TWO countries did the Vikings come from?",
+        "a": [
+          "Denmark",
+          "Norway"
+        ],
+        "wrong": [
+          "Spain",
+          "France"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m3-medieval",
+    "chapter": 3,
+    "section": "The Middle Ages",
+    "difficulty": 3,
+    "tags": [
+      "middle-ages"
+    ],
     "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348 and the Wars of the Roses ended in 1485.",
     "multi": [
-      { "q": "Which TWO events took place in the Middle Ages?", "a": ["The signing of Magna Carta", "The Black Death"], "wrong": ["The Great Fire of London", "The Battle of Trafalgar"] },
-      { "q": "Which TWO battles were fought during the Wars of the Roses period?", "a": ["The Battle of Bosworth Field", "The Battle of Towton"], "wrong": ["The Battle of Hastings", "The Battle of Waterloo"] },
-      { "q": "Which TWO of these were medieval English kings?", "a": ["Henry V", "Richard III"], "wrong": ["Charles II", "George I"] }
-    ] },
-  { "id": "m3-tudor", "chapter": 3, "section": "The Tudors", "difficulty": 3, "tags": ["tudors"],
+      {
+        "q": "Which TWO events took place in the Middle Ages?",
+        "a": [
+          "The signing of Magna Carta",
+          "The Black Death"
+        ],
+        "wrong": [
+          "The Great Fire of London",
+          "The Battle of Trafalgar"
+        ],
+        "e": "Magna Carta was agreed in 1215 and the Black Death reached England in 1348, killing about a third of the population."
+      },
+      {
+        "q": "Which TWO battles were fought during the Wars of the Roses period?",
+        "a": [
+          "The Battle of Bosworth Field",
+          "The Battle of Towton"
+        ],
+        "wrong": [
+          "The Battle of Hastings",
+          "The Battle of Waterloo"
+        ]
+      },
+      {
+        "q": "Which TWO of these were medieval English kings?",
+        "a": [
+          "Henry V",
+          "Richard III"
+        ],
+        "wrong": [
+          "Charles II",
+          "George I"
+        ],
+        "e": "Henry V won at Agincourt in 1415, and Richard III was killed at Bosworth Field in 1485, ending the Wars of the Roses."
+      }
+    ]
+  },
+  {
+    "id": "m3-tudor",
+    "chapter": 3,
+    "section": "The Tudors",
+    "difficulty": 3,
+    "tags": [
+      "tudors"
+    ],
     "explanation": "The Tudor monarchs included Henry VIII and Elizabeth I. The Reformation and the Spanish Armada both fall in this period.",
     "multi": [
-      { "q": "Which TWO of these were Tudor monarchs?", "a": ["Henry VIII", "Mary I"], "wrong": ["Charles I", "James II"] },
-      { "q": "Which TWO of these were wives of Henry VIII?", "a": ["Anne Boleyn", "Jane Seymour"], "wrong": ["Mary, Queen of Scots", "Elizabeth of York"] },
-      { "q": "Which TWO happened during the Tudor period?", "a": ["The break with the Church of Rome", "The defeat of the Spanish Armada"], "wrong": ["The Gunpowder Plot", "The Great Plague"] }
-    ] },
-  { "id": "m3-stuart", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["stuarts"],
+      {
+        "q": "Which TWO of these were Tudor monarchs?",
+        "a": [
+          "Henry VIII",
+          "Mary I"
+        ],
+        "wrong": [
+          "Charles I",
+          "James II"
+        ]
+      },
+      {
+        "q": "Which TWO of these were wives of Henry VIII?",
+        "a": [
+          "Anne Boleyn",
+          "Jane Seymour"
+        ],
+        "wrong": [
+          "Mary, Queen of Scots",
+          "Elizabeth of York"
+        ]
+      },
+      {
+        "q": "Which TWO happened during the Tudor period?",
+        "a": [
+          "The break with the Church of Rome",
+          "The defeat of the Spanish Armada"
+        ],
+        "wrong": [
+          "The Gunpowder Plot",
+          "The Great Plague"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m3-stuart",
+    "chapter": 3,
+    "section": "The Stuarts",
+    "difficulty": 3,
+    "tags": [
+      "stuarts"
+    ],
     "explanation": "The Stuart period included the Gunpowder Plot, the Civil War, the Great Plague and Fire, and the Glorious Revolution.",
     "multi": [
-      { "q": "Which TWO events took place during the Stuart period?", "a": ["The Great Fire of London", "The English Civil War"], "wrong": ["The Black Death", "The Battle of Agincourt"] },
-      { "q": "Which TWO of these were Stuart monarchs?", "a": ["Charles I", "James I"], "wrong": ["Henry VII", "Queen Victoria"] },
-      { "q": "Which TWO laws strengthened rights during the Stuart period?", "a": ["The Habeas Corpus Act", "The Bill of Rights"], "wrong": ["Magna Carta", "The Reform Act"] }
-    ] },
-  { "id": "m3-georgian-multi", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["georgian"],
+      {
+        "q": "Which TWO events took place during the Stuart period?",
+        "a": [
+          "The Great Fire of London",
+          "The English Civil War"
+        ],
+        "wrong": [
+          "The Black Death",
+          "The Battle of Agincourt"
+        ]
+      },
+      {
+        "q": "Which TWO of these were Stuart monarchs?",
+        "a": [
+          "Charles I",
+          "James I"
+        ],
+        "wrong": [
+          "Henry VII",
+          "Queen Victoria"
+        ]
+      },
+      {
+        "q": "Which TWO laws strengthened rights during the Stuart period?",
+        "a": [
+          "The Habeas Corpus Act",
+          "The Bill of Rights"
+        ],
+        "wrong": [
+          "Magna Carta",
+          "The Reform Act"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m3-georgian-multi",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "georgian"
+    ],
     "explanation": "Trafalgar and Waterloo were fought against Napoleonic France. The Act of Union of 1707 created Great Britain.",
     "multi": [
-      { "q": "Which TWO battles were fought against Napoleonic France?", "a": ["The Battle of Trafalgar", "The Battle of Waterloo"], "wrong": ["The Battle of Hastings", "The Battle of Britain"] },
-      { "q": "Which TWO figures are associated with British victories over Napoleon?", "a": ["Admiral Nelson", "The Duke of Wellington"], "wrong": ["Oliver Cromwell", "Sir Francis Drake"] }
-    ] },
-  { "id": "m3-victorian-multi", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["victorian"],
+      {
+        "q": "Which TWO battles were fought against Napoleonic France?",
+        "a": [
+          "The Battle of Trafalgar",
+          "The Battle of Waterloo"
+        ],
+        "wrong": [
+          "The Battle of Hastings",
+          "The Battle of Britain"
+        ]
+      },
+      {
+        "q": "Which TWO figures are associated with British victories over Napoleon?",
+        "a": [
+          "Admiral Nelson",
+          "The Duke of Wellington"
+        ],
+        "wrong": [
+          "Oliver Cromwell",
+          "Sir Francis Drake"
+        ],
+        "e": "Admiral Nelson won at Trafalgar in 1805, where he was killed, and the Duke of Wellington defeated Napoleon at Waterloo in 1815."
+      }
+    ]
+  },
+  {
+    "id": "m3-victorian-multi",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "victorian"
+    ],
     "explanation": "The Victorian era saw the Great Exhibition, the abolition of slavery across the Empire and major social reform.",
     "multi": [
-      { "q": "Which TWO were achievements of 19th-century reform in Britain?", "a": ["Abolition of slavery in the Empire", "Limits on child labour in factories"], "wrong": ["Votes for women", "The founding of the NHS"] },
-      { "q": "Which TWO people campaigned against the slave trade?", "a": ["William Wilberforce", "The Quakers"], "wrong": ["Sir Robert Walpole", "The Duke of Wellington"] }
-    ] },
-  { "id": "m3-modern-multi", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["20th-century"],
+      {
+        "q": "Which TWO were achievements of 19th-century reform in Britain?",
+        "a": [
+          "Abolition of slavery in the Empire",
+          "Limits on child labour in factories"
+        ],
+        "wrong": [
+          "Votes for women",
+          "The founding of the NHS"
+        ]
+      },
+      {
+        "q": "Which TWO people campaigned against the slave trade?",
+        "a": [
+          "William Wilberforce",
+          "The Quakers"
+        ],
+        "wrong": [
+          "Sir Robert Walpole",
+          "The Duke of Wellington"
+        ],
+        "e": "The Quakers formed the first anti-slavery groups, and William Wilberforce led the campaign in Parliament. The trade was banned in 1807."
+      }
+    ]
+  },
+  {
+    "id": "m3-modern-multi",
+    "chapter": 3,
+    "section": "The 20th century",
+    "difficulty": 3,
+    "tags": [
+      "20th-century"
+    ],
     "explanation": "The 20th century brought two world wars, votes for women, the NHS and the welfare state.",
     "multi": [
-      { "q": "Which TWO happened during the First World War period?", "a": ["The Battle of the Somme", "The Armistice of 1918"], "wrong": ["The Blitz", "D-Day"] },
-      { "q": "Which TWO British figures are linked to the Second World War?", "a": ["Sir Winston Churchill", "Alan Turing"], "wrong": ["Sir Robert Walpole", "Emmeline Pankhurst"] },
-      { "q": "Which TWO were created by the post-war Labour government?", "a": ["The National Health Service", "The welfare state"], "wrong": ["The British Empire", "The Royal Society"] }
-    ] },
-  { "id": "m3-inventors-multi", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["inventions"],
+      {
+        "q": "Which TWO happened during the First World War period?",
+        "a": [
+          "The Battle of the Somme",
+          "The Armistice of 1918"
+        ],
+        "wrong": [
+          "The Blitz",
+          "D-Day"
+        ]
+      },
+      {
+        "q": "Which TWO British figures are linked to the Second World War?",
+        "a": [
+          "Sir Winston Churchill",
+          "Alan Turing"
+        ],
+        "wrong": [
+          "Sir Robert Walpole",
+          "Emmeline Pankhurst"
+        ]
+      },
+      {
+        "q": "Which TWO were created by the post-war Labour government?",
+        "a": [
+          "The National Health Service",
+          "The welfare state"
+        ],
+        "wrong": [
+          "The British Empire",
+          "The Royal Society"
+        ],
+        "e": "Clement Attlee's Labour government, elected in 1945, created the National Health Service in 1948 and the modern welfare state."
+      }
+    ]
+  },
+  {
+    "id": "m3-inventors-multi",
+    "chapter": 3,
+    "section": "The 20th century",
+    "difficulty": 3,
+    "tags": [
+      "inventions"
+    ],
     "explanation": "British discoveries include penicillin, radar, the jet engine, television, DNA's structure and the World Wide Web.",
     "multi": [
-      { "q": "Which TWO were discovered or invented in Britain?", "a": ["Penicillin", "Radar"], "wrong": ["The printing press", "The motor car"] },
-      { "q": "Which TWO British inventors worked on flight and air defence?", "a": ["Sir Frank Whittle", "Sir Robert Watson-Watt"], "wrong": ["Alexander Fleming", "Charles Darwin"] }
-    ] },
-  { "id": "m4-saints-multi", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["patron-saints"],
+      {
+        "q": "Which TWO were discovered or invented in Britain?",
+        "a": [
+          "Penicillin",
+          "Radar"
+        ],
+        "wrong": [
+          "The printing press",
+          "The motor car"
+        ]
+      },
+      {
+        "q": "Which TWO British inventors worked on flight and air defence?",
+        "a": [
+          "Sir Frank Whittle",
+          "Sir Robert Watson-Watt"
+        ],
+        "wrong": [
+          "Alexander Fleming",
+          "Charles Darwin"
+        ],
+        "e": "Sir Frank Whittle developed the jet engine in the 1930s, and Sir Robert Watson-Watt developed radar, which helped detect incoming aircraft in the war."
+      }
+    ]
+  },
+  {
+    "id": "m4-saints-multi",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 3,
+    "tags": [
+      "patron-saints"
+    ],
     "explanation": "St George is patron of England, St David of Wales, St Patrick of Northern Ireland and St Andrew of Scotland.",
     "multi": [
-      { "q": "Which TWO patron saints' days fall in March?", "a": ["St David's Day", "St Patrick's Day"], "wrong": ["St George's Day", "St Andrew's Day"] },
-      { "q": "Which TWO parts of the UK treat their patron saint's day as an official holiday?", "a": ["Scotland", "Northern Ireland"], "wrong": ["England", "Wales"] }
-    ] },
-  { "id": "m4-festivals-multi", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+      {
+        "q": "Which TWO patron saints' days fall in March?",
+        "a": [
+          "St David's Day",
+          "St Patrick's Day"
+        ],
+        "wrong": [
+          "St George's Day",
+          "St Andrew's Day"
+        ]
+      },
+      {
+        "q": "Which TWO parts of the UK treat their patron saint's day as an official holiday?",
+        "a": [
+          "Scotland",
+          "Northern Ireland"
+        ],
+        "wrong": [
+          "England",
+          "Wales"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m4-festivals-multi",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 2,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Christmas, Easter, Diwali, Eid, Hanukkah and Vaisakhi are all celebrated in the UK, but only some days are bank holidays.",
     "multi": [
-      { "q": "Which TWO festivals are celebrated by Muslims in the UK?", "a": ["Eid al-Fitr", "Eid ul Adha"], "wrong": ["Diwali", "Vaisakhi"] },
-      { "q": "Which TWO of these are public holidays in the UK?", "a": ["Easter Monday", "New Year's Day"], "wrong": ["Halloween", "Burns Night"] },
-      { "q": "Which TWO are traditionally associated with Bonfire Night?", "a": ["Fireworks", "Bonfires"], "wrong": ["Pancakes", "Poppies"] }
-    ] },
-  { "id": "m4-sport-multi", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "Which TWO festivals are celebrated by Muslims in the UK?",
+        "a": [
+          "Eid al-Fitr",
+          "Eid ul Adha"
+        ],
+        "wrong": [
+          "Diwali",
+          "Vaisakhi"
+        ]
+      },
+      {
+        "q": "Which TWO of these are public holidays in the UK?",
+        "a": [
+          "Easter Monday",
+          "New Year's Day"
+        ],
+        "wrong": [
+          "Halloween",
+          "Burns Night"
+        ]
+      },
+      {
+        "q": "Which TWO are traditionally associated with Bonfire Night?",
+        "a": [
+          "Fireworks",
+          "Bonfires"
+        ],
+        "wrong": [
+          "Pancakes",
+          "Poppies"
+        ],
+        "e": "Bonfires and fireworks mark 5 November, remembering the failure of the Gunpowder Plot of 1605."
+      }
+    ]
+  },
+  {
+    "id": "m4-sport-multi",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Cricket, rugby, football, tennis and golf all have strong roots in the UK.",
     "multi": [
-      { "q": "Which TWO events are held annually in the UK?", "a": ["The Wimbledon Championships", "The Grand National"], "wrong": ["The Tour de France", "The Super Bowl"] },
-      { "q": "Which TWO of these are British Olympic champions?", "a": ["Sir Steve Redgrave", "Dame Kelly Holmes"], "wrong": ["Bobby Moore", "Sir Ian Botham"] },
-      { "q": "Which TWO stadiums are homes of rugby union?", "a": ["Twickenham", "Murrayfield"], "wrong": ["Lord's", "Aintree"] }
-    ] },
-  { "id": "m4-arts-multi", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["arts"],
+      {
+        "q": "Which TWO events are held annually in the UK?",
+        "a": [
+          "The Wimbledon Championships",
+          "The Grand National"
+        ],
+        "wrong": [
+          "The Tour de France",
+          "The Super Bowl"
+        ],
+        "e": "The Wimbledon Championships is the oldest tennis tournament in the world, and the Grand National is a steeplechase run at Aintree."
+      },
+      {
+        "q": "Which TWO of these are British Olympic champions?",
+        "a": [
+          "Sir Steve Redgrave",
+          "Dame Kelly Holmes"
+        ],
+        "wrong": [
+          "Bobby Moore",
+          "Sir Ian Botham"
+        ]
+      },
+      {
+        "q": "Which TWO stadiums are homes of rugby union?",
+        "a": [
+          "Twickenham",
+          "Murrayfield"
+        ],
+        "wrong": [
+          "Lord's",
+          "Aintree"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m4-arts-multi",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "arts"
+    ],
     "explanation": "British arts prizes include the Booker Prize for fiction, the Turner Prize for art, the BAFTAs for film and the Mercury Prize for music.",
     "multi": [
-      { "q": "Which TWO prizes are awarded in the UK for the arts?", "a": ["The Turner Prize", "The Booker Prize"], "wrong": ["The Nobel Prize", "The Pulitzer Prize"] },
-      { "q": "Which TWO were British painters?", "a": ["John Constable", "JMW Turner"], "wrong": ["Henry Moore", "Sir Christopher Wren"] },
-      { "q": "Which TWO were British composers?", "a": ["Gustav Holst", "Benjamin Britten"], "wrong": ["Charles Dickens", "Robert Burns"] },
-      { "q": "Which TWO novels were written by the Bronte sisters?", "a": ["Jane Eyre", "Wuthering Heights"], "wrong": ["Great Expectations", "Pride and Prejudice"] }
-    ] },
-  { "id": "m4-places-multi", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "q": "Which TWO prizes are awarded in the UK for the arts?",
+        "a": [
+          "The Turner Prize",
+          "The Booker Prize"
+        ],
+        "wrong": [
+          "The Nobel Prize",
+          "The Pulitzer Prize"
+        ]
+      },
+      {
+        "q": "Which TWO were British painters?",
+        "a": [
+          "John Constable",
+          "JMW Turner"
+        ],
+        "wrong": [
+          "Henry Moore",
+          "Sir Christopher Wren"
+        ]
+      },
+      {
+        "q": "Which TWO were British composers?",
+        "a": [
+          "Gustav Holst",
+          "Benjamin Britten"
+        ],
+        "wrong": [
+          "Charles Dickens",
+          "Robert Burns"
+        ]
+      },
+      {
+        "q": "Which TWO novels were written by the Bronte sisters?",
+        "a": [
+          "Jane Eyre",
+          "Wuthering Heights"
+        ],
+        "wrong": [
+          "Great Expectations",
+          "Pride and Prejudice"
+        ],
+        "e": "Charlotte Bronte wrote Jane Eyre and her sister Emily wrote Wuthering Heights."
+      }
+    ]
+  },
+  {
+    "id": "m4-places-multi",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "UK landmarks include the Giant's Causeway in Northern Ireland, Snowdonia in Wales and the Lake District in England.",
     "multi": [
-      { "q": "Which TWO landmarks are in Northern Ireland or Scotland?", "a": ["The Giant's Causeway", "Edinburgh Castle"], "wrong": ["The Eden Project", "Snowdonia"] },
-      { "q": "Which TWO are national parks in the UK?", "a": ["The Lake District", "Snowdonia"], "wrong": ["The Eden Project", "The Tower of London"] }
-    ] },
-  { "id": "m5-parliament-multi", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["parliament"],
+      {
+        "q": "Which TWO landmarks are in Northern Ireland or Scotland?",
+        "a": [
+          "The Giant's Causeway",
+          "Edinburgh Castle"
+        ],
+        "wrong": [
+          "The Eden Project",
+          "Snowdonia"
+        ]
+      },
+      {
+        "q": "Which TWO are national parks in the UK?",
+        "a": [
+          "The Lake District",
+          "Snowdonia"
+        ],
+        "wrong": [
+          "The Eden Project",
+          "The Tower of London"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m5-parliament-multi",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "parliament"
+    ],
     "explanation": "Parliament consists of the House of Commons and the House of Lords, with the monarch as Head of State.",
     "multi": [
-      { "q": "Which TWO are true of the House of Commons?", "a": ["It has 650 members", "Its members are elected"], "wrong": ["Its members are appointed", "It includes bishops"] },
-      { "q": "Which TWO groups sit in the House of Lords?", "a": ["Life peers", "Senior bishops of the Church of England"], "wrong": ["Elected MPs", "Local councillors"] },
-      { "q": "Which TWO roles does the Prime Minister perform?", "a": ["Head of Government", "Appointing the Cabinet"], "wrong": ["Head of State", "Chairing debates in the Commons"] }
-    ] },
-  { "id": "m5-devolution-multi", "chapter": 5, "section": "Devolved administrations", "difficulty": 3, "tags": ["devolution"],
+      {
+        "q": "Which TWO are true of the House of Commons?",
+        "a": [
+          "It has 650 members",
+          "Its members are elected"
+        ],
+        "wrong": [
+          "Its members are appointed",
+          "It includes bishops"
+        ]
+      },
+      {
+        "q": "Which TWO groups sit in the House of Lords?",
+        "a": [
+          "Life peers",
+          "Senior bishops of the Church of England"
+        ],
+        "wrong": [
+          "Elected MPs",
+          "Local councillors"
+        ]
+      },
+      {
+        "q": "Which TWO roles does the Prime Minister perform?",
+        "a": [
+          "Head of Government",
+          "Appointing the Cabinet"
+        ],
+        "wrong": [
+          "Head of State",
+          "Chairing debates in the Commons"
+        ],
+        "e": "The Prime Minister is Head of Government and appoints the Cabinet of about 20 senior ministers. The monarch is Head of State."
+      }
+    ]
+  },
+  {
+    "id": "m5-devolution-multi",
+    "chapter": 5,
+    "section": "Devolved administrations",
+    "difficulty": 3,
+    "tags": [
+      "devolution"
+    ],
     "explanation": "Education and health are devolved; defence, foreign affairs, immigration and national security are reserved.",
     "multi": [
-      { "q": "Which TWO matters are devolved to Scotland and Wales?", "a": ["Education", "Housing"], "wrong": ["Defence", "National security"] },
-      { "q": "Which TWO buildings house devolved administrations?", "a": ["Holyrood", "Stormont"], "wrong": ["Westminster", "Downing Street"] }
-    ] },
-  { "id": "m5-law-multi", "chapter": 5, "section": "The law", "difficulty": 3, "tags": ["law"],
+      {
+        "q": "Which TWO matters are devolved to Scotland and Wales?",
+        "a": [
+          "Education",
+          "Housing"
+        ],
+        "wrong": [
+          "Defence",
+          "National security"
+        ]
+      },
+      {
+        "q": "Which TWO buildings house devolved administrations?",
+        "a": [
+          "Holyrood",
+          "Stormont"
+        ],
+        "wrong": [
+          "Westminster",
+          "Downing Street"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m5-law-multi",
+    "chapter": 5,
+    "section": "The law",
+    "difficulty": 3,
+    "tags": [
+      "law"
+    ],
     "explanation": "Criminal law covers offences against the state; civil law settles disputes between individuals or groups.",
     "multi": [
-      { "q": "Which TWO are examples of criminal law?", "a": ["Carrying a weapon", "Drug dealing"], "wrong": ["A dispute over unpaid rent", "A disagreement about a will"] },
-      { "q": "Which TWO are examples of civil law?", "a": ["A dispute over a contract", "A personal injury claim"], "wrong": ["Carrying a weapon", "Selling illegal drugs"] },
-      { "q": "Which TWO courts hear criminal cases in England and Wales?", "a": ["The Crown Court", "The Magistrates' Court"], "wrong": ["The County Court", "The Small Claims Court"] }
-    ] },
-  { "id": "m5-rights-multi", "chapter": 5, "section": "Fundamental principles", "difficulty": 2, "tags": ["rights"],
+      {
+        "q": "Which TWO are examples of criminal law?",
+        "a": [
+          "Carrying a weapon",
+          "Drug dealing"
+        ],
+        "wrong": [
+          "A dispute over unpaid rent",
+          "A disagreement about a will"
+        ]
+      },
+      {
+        "q": "Which TWO are examples of civil law?",
+        "a": [
+          "A dispute over a contract",
+          "A personal injury claim"
+        ],
+        "wrong": [
+          "Carrying a weapon",
+          "Selling illegal drugs"
+        ]
+      },
+      {
+        "q": "Which TWO courts hear criminal cases in England and Wales?",
+        "a": [
+          "The Crown Court",
+          "The Magistrates' Court"
+        ],
+        "wrong": [
+          "The County Court",
+          "The Small Claims Court"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m5-rights-multi",
+    "chapter": 5,
+    "section": "Fundamental principles",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ],
     "explanation": "Discrimination is unlawful, and domestic violence, forced marriage and female genital mutilation are all crimes in the UK.",
     "multi": [
-      { "q": "Which TWO are criminal offences in the UK?", "a": ["Forced marriage", "Female genital mutilation"], "wrong": ["Changing your religion", "Joining a trade union"] },
-      { "q": "Which TWO grounds of discrimination are unlawful in the UK?", "a": ["Race", "Disability"], "wrong": ["Lack of relevant qualifications", "Poor work performance"] }
-    ] },
-  { "id": "m5-community-multi", "chapter": 5, "section": "Your role in the community", "difficulty": 2, "tags": ["community"],
+      {
+        "q": "Which TWO are criminal offences in the UK?",
+        "a": [
+          "Forced marriage",
+          "Female genital mutilation"
+        ],
+        "wrong": [
+          "Changing your religion",
+          "Joining a trade union"
+        ]
+      },
+      {
+        "q": "Which TWO grounds of discrimination are unlawful in the UK?",
+        "a": [
+          "Race",
+          "Disability"
+        ],
+        "wrong": [
+          "Lack of relevant qualifications",
+          "Poor work performance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m5-community-multi",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 2,
+    "tags": [
+      "community"
+    ],
     "explanation": "Ways to take part include voting, jury service, volunteering, becoming a school governor and helping the environment.",
     "multi": [
-      { "q": "Which TWO are ways of taking part in your local community?", "a": ["Becoming a school governor", "Volunteering for a charity"], "wrong": ["Refusing jury service", "Ignoring local elections"] },
-      { "q": "Which TWO help protect the environment?", "a": ["Recycling household waste", "Walking or cycling short journeys"], "wrong": ["Leaving litter in parks", "Pouring oil into drains"] },
-      { "q": "Which TWO taxes or contributions do most UK workers pay?", "a": ["Income tax", "National Insurance"], "wrong": ["Council tax on their employer", "Import duty"] }
-    ] },
-  { "id": "m5-international-multi", "chapter": 5, "section": "The UK and international institutions", "difficulty": 3, "tags": ["institutions"],
+      {
+        "q": "Which TWO are ways of taking part in your local community?",
+        "a": [
+          "Becoming a school governor",
+          "Volunteering for a charity"
+        ],
+        "wrong": [
+          "Refusing jury service",
+          "Ignoring local elections"
+        ]
+      },
+      {
+        "q": "Which TWO help protect the environment?",
+        "a": [
+          "Recycling household waste",
+          "Walking or cycling short journeys"
+        ],
+        "wrong": [
+          "Leaving litter in parks",
+          "Pouring oil into drains"
+        ]
+      },
+      {
+        "q": "Which TWO taxes or contributions do most UK workers pay?",
+        "a": [
+          "Income tax",
+          "National Insurance"
+        ],
+        "wrong": [
+          "Council tax on their employer",
+          "Import duty"
+        ],
+        "e": "Most workers pay income tax, usually deducted through PAYE, and National Insurance contributions, which fund state benefits and the State Pension."
+      }
+    ]
+  },
+  {
+    "id": "m5-international-multi",
+    "chapter": 5,
+    "section": "The UK and international institutions",
+    "difficulty": 3,
+    "tags": [
+      "institutions"
+    ],
     "explanation": "The UK is a member of the Commonwealth, the UN and NATO, and of the Council of Europe.",
     "multi": [
-      { "q": "Which TWO international bodies is the UK a member of?", "a": ["NATO", "The Commonwealth"], "wrong": ["The African Union", "ASEAN"] },
-      { "q": "Which TWO are true of the Commonwealth?", "a": ["Membership is voluntary", "The British monarch is its Head"], "wrong": ["It can pass binding laws", "It collects taxes from members"] }
-    ] },
-  { "id": "m1-values-multi", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "q": "Which TWO international bodies is the UK a member of?",
+        "a": [
+          "NATO",
+          "The Commonwealth"
+        ],
+        "wrong": [
+          "The African Union",
+          "ASEAN"
+        ]
+      },
+      {
+        "q": "Which TWO are true of the Commonwealth?",
+        "a": [
+          "Membership is voluntary",
+          "The British monarch is its Head"
+        ],
+        "wrong": [
+          "It can pass binding laws",
+          "It collects taxes from members"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m1-values-multi",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "The fundamental principles are democracy, the rule of law, individual liberty, tolerance and participation in community life.",
     "multi": [
-      { "q": "Which TWO are fundamental principles of British life?", "a": ["Individual liberty", "Participation in community life"], "wrong": ["Compulsory voting", "A single official religion"] },
-      { "q": "Which TWO are rights shared by everyone in the UK?", "a": ["Freedom of speech", "A right to a fair trial"], "wrong": ["A guaranteed job", "Free housing"] },
-      { "q": "Which TWO are responsibilities of UK residents?", "a": ["Treating others with fairness", "Looking after the environment"], "wrong": ["Joining the armed forces", "Belonging to a political party"] },
-      { "q": "Which TWO must citizenship applicants demonstrate?", "a": ["An ability to speak and read English", "A knowledge of life in the UK"], "wrong": ["Ownership of property", "A university degree"] }
-    ] },
-  { "id": "m1-ceremony-multi", "chapter": 1, "section": "Becoming a permanent resident", "difficulty": 3, "tags": ["citizenship"],
+      {
+        "q": "Which TWO are fundamental principles of British life?",
+        "a": [
+          "Individual liberty",
+          "Participation in community life"
+        ],
+        "wrong": [
+          "Compulsory voting",
+          "A single official religion"
+        ]
+      },
+      {
+        "q": "Which TWO are rights shared by everyone in the UK?",
+        "a": [
+          "Freedom of speech",
+          "A right to a fair trial"
+        ],
+        "wrong": [
+          "A guaranteed job",
+          "Free housing"
+        ],
+        "e": "Freedom of speech and a right to a fair trial are both shared rights, along with freedom of belief, freedom from unfair discrimination, and the right to join in electing a government."
+      },
+      {
+        "q": "Which TWO are responsibilities of UK residents?",
+        "a": [
+          "Treating others with fairness",
+          "Looking after the environment"
+        ],
+        "wrong": [
+          "Joining the armed forces",
+          "Belonging to a political party"
+        ]
+      },
+      {
+        "q": "Which TWO must citizenship applicants demonstrate?",
+        "a": [
+          "An ability to speak and read English",
+          "A knowledge of life in the UK"
+        ],
+        "wrong": [
+          "Ownership of property",
+          "A university degree"
+        ],
+        "e": "Applicants must be able to speak and read English and show a good understanding of life in the UK, which is what this test assesses."
+      }
+    ]
+  },
+  {
+    "id": "m1-ceremony-multi",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ],
     "explanation": "At a citizenship ceremony, new citizens make an oath or affirmation of allegiance and a pledge to respect the UK's rights, freedoms and laws.",
     "multi": [
-      { "q": "Which TWO things do new citizens do at a citizenship ceremony?", "a": ["Make an oath or affirmation of allegiance", "Give a pledge to respect the UK's laws"], "wrong": ["Sit a written examination", "Swear loyalty to a political party"] }
-    ] },
-  { "id": "m2-uk-multi", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["geography"],
+      {
+        "q": "Which TWO things do new citizens do at a citizenship ceremony?",
+        "a": [
+          "Make an oath or affirmation of allegiance",
+          "Give a pledge to respect the UK's laws"
+        ],
+        "wrong": [
+          "Sit a written examination",
+          "Swear loyalty to a political party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m2-uk-multi",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
     "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Crown dependencies and overseas territories are not part of the UK.",
     "multi": [
-      { "q": "Which TWO of these are capital cities in the UK?", "a": ["Edinburgh", "Belfast"], "wrong": ["Dublin", "Glasgow"] },
-      { "q": "Which TWO are British overseas territories?", "a": ["The Falkland Islands", "St Helena"], "wrong": ["The Isle of Man", "Jersey"] },
-      { "q": "Which TWO languages other than English are spoken in the UK?", "a": ["Welsh", "Gaelic"], "wrong": ["Norman French", "Latin"] },
-      { "q": "Which TWO crosses appear on the Union Flag?", "a": ["The cross of St George", "The cross of St Andrew"], "wrong": ["The cross of St David", "The Welsh dragon"] }
-    ] }
+      {
+        "q": "Which TWO of these are capital cities in the UK?",
+        "a": [
+          "Edinburgh",
+          "Belfast"
+        ],
+        "wrong": [
+          "Dublin",
+          "Glasgow"
+        ]
+      },
+      {
+        "q": "Which TWO are British overseas territories?",
+        "a": [
+          "The Falkland Islands",
+          "St Helena"
+        ],
+        "wrong": [
+          "The Isle of Man",
+          "Jersey"
+        ]
+      },
+      {
+        "q": "Which TWO languages other than English are spoken in the UK?",
+        "a": [
+          "Welsh",
+          "Gaelic"
+        ],
+        "wrong": [
+          "Norman French",
+          "Latin"
+        ],
+        "e": "Welsh is spoken in Wales and Gaelic in parts of Scotland. Irish Gaelic and Ulster Scots are spoken in Northern Ireland."
+      },
+      {
+        "q": "Which TWO crosses appear on the Union Flag?",
+        "a": [
+          "The cross of St George",
+          "The cross of St Andrew"
+        ],
+        "wrong": [
+          "The cross of St David",
+          "The Welsh dragon"
+        ],
+        "e": "The Union Flag combines the crosses of St George for England, St Andrew for Scotland and St Patrick for Ireland. Wales is not represented."
+      }
+    ]
+  }
 ]

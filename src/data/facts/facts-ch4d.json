@@ -445,7 +445,8 @@
         "pool": "composers",
         "alts": [
           "Which of these composers was British?"
-        ]
+        ],
+        "e": "Sir Edward Elgar is best known for the Pomp and Circumstance Marches, the first of which is sung as Land of Hope and Glory."
       }
     ],
     "tf": [
@@ -537,7 +538,8 @@
         "pool": "writers",
         "alts": [
           "Great Expectations was written by whom?"
-        ]
+        ],
+        "e": "Charles Dickens wrote Great Expectations and Oliver Twist, novels about social conditions in Victorian Britain."
       },
       {
         "q": "Which author wrote Nineteen Eighty-Four?",
@@ -545,7 +547,8 @@
         "pool": "writers",
         "alts": [
           "Nineteen Eighty-Four is the work of which writer?"
-        ]
+        ],
+        "e": "George Orwell wrote Nineteen Eighty-Four and Animal Farm, both reflecting on politics and power."
       }
     ],
     "multi": [
@@ -611,7 +614,8 @@
         "pool": "architects",
         "alts": [
           "The Houses of Parliament were designed by which architect?"
-        ]
+        ],
+        "e": "Sir Charles Barry designed the Houses of Parliament in the Gothic style, after the old palace burned down in 1834."
       }
     ],
     "tf": [
@@ -647,7 +651,8 @@
         ],
         "alts": [
           "Psycho and The Birds were directed by whom?"
-        ]
+        ],
+        "e": "Sir Alfred Hitchcock directed Psycho and The Birds and was a leading figure in British and American cinema."
       }
     ],
     "tf": [
@@ -719,7 +724,8 @@
         ],
         "alts": [
           "People rent allotments in order to do what?"
-        ]
+        ],
+        "e": "An allotment is a small plot of land rented for growing vegetables and flowers, popular with people who have no garden of their own."
       }
     ],
     "tf": [

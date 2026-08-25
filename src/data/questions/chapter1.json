@@ -423,7 +423,7 @@
     "correct": [
       0
     ],
-    "explanation": "Residents are expected to respect and obey the law, respect the rights of others, treat others with fairness, look after themselves and their family, and look after the area they live in and the environment."
+    "explanation": "Respecting the rights of others, including their right to their own opinions, is one of the responsibilities the handbook expects of everyone living in the UK."
   },
   {
     "id": "c1-021",
@@ -819,7 +819,7 @@
     "correct": [
       2
     ],
-    "explanation": "Looking after yourself and your family is one of the responsibilities expected of everyone living in the UK.",
+    "explanation": "Looking after yourself and your family is one of the listed responsibilities, along with obeying the law, treating others fairly and caring for your area and the environment.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1294,7 +1294,7 @@
       2,
       3
     ],
-    "explanation": "The fundamental principles are democracy, the rule of law, individual liberty, tolerance and participation in community life.",
+    "explanation": "Freedom of speech and a right to a fair trial are both shared rights, along with freedom of belief, freedom from unfair discrimination, and the right to join in electing a government.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1338,7 +1338,7 @@
       0,
       3
     ],
-    "explanation": "The fundamental principles are democracy, the rule of law, individual liberty, tolerance and participation in community life.",
+    "explanation": "Applicants must be able to speak and read English and show a good understanding of life in the UK, which is what this test assesses.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1861,7 +1861,7 @@
     "correct": [
       1
     ],
-    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "explanation": "The oath of allegiance is sworn to the monarch, their heirs and successors. Those who prefer not to swear by God make a solemn affirmation instead.",
     "chapter": 1,
     "section": "Becoming a permanent resident",
     "difficulty": 3,
@@ -1882,7 +1882,7 @@
     "correct": [
       0
     ],
-    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "explanation": "The oath of allegiance is sworn to the monarch, their heirs and successors. Those who prefer not to swear by God make a solemn affirmation instead.",
     "chapter": 1,
     "section": "Becoming a permanent resident",
     "difficulty": 3,
