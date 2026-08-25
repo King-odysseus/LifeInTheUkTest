@@ -72,6 +72,7 @@ export default function TestScreen() {
   const question = questions[index]
   const picks = question ? (chosen[question.id] ?? []) : []
   const instant = config?.instantFeedback ?? false
+  const autoAdvanceDelay = config?.mode === 'rapid' ? 20_000 : instant ? 850 : 350
   const answered = picks.length === (question?.correct.length ?? 1)
   const revealed = instant && answered
 
@@ -99,6 +100,18 @@ export default function TestScreen() {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [status, question, answered, index, questions.length, select, next, prev, toggleFlag, openReview])
+
+  // Move on once the required answer(s) are selected. Practice modes pause
+  // briefly for feedback; exam-style modes advance quickly without revealing it.
+  useEffect(() => {
+    if (status !== 'active' || !answered) return
+    const id = window.setTimeout(() => {
+      if (index !== questions.length - 1) return next()
+      if (instant) void submit()
+      else openReview()
+    }, autoAdvanceDelay)
+    return () => window.clearTimeout(id)
+  }, [status, instant, answered, index, questions.length, next, openReview, autoAdvanceDelay])
 
   if (status === 'idle') {
     navigate('/')
@@ -163,20 +176,22 @@ export default function TestScreen() {
   // ---------------------------------------------------------- question screen
   return (
     <div className="flex min-h-dvh w-full flex-col px-4 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:px-6 lg:px-10">
-      <header className="flex min-h-18 items-center gap-3 border-b border-line py-3 sm:min-h-24 sm:gap-6 sm:py-4">
+      <header className="flex min-h-18 items-center gap-3 border-b border-line py-3 sm:min-h-24 sm:py-4">
         <button
           onClick={() => navigate('/')}
           className="rounded-full px-3 py-2.5 text-base font-semibold text-muted transition hover:bg-surface hover:text-ink sm:px-5 sm:text-lg"
         >
           Exit
         </button>
-        <div className="ml-auto text-right">
-          <p className="text-xs font-semibold tracking-wide text-muted uppercase sm:text-sm">Question</p>
-          <p className="mt-0.5 text-lg leading-none font-semibold tabular-nums sm:mt-1 sm:text-2xl">
-            {index + 1} <span className="text-muted">of {questions.length}</span>
-          </p>
+        <div className="ml-auto flex items-center gap-5 sm:gap-10 lg:gap-14">
+          <div className="text-right">
+            <p className="text-xs font-semibold tracking-wide text-muted uppercase sm:text-sm">Question</p>
+            <p className="mt-0.5 text-lg leading-none font-semibold tabular-nums sm:mt-1 sm:text-2xl">
+              {index + 1} <span className="text-muted">of {questions.length}</span>
+            </p>
+          </div>
+          {deadline && <Timer deadline={deadline} onExpire={() => void submit()} />}
         </div>
-        {deadline && <Timer deadline={deadline} onExpire={() => void submit()} />}
       </header>
 
       <div className="h-2 w-full overflow-hidden rounded-full bg-line sm:h-2.5">
@@ -189,7 +204,7 @@ export default function TestScreen() {
       <main className="flex-1 py-7 sm:py-9 lg:py-10" key={question.id}>
         <section className="rounded-3xl border border-line bg-surface px-5 py-7 shadow-card sm:px-8 sm:py-9 lg:px-10 lg:py-12">
         <p className="text-sm font-bold tracking-[0.12em] text-accent uppercase sm:text-base">Choose your answer</p>
-        <h1 className="mt-3 animate-fade-in text-2xl leading-snug font-semibold text-navy sm:text-3xl">
+        <h1 className="mt-3 animate-fade-in text-xl leading-snug font-semibold text-navy sm:text-2xl">
           {question.question}
         </h1>
         {needed > 1 && (
@@ -226,10 +241,10 @@ export default function TestScreen() {
                 disabled={revealed}
                 aria-pressed={picked}
                 style={{ animationDelay: `${i * 50}ms` }}
-                className={`grid min-h-[4.75rem] w-full animate-fade-up grid-cols-[auto_1fr_auto] items-center gap-3 rounded-2xl border-2 bg-surface px-4 py-4 text-left transition sm:min-h-24 sm:gap-5 sm:px-6 ${tone}`}
+                className={`grid min-h-16 w-full animate-fade-up grid-cols-[auto_1fr_auto] items-center gap-3 rounded-2xl border bg-surface px-4 py-3 text-left transition sm:min-h-20 sm:gap-4 sm:px-5 ${tone}`}
               >
                 <span
-                  className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 text-sm font-semibold sm:h-12 sm:w-12 ${markerTone}`}
+                  className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full border text-sm font-semibold sm:h-11 sm:w-11 ${markerTone}`}
                 >
                   {String.fromCharCode(65 + i)}
                 </span>
