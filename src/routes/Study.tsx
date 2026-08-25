@@ -19,6 +19,7 @@ export default function Study() {
   const [reviewed, setReviewed] = useState(0)
   const [slideDirection, setSlideDirection] = useState<'idle' | 'next' | 'previous'>('idle')
   const swipeStartX = useRef<number | null>(null)
+  const swipeStartY = useRef<number | null>(null)
 
   const load = useCallback(async () => {
     const due = await dueQuestionIds(40)
@@ -49,16 +50,24 @@ export default function Study() {
     if ((event.target as HTMLElement).closest('button')) return
     if (event.pointerType === 'mouse' && event.button !== 0) return
     swipeStartX.current = event.clientX
+    swipeStartY.current = event.clientY
     event.currentTarget.setPointerCapture(event.pointerId)
   }
 
   const finishSwipe = (event: PointerEvent<HTMLDivElement>) => {
-    if (swipeStartX.current == null) return
-    const distance = event.clientX - swipeStartX.current
+    if (swipeStartX.current == null || swipeStartY.current == null) return
+    const distanceX = event.clientX - swipeStartX.current
+    const distanceY = event.clientY - swipeStartY.current
     swipeStartX.current = null
-    if (Math.abs(distance) < 60) return
-    // Product direction: right advances, left returns to the previous card.
-    move(distance > 0 ? 'next' : 'previous')
+    swipeStartY.current = null
+    // A tap (no real movement) flips the card to reveal the answer.
+    if (Math.abs(distanceX) < 60 && Math.abs(distanceY) < 60) {
+      setRevealed((revealed) => !revealed)
+      return
+    }
+    // Only a horizontal drag navigates; vertical movement is page scrolling.
+    if (Math.abs(distanceX) < Math.abs(distanceY)) return
+    move(distanceX > 0 ? 'next' : 'previous')
   }
 
   const card = cards[index]
@@ -118,6 +127,7 @@ export default function Study() {
         onPointerUp={finishSwipe}
         onPointerCancel={() => {
           swipeStartX.current = null
+          swipeStartY.current = null
         }}
       >
         <div
