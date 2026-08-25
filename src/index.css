@@ -9,28 +9,28 @@
   /* ── Brand ── */
   --color-primary: #0b0b45;
   --color-primary-hover: #15155c;
-  --color-primary-light: #e7e7f1;
-  --color-accent: #c49a6c;
-  --color-accent-hover: #b0895a;
-  --color-accent-soft: #f1e4d0;
+  --color-primary-light: #e2e2f2;
+  --color-accent: #966238;
+  --color-accent-hover: #7d4f2c;
+  --color-accent-soft: #f3e2cc;
   --color-accent-ink: #2b2105;
   --color-navy: #0b0b45;
 
   /* ── Surfaces ── */
   --color-surface: #ffffff;
-  --color-surface-secondary: #f8f9fa;
+  --color-surface-secondary: #f4f4f8;
   --color-surface-sunken: #efeff2;
 
   /* ── Text ── */
   --color-text-primary: #1f2937;
   --color-text-secondary: #4b5563;
-  --color-text-muted: #6b7280;
+  --color-text-muted: #5d6472;
   --color-text-inverse: #ffffff;
   --color-text-on-primary: #ffffff;
 
   /* ── Borders ── */
-  --color-border: #e2e2e6;
-  --color-border-light: #efeff2;
+  --color-border: #c9cad4;
+  --color-border-light: #dddde5;
 
   /* ── Semantic ── */
   --color-success: #16a34a;
@@ -123,6 +123,8 @@
     --color-danger-bg: #3a1a1a;
     --color-info-bg: #182447;
     --color-accent-soft: #3a2f1e;
+    --color-accent: #d7b78d;
+    --color-accent-hover: #e2c7a4;
     --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 16px -4px rgb(0 0 0 / 0.45);
     --shadow-card-hover: 0 8px 30px -6px rgb(0 0 0 / 0.55);
     --shadow-elevated: 0 12px 40px -12px rgb(0 0 0 / 0.6);
@@ -148,6 +150,8 @@
   --color-danger-bg: #3a1a1a;
   --color-info-bg: #182447;
   --color-accent-soft: #3a2f1e;
+  --color-accent: #d7b78d;
+  --color-accent-hover: #e2c7a4;
   --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 16px -4px rgb(0 0 0 / 0.45);
   --shadow-card-hover: 0 8px 30px -6px rgb(0 0 0 / 0.55);
   --shadow-elevated: 0 12px 40px -12px rgb(0 0 0 / 0.6);

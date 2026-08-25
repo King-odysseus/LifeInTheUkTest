@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Check, Clock3, X } from 'lucide-react'
 import { useTest } from '../store/test'
 import { isCorrect } from '../lib/questions'
 import { Button, Spinner } from '../components/ui'
@@ -29,13 +30,23 @@ function Timer({ deadline, onExpire }: { deadline: number; onExpire: () => void 
 
   const low = remaining < 5 * 60_000
   return (
-    <span
-      className={`font-mono text-sm tabular-nums ${low ? 'text-bad' : 'text-muted'}`}
+    <div
+      className={`flex min-w-24 items-center justify-center gap-2 rounded-2xl border px-3 py-2 sm:min-w-40 sm:justify-start sm:px-5 sm:py-3 ${
+        low ? 'border-bad/30 bg-bad-soft text-bad' : 'border-line bg-surface text-ink'
+      }`}
       role="timer"
       aria-live={low ? 'polite' : 'off'}
     >
-      {formatClock(remaining)}
-    </span>
+      <Clock3 className="shrink-0" size={20} />
+      <span>
+        <span className="hidden text-[0.6875rem] font-semibold tracking-wide text-muted uppercase sm:block">
+          Time remaining
+        </span>
+        <span className="block font-mono text-lg leading-none font-semibold tabular-nums sm:mt-1 sm:text-2xl">
+          {formatClock(remaining)}
+        </span>
+      </span>
+    </div>
   )
 }
 
@@ -99,15 +110,15 @@ export default function TestScreen() {
   if (status === 'review') {
     const unanswered = questions.filter((q) => (chosen[q.id] ?? []).length === 0)
     return (
-      <div className="mx-auto max-w-2xl px-4 py-8">
-        <h1 className="text-xl font-semibold">Review your answers</h1>
+      <div className="w-full px-4 py-6 sm:px-6 sm:py-8 lg:px-10">
+        <h1 className="text-2xl font-semibold text-navy">Review your answers</h1>
         <p className="mt-1.5 text-sm text-muted">
           {unanswered.length === 0
             ? 'All questions answered.'
             : `${unanswered.length} question${unanswered.length === 1 ? '' : 's'} still unanswered.`}
         </p>
 
-        <ol className="mt-5 grid grid-cols-6 gap-2 sm:grid-cols-8">
+        <ol className="mt-6 grid grid-cols-5 gap-3 sm:grid-cols-8 lg:grid-cols-12 xl:grid-cols-16">
           {questions.map((q, i) => {
             const done = (chosen[q.id] ?? []).length > 0
             const flag = flagged.has(q.id)
@@ -118,7 +129,7 @@ export default function TestScreen() {
                     goto(i)
                     useTest.setState({ status: 'active' })
                   }}
-                  className={`h-10 w-full rounded-lg border text-sm tabular-nums ${
+                  className={`h-12 w-full rounded-xl border text-sm font-medium tabular-nums transition hover:-translate-y-0.5 ${
                     flag
                       ? 'border-warn text-warn'
                       : done
@@ -134,9 +145,9 @@ export default function TestScreen() {
           })}
         </ol>
 
-        <div className="mt-6 flex gap-2">
-          <Button onClick={() => void submit()}>Submit test</Button>
-          <Button variant="secondary" onClick={() => useTest.setState({ status: 'active' })}>
+        <div className="mt-8 grid gap-2 sm:flex">
+          <Button className="w-full sm:w-auto" onClick={() => void submit()}>Submit test</Button>
+          <Button className="w-full sm:w-auto" variant="secondary" onClick={() => useTest.setState({ status: 'active' })}>
             Keep checking
           </Button>
         </div>
@@ -151,39 +162,62 @@ export default function TestScreen() {
 
   // ---------------------------------------------------------- question screen
   return (
-    <div className="mx-auto flex min-h-dvh max-w-2xl flex-col px-4 py-4">
-      <header className="flex items-center gap-3 border-b border-line pb-3">
-        <button onClick={() => navigate('/')} className="text-sm text-muted hover:text-ink">
+    <div className="flex min-h-dvh w-full flex-col px-4 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:px-6 lg:px-10">
+      <header className="flex min-h-18 items-center gap-3 border-b border-line py-3 sm:min-h-24 sm:gap-6 sm:py-4">
+        <button
+          onClick={() => navigate('/')}
+          className="rounded-full px-3 py-2.5 text-base font-semibold text-muted transition hover:bg-surface hover:text-ink sm:px-5 sm:text-lg"
+        >
           Exit
         </button>
-        <span className="ml-auto text-sm tabular-nums text-muted">
-          {index + 1} of {questions.length}
-        </span>
+        <div className="ml-auto text-right">
+          <p className="text-xs font-semibold tracking-wide text-muted uppercase sm:text-sm">Question</p>
+          <p className="mt-0.5 text-lg leading-none font-semibold tabular-nums sm:mt-1 sm:text-2xl">
+            {index + 1} <span className="text-muted">of {questions.length}</span>
+          </p>
+        </div>
         {deadline && <Timer deadline={deadline} onExpire={() => void submit()} />}
       </header>
 
-      <div className="h-1 w-full bg-line">
+      <div className="h-2 w-full overflow-hidden rounded-full bg-line sm:h-2.5">
         <div
           className="h-full bg-brand transition-[width]"
           style={{ width: `${((index + 1) / questions.length) * 100}%` }}
         />
       </div>
 
-      <div className="flex-1 py-6" key={question.id}>
-        <h1 className="animate-fade-in text-lg font-medium">{question.question}</h1>
+      <main className="flex-1 py-7 sm:py-9 lg:py-10" key={question.id}>
+        <section className="rounded-3xl border border-line bg-surface p-5 shadow-card sm:p-8 lg:p-10">
+        <p className="text-sm font-bold tracking-[0.12em] text-accent uppercase sm:text-base">Choose your answer</p>
+        <h1 className="mt-3 animate-fade-in text-2xl leading-snug font-semibold text-navy sm:text-3xl lg:text-4xl">
+          {question.question}
+        </h1>
         {needed > 1 && (
-          <p className="mt-1.5 animate-fade-in text-sm text-muted">Choose {needed} answers.</p>
+          <p className="mt-3 animate-fade-in text-sm text-muted">Select {needed} answers.</p>
         )}
 
-        <div className="mt-5 space-y-2.5" role="group">
+        <div className="mt-7 grid gap-3 sm:mt-8 sm:gap-4" role="group">
           {question.options.map((option, i) => {
             const picked = picks.includes(i)
             const right = question.correct.includes(i)
 
-            let tone = 'border-line hover:border-brand'
-            if (revealed && right) tone = 'border-good bg-good-soft'
-            else if (revealed && picked) tone = 'border-bad bg-bad-soft'
-            else if (picked) tone = 'border-brand bg-brand-soft'
+            let tone = 'border-line hover:border-brand hover:bg-brand-soft/30 hover:shadow-card-hover'
+            if (revealed && right)
+              tone = 'border-good bg-good-soft shadow-card ring-2 ring-good/30 ring-offset-2 ring-offset-canvas'
+            else if (revealed && picked)
+              tone = 'border-bad bg-bad-soft shadow-card ring-2 ring-bad/30 ring-offset-2 ring-offset-canvas'
+            else if (picked)
+              tone = 'border-brand bg-brand-soft shadow-elevated ring-2 ring-brand/40 ring-offset-2 ring-offset-canvas'
+
+            const status = revealed && right ? 'Correct' : revealed && picked ? 'Your answer' : picked ? 'Selected' : null
+            const markerTone =
+              revealed && right
+                ? 'border-good bg-good text-white'
+                : revealed && picked
+                  ? 'border-bad bg-bad text-white'
+                  : picked
+                    ? 'border-brand bg-brand text-white'
+                    : 'border-line bg-surface-secondary text-muted'
 
             return (
               <button
@@ -192,12 +226,28 @@ export default function TestScreen() {
                 disabled={revealed}
                 aria-pressed={picked}
                 style={{ animationDelay: `${i * 50}ms` }}
-                className={`flex w-full animate-fade-up items-start gap-3 rounded-xl border bg-surface px-4 py-3 text-left transition ${tone}`}
+                className={`grid min-h-[4.75rem] w-full animate-fade-up grid-cols-[auto_1fr_auto] items-center gap-3 rounded-2xl border-2 bg-surface px-4 py-4 text-left transition sm:min-h-24 sm:gap-5 sm:px-6 ${tone}`}
               >
-                <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md border border-line text-xs text-muted">
-                  {i + 1}
+                <span
+                  className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 text-sm font-semibold sm:h-12 sm:w-12 ${markerTone}`}
+                >
+                  {String.fromCharCode(65 + i)}
                 </span>
-                <span className="text-sm">{option}</span>
+                <span className="text-base leading-relaxed sm:text-lg">{option}</span>
+                {status && (
+                  <span
+                    className={`flex items-center gap-1 rounded-full px-2.5 py-1 text-[0.6875rem] font-bold whitespace-nowrap sm:px-3 sm:text-xs ${
+                      revealed && right
+                        ? 'bg-good text-white'
+                        : revealed && picked
+                          ? 'bg-bad text-white'
+                          : 'bg-brand text-white'
+                    }`}
+                  >
+                    {revealed && picked && !right ? <X size={14} /> : <Check size={14} />}
+                    <span className="hidden min-[380px]:inline">{status}</span>
+                  </span>
+                )}
               </button>
             )
           })}
@@ -205,17 +255,18 @@ export default function TestScreen() {
 
         {revealed && (
           <div
-            className={`mt-4 rounded-xl p-4 text-sm ${
+            className={`mt-6 rounded-2xl p-5 text-sm sm:p-6 ${
               correct ? 'animate-pop bg-good-soft text-good' : 'animate-shake bg-bad-soft text-bad'
             }`}
           >
-            <p className="font-medium">{correct ? 'Correct' : 'Not quite'}</p>
-            <p className="mt-1 text-ink/80">{question.explanation}</p>
+            <p className="text-base font-semibold">{correct ? 'Correct' : 'Not quite'}</p>
+            <p className="mt-2 leading-relaxed text-ink/80">{question.explanation}</p>
           </div>
         )}
-      </div>
+        </section>
+      </main>
 
-      <footer className="flex items-center gap-2 border-t border-line pt-3">
+      <footer className="flex items-center gap-2 border-t border-line bg-canvas py-4 sm:gap-3">
         <Button variant="ghost" onClick={prev} disabled={index === 0}>
           Back
         </Button>
@@ -230,9 +281,9 @@ export default function TestScreen() {
 
         <div className="ml-auto">
           {index === questions.length - 1 ? (
-            <Button onClick={openReview}>Review answers</Button>
+            <Button className="px-5 sm:px-7" onClick={openReview}>Review answers</Button>
           ) : (
-            <Button onClick={next}>Next</Button>
+            <Button className="px-6 sm:px-8" onClick={next}>Next</Button>
           )}
         </div>
       </footer>
