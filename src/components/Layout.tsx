@@ -25,7 +25,7 @@ const links = [
 
 type Theme = 'system' | 'light' | 'dark'
 
-const themeOrder: Theme[] = ['system', 'light', 'dark']
+const themeOrder: Theme[] = ['light', 'dark', 'system']
 
 function ThemeToggle() {
   const [theme, setTheme] = useState<Theme>('system')
