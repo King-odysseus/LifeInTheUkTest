@@ -9,6 +9,7 @@ import {
   LogIn,
   Monitor,
   Moon,
+  RefreshCw,
   Sun,
   UserRound,
 } from 'lucide-react'
@@ -59,6 +60,38 @@ function ThemeToggle() {
   )
 }
 
+function RefreshButton() {
+  const [refreshing, setRefreshing] = useState(false)
+
+  const hardRefresh = async () => {
+    if (refreshing) return
+    setRefreshing(true)
+    // Force the service worker to check for a new build, then reload so any
+    // update takes effect. A PWA can otherwise keep serving the old bundle.
+    if ('serviceWorker' in navigator) {
+      try {
+        const reg = await navigator.serviceWorker.getRegistration()
+        if (reg) await reg.update()
+      } catch {
+        // Fall through to a plain reload below.
+      }
+    }
+    window.location.reload()
+  }
+
+  return (
+    <button
+      onClick={() => void hardRefresh()}
+      disabled={refreshing}
+      className="flex h-11 w-11 items-center justify-center rounded-full text-muted transition-colors hover:bg-surface-secondary hover:text-ink disabled:opacity-40"
+      aria-label="Refresh the app"
+      title="Refresh the app"
+    >
+      <RefreshCw size={21} className={refreshing ? 'animate-spin' : undefined} />
+    </button>
+  )
+}
+
 export default function Layout() {
   const { user, accountsEnabled, logout } = useAuth()
   const location = useLocation()
@@ -99,7 +132,8 @@ export default function Layout() {
             ))}
           </nav>
 
-          <div className="ml-auto lg:ml-0">
+          <div className="ml-auto flex items-center lg:ml-0">
+            <RefreshButton />
             <ThemeToggle />
           </div>
 
