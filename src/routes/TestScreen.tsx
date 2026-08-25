@@ -72,7 +72,7 @@ export default function TestScreen() {
   const question = questions[index]
   const picks = question ? (chosen[question.id] ?? []) : []
   const instant = config?.instantFeedback ?? false
-  const autoAdvanceDelay = config?.mode === 'rapid' ? 15_000 : instant ? 850 : 350
+  const autoAdvanceDelay = instant ? 15_000 : 350
   const answered = picks.length === (question?.correct.length ?? 1)
   const revealed = instant && answered
 

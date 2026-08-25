@@ -68,6 +68,8 @@ function RefreshButton() {
     setRefreshing(true)
     // Force the service worker to check for a new build, then reload so any
     // update takes effect. A PWA can otherwise keep serving the old bundle.
+    // Local data (attempts, flashcards, custom test presets) lives in
+    // IndexedDB, which this reload does not touch.
     if ('serviceWorker' in navigator) {
       try {
         const reg = await navigator.serviceWorker.getRegistration()
