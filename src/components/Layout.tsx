@@ -7,6 +7,7 @@ import {
   Home,
   Landmark,
   LogIn,
+  Monitor,
   Moon,
   Sun,
   UserRound,
@@ -21,30 +22,30 @@ const links = [
   { to: '/stats', label: 'Progress', mobileLabel: 'Progress', icon: BarChart3 },
 ]
 
+type Theme = 'system' | 'light' | 'dark'
+
+const themeOrder: Theme[] = ['system', 'light', 'dark']
+
 function ThemeToggle() {
-  const [theme, setTheme] = useState<'light' | 'dark'>('light')
+  const [theme, setTheme] = useState<Theme>('system')
 
   useEffect(() => {
-    void getPref<'system' | 'light' | 'dark'>('theme', 'light').then((saved) => {
-      const next = saved === 'dark' ? 'dark' : 'light'
-      setTheme(next)
-      // Migrate the old three-state preference so future loads stay explicit.
-      if (saved === 'system') void setPref('theme', 'light')
-    })
+    void getPref<Theme>('theme', 'system').then(setTheme)
   }, [])
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme)
+    if (theme === 'system') document.documentElement.removeAttribute('data-theme')
+    else document.documentElement.setAttribute('data-theme', theme)
   }, [theme])
 
   const cycle = () => {
-    const next = theme === 'light' ? 'dark' : 'light'
+    const next = themeOrder[(themeOrder.indexOf(theme) + 1) % themeOrder.length]
     setTheme(next)
     void setPref('theme', next)
   }
 
-  const Icon = theme === 'light' ? Sun : Moon
-  const nextTheme = theme === 'light' ? 'dark' : 'light'
+  const Icon = theme === 'system' ? Monitor : theme === 'light' ? Sun : Moon
+  const nextTheme = themeOrder[(themeOrder.indexOf(theme) + 1) % themeOrder.length]
 
   return (
     <button
