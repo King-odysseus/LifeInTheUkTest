@@ -7,7 +7,6 @@ import {
   Home,
   Landmark,
   LogIn,
-  Monitor,
   Moon,
   Sun,
   UserRound,
@@ -23,33 +22,38 @@ const links = [
 ]
 
 function ThemeToggle() {
-  const [theme, setTheme] = useState<'system' | 'light' | 'dark'>('system')
+  const [theme, setTheme] = useState<'light' | 'dark'>('light')
 
   useEffect(() => {
-    void getPref<'system' | 'light' | 'dark'>('theme', 'system').then(setTheme)
+    void getPref<'system' | 'light' | 'dark'>('theme', 'light').then((saved) => {
+      const next = saved === 'dark' ? 'dark' : 'light'
+      setTheme(next)
+      // Migrate the old three-state preference so future loads stay explicit.
+      if (saved === 'system') void setPref('theme', 'light')
+    })
   }, [])
 
   useEffect(() => {
-    if (theme === 'system') document.documentElement.removeAttribute('data-theme')
-    else document.documentElement.setAttribute('data-theme', theme)
+    document.documentElement.setAttribute('data-theme', theme)
   }, [theme])
 
   const cycle = () => {
-    const next = theme === 'system' ? 'light' : theme === 'light' ? 'dark' : 'system'
+    const next = theme === 'light' ? 'dark' : 'light'
     setTheme(next)
     void setPref('theme', next)
   }
 
-  const Icon = theme === 'system' ? Monitor : theme === 'light' ? Sun : Moon
+  const Icon = theme === 'light' ? Sun : Moon
+  const nextTheme = theme === 'light' ? 'dark' : 'light'
 
   return (
     <button
       onClick={cycle}
-      className="flex h-11 w-11 items-center justify-center rounded-full text-muted transition-colors hover:bg-surface-secondary hover:text-ink md:h-9 md:w-9"
-      aria-label={`Theme: ${theme}. Click to change.`}
-      title={`Theme: ${theme}`}
+      className="flex h-11 w-11 items-center justify-center rounded-full text-muted transition-colors hover:bg-surface-secondary hover:text-ink"
+      aria-label={`${theme} mode. Switch to ${nextTheme} mode.`}
+      title={`Switch to ${nextTheme} mode`}
     >
-      <Icon size={18} />
+      <Icon size={21} />
     </button>
   )
 }
@@ -70,31 +74,31 @@ export default function Layout() {
   return (
     <div className="min-h-dvh">
       <header className="sticky top-0 z-30 border-b border-line bg-surface/90 backdrop-blur">
-        <div className="flex min-h-16 w-full items-center gap-3 px-4 sm:px-6 md:gap-4 lg:px-8 xl:px-10">
-          <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight text-navy">
-            <Landmark size={20} className="shrink-0 text-accent" />
+        <div className="flex min-h-18 w-full items-center gap-3 px-4 sm:px-6 lg:min-h-20 lg:gap-5 lg:px-8 xl:px-10">
+          <Link to="/" className="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-navy lg:text-xl">
+            <Landmark size={23} className="shrink-0 text-accent" />
             <span className="whitespace-nowrap">Life in the UK</span>
           </Link>
 
-          <nav className="ml-auto hidden items-center gap-1 md:flex">
+          <nav className="ml-auto hidden items-center gap-2 lg:flex">
             {links.map((l) => (
               <NavLink
                 key={l.to}
                 to={l.to}
                 end={l.end}
                 className={({ isActive }) =>
-                  `flex items-center gap-1.5 rounded-full px-2.5 py-1.5 text-sm whitespace-nowrap ${
+                  `flex min-h-11 items-center gap-2 rounded-full px-4 py-2.5 text-base font-medium whitespace-nowrap transition-colors ${
                     isActive ? 'bg-brand-soft text-brand' : 'text-muted hover:text-ink'
                   }`
                 }
               >
-                <l.icon size={16} />
+                <l.icon size={20} strokeWidth={1.9} />
                 <span>{l.label}</span>
               </NavLink>
             ))}
           </nav>
 
-          <div className="ml-auto md:ml-0">
+          <div className="ml-auto lg:ml-0">
             <ThemeToggle />
           </div>
 
@@ -106,23 +110,23 @@ export default function Layout() {
           */}
           {showAccounts &&
             (user ? (
-              <div className="hidden items-center gap-3 md:flex">
-                <Link to="/account" className="max-w-32 truncate text-sm text-muted hover:text-ink">
+              <div className="hidden items-center gap-4 lg:flex">
+                <Link to="/account" className="max-w-36 truncate text-base text-muted hover:text-ink">
                   {user.displayName ?? user.username ?? user.email}
                 </Link>
-                <button onClick={() => void logout()} className="text-sm text-muted hover:text-ink">
+                <button onClick={() => void logout()} className="text-base text-muted hover:text-ink">
                   Sign out
                 </button>
               </div>
             ) : (
-              <Link to="/signin" className="hidden text-sm font-medium text-brand md:block">
+              <Link to="/signin" className="hidden text-base font-semibold text-brand lg:block">
                 Sign in
               </Link>
             ))}
         </div>
       </header>
 
-      <main className="w-full px-4 pt-5 pb-[calc(7rem+env(safe-area-inset-bottom))] sm:px-6 md:py-8 lg:px-8 xl:px-10">
+      <main className="w-full px-4 pt-5 pb-[calc(7rem+env(safe-area-inset-bottom))] sm:px-6 lg:px-8 lg:py-8 xl:px-10">
         <div key={location.pathname} className="animate-fade-up">
           <Outlet />
         </div>
@@ -130,9 +134,9 @@ export default function Layout() {
 
       <nav
         aria-label="Primary navigation"
-        className={`fixed right-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] left-3 z-40 mx-auto grid max-w-md ${
+        className={`fixed right-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] left-3 z-40 mx-auto grid max-w-lg ${
           mobileLinks.length === 5 ? 'grid-cols-5' : 'grid-cols-4'
-        } gap-1 rounded-3xl border border-line bg-surface/95 p-1.5 shadow-elevated backdrop-blur-md md:hidden`}
+        } gap-1.5 rounded-3xl border border-line bg-surface/95 p-2 shadow-elevated backdrop-blur-md lg:hidden`}
       >
         {mobileLinks.map((link) => (
           <NavLink
@@ -141,12 +145,12 @@ export default function Layout() {
             end={'end' in link ? link.end : undefined}
             aria-label={link.label}
             className={({ isActive }) =>
-              `flex min-h-14 min-w-0 flex-col items-center justify-center gap-0.5 rounded-2xl px-1 text-[0.6875rem] font-medium transition-colors ${
+              `flex min-h-16 min-w-0 flex-col items-center justify-center gap-1 rounded-2xl px-1 text-xs font-semibold transition-colors ${
                 isActive ? 'bg-brand-soft text-brand' : 'text-muted active:bg-surface-secondary'
               }`
             }
           >
-            <link.icon size={20} strokeWidth={1.9} />
+            <link.icon size={23} strokeWidth={1.9} />
             <span className="max-w-full truncate">{link.mobileLabel}</span>
           </NavLink>
         ))}

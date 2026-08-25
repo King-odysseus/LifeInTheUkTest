@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useState } from 'react'
-import { RotateCw } from 'lucide-react'
+import { useCallback, useEffect, useRef, useState, type PointerEvent } from 'react'
+import { ChevronLeft, ChevronRight, RotateCw } from 'lucide-react'
 import { Button, Card, Spinner } from '../components/ui'
 import { db } from '../lib/db'
 import { dueQuestionIds } from '../lib/srs'
@@ -17,6 +17,8 @@ export default function Study() {
   const [index, setIndex] = useState(0)
   const [revealed, setRevealed] = useState(false)
   const [reviewed, setReviewed] = useState(0)
+  const [slideDirection, setSlideDirection] = useState<'idle' | 'next' | 'previous'>('idle')
+  const swipeStartX = useRef<number | null>(null)
 
   const load = useCallback(async () => {
     const due = await dueQuestionIds(40)
@@ -25,6 +27,8 @@ export default function Study() {
     setCards(questions)
     setIndex(0)
     setRevealed(false)
+    setReviewed(0)
+    setSlideDirection('idle')
   }, [])
 
   useEffect(() => {
@@ -33,19 +37,45 @@ export default function Study() {
 
   if (!cards) return <Spinner label="Loading your review" />
 
+  const move = (direction: 'next' | 'previous') => {
+    const nextIndex = direction === 'next' ? Math.min(index + 1, cards.length - 1) : Math.max(index - 1, 0)
+    if (nextIndex === index) return
+    setSlideDirection(direction)
+    setRevealed(false)
+    setIndex(nextIndex)
+  }
+
+  const startSwipe = (event: PointerEvent<HTMLDivElement>) => {
+    if ((event.target as HTMLElement).closest('button')) return
+    if (event.pointerType === 'mouse' && event.button !== 0) return
+    swipeStartX.current = event.clientX
+    event.currentTarget.setPointerCapture(event.pointerId)
+  }
+
+  const finishSwipe = (event: PointerEvent<HTMLDivElement>) => {
+    if (swipeStartX.current == null) return
+    const distance = event.clientX - swipeStartX.current
+    swipeStartX.current = null
+    if (Math.abs(distance) < 60) return
+    // Product direction: right advances, left returns to the previous card.
+    move(distance > 0 ? 'next' : 'previous')
+  }
+
   const card = cards[index]
 
   if (!card) {
     return (
-      <Card className="text-center">
-        <h1 className="font-medium">Review complete</h1>
-        <p className="mt-1 text-sm text-muted">
-          {reviewed} card{reviewed === 1 ? '' : 's'} reviewed. Come back when more fall due.
-        </p>
-        <Button className="mt-4" onClick={() => void load()}>
-          Study more
-        </Button>
-      </Card>
+      <div className="mx-auto w-full max-w-3xl">
+        <Card className="text-center">
+          <h1 className="font-medium">Review complete</h1>
+          <p className="mt-1 text-sm text-muted">
+            {reviewed} card{reviewed === 1 ? '' : 's'} reviewed. Come back when more fall due.
+          </p>
+          <Button className="mt-4" onClick={() => void load()}>
+            Study more
+          </Button>
+        </Card>
+      </div>
     )
   }
 
@@ -57,24 +87,39 @@ export default function Study() {
     void useAuth.getState().syncUp()
     setReviewed((n) => n + 1)
     setRevealed(false)
+    setSlideDirection('next')
     setIndex((i) => i + 1)
   }
 
   const chapter = CHAPTERS.find((c) => c.id === card.chapter)
 
   return (
-    <div className="space-y-4">
-      <div>
-        <p className="eyebrow">Flashcards</p>
+    <div className="w-full space-y-5 overflow-x-clip">
+      <div className="mx-auto w-full max-w-3xl">
+        <p className="eyebrow">Spaced repetition</p>
         <div className="mt-1 flex items-baseline justify-between">
-          <h1 className="text-xl font-semibold text-navy">Study</h1>
+          <h1 className="text-2xl font-semibold text-navy sm:text-3xl">Flashcards</h1>
           <span className="text-sm tabular-nums text-muted">
             {index + 1} of {cards.length}
           </span>
         </div>
       </div>
 
-      <div key={card.id} className="animate-fade-up [perspective:1200px]">
+      <div
+        key={card.id}
+        className={`mx-auto w-full max-w-3xl ${
+          slideDirection === 'next'
+            ? 'animate-slide-next'
+            : slideDirection === 'previous'
+              ? 'animate-slide-previous'
+              : 'animate-fade-up'
+        } cursor-grab touch-pan-y select-none [perspective:1200px] active:cursor-grabbing`}
+        onPointerDown={startSwipe}
+        onPointerUp={finishSwipe}
+        onPointerCancel={() => {
+          swipeStartX.current = null
+        }}
+      >
         <div
           className="grid transition-transform duration-500 ease-out"
           style={{
@@ -129,6 +174,33 @@ export default function Study() {
           </div>
         </div>
       </div>
+
+      <div className="mx-auto flex w-full max-w-3xl items-center justify-between gap-4">
+        <Button
+          variant="secondary"
+          className="w-28 shrink-0 sm:w-36"
+          disabled={index === 0}
+          onClick={() => move('previous')}
+        >
+          <ChevronLeft size={18} />
+          Prev
+        </Button>
+        <p className="hidden px-2 text-center text-xs leading-tight text-muted sm:block">
+          Swipe right for next<br />Swipe left for previous
+        </p>
+        <Button
+          variant="secondary"
+          className="w-28 shrink-0 sm:w-36"
+          disabled={index === cards.length - 1}
+          onClick={() => move('next')}
+        >
+          Next
+          <ChevronRight size={18} />
+        </Button>
+      </div>
+      <p className="text-center text-xs text-muted sm:hidden">
+        Swipe right for next · left for previous
+      </p>
     </div>
   )
 }

@@ -187,9 +187,9 @@ export default function TestScreen() {
       </div>
 
       <main className="flex-1 py-7 sm:py-9 lg:py-10" key={question.id}>
-        <section className="rounded-3xl border border-line bg-surface p-5 shadow-card sm:p-8 lg:p-10">
+        <section className="rounded-3xl border border-line bg-surface px-5 py-7 shadow-card sm:px-8 sm:py-9 lg:px-10 lg:py-12">
         <p className="text-sm font-bold tracking-[0.12em] text-accent uppercase sm:text-base">Choose your answer</p>
-        <h1 className="mt-3 animate-fade-in text-2xl leading-snug font-semibold text-navy sm:text-3xl lg:text-4xl">
+        <h1 className="mt-3 animate-fade-in text-2xl leading-snug font-semibold text-navy sm:text-3xl">
           {question.question}
         </h1>
         {needed > 1 && (
@@ -255,11 +255,11 @@ export default function TestScreen() {
 
         {revealed && (
           <div
-            className={`mt-6 rounded-2xl p-5 text-sm sm:p-6 ${
+            className={`mt-6 rounded-2xl p-5 text-base sm:p-6 sm:text-lg ${
               correct ? 'animate-pop bg-good-soft text-good' : 'animate-shake bg-bad-soft text-bad'
             }`}
           >
-            <p className="text-base font-semibold">{correct ? 'Correct' : 'Not quite'}</p>
+            <p className="text-lg font-semibold sm:text-xl">{correct ? 'Correct' : 'Not quite'}</p>
             <p className="mt-2 leading-relaxed text-ink/80">{question.explanation}</p>
           </div>
         )}

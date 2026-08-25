@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <div className="space-y-5">
-      <section className="card p-5 sm:p-6">
+      <section className="card px-5 py-7 sm:px-6 sm:py-9 lg:px-8 lg:py-10">
         <p className="eyebrow">Mock exam & revision</p>
         <h1 className="mt-1 text-xl font-semibold text-navy">Practice for the Life in the UK test</h1>
         <p className="mt-1.5 text-sm text-muted">

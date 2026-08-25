@@ -14,6 +14,8 @@
   --color-accent-hover: #7d4f2c;
   --color-accent-soft: #f3e2cc;
   --color-accent-ink: #2b2105;
+  --color-accent-fill: #966238;
+  --color-accent-fill-hover: #7d4f2c;
   --color-navy: #0b0b45;
 
   /* ── Surfaces ── */
@@ -49,6 +51,17 @@
   --shadow-card: 0 1px 2px rgb(38 34 98 / 0.04), 0 4px 16px -4px rgb(38 34 98 / 0.06);
   --shadow-card-hover: 0 8px 30px -6px rgb(38 34 98 / 0.12), 0 4px 12px -6px rgb(38 34 98 / 0.06);
   --shadow-elevated: 0 12px 40px -12px rgb(38 34 98 / 0.16);
+  --shadow-button:
+    5px 5px 12px rgb(11 11 69 / 0.16),
+    -4px -4px 10px rgb(255 255 255 / 0.92),
+    inset 0 1px 0 rgb(255 255 255 / 0.28);
+  --shadow-button-hover:
+    7px 7px 16px rgb(11 11 69 / 0.2),
+    -5px -5px 12px rgb(255 255 255 / 0.96),
+    inset 0 1px 0 rgb(255 255 255 / 0.34);
+  --shadow-button-pressed:
+    inset 3px 3px 7px rgb(11 11 69 / 0.24),
+    inset -2px -2px 5px rgb(255 255 255 / 0.32);
 
   /* ── Typography ── */
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -74,6 +87,8 @@
   --animate-scale-in: scale-in 0.25s ease-out both;
   --animate-pop: pop 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-shake: shake 0.4s ease-in-out both;
+  --animate-slide-next: slide-next 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-slide-previous: slide-previous 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
 
   @keyframes fade-in {
     from { opacity: 0; }
@@ -99,6 +114,32 @@
     0%, 100% { transform: translateX(0); }
     20%, 60% { transform: translateX(-4px); }
     40%, 80% { transform: translateX(4px); }
+  }
+
+  @keyframes slide-next {
+    from {
+      opacity: 0.15;
+      transform: perspective(1200px) translateX(-85vw) rotateY(-32deg) scale(0.92);
+      transform-origin: left center;
+    }
+    72% {
+      opacity: 1;
+      transform: perspective(1200px) translateX(1rem) rotateY(2deg) scale(1);
+    }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes slide-previous {
+    from {
+      opacity: 0.15;
+      transform: perspective(1200px) translateX(85vw) rotateY(32deg) scale(0.92);
+      transform-origin: right center;
+    }
+    72% {
+      opacity: 1;
+      transform: perspective(1200px) translateX(-1rem) rotateY(-2deg) scale(1);
+    }
+    to { opacity: 1; transform: translateX(0); }
   }
 }
 
@@ -128,6 +169,17 @@
     --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 16px -4px rgb(0 0 0 / 0.45);
     --shadow-card-hover: 0 8px 30px -6px rgb(0 0 0 / 0.55);
     --shadow-elevated: 0 12px 40px -12px rgb(0 0 0 / 0.6);
+    --shadow-button:
+      5px 5px 12px rgb(0 0 0 / 0.52),
+      -3px -3px 9px rgb(110 110 218 / 0.12),
+      inset 0 1px 0 rgb(255 255 255 / 0.08);
+    --shadow-button-hover:
+      7px 7px 16px rgb(0 0 0 / 0.62),
+      -4px -4px 11px rgb(110 110 218 / 0.16),
+      inset 0 1px 0 rgb(255 255 255 / 0.1);
+    --shadow-button-pressed:
+      inset 3px 3px 8px rgb(0 0 0 / 0.62),
+      inset -2px -2px 5px rgb(110 110 218 / 0.12);
   }
 }
 
@@ -155,6 +207,17 @@
   --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 16px -4px rgb(0 0 0 / 0.45);
   --shadow-card-hover: 0 8px 30px -6px rgb(0 0 0 / 0.55);
   --shadow-elevated: 0 12px 40px -12px rgb(0 0 0 / 0.6);
+  --shadow-button:
+    5px 5px 12px rgb(0 0 0 / 0.52),
+    -3px -3px 9px rgb(110 110 218 / 0.12),
+    inset 0 1px 0 rgb(255 255 255 / 0.08);
+  --shadow-button-hover:
+    7px 7px 16px rgb(0 0 0 / 0.62),
+    -4px -4px 11px rgb(110 110 218 / 0.16),
+    inset 0 1px 0 rgb(255 255 255 / 0.1);
+  --shadow-button-pressed:
+    inset 3px 3px 8px rgb(0 0 0 / 0.62),
+    inset -2px -2px 5px rgb(110 110 218 / 0.12);
 }
 
 html {
@@ -166,6 +229,28 @@ body {
   color: var(--color-ink);
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-sans);
+}
+
+/* Raised controls with a tactile inset press, tuned separately above for each theme. */
+.button-neomorphic {
+  box-shadow: var(--shadow-button);
+  transform: translateY(0);
+  will-change: transform, box-shadow;
+}
+
+.button-neomorphic:hover:not(:disabled) {
+  box-shadow: var(--shadow-button-hover);
+  transform: translateY(-1px);
+}
+
+.button-neomorphic:active:not(:disabled) {
+  box-shadow: var(--shadow-button-pressed);
+  transform: translateY(1px) scale(0.98);
+}
+
+.button-neomorphic:disabled {
+  box-shadow: none;
+  transform: none;
 }
 
 /* Respect the OS reduced-motion setting for the timer and transitions. */
