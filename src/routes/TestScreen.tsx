@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Navigate, useNavigate } from 'react-router-dom'
 import { Check, Clock3, X } from 'lucide-react'
 import { useTest } from '../store/test'
 import { isCorrect } from '../lib/questions'
@@ -114,8 +114,7 @@ export default function TestScreen() {
   }, [status, instant, answered, index, questions.length, next, openReview, autoAdvanceDelay])
 
   if (status === 'idle') {
-    navigate('/')
-    return null
+    return <Navigate to="/" replace />
   }
   if (status === 'loading') return <Spinner label="Preparing your questions" />
 
