@@ -75,7 +75,7 @@ export async function weakQuestionIds(limit = 100): Promise<string[]> {
 
 export async function getPref<T>(key: string, fallback: T): Promise<T> {
   const row = await db.prefs.get(key)
-  return row ? (row.value as T) : fallback
+  return row && row.value != null ? (row.value as T) : fallback
 }
 
 export async function setPref(key: string, value: unknown) {
@@ -86,10 +86,11 @@ const CUSTOM_TESTS_KEY = 'custom-test-presets'
 
 export async function customTestPresets(): Promise<CustomTestPreset[]> {
   const presets = await getPref<CustomTestPreset[]>(CUSTOM_TESTS_KEY, [])
+  if (!Array.isArray(presets)) return []
   return [...presets].sort((a, b) => b.lastUsedAt - a.lastUsedAt)
 }
 
-/** Keeps the eight most recently used presets and replaces duplicate names. */
+/** Replaces duplicate names and keeps a bounded list of recent presets. */
 export async function saveCustomTestPreset(preset: CustomTestPreset) {
   const existing = await customTestPresets()
   const next = [
@@ -97,7 +98,7 @@ export async function saveCustomTestPreset(preset: CustomTestPreset) {
     ...existing.filter(
       (item) => item.id !== preset.id && item.name.toLowerCase() !== preset.name.toLowerCase(),
     ),
-  ].slice(0, 8)
+  ].slice(0, 20)
   await setPref(CUSTOM_TESTS_KEY, next)
 }
 
@@ -105,6 +106,11 @@ export async function touchCustomTestPreset(preset: CustomTestPreset): Promise<C
   const updated = { ...preset, lastUsedAt: Date.now() }
   await saveCustomTestPreset(updated)
   return updated
+}
+
+export async function deleteCustomTestPreset(id: string) {
+  const existing = await customTestPresets()
+  await setPref(CUSTOM_TESTS_KEY, existing.filter((p) => p.id !== id))
 }
 
 export async function clearLocalProgress() {

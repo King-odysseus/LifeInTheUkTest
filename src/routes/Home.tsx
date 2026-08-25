@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { BarChart3, Play, RefreshCw, Target, UserPlus, Zap } from 'lucide-react'
+import { BarChart3, Play, RefreshCw, Target, Trash2, UserPlus, Zap } from 'lucide-react'
 import { Button, ButtonLink, Card, Meter } from '../components/ui'
 import { useTest } from '../store/test'
 import { useAuth } from '../store/auth'
-import { customTestPresets, recentAttempts, touchCustomTestPreset } from '../lib/db'
+import { customTestPresets, deleteCustomTestPreset, recentAttempts, touchCustomTestPreset } from '../lib/db'
 import { dueCount } from '../lib/srs'
 import { EXAM, type Attempt, type CustomTestPreset } from '../lib/types'
 
@@ -37,7 +37,7 @@ export default function Home() {
   useEffect(() => {
     void recentAttempts(20).then(setAttempts)
     void dueCount().then(setDue)
-    void customTestPresets().then((presets) => setRecentTests(presets.slice(0, 4)))
+    void customTestPresets().then(setRecentTests)
   }, [])
 
   const score = readiness(attempts)
@@ -62,6 +62,11 @@ export default function Home() {
       focusWeak: updated.focusWeak,
     })
     navigate('/test')
+  }
+
+  const removePreset = async (id: string) => {
+    await deleteCustomTestPreset(id)
+    setRecentTests((prev) => prev.filter((p) => p.id !== id))
   }
 
   return (
@@ -129,13 +134,21 @@ export default function Home() {
                   ) : (
                     <Play size={19} className="mt-0.5 shrink-0 text-accent" />
                   )}
-                  <div className="min-w-0">
+                  <div className="min-w-0 flex-1">
                     <h3 className="truncate font-semibold">{preset.name}</h3>
                     <p className="mt-1 text-xs leading-relaxed text-muted">
                       {preset.count} questions · {preset.rapid ? 'Rapid' : preset.timed ? 'Timed' : 'Normal'}
                       {preset.focusWeak ? ' · Weak areas first' : ''}
                     </p>
                   </div>
+                  <button
+                    onClick={() => void removePreset(preset.id)}
+                    className="shrink-0 rounded-full p-1.5 text-muted transition-colors hover:bg-bad-soft hover:text-bad"
+                    aria-label={`Delete ${preset.name}`}
+                    title={`Delete ${preset.name}`}
+                  >
+                    <Trash2 size={16} />
+                  </button>
                 </div>
                 <Button
                   variant="secondary"
