@@ -68,6 +68,20 @@ export interface Attempt {
   synced?: boolean
 }
 
+/** A reusable test assembled by the learner in the custom-test builder. */
+export interface CustomTestPreset {
+  id: string
+  name: string
+  chapters: ChapterId[]
+  count: number
+  difficulty: Difficulty[]
+  timed: boolean
+  rapid: boolean
+  focusWeak: boolean
+  createdAt: number
+  lastUsedAt: number
+}
+
 /** SM-2 scheduling state for a single question. */
 export interface SrsState {
   questionId: string

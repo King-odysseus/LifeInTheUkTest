@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Infinity as InfinityIcon, Play, Target, Zap } from 'lucide-react'
-import { Button, Card } from '../components/ui'
+import { Button, Card, Field } from '../components/ui'
 import { useTest } from '../store/test'
-import { CHAPTERS, type ChapterId, type Difficulty } from '../lib/types'
+import { saveCustomTestPreset } from '../lib/db'
+import { CHAPTERS, type ChapterId, type CustomTestPreset, type Difficulty } from '../lib/types'
 
 export default function Practice() {
   const navigate = useNavigate()
@@ -13,6 +14,9 @@ export default function Practice() {
   const [count, setCount] = useState(20)
   const [timed, setTimed] = useState(false)
   const [difficulty, setDifficulty] = useState<Difficulty | 0>(0)
+  const [name, setName] = useState('')
+  const [rapid, setRapid] = useState(false)
+  const [focusWeak, setFocusWeak] = useState(false)
   const [busy, setBusy] = useState(false)
 
   const toggle = (id: ChapterId) =>
@@ -21,6 +25,34 @@ export default function Practice() {
   const begin = async (config: Parameters<typeof start>[0]) => {
     setBusy(true)
     await start(config)
+    navigate('/test')
+  }
+
+  const buildAndBegin = async () => {
+    const now = Date.now()
+    const preset: CustomTestPreset = {
+      id: crypto.randomUUID(),
+      name: name.trim(),
+      chapters,
+      count,
+      difficulty: difficulty ? [difficulty] : [],
+      timed: rapid ? false : timed,
+      rapid,
+      focusWeak,
+      createdAt: now,
+      lastUsedAt: now,
+    }
+    setBusy(true)
+    await saveCustomTestPreset(preset)
+    await start({
+      mode: rapid ? 'rapid' : 'custom',
+      chapters: chapters.length ? chapters : undefined,
+      difficulty: difficulty ? [difficulty] : undefined,
+      count,
+      timed: rapid ? false : timed,
+      instantFeedback: rapid || !timed,
+      focusWeak,
+    })
     navigate('/test')
   }
 
@@ -58,6 +90,46 @@ export default function Practice() {
 
         <Card>
           <h2 className="font-medium">Build your own test</h2>
+
+          <div className="mt-3">
+            <Field
+              label="Test name"
+              placeholder="e.g. History rapid revision"
+              required
+              maxLength={50}
+              value={name}
+              onChange={(event) => setName(event.target.value)}
+            />
+          </div>
+
+          <fieldset className="mt-4">
+            <legend className="text-sm text-muted">Style</legend>
+            <div className="mt-2 grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => setRapid(false)}
+                aria-pressed={!rapid}
+                className={`rounded-xl border px-3 py-2.5 text-sm font-medium ${
+                  !rapid ? 'border-brand bg-brand-soft text-brand' : 'border-line text-muted'
+                }`}
+              >
+                Normal
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setRapid(true)
+                  setTimed(false)
+                }}
+                aria-pressed={rapid}
+                className={`rounded-xl border px-3 py-2.5 text-sm font-medium ${
+                  rapid ? 'border-brand bg-brand-soft text-brand' : 'border-line text-muted'
+                }`}
+              >
+                Rapid
+              </button>
+            </div>
+          </fieldset>
 
           <fieldset className="mt-3">
             <legend className="text-sm text-muted">Chapters (all if none selected)</legend>
@@ -118,25 +190,36 @@ export default function Practice() {
           </fieldset>
 
           <label className="mt-4 flex items-center gap-2 text-sm">
-            <input type="checkbox" checked={timed} onChange={(e) => setTimed(e.target.checked)} />
+            <input
+              type="checkbox"
+              checked={timed}
+              disabled={rapid}
+              onChange={(e) => setTimed(e.target.checked)}
+            />
             <span>Timed (45 minutes)</span>
+          </label>
+
+          <label className="mt-3 flex items-start gap-2 text-sm">
+            <input
+              className="mt-0.5"
+              type="checkbox"
+              checked={focusWeak}
+              onChange={(event) => setFocusWeak(event.target.checked)}
+            />
+            <span>
+              Focus on weak areas
+              <span className="block text-xs text-muted">
+                Prioritise questions you previously answered incorrectly.
+              </span>
+            </span>
           </label>
 
           <Button
             className="mt-4 w-full"
-            disabled={busy}
-            onClick={() =>
-              void begin({
-                mode: 'custom',
-                chapters: chapters.length ? chapters : undefined,
-                difficulty: difficulty ? [difficulty] : undefined,
-                count,
-                timed,
-                instantFeedback: !timed,
-              })
-            }
+            disabled={busy || !name.trim()}
+            onClick={() => void buildAndBegin()}
           >
-            Start
+            Save &amp; start
           </Button>
         </Card>
 

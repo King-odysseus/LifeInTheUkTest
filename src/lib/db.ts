@@ -1,5 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie'
-import type { Attempt, SrsState } from './types'
+import type { Attempt, CustomTestPreset, SrsState } from './types'
 
 /**
  * Local-first storage. Everything works with no account at all; when someone
@@ -80,6 +80,31 @@ export async function getPref<T>(key: string, fallback: T): Promise<T> {
 
 export async function setPref(key: string, value: unknown) {
   await db.prefs.put({ key, value })
+}
+
+const CUSTOM_TESTS_KEY = 'custom-test-presets'
+
+export async function customTestPresets(): Promise<CustomTestPreset[]> {
+  const presets = await getPref<CustomTestPreset[]>(CUSTOM_TESTS_KEY, [])
+  return [...presets].sort((a, b) => b.lastUsedAt - a.lastUsedAt)
+}
+
+/** Keeps the eight most recently used presets and replaces duplicate names. */
+export async function saveCustomTestPreset(preset: CustomTestPreset) {
+  const existing = await customTestPresets()
+  const next = [
+    preset,
+    ...existing.filter(
+      (item) => item.id !== preset.id && item.name.toLowerCase() !== preset.name.toLowerCase(),
+    ),
+  ].slice(0, 8)
+  await setPref(CUSTOM_TESTS_KEY, next)
+}
+
+export async function touchCustomTestPreset(preset: CustomTestPreset): Promise<CustomTestPreset> {
+  const updated = { ...preset, lastUsedAt: Date.now() }
+  await saveCustomTestPreset(updated)
+  return updated
 }
 
 export async function clearLocalProgress() {

@@ -4,9 +4,9 @@ import { BarChart3, Play, RefreshCw, Target, UserPlus, Zap } from 'lucide-react'
 import { Button, ButtonLink, Card, Meter } from '../components/ui'
 import { useTest } from '../store/test'
 import { useAuth } from '../store/auth'
-import { recentAttempts } from '../lib/db'
+import { customTestPresets, recentAttempts, touchCustomTestPreset } from '../lib/db'
 import { dueCount } from '../lib/srs'
-import { EXAM, type Attempt } from '../lib/types'
+import { EXAM, type Attempt, type CustomTestPreset } from '../lib/types'
 
 /**
  * A single readiness number is more motivating than a wall of statistics.
@@ -31,11 +31,13 @@ export default function Home() {
   const { user, accountsEnabled } = useAuth()
   const [attempts, setAttempts] = useState<Attempt[]>([])
   const [due, setDue] = useState(0)
+  const [recentTests, setRecentTests] = useState<CustomTestPreset[]>([])
   const [starting, setStarting] = useState(false)
 
   useEffect(() => {
     void recentAttempts(20).then(setAttempts)
     void dueCount().then(setDue)
+    void customTestPresets().then((presets) => setRecentTests(presets.slice(0, 4)))
   }, [])
 
   const score = readiness(attempts)
@@ -44,6 +46,21 @@ export default function Home() {
   const begin = async (mode: 'mock' | 'rapid' | 'weak') => {
     setStarting(true)
     await start({ mode, instantFeedback: mode !== 'mock' })
+    navigate('/test')
+  }
+
+  const beginPreset = async (preset: CustomTestPreset) => {
+    setStarting(true)
+    const updated = await touchCustomTestPreset(preset)
+    await start({
+      mode: updated.rapid ? 'rapid' : 'custom',
+      chapters: updated.chapters.length ? updated.chapters : undefined,
+      difficulty: updated.difficulty.length ? updated.difficulty : undefined,
+      count: updated.count,
+      timed: updated.rapid ? false : updated.timed,
+      instantFeedback: updated.rapid || !updated.timed,
+      focusWeak: updated.focusWeak,
+    })
     navigate('/test')
   }
 
@@ -91,6 +108,48 @@ export default function Home() {
           )}
         </div>
       </section>
+
+      {recentTests.length > 0 && (
+        <section>
+          <div className="mb-3 flex items-center justify-between">
+            <div>
+              <p className="eyebrow">Saved by you</p>
+              <h2 className="mt-1 text-xl font-semibold text-navy">Recent tests</h2>
+            </div>
+            <ButtonLink to="/practice" variant="ghost">
+              Build another
+            </ButtonLink>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+            {recentTests.map((preset) => (
+              <Card key={preset.id} className="flex flex-col">
+                <div className="flex items-start gap-2">
+                  {preset.rapid ? (
+                    <Zap size={19} className="mt-0.5 shrink-0 text-accent" />
+                  ) : (
+                    <Play size={19} className="mt-0.5 shrink-0 text-accent" />
+                  )}
+                  <div className="min-w-0">
+                    <h3 className="truncate font-semibold">{preset.name}</h3>
+                    <p className="mt-1 text-xs leading-relaxed text-muted">
+                      {preset.count} questions · {preset.rapid ? 'Rapid' : preset.timed ? 'Timed' : 'Normal'}
+                      {preset.focusWeak ? ' · Weak areas first' : ''}
+                    </p>
+                  </div>
+                </div>
+                <Button
+                  variant="secondary"
+                  className="mt-4 w-full"
+                  disabled={starting}
+                  onClick={() => void beginPreset(preset)}
+                >
+                  Start again
+                </Button>
+              </Card>
+            ))}
+          </div>
+        </section>
+      )}
 
       <div className="grid gap-4 sm:grid-cols-2">
         {due > 0 && (

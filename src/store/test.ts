@@ -20,6 +20,8 @@ export interface TestConfig {
   timed?: boolean
   /** Practice modes reveal the answer immediately; the mock exam never does. */
   instantFeedback?: boolean
+  /** Prioritise questions the learner has previously answered incorrectly. */
+  focusWeak?: boolean
 }
 
 interface TestStore {
@@ -77,12 +79,25 @@ export const useTest = create<TestStore>((set, get) => ({
     let questions: Question[]
     if (config.mode === 'mock') {
       questions = await buildExam(EXAM.questionCount)
-    } else if (config.mode === 'weak') {
-      const weak = await weakQuestionIds(count)
-      questions = weak.length
-        ? await sampleQuestions({ only: weak, count })
-        : // Nothing missed yet, so fall back to a normal mixed drill.
-          await sampleQuestions({ count })
+    } else if (config.mode === 'weak' || config.focusWeak) {
+      const weak = await weakQuestionIds(500)
+      const prioritised = await sampleQuestions({
+        only: weak,
+        chapters: config.chapters,
+        difficulty: config.difficulty,
+        count,
+      })
+      // Fill any shortfall with unseen questions matching the other filters.
+      const shortfall = count - prioritised.length
+      const filler = shortfall > 0
+        ? await sampleQuestions({
+            chapters: config.chapters,
+            difficulty: config.difficulty,
+            exclude: prioritised.map((question) => question.id),
+            count: shortfall,
+          })
+        : []
+      questions = [...prioritised, ...filler]
     } else {
       questions = await sampleQuestions({
         chapters: config.chapters,
