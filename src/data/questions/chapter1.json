@@ -18,7 +18,7 @@
     "correct": [
       0
     ],
-    "explanation": "Participation in community life is listed as a fundamental principle, alongside democracy, the rule of law, individual liberty, and tolerance of those with different faiths and beliefs."
+    "explanation": "Democracy is one of the fundamental principles of British life, meaning government by the people through elected representatives."
   },
   {
     "id": "c1-002",
@@ -358,7 +358,7 @@
     "correct": [
       0
     ],
-    "explanation": "Freedom of speech is one of the rights shared by everyone in the UK, along with freedom of belief, freedom from unfair discrimination and the right to a fair trial."
+    "explanation": "Rights shared by everyone in the UK include freedom of belief and religion, freedom of speech, freedom from unfair discrimination, a right to a fair trial, and a right to join in the election of a government."
   },
   {
     "id": "c1-018",
@@ -380,7 +380,7 @@
     "correct": [
       0
     ],
-    "explanation": "The right to a fair trial is one of the fundamental rights shared by everyone resident in the UK."
+    "explanation": "Rights shared by everyone in the UK include freedom of belief, freedom of speech, freedom from unfair discrimination, a fair trial and a vote."
   },
   {
     "id": "c1-019",
@@ -423,7 +423,7 @@
     "correct": [
       0
     ],
-    "explanation": "Respecting the rights of others, including their right to hold their own opinions, is one of the listed responsibilities."
+    "explanation": "Residents are expected to respect and obey the law, respect the rights of others, treat others with fairness, look after themselves and their family, and look after the area they live in and the environment."
   },
   {
     "id": "c1-021",
@@ -1069,7 +1069,7 @@
     "correct": [
       0
     ],
-    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "explanation": "True. The others are the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1088,7 +1088,7 @@
     "correct": [
       0
     ],
-    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "explanation": "True. No one is above the law, including those in power.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1107,7 +1107,7 @@
     "correct": [
       1
     ],
-    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "explanation": "False. The UK welcomes those who share its values but does not tolerate extremism or intolerance.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1126,7 +1126,7 @@
     "correct": [
       0
     ],
-    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "explanation": "True. Volunteering, voting and helping neighbours are all examples.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1145,7 +1145,7 @@
     "correct": [
       0
     ],
-    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "explanation": "True. Other shared rights include freedom of speech, freedom of belief and freedom from unfair discrimination.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1164,7 +1164,7 @@
     "correct": [
       0
     ],
-    "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
+    "explanation": "True. Looking after your area and the environment is one of the responsibilities listed in the handbook.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1379,7 +1379,7 @@
     "correct": [
       0
     ],
-    "explanation": "Democracy means government by the people through elected representatives, and is a fundamental principle of British life.",
+    "explanation": "True. That is what democracy means, and it is the first of the fundamental principles of British life.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1398,7 +1398,7 @@
     "correct": [
       0
     ],
-    "explanation": "Democracy means government by the people through elected representatives, and is a fundamental principle of British life.",
+    "explanation": "True. Democracy, the rule of law and individual liberty are all fundamental principles of British life.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1480,7 +1480,7 @@
     "correct": [
       0
     ],
-    "explanation": "Individual liberty means people are free to make their own choices, within the limits set by the law.",
+    "explanation": "True. This is individual liberty, one of the fundamental principles. The limits are set by the law.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1541,7 +1541,7 @@
     "correct": [
       0
     ],
-    "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle. The UK does not tolerate extremism.",
+    "explanation": "True. The UK offers a welcome to those who share its values, but does not tolerate extremism or intolerance.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1560,7 +1560,7 @@
     "correct": [
       1
     ],
-    "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle. The UK does not tolerate extremism.",
+    "explanation": "False. Tolerance of those with different faiths and beliefs is a fundamental principle of British life.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1621,7 +1621,7 @@
     "correct": [
       0
     ],
-    "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
+    "explanation": "True. This is one of the responsibilities the handbook expects of everyone living in the UK.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1640,7 +1640,7 @@
     "correct": [
       0
     ],
-    "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
+    "explanation": "True. Looking after yourself and your family is listed alongside obeying the law and caring for your area.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1659,7 +1659,7 @@
     "correct": [
       1
     ],
-    "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
+    "explanation": "False. Everyone must respect and obey the law. The rule of law applies to everyone equally.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1720,7 +1720,7 @@
     "correct": [
       0
     ],
-    "explanation": "Rights shared by everyone in the UK include freedom of belief, freedom of speech, freedom from unfair discrimination, a fair trial and a vote.",
+    "explanation": "True. Everyone may practise a religion, change it, or have no religion at all.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1739,7 +1739,7 @@
     "correct": [
       0
     ],
-    "explanation": "Rights shared by everyone in the UK include freedom of belief, freedom of speech, freedom from unfair discrimination, a fair trial and a vote.",
+    "explanation": "True. Discrimination on grounds such as race, sex, religion, disability and age is against the law.",
     "chapter": 1,
     "section": "The values and principles of the UK",
     "difficulty": 2,
@@ -1779,7 +1779,7 @@
     "correct": [
       0
     ],
-    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "explanation": "True. At a citizenship ceremony an affirmation of allegiance may be made instead of an oath.",
     "chapter": 1,
     "section": "Becoming a permanent resident",
     "difficulty": 3,
@@ -1798,7 +1798,7 @@
     "correct": [
       0
     ],
-    "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
+    "explanation": "True. It is presented at the citizenship ceremony, after the oath or affirmation and the pledge.",
     "chapter": 1,
     "section": "Becoming a permanent resident",
     "difficulty": 3,
@@ -1901,7 +1901,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Life in the UK Test is taken in English at a registered test centre, though it can be taken in Welsh or Scottish Gaelic by arrangement.",
+    "explanation": "True. It is taken at a registered test centre, where identification is required.",
     "chapter": 1,
     "section": "Taking the Life in the UK Test",
     "difficulty": 3,
@@ -1920,7 +1920,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Life in the UK Test is taken in English at a registered test centre, though it can be taken in Welsh or Scottish Gaelic by arrangement.",
+    "explanation": "True. Every question is based on Life in the United Kingdom: A Guide for New Residents.",
     "chapter": 1,
     "section": "Taking the Life in the UK Test",
     "difficulty": 3,

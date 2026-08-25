@@ -33,6 +33,8 @@ interface Angle {
   pool?: string
   /** Explicit distractors, when the pool would not produce good ones. */
   wrong?: string[]
+  /** Overrides the fact's explanation when this item diverges from it. */
+  e?: string
   type?: QuestionType
   difficulty?: Difficulty
 }
@@ -41,6 +43,13 @@ interface Angle {
 interface TrueFalse {
   s: string
   v: boolean
+  /**
+   * Explanation for this statement specifically. Required whenever the
+   * statement covers something the fact's shared explanation does not address -
+   * an explanation about a different subject teaches the learner nothing and
+   * quietly undermines their trust in the rest.
+   */
+  e?: string
   difficulty?: Difficulty
 }
 
@@ -50,6 +59,8 @@ interface MultiAngle {
   /** Exactly the answers that are correct. */
   a: string[]
   wrong: string[]
+  /** Overrides the fact's explanation when this item diverges from it. */
+  e?: string
   difficulty?: Difficulty
 }
 
@@ -115,7 +126,7 @@ for (const file of files.sort()) {
         question: `Is the statement below TRUE or FALSE? ${item.s}`,
         options: ['True', 'False'],
         correct: [item.v ? 0 : 1],
-        explanation: fact.explanation,
+        explanation: item.e ?? fact.explanation,
         chapter: fact.chapter,
         section: fact.section,
         difficulty: item.difficulty ?? fact.difficulty,
@@ -143,7 +154,7 @@ for (const file of files.sort()) {
         question: item.q,
         options,
         correct: correct.sort((a, b) => a - b),
-        explanation: fact.explanation,
+        explanation: item.e ?? fact.explanation,
         chapter: fact.chapter,
         section: fact.section,
         difficulty: item.difficulty ?? fact.difficulty,
@@ -197,7 +208,7 @@ for (const file of files.sort()) {
         question: stem,
         options,
         correct: [correct],
-        explanation: fact.explanation,
+        explanation: angle.e ?? fact.explanation,
         chapter: fact.chapter,
         section: fact.section,
         difficulty: angle.difficulty ?? fact.difficulty,

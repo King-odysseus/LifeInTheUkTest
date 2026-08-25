@@ -82,7 +82,7 @@
     "correct": [
       0
     ],
-    "explanation": "A general election must be held at least every five years."
+    "explanation": "A general election must be held at least every five years. If an MP dies or resigns, a by-election is held."
   },
   {
     "id": "c5-005",
@@ -574,7 +574,7 @@
     "correct": [
       0
     ],
-    "explanation": "The monarch does not take sides in politics. The role is ceremonial, though the monarch may advise, warn and encourage ministers in private."
+    "explanation": "True. The monarch does not take sides in politics, though they may advise and warn ministers in private."
   },
   {
     "id": "c5-028",
@@ -1178,7 +1178,7 @@
     "correct": [
       0
     ],
-    "explanation": "A jury in Scotland has 15 members. In England, Wales and Northern Ireland a jury has 12."
+    "explanation": "A jury has 12 members in England, Wales and Northern Ireland, and 15 in Scotland."
   },
   {
     "id": "c5-056",
@@ -1499,7 +1499,7 @@
     "correct": [
       0
     ],
-    "explanation": "MPs hold surgeries in their constituency so local people can come and discuss problems directly with them."
+    "explanation": "MPs hold surgeries in their constituency so local people can discuss problems with them directly."
   },
   {
     "id": "c5-071",
@@ -1630,7 +1630,7 @@
     "correct": [
       0
     ],
-    "explanation": "You must be at least 17 to drive a car or motorcycle in the UK and must hold a valid driving licence."
+    "explanation": "You must be 17 to drive a car, hold a valid licence, and have insurance. Vehicles over three years old need an annual MOT."
   },
   {
     "id": "c5-077",
@@ -2623,7 +2623,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is a constitutional monarchy with an unwritten constitution. The monarch is Head of State and the Prime Minister is Head of Government.",
+    "explanation": "False. The UK constitution is unwritten in that sense, drawn from statute, common law and convention.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -2642,7 +2642,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a constitutional monarchy with an unwritten constitution. The monarch is Head of State and the Prime Minister is Head of Government.",
+    "explanation": "True. The role is ceremonial: the country is governed by ministers accountable to an elected Parliament.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -2661,7 +2661,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a constitutional monarchy with an unwritten constitution. The monarch is Head of State and the Prime Minister is Head of Government.",
+    "explanation": "True. Each MP represents one constituency, elected by first past the post.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -2680,7 +2680,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is a constitutional monarchy with an unwritten constitution. The monarch is Head of State and the Prime Minister is Head of Government.",
+    "explanation": "False. Members of the Lords are appointed, not elected. Life peers are appointed on the advice of the Prime Minister.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -2699,7 +2699,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a constitutional monarchy with an unwritten constitution. The monarch is Head of State and the Prime Minister is Head of Government.",
+    "explanation": "True. The Speaker chairs debates and keeps order, and is elected by fellow MPs in a secret ballot.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -2718,7 +2718,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a constitutional monarchy with an unwritten constitution. The monarch is Head of State and the Prime Minister is Head of Government.",
+    "explanation": "True. If a seat falls vacant between elections, a by-election is held in that constituency.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -2737,7 +2737,7 @@
     "correct": [
       0
     ],
-    "explanation": "The devolved administrations were established in 1999. Education and health are devolved, while defence and foreign affairs are reserved to the UK government.",
+    "explanation": "True. Its 129 members are known as MSPs.",
     "chapter": 5,
     "section": "Devolved administrations",
     "difficulty": 3,
@@ -2756,7 +2756,7 @@
     "correct": [
       1
     ],
-    "explanation": "The devolved administrations were established in 1999. Education and health are devolved, while defence and foreign affairs are reserved to the UK government.",
+    "explanation": "False. Defence is reserved to the UK government, along with foreign affairs, immigration and national security.",
     "chapter": 5,
     "section": "Devolved administrations",
     "difficulty": 3,
@@ -2775,7 +2775,7 @@
     "correct": [
       0
     ],
-    "explanation": "The devolved administrations were established in 1999. Education and health are devolved, while defence and foreign affairs are reserved to the UK government.",
+    "explanation": "True. Education, housing and social services are devolved too.",
     "chapter": 5,
     "section": "Devolved administrations",
     "difficulty": 3,
@@ -2794,7 +2794,7 @@
     "correct": [
       0
     ],
-    "explanation": "The devolved administrations were established in 1999. Education and health are devolved, while defence and foreign affairs are reserved to the UK government.",
+    "explanation": "True. Its members are known as MLAs, and it was established under the Belfast Agreement of 1998.",
     "chapter": 5,
     "section": "Devolved administrations",
     "difficulty": 3,
@@ -2813,7 +2813,7 @@
     "correct": [
       0
     ],
-    "explanation": "The devolved administrations were established in 1999. Education and health are devolved, while defence and foreign affairs are reserved to the UK government.",
+    "explanation": "True. They followed referendums held in 1997 and 1998.",
     "chapter": 5,
     "section": "Devolved administrations",
     "difficulty": 3,
@@ -2832,7 +2832,7 @@
     "correct": [
       0
     ],
-    "explanation": "Juries have 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Magistrates are unpaid and need no legal qualifications.",
+    "explanation": "True. Serious criminal cases are heard in the Crown Court before a judge and a jury of 12.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -2851,7 +2851,7 @@
     "correct": [
       0
     ],
-    "explanation": "Juries have 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Magistrates are unpaid and need no legal qualifications.",
+    "explanation": "True. Scotland has its own legal system, and its juries are larger than those elsewhere in the UK.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -2870,7 +2870,7 @@
     "correct": [
       1
     ],
-    "explanation": "Juries have 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Magistrates are unpaid and need no legal qualifications.",
+    "explanation": "False. Magistrates are unpaid members of the local community. They need no legal qualifications but are given training.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -2889,7 +2889,7 @@
     "correct": [
       0
     ],
-    "explanation": "Juries have 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Magistrates are unpaid and need no legal qualifications.",
+    "explanation": "True. They must not misuse their authority, make false statements, or be corrupt or racially prejudiced.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -2908,7 +2908,7 @@
     "correct": [
       0
     ],
-    "explanation": "Juries have 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Magistrates are unpaid and need no legal qualifications.",
+    "explanation": "True. Minor cases are heard in Justice of the Peace Courts, and serious ones in the Sheriff Court or High Court.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -2927,7 +2927,7 @@
     "correct": [
       0
     ],
-    "explanation": "Juries have 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Magistrates are unpaid and need no legal qualifications.",
+    "explanation": "True. Cases there are heard by a judge and a jury of 12.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -2946,7 +2946,7 @@
     "correct": [
       1
     ],
-    "explanation": "Juries have 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Magistrates are unpaid and need no legal qualifications.",
+    "explanation": "False. Discrimination on grounds including race, religion, sex, disability and age is against the law.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -2965,7 +2965,7 @@
     "correct": [
       0
     ],
-    "explanation": "You can vote at 18 if on the electoral register, voting is by secret ballot, and jury service is a civic duty.",
+    "explanation": "True. The register is maintained by your local council and updated each year by an annual canvass.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -2984,7 +2984,7 @@
     "correct": [
       0
     ],
-    "explanation": "You can vote at 18 if on the electoral register, voting is by secret ballot, and jury service is a civic duty.",
+    "explanation": "True. No one else needs to know how you have voted.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3003,7 +3003,7 @@
     "correct": [
       0
     ],
-    "explanation": "You can vote at 18 if on the electoral register, voting is by secret ballot, and jury service is a civic duty.",
+    "explanation": "True. If you cannot attend in person you can apply for a postal vote.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3022,7 +3022,7 @@
     "correct": [
       0
     ],
-    "explanation": "You can vote at 18 if on the electoral register, voting is by secret ballot, and jury service is a civic duty.",
+    "explanation": "True. Jurors are selected at random from the electoral register.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3041,7 +3041,7 @@
     "correct": [
       1
     ],
-    "explanation": "You can vote at 18 if on the electoral register, voting is by secret ballot, and jury service is a civic duty.",
+    "explanation": "False. You can vote at 18, provided you are on the electoral register and eligible.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3060,7 +3060,7 @@
     "correct": [
       0
     ],
-    "explanation": "You can vote at 18 if on the electoral register, voting is by secret ballot, and jury service is a civic duty.",
+    "explanation": "True. Almost everyone who works pays National Insurance, which funds state benefits and services.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3079,7 +3079,7 @@
     "correct": [
       0
     ],
-    "explanation": "You can vote at 18 if on the electoral register, voting is by secret ballot, and jury service is a civic duty.",
+    "explanation": "True. You also need a valid licence, and vehicles over three years old need an annual MOT.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 2,
@@ -3098,7 +3098,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a permanent member of the UN Security Council, a member of NATO and of the Commonwealth, and of the Council of Europe.",
+    "explanation": "True. The Security Council works to resolve international disputes; the UK is one of its five permanent members.",
     "chapter": 5,
     "section": "The UK and international institutions",
     "difficulty": 3,
@@ -3117,7 +3117,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is a permanent member of the UN Security Council, a member of NATO and of the Commonwealth, and of the Council of Europe.",
+    "explanation": "False. Membership of the Commonwealth is voluntary and it has no power over its members.",
     "chapter": 5,
     "section": "The UK and international institutions",
     "difficulty": 3,
@@ -3136,7 +3136,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a permanent member of the UN Security Council, a member of NATO and of the Commonwealth, and of the Council of Europe.",
+    "explanation": "True. NATO is a group of European and North American countries committed to collective defence.",
     "chapter": 5,
     "section": "The UK and international institutions",
     "difficulty": 3,
@@ -3155,7 +3155,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a permanent member of the UN Security Council, a member of NATO and of the Commonwealth, and of the Council of Europe.",
+    "explanation": "True. The Council of Europe is responsible for protecting and promoting human rights.",
     "chapter": 5,
     "section": "The UK and international institutions",
     "difficulty": 3,
@@ -3533,7 +3533,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a constitutional monarchy. The monarch is Head of State with a ceremonial role and must remain politically neutral.",
+    "explanation": "True. The monarch delivers a speech, written by the government, setting out its policies for the year.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -3552,7 +3552,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is a constitutional monarchy. The monarch is Head of State with a ceremonial role and must remain politically neutral.",
+    "explanation": "False. The monarch's role is ceremonial and politically neutral; laws passed by Parliament receive assent.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -3571,7 +3571,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a constitutional monarchy. The monarch is Head of State with a ceremonial role and must remain politically neutral.",
+    "explanation": "True. In public the monarch remains politically neutral.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -3695,7 +3695,7 @@
     "correct": [
       0
     ],
-    "explanation": "Members of the House of Lords are appointed, not elected. They include life peers, some hereditary peers and senior bishops.",
+    "explanation": "True. It can also suggest amendments, but the Commons has the power to overrule it.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -3714,7 +3714,7 @@
     "correct": [
       1
     ],
-    "explanation": "Members of the House of Lords are appointed, not elected. They include life peers, some hereditary peers and senior bishops.",
+    "explanation": "False. The Lords can delay and amend, but the elected Commons can ultimately overrule them.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -3733,7 +3733,7 @@
     "correct": [
       0
     ],
-    "explanation": "Members of the House of Lords are appointed, not elected. They include life peers, some hereditary peers and senior bishops.",
+    "explanation": "True. Life peers are appointed by the monarch on the advice of the Prime Minister.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -3794,7 +3794,7 @@
     "correct": [
       0
     ],
-    "explanation": "A general election must be held at least every five years. If an MP dies or resigns, a by-election is held.",
+    "explanation": "True. No one else needs to know how you voted.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -3813,7 +3813,7 @@
     "correct": [
       0
     ],
-    "explanation": "A general election must be held at least every five years. If an MP dies or resigns, a by-election is held.",
+    "explanation": "True. Polling stations are otherwise open from 7am to 10pm on election day.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 2,
@@ -4085,7 +4085,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Cabinet is a committee of about 20 senior ministers appointed by the Prime Minister, meeting weekly to decide government policy.",
+    "explanation": "True. The Cabinet is about 20 senior ministers who meet weekly to decide government policy.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -4104,7 +4104,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Cabinet is a committee of about 20 senior ministers appointed by the Prime Minister, meeting weekly to decide government policy.",
+    "explanation": "True. It is the Leader of the Opposition, not the Prime Minister, who appoints the shadow cabinet. Each member challenges the government minister with the same responsibilities.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -4165,7 +4165,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Speaker chairs debates in the Commons, keeps order and is politically neutral, though still an MP for a constituency.",
+    "explanation": "True. The Speaker then chairs debates with complete political impartiality.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -4184,7 +4184,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Speaker chairs debates in the Commons, keeps order and is politically neutral, though still an MP for a constituency.",
+    "explanation": "False. The Speaker must be politically neutral, though they remain an MP for their constituency.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -4351,7 +4351,7 @@
     "correct": [
       0
     ],
-    "explanation": "Members of the Scottish Parliament are MSPs, and members of the Northern Ireland Assembly are MLAs.",
+    "explanation": "True. They are known as MSPs and sit at Holyrood in Edinburgh.",
     "chapter": 5,
     "section": "Devolved administrations",
     "difficulty": 3,
@@ -4370,7 +4370,7 @@
     "correct": [
       0
     ],
-    "explanation": "Members of the Scottish Parliament are MSPs, and members of the Northern Ireland Assembly are MLAs.",
+    "explanation": "True. It has done so on more than one occasion.",
     "chapter": 5,
     "section": "Devolved administrations",
     "difficulty": 3,
@@ -4431,7 +4431,7 @@
     "correct": [
       0
     ],
-    "explanation": "County Courts deal with civil disputes, Crown Courts with serious crime, Magistrates' Courts with minor offences and Youth Courts with those aged 10 to 17.",
+    "explanation": "True. It is an informal civil process that does not usually require a solicitor.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 3,
@@ -4450,7 +4450,7 @@
     "correct": [
       0
     ],
-    "explanation": "County Courts deal with civil disputes, Crown Courts with serious crime, Magistrates' Courts with minor offences and Youth Courts with those aged 10 to 17.",
+    "explanation": "True. Elsewhere in the UK, Youth Courts deal with those aged 10 to 17.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 3,
@@ -4553,7 +4553,7 @@
     "correct": [
       0
     ],
-    "explanation": "Judges interpret the law and ensure trials are fair. They are independent of government.",
+    "explanation": "True. Judges interpret the law and ensure trials are conducted fairly.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 3,
@@ -4572,7 +4572,7 @@
     "correct": [
       0
     ],
-    "explanation": "Judges interpret the law and ensure trials are fair. They are independent of government.",
+    "explanation": "True. This independence is a key part of the rule of law.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 3,
@@ -4633,7 +4633,7 @@
     "correct": [
       0
     ],
-    "explanation": "The police protect life and property, prevent disturbances and detect crime. They must obey the law themselves.",
+    "explanation": "True. Complaints can be made at a police station or to an independent police complaints body.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -4652,7 +4652,7 @@
     "correct": [
       1
     ],
-    "explanation": "The police protect life and property, prevent disturbances and detect crime. They must obey the law themselves.",
+    "explanation": "False. The police must obey the law themselves and must not misuse their authority or be corrupt.",
     "chapter": 5,
     "section": "The law",
     "difficulty": 2,
@@ -4713,7 +4713,7 @@
     "correct": [
       0
     ],
-    "explanation": "Discrimination on grounds such as race, sex, religion, disability, age or sexual orientation is unlawful in the UK.",
+    "explanation": "True. Help is available from the police, local authorities, refuges and helplines.",
     "chapter": 5,
     "section": "Fundamental principles",
     "difficulty": 2,
@@ -4732,7 +4732,7 @@
     "correct": [
       0
     ],
-    "explanation": "Discrimination on grounds such as race, sex, religion, disability, age or sexual orientation is unlawful in the UK.",
+    "explanation": "True. It is also an offence to take a girl abroad to have it carried out.",
     "chapter": 5,
     "section": "Fundamental principles",
     "difficulty": 2,
@@ -4751,7 +4751,7 @@
     "correct": [
       0
     ],
-    "explanation": "Discrimination on grounds such as race, sex, religion, disability, age or sexual orientation is unlawful in the UK.",
+    "explanation": "True. Courts can issue Forced Marriage Protection Orders to protect those at risk.",
     "chapter": 5,
     "section": "Fundamental principles",
     "difficulty": 2,
@@ -4770,7 +4770,7 @@
     "correct": [
       1
     ],
-    "explanation": "Discrimination on grounds such as race, sex, religion, disability, age or sexual orientation is unlawful in the UK.",
+    "explanation": "False. FGM is illegal in the UK, and taking a girl abroad for it is also an offence.",
     "chapter": 5,
     "section": "Fundamental principles",
     "difficulty": 2,
@@ -4831,7 +4831,7 @@
     "correct": [
       0
     ],
-    "explanation": "To vote you must be on the electoral register, which is updated each year by an annual canvass carried out by local councils.",
+    "explanation": "True. Local councils carry out an annual canvass of who lives at each address.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -4892,7 +4892,7 @@
     "correct": [
       0
     ],
-    "explanation": "MPs hold surgeries in their constituency so local people can discuss problems with them directly.",
+    "explanation": "True. MPs also hold surgeries in their constituency where people can raise problems in person.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -4911,7 +4911,7 @@
     "correct": [
       0
     ],
-    "explanation": "MPs hold surgeries in their constituency so local people can discuss problems with them directly.",
+    "explanation": "True. You can queue on the day or arrange a visit through your MP.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -4951,7 +4951,7 @@
     "correct": [
       0
     ],
-    "explanation": "Income tax funds government services. Most employees pay through PAYE, while self-employed people complete a self-assessment tax return.",
+    "explanation": "True. Employees normally pay tax through PAYE, deducted from their wages.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -4970,7 +4970,7 @@
     "correct": [
       0
     ],
-    "explanation": "Income tax funds government services. Most employees pay through PAYE, while self-employed people complete a self-assessment tax return.",
+    "explanation": "True. They fund state benefits and services including the State Pension.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -5031,7 +5031,7 @@
     "correct": [
       0
     ],
-    "explanation": "You must be 17 to drive a car, hold a valid licence, and have insurance. Vehicles over three years old need an annual MOT.",
+    "explanation": "True. You must also hold a valid licence, and vehicles over three years old need an MOT.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -5050,7 +5050,7 @@
     "correct": [
       0
     ],
-    "explanation": "You must be 17 to drive a car, hold a valid licence, and have insurance. Vehicles over three years old need an annual MOT.",
+    "explanation": "True. Driving without a valid MOT or insurance is a criminal offence.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -5090,7 +5090,7 @@
     "correct": [
       0
     ],
-    "explanation": "Ways of contributing include volunteering, becoming a school governor, helping at a local charity and looking after the environment.",
+    "explanation": "True. Other examples include becoming a school governor or serving on a jury when called.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -5109,7 +5109,7 @@
     "correct": [
       0
     ],
-    "explanation": "Ways of contributing include volunteering, becoming a school governor, helping at a local charity and looking after the environment.",
+    "explanation": "True. Walking or cycling short journeys and shopping locally also reduce environmental damage.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -5170,7 +5170,7 @@
     "correct": [
       0
     ],
-    "explanation": "Newspapers may support a political party, but broadcasters must give balanced coverage of rival viewpoints, especially during elections.",
+    "explanation": "True. Broadcasters, by contrast, must give balanced coverage, especially during elections.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,
@@ -5189,7 +5189,7 @@
     "correct": [
       0
     ],
-    "explanation": "Newspapers may support a political party, but broadcasters must give balanced coverage of rival viewpoints, especially during elections.",
+    "explanation": "True. It is published daily and is available in large libraries and online.",
     "chapter": 5,
     "section": "The British constitution",
     "difficulty": 3,

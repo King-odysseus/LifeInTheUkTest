@@ -144,7 +144,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Falkland Islands and St Helena are British overseas territories. Jersey, Guernsey and the Isle of Man are Crown dependencies."
+    "explanation": "British overseas territories include St Helena and the Falkland Islands. They are not part of the UK."
   },
   {
     "id": "c2-008",
@@ -290,7 +290,7 @@
     "correct": [
       0
     ],
-    "explanation": "Belfast is the capital of Northern Ireland and the seat of the Northern Ireland Assembly at Stormont."
+    "explanation": "Belfast is the capital of Northern Ireland and the seat of the Northern Ireland Assembly."
   },
   {
     "id": "c2-015",
@@ -1068,7 +1068,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "explanation": "True. They are England, Scotland, Wales and Northern Ireland.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1087,7 +1087,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "explanation": "False. Great Britain is England, Scotland and Wales. The UK also includes Northern Ireland.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1106,7 +1106,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "explanation": "True. The Channel Islands are Crown dependencies too, linked to the Crown but self-governing.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1125,7 +1125,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "explanation": "True. Edinburgh is the capital of Scotland and Belfast the capital of Northern Ireland.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1144,7 +1144,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "explanation": "False. The currency is the pound sterling, with 100 pence in a pound.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1163,7 +1163,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "explanation": "False. The Union Flag combines the crosses of St George, St Andrew and St Patrick. Wales was already united with England when it was designed.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1182,7 +1182,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
+    "explanation": "True. It is the only part of the UK with a land border with another country.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1374,7 +1374,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is the United Kingdom of Great Britain and Northern Ireland. Great Britain is England, Scotland and Wales.",
+    "explanation": "True. Scotland, Wales and Northern Ireland also have devolved administrations with powers over many domestic matters.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,
@@ -1393,7 +1393,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is the United Kingdom of Great Britain and Northern Ireland. Great Britain is England, Scotland and Wales.",
+    "explanation": "True. They were established in 1999 and control devolved matters such as health and education.",
     "chapter": 2,
     "section": "What is the UK?",
     "difficulty": 2,

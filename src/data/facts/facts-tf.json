@@ -1,242 +1,1012 @@
 [
-  { "id": "t3-romans", "chapter": 3, "section": "The Romans", "difficulty": 2, "tags": ["romans"],
+  {
+    "id": "t3-romans",
+    "chapter": 3,
+    "section": "The Romans",
+    "difficulty": 2,
+    "tags": [
+      "romans"
+    ],
     "explanation": "The Romans invaded Britain in AD 43 under Claudius, built roads and towns, never conquered Scotland, and left in AD 410.",
     "tf": [
-      { "s": "The Romans conquered the whole of Britain, including Scotland.", "v": false },
-      { "s": "The Romans built roads and public baths in Britain.", "v": true },
-      { "s": "Julius Caesar successfully conquered Britain in 55 BC.", "v": false },
-      { "s": "The Roman army left Britain in AD 410.", "v": true },
-      { "s": "Hadrian's Wall was built to keep out the Picts.", "v": true }
-    ] },
-  { "id": "t3-anglo-viking", "chapter": 3, "section": "The Anglo-Saxons", "difficulty": 3, "tags": ["anglo-saxons", "vikings"],
+      {
+        "s": "The Romans conquered the whole of Britain, including Scotland.",
+        "v": false,
+        "e": "False. The Romans never conquered Scotland. Hadrian's Wall was built across the north of England to hold that frontier."
+      },
+      {
+        "s": "The Romans built roads and public baths in Britain.",
+        "v": true,
+        "e": "True. The Romans built roads, towns and public buildings including baths, and introduced a structure of law."
+      },
+      {
+        "s": "Julius Caesar successfully conquered Britain in 55 BC.",
+        "v": false,
+        "e": "False. Caesar's invasion of 55 BC failed. Britain was not conquered until AD 43, under Emperor Claudius."
+      },
+      {
+        "s": "The Roman army left Britain in AD 410.",
+        "v": true,
+        "e": "True. The Roman army withdrew in AD 410 to defend other parts of the Empire, and never returned."
+      },
+      {
+        "s": "Hadrian's Wall was built to keep out the Picts.",
+        "v": true,
+        "e": "True. Emperor Hadrian ordered the wall built across northern England to keep out the Picts, ancestors of the Scottish people."
+      }
+    ]
+  },
+  {
+    "id": "t3-anglo-viking",
+    "chapter": 3,
+    "section": "The Anglo-Saxons",
+    "difficulty": 3,
+    "tags": [
+      "anglo-saxons",
+      "vikings"
+    ],
     "explanation": "The Anglo-Saxons came from northern Europe, and the Vikings arrived from Denmark and Norway in AD 789, later settling in the Danelaw.",
     "tf": [
-      { "s": "The Anglo-Saxons came to Britain from northern Europe.", "v": true },
-      { "s": "The Vikings came to Britain from Spain and Portugal.", "v": false },
-      { "s": "King Alfred the Great defeated the Vikings.", "v": true },
-      { "s": "Sutton Hoo is the site of a Viking longhouse.", "v": false },
-      { "s": "St Augustine became the first Archbishop of Canterbury.", "v": true }
-    ] },
-  { "id": "t3-normans", "chapter": 3, "section": "The Norman Conquest", "difficulty": 2, "tags": ["normans"],
+      {
+        "s": "The Anglo-Saxons came to Britain from northern Europe.",
+        "v": true,
+        "e": "True. The Jutes, Angles and Saxons came from what is now Denmark, Germany and the Netherlands."
+      },
+      {
+        "s": "The Vikings came to Britain from Spain and Portugal.",
+        "v": false,
+        "e": "False. The Vikings came from Denmark and Norway, first raiding the coast in AD 789."
+      },
+      {
+        "s": "King Alfred the Great defeated the Vikings.",
+        "v": true,
+        "e": "True. Alfred the Great defeated the Vikings, though they were allowed to settle in the Danelaw in the north and east."
+      },
+      {
+        "s": "Sutton Hoo is the site of a Viking longhouse.",
+        "v": false,
+        "e": "False. Sutton Hoo in Suffolk is an Anglo-Saxon ship burial, where a king was buried with treasure and armour."
+      },
+      {
+        "s": "St Augustine became the first Archbishop of Canterbury.",
+        "v": true,
+        "e": "True. St Augustine led missionaries from Rome and became the first Archbishop of Canterbury."
+      }
+    ]
+  },
+  {
+    "id": "t3-normans",
+    "chapter": 3,
+    "section": "The Norman Conquest",
+    "difficulty": 2,
+    "tags": [
+      "normans"
+    ],
     "explanation": "William of Normandy defeated Harold at Hastings in 1066, ordered the Domesday Book in 1086, and the Normans built castles across England and Wales.",
     "tf": [
-      { "s": "The Battle of Hastings was fought in 1066.", "v": true },
-      { "s": "Harold defeated William of Normandy at the Battle of Hastings.", "v": false },
-      { "s": "The Domesday Book recorded who lived in the towns and villages of England.", "v": true },
-      { "s": "The Norman Conquest was the last successful foreign invasion of England.", "v": true },
-      { "s": "The Bayeux Tapestry commemorates the signing of Magna Carta.", "v": false }
-    ] },
-  { "id": "t3-middle-ages", "chapter": 3, "section": "The Middle Ages", "difficulty": 3, "tags": ["middle-ages"],
+      {
+        "s": "The Battle of Hastings was fought in 1066.",
+        "v": true,
+        "e": "True. William of Normandy defeated Harold at Hastings in 1066, and Harold was killed in the battle."
+      },
+      {
+        "s": "Harold defeated William of Normandy at the Battle of Hastings.",
+        "v": false,
+        "e": "False. It was the other way round: William of Normandy won, and Harold was killed."
+      },
+      {
+        "s": "The Domesday Book recorded who lived in the towns and villages of England.",
+        "v": true,
+        "e": "True. Compiled in 1086, the Domesday Book lists the towns and villages of England, who lived there and what they owned."
+      },
+      {
+        "s": "The Norman Conquest was the last successful foreign invasion of England.",
+        "v": true,
+        "e": "True. No foreign invasion of England has succeeded since 1066."
+      },
+      {
+        "s": "The Bayeux Tapestry commemorates the signing of Magna Carta.",
+        "v": false,
+        "e": "False. The Bayeux Tapestry commemorates the Norman invasion and the Battle of Hastings. Magna Carta came in 1215."
+      }
+    ]
+  },
+  {
+    "id": "t3-middle-ages",
+    "chapter": 3,
+    "section": "The Middle Ages",
+    "difficulty": 3,
+    "tags": [
+      "middle-ages"
+    ],
     "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348, and the Wars of the Roses ended at Bosworth Field in 1485.",
     "tf": [
-      { "s": "Magna Carta established that the king was subject to the law.", "v": true },
-      { "s": "The Black Death killed about a third of the population of England.", "v": true },
-      { "s": "The Wars of the Roses were fought between England and France.", "v": false },
-      { "s": "Robert the Bruce defeated the English at Bannockburn in 1314.", "v": true },
-      { "s": "The Hundred Years War lasted exactly one hundred years.", "v": false },
-      { "s": "Geoffrey Chaucer wrote The Canterbury Tales.", "v": true }
-    ] },
-  { "id": "t3-tudors", "chapter": 3, "section": "The Tudors", "difficulty": 2, "tags": ["tudors"],
+      {
+        "s": "Magna Carta established that the king was subject to the law.",
+        "v": true,
+        "e": "True. King John was forced to agree to Magna Carta in 1215, establishing that even the king was subject to the law."
+      },
+      {
+        "s": "The Black Death killed about a third of the population of England.",
+        "v": true,
+        "e": "True. The Black Death reached England in 1348 and killed roughly a third of the population."
+      },
+      {
+        "s": "The Wars of the Roses were fought between England and France.",
+        "v": false,
+        "e": "False. The Wars of the Roses were a civil war between the English houses of Lancaster and York."
+      },
+      {
+        "s": "Robert the Bruce defeated the English at Bannockburn in 1314.",
+        "v": true,
+        "e": "True. Robert the Bruce's victory at Bannockburn in 1314 kept Scotland independent."
+      },
+      {
+        "s": "The Hundred Years War lasted exactly one hundred years.",
+        "v": false,
+        "e": "False. Despite its name, the Hundred Years War lasted 116 years, from 1337 to 1453."
+      },
+      {
+        "s": "Geoffrey Chaucer wrote The Canterbury Tales.",
+        "v": true,
+        "e": "True. Chaucer wrote The Canterbury Tales, a series of poems in English about pilgrims travelling to Canterbury."
+      }
+    ]
+  },
+  {
+    "id": "t3-tudors",
+    "chapter": 3,
+    "section": "The Tudors",
+    "difficulty": 2,
+    "tags": [
+      "tudors"
+    ],
     "explanation": "Henry VIII had six wives and broke with Rome. Elizabeth I was Protestant and the Spanish Armada was defeated in 1588.",
     "tf": [
-      { "s": "Henry VIII had six wives.", "v": true },
-      { "s": "Henry VIII established the Church of England.", "v": true },
-      { "s": "The Spanish Armada defeated the English navy in 1588.", "v": false },
-      { "s": "Elizabeth I never married and had no children.", "v": true },
-      { "s": "Mary I was known as Bloody Mary because she persecuted Protestants.", "v": true },
-      { "s": "Henry VII was the last Tudor monarch.", "v": false }
-    ] },
-  { "id": "t3-stuarts", "chapter": 3, "section": "The Stuarts", "difficulty": 3, "tags": ["stuarts"],
+      {
+        "s": "Henry VIII had six wives.",
+        "v": true,
+        "e": "True. Henry VIII's six wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr."
+      },
+      {
+        "s": "Henry VIII established the Church of England.",
+        "v": true,
+        "e": "True. Henry VIII broke with the Church of Rome so he could divorce and remarry, and established the Church of England."
+      },
+      {
+        "s": "The Spanish Armada defeated the English navy in 1588.",
+        "v": false,
+        "e": "False. The Spanish Armada was defeated in 1588, during the reign of Elizabeth I."
+      },
+      {
+        "s": "Elizabeth I never married and had no children.",
+        "v": true,
+        "e": "True. Elizabeth I left no heir, so the throne passed to James VI of Scotland in 1603."
+      },
+      {
+        "s": "Mary I was known as Bloody Mary because she persecuted Protestants.",
+        "v": true,
+        "e": "True. Mary I was a devout Catholic whose persecution of Protestants earned her the nickname Bloody Mary."
+      },
+      {
+        "s": "Henry VII was the last Tudor monarch.",
+        "v": false,
+        "e": "False. Henry VII was the first Tudor monarch. Elizabeth I was the last."
+      }
+    ]
+  },
+  {
+    "id": "t3-stuarts",
+    "chapter": 3,
+    "section": "The Stuarts",
+    "difficulty": 3,
+    "tags": [
+      "stuarts"
+    ],
     "explanation": "James VI of Scotland became James I of England in 1603. The Civil War began in 1642, Charles I was executed in 1649, and the monarchy was restored in 1660.",
     "tf": [
-      { "s": "James VI of Scotland became James I of England in 1603.", "v": true },
-      { "s": "Charles I was executed in 1649.", "v": true },
-      { "s": "Oliver Cromwell was crowned King of England.", "v": false },
-      { "s": "The Great Fire of London took place in 1666.", "v": true },
-      { "s": "The Glorious Revolution of 1688 involved a long and bloody war in England.", "v": false },
-      { "s": "The Bill of Rights of 1689 limited the power of the monarch.", "v": true }
-    ] },
-  { "id": "t3-georgian", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["georgian"],
+      {
+        "s": "James VI of Scotland became James I of England in 1603.",
+        "v": true,
+        "e": "True. This is known as the Union of the Crowns: one monarch over both kingdoms, but still two parliaments."
+      },
+      {
+        "s": "Charles I was executed in 1649.",
+        "v": true,
+        "e": "True. After the Civil War, Charles I was executed in 1649 and England was declared a republic called the Commonwealth."
+      },
+      {
+        "s": "Oliver Cromwell was crowned King of England.",
+        "v": false,
+        "e": "False. Cromwell was never king. He ruled as Lord Protector of the Commonwealth."
+      },
+      {
+        "s": "The Great Fire of London took place in 1666.",
+        "v": true,
+        "e": "True. The Great Fire of 1666 followed the Great Plague of 1665 and destroyed much of the city."
+      },
+      {
+        "s": "The Glorious Revolution of 1688 involved a long and bloody war in England.",
+        "v": false,
+        "e": "False. William of Orange took the throne in 1688 with no significant fighting in England, which is why it is called Glorious."
+      },
+      {
+        "s": "The Bill of Rights of 1689 limited the power of the monarch.",
+        "v": true,
+        "e": "True. The Bill of Rights confirmed the rights of Parliament and the limits of the monarch's power."
+      }
+    ]
+  },
+  {
+    "id": "t3-georgian",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "georgian"
+    ],
     "explanation": "The Act of Union of 1707 created Great Britain, Walpole is regarded as the first Prime Minister, and Britain led the Industrial Revolution.",
     "tf": [
-      { "s": "The Act of Union of 1707 joined the English and Scottish parliaments.", "v": true },
-      { "s": "Sir Robert Walpole is regarded as the first British Prime Minister.", "v": true },
-      { "s": "The Battle of Culloden in 1746 was the last battle fought on British soil.", "v": true },
-      { "s": "Admiral Nelson died at the Battle of Waterloo.", "v": false },
-      { "s": "The Duke of Wellington defeated Napoleon at Waterloo in 1815.", "v": true },
-      { "s": "Britain was the last country in Europe to industrialise.", "v": false }
-    ] },
-  { "id": "t3-victorian", "chapter": 3, "section": "A global power", "difficulty": 3, "tags": ["victorian"],
+      {
+        "s": "The Act of Union of 1707 joined the English and Scottish parliaments.",
+        "v": true,
+        "e": "True. The Act of Union of 1707 created the Kingdom of Great Britain with a single parliament."
+      },
+      {
+        "s": "Sir Robert Walpole is regarded as the first British Prime Minister.",
+        "v": true,
+        "e": "True. Walpole, from 1721, is regarded as the first Prime Minister and held the office for over 20 years."
+      },
+      {
+        "s": "The Battle of Culloden in 1746 was the last battle fought on British soil.",
+        "v": true,
+        "e": "True. Culloden ended the Jacobite rising and was the last battle fought on British soil."
+      },
+      {
+        "s": "Admiral Nelson died at the Battle of Waterloo.",
+        "v": false,
+        "e": "False. Nelson died at the Battle of Trafalgar in 1805. Waterloo, in 1815, was fought on land by the Duke of Wellington."
+      },
+      {
+        "s": "The Duke of Wellington defeated Napoleon at Waterloo in 1815.",
+        "v": true,
+        "e": "True. Wellington, known as the Iron Duke, defeated Napoleon at Waterloo and later became Prime Minister."
+      },
+      {
+        "s": "Britain was the last country in Europe to industrialise.",
+        "v": false,
+        "e": "False. Britain led the world in the Industrial Revolution, powered by steam, coal and iron."
+      }
+    ]
+  },
+  {
+    "id": "t3-victorian",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "victorian"
+    ],
     "explanation": "Queen Victoria reigned from 1837 to 1901. Slavery was abolished across the Empire in 1833 and the Great Exhibition was held in 1851.",
     "tf": [
-      { "s": "Queen Victoria reigned for more than 60 years.", "v": true },
-      { "s": "Slavery was abolished throughout the British Empire in 1833.", "v": true },
-      { "s": "The Great Exhibition of 1851 was held in the Crystal Palace.", "v": true },
-      { "s": "Florence Nightingale is considered the founder of modern nursing.", "v": true },
-      { "s": "The Reform Act of 1832 gave women the right to vote.", "v": false },
-      { "s": "The British Empire covered about a quarter of the world's population by 1913.", "v": true }
-    ] },
-  { "id": "t3-modern", "chapter": 3, "section": "The 20th century", "difficulty": 2, "tags": ["ww1", "ww2"],
+      {
+        "s": "Queen Victoria reigned for more than 60 years.",
+        "v": true,
+        "e": "True. Victoria reigned from 1837 to 1901, a period in which Britain became the most powerful nation in the world."
+      },
+      {
+        "s": "Slavery was abolished throughout the British Empire in 1833.",
+        "v": true,
+        "e": "True. The Emancipation Act of 1833 abolished slavery across the Empire. The trade itself was banned in 1807."
+      },
+      {
+        "s": "The Great Exhibition of 1851 was held in the Crystal Palace.",
+        "v": true,
+        "e": "True. The Great Exhibition was held in the Crystal Palace in Hyde Park and displayed goods from around the world."
+      },
+      {
+        "s": "Florence Nightingale is considered the founder of modern nursing.",
+        "v": true,
+        "e": "True. Nightingale served in the Crimean War and later founded a nursing school at St Thomas' Hospital."
+      },
+      {
+        "s": "The Reform Act of 1832 gave women the right to vote.",
+        "v": false,
+        "e": "False. The Reform Act of 1832 abolished rotten boroughs and widened the male franchise. Women did not get the vote until 1918."
+      },
+      {
+        "s": "The British Empire covered about a quarter of the world's population by 1913.",
+        "v": true,
+        "e": "True. By 1913 the British Empire covered around a quarter of the world's population, the largest empire in history."
+      }
+    ]
+  },
+  {
+    "id": "t3-modern",
+    "chapter": 3,
+    "section": "The 20th century",
+    "difficulty": 2,
+    "tags": [
+      "ww1",
+      "ww2"
+    ],
     "explanation": "The First World War ended in 1918 and the Second World War ran from 1939 to 1945. The NHS was founded in 1948.",
     "tf": [
-      { "s": "The First World War ended at 11am on 11 November 1918.", "v": true },
-      { "s": "The Second World War began in 1939.", "v": true },
-      { "s": "Winston Churchill became Prime Minister in 1940.", "v": true },
-      { "s": "The Battle of Britain was fought mainly at sea.", "v": false },
-      { "s": "The NHS was established in 1948.", "v": true },
-      { "s": "Women in Britain were given the vote on the same terms as men in 1928.", "v": true },
-      { "s": "Margaret Thatcher was the UK's first female Prime Minister.", "v": true }
-    ] },
-  { "id": "t3-inventions", "chapter": 3, "section": "The 20th century", "difficulty": 3, "tags": ["inventions"],
+      {
+        "s": "The First World War ended at 11am on 11 November 1918.",
+        "v": true,
+        "e": "True. This is why Remembrance Day is marked on 11 November with a silence at 11am."
+      },
+      {
+        "s": "The Second World War began in 1939.",
+        "v": true,
+        "e": "True. Britain declared war in September 1939 after Germany invaded Poland. The war ended in 1945."
+      },
+      {
+        "s": "Winston Churchill became Prime Minister in 1940.",
+        "v": true,
+        "e": "True. Churchill succeeded Neville Chamberlain in 1940 and led Britain through most of the Second World War."
+      },
+      {
+        "s": "The Battle of Britain was fought mainly at sea.",
+        "v": false,
+        "e": "False. The Battle of Britain was an air battle, won by the RAF in the summer of 1940."
+      },
+      {
+        "s": "The NHS was established in 1948.",
+        "v": true,
+        "e": "True. The NHS was created in 1948 by the Labour government, free at the point of use for everyone."
+      },
+      {
+        "s": "Women in Britain were given the vote on the same terms as men in 1928.",
+        "v": true,
+        "e": "True. Some women over 30 won the vote in 1918; equal voting rights at 21 followed in 1928."
+      },
+      {
+        "s": "Margaret Thatcher was the UK's first female Prime Minister.",
+        "v": true,
+        "e": "True. Thatcher took office in 1979 and was the longest-serving Prime Minister of the 20th century."
+      }
+    ]
+  },
+  {
+    "id": "t3-inventions",
+    "chapter": 3,
+    "section": "The 20th century",
+    "difficulty": 3,
+    "tags": [
+      "inventions"
+    ],
     "explanation": "British discoveries include penicillin, radar, the jet engine, the hovercraft, television, the structure of DNA and the World Wide Web.",
     "tf": [
-      { "s": "Alexander Fleming discovered penicillin.", "v": true },
-      { "s": "Sir Tim Berners-Lee invented the World Wide Web.", "v": true },
-      { "s": "John Logie Baird invented the telephone.", "v": false },
-      { "s": "Alan Turing worked on breaking German codes at Bletchley Park.", "v": true },
-      { "s": "Dolly the sheep was the first mammal cloned from an adult cell.", "v": true },
-      { "s": "The world's first test-tube baby was born in the UK.", "v": true }
-    ] },
-  { "id": "t3-brexit", "chapter": 3, "section": "The 21st century", "difficulty": 2, "tags": ["brexit"],
+      {
+        "s": "Alexander Fleming discovered penicillin.",
+        "v": true,
+        "e": "True. Fleming discovered penicillin in 1928 and shared the Nobel Prize for Medicine in 1945."
+      },
+      {
+        "s": "Sir Tim Berners-Lee invented the World Wide Web.",
+        "v": true,
+        "e": "True. Berners-Lee, a British inventor, created the World Wide Web in 1989."
+      },
+      {
+        "s": "John Logie Baird invented the telephone.",
+        "v": false,
+        "e": "False. Baird demonstrated the television in 1924. The telephone is credited to Alexander Graham Bell."
+      },
+      {
+        "s": "Alan Turing worked on breaking German codes at Bletchley Park.",
+        "v": true,
+        "e": "True. Turing's codebreaking work was vital in the war, and he is regarded as a founder of computer science."
+      },
+      {
+        "s": "Dolly the sheep was the first mammal cloned from an adult cell.",
+        "v": true,
+        "e": "True. Dolly was cloned at the Roslin Institute near Edinburgh in 1996."
+      },
+      {
+        "s": "The world's first test-tube baby was born in the UK.",
+        "v": true,
+        "e": "True. Sir Robert Edwards and Patrick Steptoe pioneered IVF, and the first test-tube baby was born in Britain in 1978."
+      }
+    ]
+  },
+  {
+    "id": "t3-brexit",
+    "chapter": 3,
+    "section": "The 21st century",
+    "difficulty": 2,
+    "tags": [
+      "brexit"
+    ],
     "explanation": "The UK voted to leave the European Union on 23 June 2016 by 51.9% to 48.1%, and formally left on 31 January 2020.",
     "tf": [
-      { "s": "The referendum on EU membership was held in 2016.", "v": true },
-      { "s": "The UK formally left the European Union on 31 January 2020.", "v": true },
-      { "s": "A majority voted to remain in the European Union in the 2016 referendum.", "v": false },
-      { "s": "Scotland voted to become independent in the 2014 referendum.", "v": false }
-    ] },
-  { "id": "t4-religion", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["religion"],
+      {
+        "s": "The referendum on EU membership was held in 2016.",
+        "v": true,
+        "e": "True. The referendum was held on 23 June 2016, and 51.9% voted to leave."
+      },
+      {
+        "s": "The UK formally left the European Union on 31 January 2020.",
+        "v": true,
+        "e": "True. The UK left the EU on 31 January 2020, following the 2016 referendum."
+      },
+      {
+        "s": "A majority voted to remain in the European Union in the 2016 referendum.",
+        "v": false,
+        "e": "False. 51.9% voted to leave and 48.1% voted to remain."
+      },
+      {
+        "s": "Scotland voted to become independent in the 2014 referendum.",
+        "v": false,
+        "e": "False. A majority voted for Scotland to remain part of the UK."
+      }
+    ]
+  },
+  {
+    "id": "t4-religion",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 2,
+    "tags": [
+      "religion"
+    ],
     "explanation": "The Church of England is the established Church in England and the Church of Scotland is Presbyterian. There is no established Church in Wales or Northern Ireland.",
     "tf": [
-      { "s": "The monarch is the head of the Church of England.", "v": true },
-      { "s": "The Church of Scotland is a Roman Catholic Church.", "v": false },
-      { "s": "There is an established Church in Wales.", "v": false },
-      { "s": "Everyone in the UK has the right to change their religion or have none.", "v": true },
-      { "s": "Some senior bishops of the Church of England sit in the House of Lords.", "v": true }
-    ] },
-  { "id": "t4-saints", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["patron-saints"],
+      {
+        "s": "The monarch is the head of the Church of England.",
+        "v": true,
+        "e": "True. The monarch is the Supreme Governor of the Church of England; its spiritual leader is the Archbishop of Canterbury."
+      },
+      {
+        "s": "The Church of Scotland is a Roman Catholic Church.",
+        "v": false,
+        "e": "False. The Church of Scotland is a Presbyterian Church, governed by ministers and elders and chaired by the Moderator."
+      },
+      {
+        "s": "There is an established Church in Wales.",
+        "v": false,
+        "e": "False. There is no established Church in Wales or Northern Ireland. England has the Church of England and Scotland the Church of Scotland."
+      },
+      {
+        "s": "Everyone in the UK has the right to change their religion or have none.",
+        "v": true,
+        "e": "True. The UK is a tolerant society: people may practise a religion, change it, or have no religion at all."
+      },
+      {
+        "s": "Some senior bishops of the Church of England sit in the House of Lords.",
+        "v": true,
+        "e": "True. They are known as the Lords Spiritual."
+      }
+    ]
+  },
+  {
+    "id": "t4-saints",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 2,
+    "tags": [
+      "patron-saints"
+    ],
     "explanation": "St George is the patron saint of England (23 April), St David of Wales (1 March), St Patrick of Northern Ireland (17 March) and St Andrew of Scotland (30 November).",
     "tf": [
-      { "s": "St Andrew is the patron saint of Scotland.", "v": true },
-      { "s": "St David's Day is celebrated on 1 March.", "v": true },
-      { "s": "St George is the patron saint of Wales.", "v": false },
-      { "s": "St Patrick's Day falls on 17 March.", "v": true },
-      { "s": "The patron saint's day is an official holiday in England.", "v": false }
-    ] },
-  { "id": "t4-festivals", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+      {
+        "s": "St Andrew is the patron saint of Scotland.",
+        "v": true,
+        "e": "True. St Andrew's Day is celebrated on 30 November."
+      },
+      {
+        "s": "St David's Day is celebrated on 1 March.",
+        "v": true,
+        "e": "True. St David is the patron saint of Wales."
+      },
+      {
+        "s": "St George is the patron saint of Wales.",
+        "v": false,
+        "e": "False. St George is the patron saint of England. Wales has St David."
+      },
+      {
+        "s": "St Patrick's Day falls on 17 March.",
+        "v": true,
+        "e": "True. St Patrick is the patron saint of Northern Ireland."
+      },
+      {
+        "s": "The patron saint's day is an official holiday in England.",
+        "v": false,
+        "e": "False. Only in Scotland and Northern Ireland is the patron saint's day an official holiday, though all four are celebrated."
+      }
+    ]
+  },
+  {
+    "id": "t4-festivals",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 2,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
     "tf": [
-      { "s": "Boxing Day is celebrated on 26 December.", "v": true },
-      { "s": "Bonfire Night remembers the Gunpowder Plot of 1605.", "v": true },
-      { "s": "Halloween is a bank holiday in the UK.", "v": false },
-      { "s": "Poppies are worn to mark Remembrance Day.", "v": true },
-      { "s": "Lent lasts for 40 days before Easter.", "v": true },
-      { "s": "Valentine's Day is celebrated on 14 February.", "v": true },
-      { "s": "Hogmanay is the Welsh celebration of New Year.", "v": false },
-      { "s": "Eid al-Fitr marks the end of Ramadan.", "v": true },
-      { "s": "Diwali is celebrated by Hindus and Sikhs.", "v": true }
-    ] },
-  { "id": "t4-sport", "chapter": 4, "section": "Sport", "difficulty": 2, "tags": ["sport"],
+      {
+        "s": "Boxing Day is celebrated on 26 December.",
+        "v": true,
+        "e": "True. Boxing Day is the day after Christmas Day and is a public holiday."
+      },
+      {
+        "s": "Bonfire Night remembers the Gunpowder Plot of 1605.",
+        "v": true,
+        "e": "True. Guy Fawkes and others tried to blow up the Houses of Parliament; the failure is marked each 5 November."
+      },
+      {
+        "s": "Halloween is a bank holiday in the UK.",
+        "v": false,
+        "e": "False. Halloween on 31 October is widely celebrated but is not a public holiday."
+      },
+      {
+        "s": "Poppies are worn to mark Remembrance Day.",
+        "v": true,
+        "e": "True. Poppies are worn because they flowered on the battlefields of the First World War."
+      },
+      {
+        "s": "Lent lasts for 40 days before Easter.",
+        "v": true,
+        "e": "True. Lent begins on Ash Wednesday, the day after Shrove Tuesday, and lasts 40 days."
+      },
+      {
+        "s": "Valentine's Day is celebrated on 14 February.",
+        "v": true,
+        "e": "True. People who are in love send cards and gifts, though it is not a public holiday."
+      },
+      {
+        "s": "Hogmanay is the Welsh celebration of New Year.",
+        "v": false,
+        "e": "False. Hogmanay is the Scottish celebration of New Year. In Scotland 2 January is also a public holiday."
+      },
+      {
+        "s": "Eid al-Fitr marks the end of Ramadan.",
+        "v": true,
+        "e": "True. Muslims fast during daylight hours through Ramadan, and Eid al-Fitr celebrates its end."
+      },
+      {
+        "s": "Diwali is celebrated by Hindus and Sikhs.",
+        "v": true,
+        "e": "True. Diwali, the festival of lights, lasts five days and falls in the autumn."
+      }
+    ]
+  },
+  {
+    "id": "t4-sport",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 2,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Football is the UK's most popular sport. Cricket and rugby originated in the UK, and Wimbledon is the oldest tennis tournament in the world.",
     "tf": [
-      { "s": "Football is the most popular sport in the UK.", "v": true },
-      { "s": "Cricket originated in Australia.", "v": false },
-      { "s": "The Ashes is contested between England and Australia.", "v": true },
-      { "s": "Wimbledon is played on a grass surface.", "v": true },
-      { "s": "St Andrews in Scotland is regarded as the home of golf.", "v": true },
-      { "s": "London has hosted the Olympic Games three times.", "v": true },
-      { "s": "The Grand National is a motor race.", "v": false }
-    ] },
-  { "id": "t4-arts", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["arts"],
+      {
+        "s": "Football is the most popular sport in the UK.",
+        "v": true,
+        "e": "True. There are professional football leagues in England, Scotland, Wales and Northern Ireland."
+      },
+      {
+        "s": "Cricket originated in Australia.",
+        "v": false,
+        "e": "False. Cricket originated in England and is now played across the Commonwealth."
+      },
+      {
+        "s": "The Ashes is contested between England and Australia.",
+        "v": true,
+        "e": "True. The Ashes is a famous series of cricket test matches between the two countries."
+      },
+      {
+        "s": "Wimbledon is played on a grass surface.",
+        "v": true,
+        "e": "True. Wimbledon is the oldest tennis tournament in the world and the only Grand Slam played on grass."
+      },
+      {
+        "s": "St Andrews in Scotland is regarded as the home of golf.",
+        "v": true,
+        "e": "True. The Open Championship is the UK's most famous golf tournament."
+      },
+      {
+        "s": "London has hosted the Olympic Games three times.",
+        "v": true,
+        "e": "True. London hosted the Games in 1908, 1948 and 2012, the first city to do so three times."
+      },
+      {
+        "s": "The Grand National is a motor race.",
+        "v": false,
+        "e": "False. The Grand National is a steeplechase horse race, held at Aintree near Liverpool."
+      }
+    ]
+  },
+  {
+    "id": "t4-arts",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "arts"
+    ],
     "explanation": "Shakespeare was born in Stratford-upon-Avon, the Proms is organised by the BBC, and the Turner Prize is awarded for contemporary art.",
     "tf": [
-      { "s": "William Shakespeare was born in Stratford-upon-Avon.", "v": true },
-      { "s": "The Proms is a season of classical music organised by the BBC.", "v": true },
-      { "s": "The Turner Prize is awarded for popular music.", "v": false },
-      { "s": "Sir Christopher Wren designed St Paul's Cathedral.", "v": true },
-      { "s": "Robert Burns is the national poet of Scotland.", "v": true },
-      { "s": "The BAFTAs are awards for achievement in film and television.", "v": true },
-      { "s": "Charles Dickens wrote Pride and Prejudice.", "v": false }
-    ] },
-  { "id": "t4-places", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "s": "William Shakespeare was born in Stratford-upon-Avon.",
+        "v": true,
+        "e": "True. Shakespeare was born there in 1564 and wrote plays and sonnets performed at the Globe Theatre."
+      },
+      {
+        "s": "The Proms is a season of classical music organised by the BBC.",
+        "v": true,
+        "e": "True. The Proms is an eight-week summer season, run by the BBC since 1927."
+      },
+      {
+        "s": "The Turner Prize is awarded for popular music.",
+        "v": false,
+        "e": "False. The Turner Prize is for contemporary art. The Brit Awards and Mercury Prize cover popular music."
+      },
+      {
+        "s": "Sir Christopher Wren designed St Paul's Cathedral.",
+        "v": true,
+        "e": "True. Wren rebuilt St Paul's after the Great Fire of London in 1666."
+      },
+      {
+        "s": "Robert Burns is the national poet of Scotland.",
+        "v": true,
+        "e": "True. Known as the Bard, Burns is celebrated each 25 January on Burns Night."
+      },
+      {
+        "s": "The BAFTAs are awards for achievement in film and television.",
+        "v": true,
+        "e": "True. The British Academy Film Awards are the UK's main film awards ceremony."
+      },
+      {
+        "s": "Charles Dickens wrote Pride and Prejudice.",
+        "v": false,
+        "e": "False. Pride and Prejudice was written by Jane Austen. Dickens wrote Oliver Twist and Great Expectations."
+      }
+    ]
+  },
+  {
+    "id": "t4-places",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "The Giant's Causeway is in Northern Ireland, Snowdon is the highest mountain in Wales and Ben Nevis the highest in the UK.",
     "tf": [
-      { "s": "The Giant's Causeway is in Northern Ireland.", "v": true },
-      { "s": "Snowdon is the highest mountain in the UK.", "v": false },
-      { "s": "The Eden Project is in Cornwall.", "v": true },
-      { "s": "The National Trust is a charity that preserves buildings and countryside.", "v": true },
-      { "s": "Edinburgh Castle is built on an extinct volcano.", "v": true },
-      { "s": "The Lake District is in Scotland.", "v": false }
-    ] },
-  { "id": "t5-constitution", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["constitution"],
+      {
+        "s": "The Giant's Causeway is in Northern Ireland.",
+        "v": true,
+        "e": "True. It is a rock formation on the north-east coast and a World Heritage Site."
+      },
+      {
+        "s": "Snowdon is the highest mountain in the UK.",
+        "v": false,
+        "e": "False. Snowdon is the highest mountain in Wales. Ben Nevis in Scotland is the highest in the UK."
+      },
+      {
+        "s": "The Eden Project is in Cornwall.",
+        "v": true,
+        "e": "True. Its large biomes house plants from all over the world."
+      },
+      {
+        "s": "The National Trust is a charity that preserves buildings and countryside.",
+        "v": true,
+        "e": "True. Founded in 1895, it is now one of the UK's largest charities."
+      },
+      {
+        "s": "Edinburgh Castle is built on an extinct volcano.",
+        "v": true,
+        "e": "True. The castle has dominated the Edinburgh skyline for centuries."
+      },
+      {
+        "s": "The Lake District is in Scotland.",
+        "v": false,
+        "e": "False. The Lake District is in Cumbria, north-west England, and is England's largest national park."
+      }
+    ]
+  },
+  {
+    "id": "t5-constitution",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 2,
+    "tags": [
+      "constitution"
+    ],
     "explanation": "The UK is a constitutional monarchy with an unwritten constitution. The monarch is Head of State and the Prime Minister is Head of Government.",
     "tf": [
-      { "s": "The UK constitution is contained in a single written document.", "v": false },
-      { "s": "The monarch is the Head of State of the UK.", "v": true },
-      { "s": "The monarch is expected to remain politically neutral.", "v": true },
-      { "s": "There are 650 Members of Parliament in the House of Commons.", "v": true },
-      { "s": "Members of the House of Lords are elected by the public.", "v": false },
-      { "s": "The Speaker of the House of Commons must be politically neutral.", "v": true },
-      { "s": "A general election must be held at least every five years.", "v": true }
-    ] },
-  { "id": "t5-devolution", "chapter": 5, "section": "Devolved administrations", "difficulty": 3, "tags": ["devolution"],
+      {
+        "s": "The UK constitution is contained in a single written document.",
+        "v": false,
+        "e": "False. The UK constitution is unwritten in that sense, drawn from statute, common law and convention."
+      },
+      {
+        "s": "The monarch is the Head of State of the UK.",
+        "v": true,
+        "e": "True. The role is ceremonial: the country is governed by ministers accountable to an elected Parliament."
+      },
+      {
+        "s": "The monarch is expected to remain politically neutral.",
+        "v": true,
+        "e": "True. The monarch does not take sides in politics, though they may advise and warn ministers in private."
+      },
+      {
+        "s": "There are 650 Members of Parliament in the House of Commons.",
+        "v": true,
+        "e": "True. Each MP represents one constituency, elected by first past the post."
+      },
+      {
+        "s": "Members of the House of Lords are elected by the public.",
+        "v": false,
+        "e": "False. Members of the Lords are appointed, not elected. Life peers are appointed on the advice of the Prime Minister."
+      },
+      {
+        "s": "The Speaker of the House of Commons must be politically neutral.",
+        "v": true,
+        "e": "True. The Speaker chairs debates and keeps order, and is elected by fellow MPs in a secret ballot."
+      },
+      {
+        "s": "A general election must be held at least every five years.",
+        "v": true,
+        "e": "True. If a seat falls vacant between elections, a by-election is held in that constituency."
+      }
+    ]
+  },
+  {
+    "id": "t5-devolution",
+    "chapter": 5,
+    "section": "Devolved administrations",
+    "difficulty": 3,
+    "tags": [
+      "devolution"
+    ],
     "explanation": "The devolved administrations were established in 1999. Education and health are devolved, while defence and foreign affairs are reserved to the UK government.",
     "tf": [
-      { "s": "The Scottish Parliament sits at Holyrood in Edinburgh.", "v": true },
-      { "s": "Defence is a devolved matter for Scotland and Wales.", "v": false },
-      { "s": "Health services are devolved to Scotland, Wales and Northern Ireland.", "v": true },
-      { "s": "The Northern Ireland Assembly meets at Stormont.", "v": true },
-      { "s": "The devolved administrations were established in 1999.", "v": true }
-    ] },
-  { "id": "t5-law", "chapter": 5, "section": "The law", "difficulty": 2, "tags": ["law"],
+      {
+        "s": "The Scottish Parliament sits at Holyrood in Edinburgh.",
+        "v": true,
+        "e": "True. Its 129 members are known as MSPs."
+      },
+      {
+        "s": "Defence is a devolved matter for Scotland and Wales.",
+        "v": false,
+        "e": "False. Defence is reserved to the UK government, along with foreign affairs, immigration and national security."
+      },
+      {
+        "s": "Health services are devolved to Scotland, Wales and Northern Ireland.",
+        "v": true,
+        "e": "True. Education, housing and social services are devolved too."
+      },
+      {
+        "s": "The Northern Ireland Assembly meets at Stormont.",
+        "v": true,
+        "e": "True. Its members are known as MLAs, and it was established under the Belfast Agreement of 1998."
+      },
+      {
+        "s": "The devolved administrations were established in 1999.",
+        "v": true,
+        "e": "True. They followed referendums held in 1997 and 1998."
+      }
+    ]
+  },
+  {
+    "id": "t5-law",
+    "chapter": 5,
+    "section": "The law",
+    "difficulty": 2,
+    "tags": [
+      "law"
+    ],
     "explanation": "Juries have 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Magistrates are unpaid and need no legal qualifications.",
     "tf": [
-      { "s": "A jury in England and Wales has 12 members.", "v": true },
-      { "s": "A jury in Scotland has 15 members.", "v": true },
-      { "s": "Magistrates must be qualified solicitors.", "v": false },
-      { "s": "The police must obey the law themselves.", "v": true },
-      { "s": "Scotland has its own separate legal system.", "v": true },
-      { "s": "The Crown Court deals with the most serious criminal cases in England and Wales.", "v": true },
-      { "s": "Discrimination on grounds of religion or race is legal in the UK.", "v": false }
-    ] },
-  { "id": "t5-role", "chapter": 5, "section": "Your role in the community", "difficulty": 2, "tags": ["community"],
+      {
+        "s": "A jury in England and Wales has 12 members.",
+        "v": true,
+        "e": "True. Serious criminal cases are heard in the Crown Court before a judge and a jury of 12."
+      },
+      {
+        "s": "A jury in Scotland has 15 members.",
+        "v": true,
+        "e": "True. Scotland has its own legal system, and its juries are larger than those elsewhere in the UK."
+      },
+      {
+        "s": "Magistrates must be qualified solicitors.",
+        "v": false,
+        "e": "False. Magistrates are unpaid members of the local community. They need no legal qualifications but are given training."
+      },
+      {
+        "s": "The police must obey the law themselves.",
+        "v": true,
+        "e": "True. They must not misuse their authority, make false statements, or be corrupt or racially prejudiced."
+      },
+      {
+        "s": "Scotland has its own separate legal system.",
+        "v": true,
+        "e": "True. Minor cases are heard in Justice of the Peace Courts, and serious ones in the Sheriff Court or High Court."
+      },
+      {
+        "s": "The Crown Court deals with the most serious criminal cases in England and Wales.",
+        "v": true,
+        "e": "True. Cases there are heard by a judge and a jury of 12."
+      },
+      {
+        "s": "Discrimination on grounds of religion or race is legal in the UK.",
+        "v": false,
+        "e": "False. Discrimination on grounds including race, religion, sex, disability and age is against the law."
+      }
+    ]
+  },
+  {
+    "id": "t5-role",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 2,
+    "tags": [
+      "community"
+    ],
     "explanation": "You can vote at 18 if on the electoral register, voting is by secret ballot, and jury service is a civic duty.",
     "tf": [
-      { "s": "You must be on the electoral register in order to vote.", "v": true },
-      { "s": "Voting in a UK election is by secret ballot.", "v": true },
-      { "s": "Polling stations are open from 7am to 10pm on election day.", "v": true },
-      { "s": "Serving on a jury when called is a civic duty.", "v": true },
-      { "s": "You must be 21 to vote in a UK general election.", "v": false },
-      { "s": "National Insurance contributions help fund the State Pension.", "v": true },
-      { "s": "Driving without insurance is a criminal offence in the UK.", "v": true }
-    ] },
-  { "id": "t5-international", "chapter": 5, "section": "The UK and international institutions", "difficulty": 3, "tags": ["institutions"],
+      {
+        "s": "You must be on the electoral register in order to vote.",
+        "v": true,
+        "e": "True. The register is maintained by your local council and updated each year by an annual canvass."
+      },
+      {
+        "s": "Voting in a UK election is by secret ballot.",
+        "v": true,
+        "e": "True. No one else needs to know how you have voted."
+      },
+      {
+        "s": "Polling stations are open from 7am to 10pm on election day.",
+        "v": true,
+        "e": "True. If you cannot attend in person you can apply for a postal vote."
+      },
+      {
+        "s": "Serving on a jury when called is a civic duty.",
+        "v": true,
+        "e": "True. Jurors are selected at random from the electoral register."
+      },
+      {
+        "s": "You must be 21 to vote in a UK general election.",
+        "v": false,
+        "e": "False. You can vote at 18, provided you are on the electoral register and eligible."
+      },
+      {
+        "s": "National Insurance contributions help fund the State Pension.",
+        "v": true,
+        "e": "True. Almost everyone who works pays National Insurance, which funds state benefits and services."
+      },
+      {
+        "s": "Driving without insurance is a criminal offence in the UK.",
+        "v": true,
+        "e": "True. You also need a valid licence, and vehicles over three years old need an annual MOT."
+      }
+    ]
+  },
+  {
+    "id": "t5-international",
+    "chapter": 5,
+    "section": "The UK and international institutions",
+    "difficulty": 3,
+    "tags": [
+      "institutions"
+    ],
     "explanation": "The UK is a permanent member of the UN Security Council, a member of NATO and of the Commonwealth, and of the Council of Europe.",
     "tf": [
-      { "s": "The UK is a permanent member of the UN Security Council.", "v": true },
-      { "s": "The Commonwealth has legal power over its member states.", "v": false },
-      { "s": "NATO members agree to help one another if attacked.", "v": true },
-      { "s": "The Council of Europe drew up the European Convention on Human Rights.", "v": true }
-    ] },
-  { "id": "t1-values", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "s": "The UK is a permanent member of the UN Security Council.",
+        "v": true,
+        "e": "True. The Security Council works to resolve international disputes; the UK is one of its five permanent members."
+      },
+      {
+        "s": "The Commonwealth has legal power over its member states.",
+        "v": false,
+        "e": "False. Membership of the Commonwealth is voluntary and it has no power over its members."
+      },
+      {
+        "s": "NATO members agree to help one another if attacked.",
+        "v": true,
+        "e": "True. NATO is a group of European and North American countries committed to collective defence."
+      },
+      {
+        "s": "The Council of Europe drew up the European Convention on Human Rights.",
+        "v": true,
+        "e": "True. The Council of Europe is responsible for protecting and promoting human rights."
+      }
+    ]
+  },
+  {
+    "id": "t1-values",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "The fundamental principles of British life are democracy, the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life.",
     "tf": [
-      { "s": "Democracy is a fundamental principle of British life.", "v": true },
-      { "s": "The rule of law means that those who govern are also subject to the law.", "v": true },
-      { "s": "The UK tolerates extremism as a form of free expression.", "v": false },
-      { "s": "Participation in community life is a fundamental principle of British life.", "v": true },
-      { "s": "Everyone in the UK has the right to a fair trial.", "v": true },
-      { "s": "Residents of the UK are expected to look after the area in which they live.", "v": true }
-    ] },
-  { "id": "t2-uk", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["geography"],
+      {
+        "s": "Democracy is a fundamental principle of British life.",
+        "v": true,
+        "e": "True. The others are the rule of law, individual liberty, tolerance of different faiths and beliefs, and participation in community life."
+      },
+      {
+        "s": "The rule of law means that those who govern are also subject to the law.",
+        "v": true,
+        "e": "True. No one is above the law, including those in power."
+      },
+      {
+        "s": "The UK tolerates extremism as a form of free expression.",
+        "v": false,
+        "e": "False. The UK welcomes those who share its values but does not tolerate extremism or intolerance."
+      },
+      {
+        "s": "Participation in community life is a fundamental principle of British life.",
+        "v": true,
+        "e": "True. Volunteering, voting and helping neighbours are all examples."
+      },
+      {
+        "s": "Everyone in the UK has the right to a fair trial.",
+        "v": true,
+        "e": "True. Other shared rights include freedom of speech, freedom of belief and freedom from unfair discrimination."
+      },
+      {
+        "s": "Residents of the UK are expected to look after the area in which they live.",
+        "v": true,
+        "e": "True. Looking after your area and the environment is one of the responsibilities listed in the handbook."
+      }
+    ]
+  },
+  {
+    "id": "t2-uk",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
     "explanation": "The UK is England, Scotland, Wales and Northern Ireland. Great Britain is England, Scotland and Wales only.",
     "tf": [
-      { "s": "The UK is made up of four countries.", "v": true },
-      { "s": "Great Britain includes Northern Ireland.", "v": false },
-      { "s": "The Isle of Man is a Crown dependency, not part of the UK.", "v": true },
-      { "s": "Cardiff is the capital of Wales.", "v": true },
-      { "s": "The currency of the UK is the euro.", "v": false },
-      { "s": "Wales is represented on the Union Flag.", "v": false },
-      { "s": "Northern Ireland shares a land border with the Republic of Ireland.", "v": true }
-    ] }
+      {
+        "s": "The UK is made up of four countries.",
+        "v": true,
+        "e": "True. They are England, Scotland, Wales and Northern Ireland."
+      },
+      {
+        "s": "Great Britain includes Northern Ireland.",
+        "v": false,
+        "e": "False. Great Britain is England, Scotland and Wales. The UK also includes Northern Ireland."
+      },
+      {
+        "s": "The Isle of Man is a Crown dependency, not part of the UK.",
+        "v": true,
+        "e": "True. The Channel Islands are Crown dependencies too, linked to the Crown but self-governing."
+      },
+      {
+        "s": "Cardiff is the capital of Wales.",
+        "v": true,
+        "e": "True. Edinburgh is the capital of Scotland and Belfast the capital of Northern Ireland."
+      },
+      {
+        "s": "The currency of the UK is the euro.",
+        "v": false,
+        "e": "False. The currency is the pound sterling, with 100 pence in a pound."
+      },
+      {
+        "s": "Wales is represented on the Union Flag.",
+        "v": false,
+        "e": "False. The Union Flag combines the crosses of St George, St Andrew and St Patrick. Wales was already united with England when it was designed."
+      },
+      {
+        "s": "Northern Ireland shares a land border with the Republic of Ireland.",
+        "v": true,
+        "e": "True. It is the only part of the UK with a land border with another country."
+      }
+    ]
+  }
 ]

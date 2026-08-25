@@ -1,102 +1,367 @@
 [
-  { "id": "n1-democracy-more", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+  {
+    "id": "n1-democracy-more",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "Democracy means government by the people through elected representatives, and is a fundamental principle of British life.",
     "angles": [
-      { "q": "In a democracy, who ultimately chooses the government?", "a": "The people, through elections", "wrong": ["The monarch", "The civil service", "The courts"],
-        "alts": ["Under a democratic system, government is chosen by whom?", "Democracy places the choice of government in whose hands?"] }
+      {
+        "q": "In a democracy, who ultimately chooses the government?",
+        "a": "The people, through elections",
+        "wrong": [
+          "The monarch",
+          "The civil service",
+          "The courts"
+        ],
+        "alts": [
+          "Under a democratic system, government is chosen by whom?",
+          "Democracy places the choice of government in whose hands?"
+        ]
+      }
     ],
     "tf": [
-      { "s": "In the UK, the government is chosen by the people through elections.", "v": true },
-      { "s": "British values include respect for democratic institutions.", "v": true }
-    ] },
-  { "id": "n1-liberty-more", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "s": "In the UK, the government is chosen by the people through elections.",
+        "v": true,
+        "e": "True. That is what democracy means, and it is the first of the fundamental principles of British life."
+      },
+      {
+        "s": "British values include respect for democratic institutions.",
+        "v": true,
+        "e": "True. Democracy, the rule of law and individual liberty are all fundamental principles of British life."
+      }
+    ]
+  },
+  {
+    "id": "n1-liberty-more",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "Individual liberty means people are free to make their own choices, within the limits set by the law.",
     "angles": [
-      { "q": "Individual liberty in the UK is limited by what?", "a": "The law", "wrong": ["The monarch's wishes", "Local custom", "Nothing at all"],
-        "alts": ["Personal freedom in the UK operates within which limits?"] }
+      {
+        "q": "Individual liberty in the UK is limited by what?",
+        "a": "The law",
+        "wrong": [
+          "The monarch's wishes",
+          "Local custom",
+          "Nothing at all"
+        ],
+        "alts": [
+          "Personal freedom in the UK operates within which limits?"
+        ]
+      }
     ],
     "tf": [
-      { "s": "People in the UK are free to make their own choices within the law.", "v": true }
-    ] },
-  { "id": "n1-tolerance-more", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["values"],
+      {
+        "s": "People in the UK are free to make their own choices within the law.",
+        "v": true,
+        "e": "True. This is individual liberty, one of the fundamental principles. The limits are set by the law."
+      }
+    ]
+  },
+  {
+    "id": "n1-tolerance-more",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "values"
+    ],
     "explanation": "Tolerance of those with different faiths and beliefs is a fundamental principle. The UK does not tolerate extremism.",
     "angles": [
-      { "q": "British values require tolerance towards people with different what?", "a": "Faiths and beliefs", "wrong": ["Criminal convictions", "Levels of wealth", "Nationalities only"],
-        "alts": ["Tolerance in the UK is expected towards those with different what?"] }
+      {
+        "q": "British values require tolerance towards people with different what?",
+        "a": "Faiths and beliefs",
+        "wrong": [
+          "Criminal convictions",
+          "Levels of wealth",
+          "Nationalities only"
+        ],
+        "alts": [
+          "Tolerance in the UK is expected towards those with different what?"
+        ]
+      }
     ],
     "tf": [
-      { "s": "The UK welcomes those who are willing to share its values.", "v": true },
-      { "s": "Intolerance towards other faiths is acceptable in the UK.", "v": false }
-    ] },
-  { "id": "n1-responsibilities-more", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["responsibilities"],
+      {
+        "s": "The UK welcomes those who are willing to share its values.",
+        "v": true,
+        "e": "True. The UK offers a welcome to those who share its values, but does not tolerate extremism or intolerance."
+      },
+      {
+        "s": "Intolerance towards other faiths is acceptable in the UK.",
+        "v": false,
+        "e": "False. Tolerance of those with different faiths and beliefs is a fundamental principle of British life."
+      }
+    ]
+  },
+  {
+    "id": "n1-responsibilities-more",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "responsibilities"
+    ],
     "explanation": "Residents are expected to respect the law, respect the rights of others, treat people fairly, look after themselves and their family, and care for their area and the environment.",
     "angles": [
-      { "q": "Which of these is expected of everyone living in the UK?", "a": "Respecting the rights of others", "wrong": ["Supporting the governing party", "Owning a home", "Serving in the armed forces"],
-        "alts": ["Which responsibility do UK residents share?"] }
+      {
+        "q": "Which of these is expected of everyone living in the UK?",
+        "a": "Respecting the rights of others",
+        "wrong": [
+          "Supporting the governing party",
+          "Owning a home",
+          "Serving in the armed forces"
+        ],
+        "alts": [
+          "Which responsibility do UK residents share?"
+        ]
+      }
     ],
     "tf": [
-      { "s": "Residents should respect the right of others to hold their own opinions.", "v": true },
-      { "s": "Looking after your family is one of the responsibilities listed in the handbook.", "v": true },
-      { "s": "UK residents may choose which laws to obey.", "v": false }
-    ] },
-  { "id": "n1-rights-more", "chapter": 1, "section": "The values and principles of the UK", "difficulty": 2, "tags": ["rights"],
+      {
+        "s": "Residents should respect the right of others to hold their own opinions.",
+        "v": true,
+        "e": "True. This is one of the responsibilities the handbook expects of everyone living in the UK."
+      },
+      {
+        "s": "Looking after your family is one of the responsibilities listed in the handbook.",
+        "v": true,
+        "e": "True. Looking after yourself and your family is listed alongside obeying the law and caring for your area."
+      },
+      {
+        "s": "UK residents may choose which laws to obey.",
+        "v": false,
+        "e": "False. Everyone must respect and obey the law. The rule of law applies to everyone equally."
+      }
+    ]
+  },
+  {
+    "id": "n1-rights-more",
+    "chapter": 1,
+    "section": "The values and principles of the UK",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ],
     "explanation": "Rights shared by everyone in the UK include freedom of belief, freedom of speech, freedom from unfair discrimination, a fair trial and a vote.",
     "angles": [
-      { "q": "Which of these is a right shared by everyone in the UK?", "a": "Freedom of belief and religion", "wrong": ["A guaranteed pension at 40", "Free air travel", "Exemption from tax"],
-        "alts": ["Everyone resident in the UK shares which of these rights?"] }
+      {
+        "q": "Which of these is a right shared by everyone in the UK?",
+        "a": "Freedom of belief and religion",
+        "wrong": [
+          "A guaranteed pension at 40",
+          "Free air travel",
+          "Exemption from tax"
+        ],
+        "alts": [
+          "Everyone resident in the UK shares which of these rights?"
+        ]
+      }
     ],
     "tf": [
-      { "s": "People in the UK are free to change their religion.", "v": true },
-      { "s": "Freedom from unfair discrimination is a right in the UK.", "v": true }
-    ] },
-  { "id": "n1-citizenship-more", "chapter": 1, "section": "Becoming a permanent resident", "difficulty": 3, "tags": ["citizenship"],
+      {
+        "s": "People in the UK are free to change their religion.",
+        "v": true,
+        "e": "True. Everyone may practise a religion, change it, or have no religion at all."
+      },
+      {
+        "s": "Freedom from unfair discrimination is a right in the UK.",
+        "v": true,
+        "e": "True. Discrimination on grounds such as race, sex, religion, disability and age is against the law."
+      }
+    ]
+  },
+  {
+    "id": "n1-citizenship-more",
+    "chapter": 1,
+    "section": "Becoming a permanent resident",
+    "difficulty": 3,
+    "tags": [
+      "citizenship"
+    ],
     "explanation": "Applicants for settlement or citizenship must show English language ability and knowledge of life in the UK, then attend a citizenship ceremony.",
     "angles": [
-      { "q": "Where is a citizenship ceremony usually held?", "a": "At the local council", "wrong": ["At Parliament", "At a police station", "At a court"],
-        "alts": ["Citizenship ceremonies normally take place where?"] },
-      { "q": "To whom is the oath of allegiance made?", "a": "The monarch and their heirs and successors", "wrong": ["The Prime Minister", "Parliament", "The Speaker"],
-        "alts": ["New citizens swear allegiance to whom?"] }
+      {
+        "q": "Where is a citizenship ceremony usually held?",
+        "a": "At the local council",
+        "wrong": [
+          "At Parliament",
+          "At a police station",
+          "At a court"
+        ],
+        "alts": [
+          "Citizenship ceremonies normally take place where?"
+        ]
+      },
+      {
+        "q": "To whom is the oath of allegiance made?",
+        "a": "The monarch and their heirs and successors",
+        "wrong": [
+          "The Prime Minister",
+          "Parliament",
+          "The Speaker"
+        ],
+        "alts": [
+          "New citizens swear allegiance to whom?"
+        ]
+      }
     ],
     "tf": [
-      { "s": "Those who prefer not to swear by God may make a solemn affirmation.", "v": true },
-      { "s": "New citizens receive a certificate of British citizenship.", "v": true }
-    ] },
-  { "id": "n1-test-more", "chapter": 1, "section": "Taking the Life in the UK Test", "difficulty": 3, "tags": ["test"],
+      {
+        "s": "Those who prefer not to swear by God may make a solemn affirmation.",
+        "v": true,
+        "e": "True. At a citizenship ceremony an affirmation of allegiance may be made instead of an oath."
+      },
+      {
+        "s": "New citizens receive a certificate of British citizenship.",
+        "v": true,
+        "e": "True. It is presented at the citizenship ceremony, after the oath or affirmation and the pledge."
+      }
+    ]
+  },
+  {
+    "id": "n1-test-more",
+    "chapter": 1,
+    "section": "Taking the Life in the UK Test",
+    "difficulty": 3,
+    "tags": [
+      "test"
+    ],
     "explanation": "The Life in the UK Test is taken in English at a registered test centre, though it can be taken in Welsh or Scottish Gaelic by arrangement.",
     "angles": [
-      { "q": "Besides English, in which languages can the Life in the UK Test be taken?", "a": "Welsh and Scottish Gaelic", "wrong": ["French and German", "Irish and Cornish", "Any language on request"],
-        "alts": ["The test may be taken in which other languages by arrangement?"] }
+      {
+        "q": "Besides English, in which languages can the Life in the UK Test be taken?",
+        "a": "Welsh and Scottish Gaelic",
+        "wrong": [
+          "French and German",
+          "Irish and Cornish",
+          "Any language on request"
+        ],
+        "alts": [
+          "The test may be taken in which other languages by arrangement?"
+        ]
+      }
     ],
     "tf": [
-      { "s": "The Life in the UK Test must be booked in advance.", "v": true },
-      { "s": "All test questions come from the official handbook.", "v": true }
-    ] },
-  { "id": "n2-uk-more", "chapter": 2, "section": "What is the UK?", "difficulty": 2, "tags": ["geography"],
+      {
+        "s": "The Life in the UK Test must be booked in advance.",
+        "v": true,
+        "e": "True. It is taken at a registered test centre, where identification is required."
+      },
+      {
+        "s": "All test questions come from the official handbook.",
+        "v": true,
+        "e": "True. Every question is based on Life in the United Kingdom: A Guide for New Residents."
+      }
+    ]
+  },
+  {
+    "id": "n2-uk-more",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 2,
+    "tags": [
+      "geography"
+    ],
     "explanation": "The UK is the United Kingdom of Great Britain and Northern Ireland. Great Britain is England, Scotland and Wales.",
     "angles": [
-      { "q": "Which country is part of Great Britain but not a separate island?", "a": "Wales", "pool": "uk-countries",
-        "alts": ["Which of these countries shares the island of Great Britain with England and Scotland?"] }
+      {
+        "q": "Which country is part of Great Britain but not a separate island?",
+        "a": "Wales",
+        "pool": "uk-countries",
+        "alts": [
+          "Which of these countries shares the island of Great Britain with England and Scotland?"
+        ]
+      }
     ],
     "tf": [
-      { "s": "The UK is governed by the Parliament at Westminster.", "v": true },
-      { "s": "Scotland, Wales and Northern Ireland also have devolved administrations.", "v": true }
-    ] },
-  { "id": "n2-currency-more", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["currency"],
+      {
+        "s": "The UK is governed by the Parliament at Westminster.",
+        "v": true,
+        "e": "True. Scotland, Wales and Northern Ireland also have devolved administrations with powers over many domestic matters."
+      },
+      {
+        "s": "Scotland, Wales and Northern Ireland also have devolved administrations.",
+        "v": true,
+        "e": "True. They were established in 1999 and control devolved matters such as health and education."
+      }
+    ]
+  },
+  {
+    "id": "n2-currency-more",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "currency"
+    ],
     "explanation": "The pound sterling is the UK currency. Scotland and Northern Ireland issue their own banknotes, valid throughout the UK.",
     "angles": [
-      { "q": "Banknotes issued in Scotland are valid where?", "a": "Throughout the UK", "wrong": ["Only in Scotland", "Only in Scotland and Wales", "Nowhere outside Edinburgh"],
-        "alts": ["Where can Scottish banknotes legally be used?"] }
-    ] },
-  { "id": "n2-languages-more", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["languages"],
+      {
+        "q": "Banknotes issued in Scotland are valid where?",
+        "a": "Throughout the UK",
+        "wrong": [
+          "Only in Scotland",
+          "Only in Scotland and Wales",
+          "Nowhere outside Edinburgh"
+        ],
+        "alts": [
+          "Where can Scottish banknotes legally be used?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n2-languages-more",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "languages"
+    ],
     "explanation": "Welsh is spoken in Wales, Gaelic in parts of Scotland, and Irish Gaelic and Ulster Scots in Northern Ireland.",
     "angles": [
-      { "q": "Which language is taught in schools throughout Wales?", "a": "Welsh", "pool": "languages",
-        "alts": ["Alongside English, which language do Welsh schools teach?"] }
-    ] },
-  { "id": "n2-territories-more", "chapter": 2, "section": "What is the UK?", "difficulty": 3, "tags": ["territories"],
+      {
+        "q": "Which language is taught in schools throughout Wales?",
+        "a": "Welsh",
+        "pool": "languages",
+        "alts": [
+          "Alongside English, which language do Welsh schools teach?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n2-territories-more",
+    "chapter": 2,
+    "section": "What is the UK?",
+    "difficulty": 3,
+    "tags": [
+      "territories"
+    ],
     "explanation": "Crown dependencies such as Jersey and the Isle of Man are self-governing and linked to the Crown, but are not part of the UK.",
     "angles": [
-      { "q": "Crown dependencies are linked to what?", "a": "The Crown", "wrong": ["The UK Parliament", "The Commonwealth Secretariat", "The Republic of Ireland"],
-        "alts": ["Jersey and the Isle of Man are closely linked to what?"] }
-    ] }
+      {
+        "q": "Crown dependencies are linked to what?",
+        "a": "The Crown",
+        "wrong": [
+          "The UK Parliament",
+          "The Commonwealth Secretariat",
+          "The Republic of Ireland"
+        ],
+        "alts": [
+          "Jersey and the Isle of Man are closely linked to what?"
+        ]
+      }
+    ]
+  }
 ]

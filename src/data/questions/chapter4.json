@@ -595,7 +595,7 @@
     "correct": [
       0
     ],
-    "explanation": "The General Assembly of the Church of Scotland is chaired by the Moderator, who is appointed for one year."
+    "explanation": "The Church of Scotland is a Presbyterian Church, governed by ministers and elders, whose chair is the Moderator, appointed for one year."
   },
   {
     "id": "c4-029",
@@ -657,7 +657,7 @@
     "correct": [
       0
     ],
-    "explanation": "St David is the patron saint of Wales and his day is celebrated on 1 March."
+    "explanation": "St George is patron saint of England, St David of Wales, St Patrick of Northern Ireland and St Andrew of Scotland."
   },
   {
     "id": "c4-032",
@@ -1599,7 +1599,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Laurence Olivier Awards are given annually for achievement in London theatre, in categories including best actor and best director."
+    "explanation": "The Laurence Olivier Awards recognise achievement in London theatre, and the Edinburgh Festival includes the Fringe."
   },
   {
     "id": "c4-075",
@@ -2126,7 +2126,7 @@
     "correct": [
       0
     ],
-    "explanation": "The National Trust was founded in 1895 by three volunteers and is now one of the UK's largest charities."
+    "explanation": "The National Trust, founded in 1895, is a charity that preserves important buildings, coastline and countryside."
   },
   {
     "id": "c4-099",
@@ -4434,7 +4434,7 @@
     "correct": [
       0
     ],
-    "explanation": "Easter celebrates the resurrection of Jesus Christ. Good Friday marks his death and Easter Sunday his resurrection.",
+    "explanation": "Lent begins on Ash Wednesday, the day after Shrove Tuesday, and lasts 40 days until Easter.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -5799,7 +5799,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Church of England is the established Church in England and the Church of Scotland is Presbyterian. There is no established Church in Wales or Northern Ireland.",
+    "explanation": "True. The monarch is the Supreme Governor of the Church of England; its spiritual leader is the Archbishop of Canterbury.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5818,7 +5818,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Church of England is the established Church in England and the Church of Scotland is Presbyterian. There is no established Church in Wales or Northern Ireland.",
+    "explanation": "False. The Church of Scotland is a Presbyterian Church, governed by ministers and elders and chaired by the Moderator.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5837,7 +5837,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Church of England is the established Church in England and the Church of Scotland is Presbyterian. There is no established Church in Wales or Northern Ireland.",
+    "explanation": "False. There is no established Church in Wales or Northern Ireland. England has the Church of England and Scotland the Church of Scotland.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5856,7 +5856,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Church of England is the established Church in England and the Church of Scotland is Presbyterian. There is no established Church in Wales or Northern Ireland.",
+    "explanation": "True. The UK is a tolerant society: people may practise a religion, change it, or have no religion at all.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5875,7 +5875,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Church of England is the established Church in England and the Church of Scotland is Presbyterian. There is no established Church in Wales or Northern Ireland.",
+    "explanation": "True. They are known as the Lords Spiritual.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5894,7 +5894,7 @@
     "correct": [
       0
     ],
-    "explanation": "St George is the patron saint of England (23 April), St David of Wales (1 March), St Patrick of Northern Ireland (17 March) and St Andrew of Scotland (30 November).",
+    "explanation": "True. St Andrew's Day is celebrated on 30 November.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5913,7 +5913,7 @@
     "correct": [
       0
     ],
-    "explanation": "St George is the patron saint of England (23 April), St David of Wales (1 March), St Patrick of Northern Ireland (17 March) and St Andrew of Scotland (30 November).",
+    "explanation": "True. St David is the patron saint of Wales.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5932,7 +5932,7 @@
     "correct": [
       1
     ],
-    "explanation": "St George is the patron saint of England (23 April), St David of Wales (1 March), St Patrick of Northern Ireland (17 March) and St Andrew of Scotland (30 November).",
+    "explanation": "False. St George is the patron saint of England. Wales has St David.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5951,7 +5951,7 @@
     "correct": [
       0
     ],
-    "explanation": "St George is the patron saint of England (23 April), St David of Wales (1 March), St Patrick of Northern Ireland (17 March) and St Andrew of Scotland (30 November).",
+    "explanation": "True. St Patrick is the patron saint of Northern Ireland.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5970,7 +5970,7 @@
     "correct": [
       1
     ],
-    "explanation": "St George is the patron saint of England (23 April), St David of Wales (1 March), St Patrick of Northern Ireland (17 March) and St Andrew of Scotland (30 November).",
+    "explanation": "False. Only in Scotland and Northern Ireland is the patron saint's day an official holiday, though all four are celebrated.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -5989,7 +5989,7 @@
     "correct": [
       0
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "True. Boxing Day is the day after Christmas Day and is a public holiday.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6008,7 +6008,7 @@
     "correct": [
       0
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "True. Guy Fawkes and others tried to blow up the Houses of Parliament; the failure is marked each 5 November.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6027,7 +6027,7 @@
     "correct": [
       1
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "False. Halloween on 31 October is widely celebrated but is not a public holiday.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6046,7 +6046,7 @@
     "correct": [
       0
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "True. Poppies are worn because they flowered on the battlefields of the First World War.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6065,7 +6065,7 @@
     "correct": [
       0
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "True. Lent begins on Ash Wednesday, the day after Shrove Tuesday, and lasts 40 days.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6084,7 +6084,7 @@
     "correct": [
       0
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "True. People who are in love send cards and gifts, though it is not a public holiday.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6103,7 +6103,7 @@
     "correct": [
       1
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "False. Hogmanay is the Scottish celebration of New Year. In Scotland 2 January is also a public holiday.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6122,7 +6122,7 @@
     "correct": [
       0
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "True. Muslims fast during daylight hours through Ramadan, and Eid al-Fitr celebrates its end.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6141,7 +6141,7 @@
     "correct": [
       0
     ],
-    "explanation": "Christmas is on 25 December, Boxing Day on 26 December, Bonfire Night on 5 November and Remembrance Day on 11 November.",
+    "explanation": "True. Diwali, the festival of lights, lasts five days and falls in the autumn.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -6160,7 +6160,7 @@
     "correct": [
       0
     ],
-    "explanation": "Football is the UK's most popular sport. Cricket and rugby originated in the UK, and Wimbledon is the oldest tennis tournament in the world.",
+    "explanation": "True. There are professional football leagues in England, Scotland, Wales and Northern Ireland.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -6179,7 +6179,7 @@
     "correct": [
       1
     ],
-    "explanation": "Football is the UK's most popular sport. Cricket and rugby originated in the UK, and Wimbledon is the oldest tennis tournament in the world.",
+    "explanation": "False. Cricket originated in England and is now played across the Commonwealth.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -6198,7 +6198,7 @@
     "correct": [
       0
     ],
-    "explanation": "Football is the UK's most popular sport. Cricket and rugby originated in the UK, and Wimbledon is the oldest tennis tournament in the world.",
+    "explanation": "True. The Ashes is a famous series of cricket test matches between the two countries.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -6217,7 +6217,7 @@
     "correct": [
       0
     ],
-    "explanation": "Football is the UK's most popular sport. Cricket and rugby originated in the UK, and Wimbledon is the oldest tennis tournament in the world.",
+    "explanation": "True. Wimbledon is the oldest tennis tournament in the world and the only Grand Slam played on grass.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -6236,7 +6236,7 @@
     "correct": [
       0
     ],
-    "explanation": "Football is the UK's most popular sport. Cricket and rugby originated in the UK, and Wimbledon is the oldest tennis tournament in the world.",
+    "explanation": "True. The Open Championship is the UK's most famous golf tournament.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -6255,7 +6255,7 @@
     "correct": [
       0
     ],
-    "explanation": "Football is the UK's most popular sport. Cricket and rugby originated in the UK, and Wimbledon is the oldest tennis tournament in the world.",
+    "explanation": "True. London hosted the Games in 1908, 1948 and 2012, the first city to do so three times.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -6274,7 +6274,7 @@
     "correct": [
       1
     ],
-    "explanation": "Football is the UK's most popular sport. Cricket and rugby originated in the UK, and Wimbledon is the oldest tennis tournament in the world.",
+    "explanation": "False. The Grand National is a steeplechase horse race, held at Aintree near Liverpool.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -6293,7 +6293,7 @@
     "correct": [
       0
     ],
-    "explanation": "Shakespeare was born in Stratford-upon-Avon, the Proms is organised by the BBC, and the Turner Prize is awarded for contemporary art.",
+    "explanation": "True. Shakespeare was born there in 1564 and wrote plays and sonnets performed at the Globe Theatre.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -6312,7 +6312,7 @@
     "correct": [
       0
     ],
-    "explanation": "Shakespeare was born in Stratford-upon-Avon, the Proms is organised by the BBC, and the Turner Prize is awarded for contemporary art.",
+    "explanation": "True. The Proms is an eight-week summer season, run by the BBC since 1927.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -6331,7 +6331,7 @@
     "correct": [
       1
     ],
-    "explanation": "Shakespeare was born in Stratford-upon-Avon, the Proms is organised by the BBC, and the Turner Prize is awarded for contemporary art.",
+    "explanation": "False. The Turner Prize is for contemporary art. The Brit Awards and Mercury Prize cover popular music.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -6350,7 +6350,7 @@
     "correct": [
       0
     ],
-    "explanation": "Shakespeare was born in Stratford-upon-Avon, the Proms is organised by the BBC, and the Turner Prize is awarded for contemporary art.",
+    "explanation": "True. Wren rebuilt St Paul's after the Great Fire of London in 1666.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -6369,7 +6369,7 @@
     "correct": [
       0
     ],
-    "explanation": "Shakespeare was born in Stratford-upon-Avon, the Proms is organised by the BBC, and the Turner Prize is awarded for contemporary art.",
+    "explanation": "True. Known as the Bard, Burns is celebrated each 25 January on Burns Night.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -6388,7 +6388,7 @@
     "correct": [
       0
     ],
-    "explanation": "Shakespeare was born in Stratford-upon-Avon, the Proms is organised by the BBC, and the Turner Prize is awarded for contemporary art.",
+    "explanation": "True. The British Academy Film Awards are the UK's main film awards ceremony.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -6407,7 +6407,7 @@
     "correct": [
       1
     ],
-    "explanation": "Shakespeare was born in Stratford-upon-Avon, the Proms is organised by the BBC, and the Turner Prize is awarded for contemporary art.",
+    "explanation": "False. Pride and Prejudice was written by Jane Austen. Dickens wrote Oliver Twist and Great Expectations.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -6426,7 +6426,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Giant's Causeway is in Northern Ireland, Snowdon is the highest mountain in Wales and Ben Nevis the highest in the UK.",
+    "explanation": "True. It is a rock formation on the north-east coast and a World Heritage Site.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -6445,7 +6445,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Giant's Causeway is in Northern Ireland, Snowdon is the highest mountain in Wales and Ben Nevis the highest in the UK.",
+    "explanation": "False. Snowdon is the highest mountain in Wales. Ben Nevis in Scotland is the highest in the UK.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -6464,7 +6464,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Giant's Causeway is in Northern Ireland, Snowdon is the highest mountain in Wales and Ben Nevis the highest in the UK.",
+    "explanation": "True. Its large biomes house plants from all over the world.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -6483,7 +6483,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Giant's Causeway is in Northern Ireland, Snowdon is the highest mountain in Wales and Ben Nevis the highest in the UK.",
+    "explanation": "True. Founded in 1895, it is now one of the UK's largest charities.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -6502,7 +6502,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Giant's Causeway is in Northern Ireland, Snowdon is the highest mountain in Wales and Ben Nevis the highest in the UK.",
+    "explanation": "True. The castle has dominated the Edinburgh skyline for centuries.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -6521,7 +6521,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Giant's Causeway is in Northern Ireland, Snowdon is the highest mountain in Wales and Ben Nevis the highest in the UK.",
+    "explanation": "False. The Lake District is in Cumbria, north-west England, and is England's largest national park.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -6901,7 +6901,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Church of England is the established Church in England. The monarch is its Supreme Governor and the Archbishop of Canterbury its spiritual leader.",
+    "explanation": "True. The monarch is its Supreme Governor.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -6920,7 +6920,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Church of England is the established Church in England. The monarch is its Supreme Governor and the Archbishop of Canterbury its spiritual leader.",
+    "explanation": "True. It is the established Church in England.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 2,
@@ -7044,7 +7044,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Church of Scotland is a Presbyterian Church, governed by ministers and elders, whose chair is the Moderator, appointed for one year.",
+    "explanation": "True. The Moderator chairs the General Assembly of the Church of Scotland.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -7063,7 +7063,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Church of Scotland is a Presbyterian Church, governed by ministers and elders, whose chair is the Moderator, appointed for one year.",
+    "explanation": "True. It is a Presbyterian Church, and its chair is the Moderator.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -7103,7 +7103,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a diverse society. People of many religions live and worship freely, and everyone has the right to have no religion.",
+    "explanation": "True. The UK is a diverse society in which people of many religions worship freely.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -7122,7 +7122,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is a diverse society. People of many religions live and worship freely, and everyone has the right to have no religion.",
+    "explanation": "False. Everyone may practise a religion, change it, or have none at all.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -7141,7 +7141,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a diverse society. People of many religions live and worship freely, and everyone has the right to have no religion.",
+    "explanation": "True. Christianity remains the largest religion, but those reporting no religion are a large and growing group.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -7160,7 +7160,7 @@
     "correct": [
       0
     ],
-    "explanation": "Lent lasts 40 days before Easter, beginning on Ash Wednesday. Good Friday marks the death of Jesus and Easter Sunday his resurrection.",
+    "explanation": "True. Easter Sunday, two days later, celebrates his resurrection.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -7179,7 +7179,7 @@
     "correct": [
       1
     ],
-    "explanation": "Lent lasts 40 days before Easter, beginning on Ash Wednesday. Good Friday marks the death of Jesus and Easter Sunday his resurrection.",
+    "explanation": "False. Easter Monday is a public holiday in England, Wales and Northern Ireland, but not in Scotland.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -7263,7 +7263,7 @@
     "correct": [
       2
     ],
-    "explanation": "Lent lasts 40 days before Easter, beginning on Ash Wednesday. Good Friday marks the death of Jesus and Easter Sunday his resurrection.",
+    "explanation": "Shrove Tuesday, known as Pancake Day, is the day before Lent begins on Ash Wednesday.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -7284,7 +7284,7 @@
     "correct": [
       2
     ],
-    "explanation": "Lent lasts 40 days before Easter, beginning on Ash Wednesday. Good Friday marks the death of Jesus and Easter Sunday his resurrection.",
+    "explanation": "Shrove Tuesday, known as Pancake Day, is the day before Lent begins on Ash Wednesday.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -7303,7 +7303,7 @@
     "correct": [
       0
     ],
-    "explanation": "Bonfire Night on 5 November recalls the Gunpowder Plot of 1605, when Guy Fawkes and others tried to blow up Parliament.",
+    "explanation": "True. They mark the failure of the Gunpowder Plot of 1605.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -7385,7 +7385,7 @@
     "correct": [
       0
     ],
-    "explanation": "Remembrance Day on 11 November commemorates those who died in war. A two-minute silence is held at 11am and poppies are worn.",
+    "explanation": "True. That is the hour the First World War ended, on 11 November 1918.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -7404,7 +7404,7 @@
     "correct": [
       0
     ],
-    "explanation": "Remembrance Day on 11 November commemorates those who died in war. A two-minute silence is held at 11am and poppies are worn.",
+    "explanation": "True. Poppies are worn and the national ceremony is held at the Cenotaph in Whitehall.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 2,
@@ -7571,7 +7571,7 @@
     "correct": [
       0
     ],
-    "explanation": "Football is the most popular sport in the UK, with professional leagues in all four countries.",
+    "explanation": "True. Football is the UK's most popular sport.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -7590,7 +7590,7 @@
     "correct": [
       0
     ],
-    "explanation": "Football is the most popular sport in the UK, with professional leagues in all four countries.",
+    "explanation": "True. The team was captained by Bobby Moore. It remains England's only World Cup win.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 2,
@@ -7672,7 +7672,7 @@
     "correct": [
       0
     ],
-    "explanation": "Cricket originated in England. Lord's in London is regarded as the home of cricket, and test matches can last five days.",
+    "explanation": "True. Test matches, by contrast, can last up to five days.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -7733,7 +7733,7 @@
     "correct": [
       0
     ],
-    "explanation": "Rugby originated in England. There are two forms, union and league, and rugby league began in the north of England.",
+    "explanation": "True. It is contested by England, Scotland, Wales, Ireland, France and Italy.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -7752,7 +7752,7 @@
     "correct": [
       0
     ],
-    "explanation": "Rugby originated in England. There are two forms, union and league, and rugby league began in the north of England.",
+    "explanation": "True. Murrayfield in Edinburgh serves the same role for Scotland.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -7813,7 +7813,7 @@
     "correct": [
       0
     ],
-    "explanation": "London hosted the Olympics in 1908, 1948 and 2012. The Paralympics grew from competitions at Stoke Mandeville Hospital.",
+    "explanation": "True. London hosted the Games in 1908, 1948 and 2012.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -7874,7 +7874,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Brit Awards recognise popular music and the Mercury Music Prize is awarded for the best album from the UK and Ireland.",
+    "explanation": "True. It is awarded each September.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -7893,7 +7893,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Brit Awards recognise popular music and the Mercury Music Prize is awarded for the best album from the UK and Ireland.",
+    "explanation": "False. The Brit Awards are for popular music. The BAFTAs cover film and television.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -7954,7 +7954,7 @@
     "correct": [
       0
     ],
-    "explanation": "British composers include Henry Purcell, Sir Edward Elgar, Gustav Holst, Ralph Vaughan Williams and Benjamin Britten.",
+    "explanation": "True. Holst, born in Cheltenham, themed the suite around the planets of the solar system.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -7973,7 +7973,7 @@
     "correct": [
       0
     ],
-    "explanation": "British composers include Henry Purcell, Sir Edward Elgar, Gustav Holst, Ralph Vaughan Williams and Benjamin Britten.",
+    "explanation": "True. Purcell was a 17th-century composer of church music, operas and other works.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8034,7 +8034,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Laurence Olivier Awards recognise achievement in London theatre, and the Edinburgh Festival includes the Fringe.",
+    "explanation": "True. It includes the Fringe, which showcases theatre and comedy.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8053,7 +8053,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Laurence Olivier Awards recognise achievement in London theatre, and the Edinburgh Festival includes the Fringe.",
+    "explanation": "True. Pantomimes are comic theatre based on well-known children's stories.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8241,7 +8241,7 @@
     "correct": [
       0
     ],
-    "explanation": "Robert Burns is the national poet of Scotland, and Dylan Thomas was a Welsh poet. William Wordsworth was one of the Romantic poets.",
+    "explanation": "True. It is traditionally sung at midnight on New Year's Eve.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8260,7 +8260,7 @@
     "correct": [
       0
     ],
-    "explanation": "Robert Burns is the national poet of Scotland, and Dylan Thomas was a Welsh poet. William Wordsworth was one of the Romantic poets.",
+    "explanation": "True. It holds the graves and memorials of many famous British writers.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8342,7 +8342,7 @@
     "correct": [
       0
     ],
-    "explanation": "Notable British architects include Sir Christopher Wren, Robert Adam, John Nash, Sir Charles Barry and Sir Norman Foster.",
+    "explanation": "True. The Great Fire destroyed much of London in 1666.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8361,7 +8361,7 @@
     "correct": [
       0
     ],
-    "explanation": "Notable British architects include Sir Christopher Wren, Robert Adam, John Nash, Sir Charles Barry and Sir Norman Foster.",
+    "explanation": "True. Nash was a Regency architect who also designed the Royal Pavilion in Brighton.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -8422,7 +8422,7 @@
     "correct": [
       0
     ],
-    "explanation": "British cinema includes Ealing comedies, the films of Sir Alfred Hitchcock and Sir Charlie Chaplin, and the James Bond series.",
+    "explanation": "True. Chaplin, born in London, played the character of the Tramp.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8441,7 +8441,7 @@
     "correct": [
       0
     ],
-    "explanation": "British cinema includes Ealing comedies, the films of Sir Alfred Hitchcock and Sir Charlie Chaplin, and the James Bond series.",
+    "explanation": "True. They have been made in Britain since the 1960s.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8502,7 +8502,7 @@
     "correct": [
       0
     ],
-    "explanation": "A television licence is required for each household that watches or records live TV, and it funds the BBC.",
+    "explanation": "True. Each household watching or recording live TV must have a licence, which funds the BBC.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8521,7 +8521,7 @@
     "correct": [
       0
     ],
-    "explanation": "A television licence is required for each household that watches or records live TV, and it funds the BBC.",
+    "explanation": "True. It is funded by the television licence fee rather than by the state or by advertising.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8582,7 +8582,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular pastimes in the UK include gardening, shopping, cooking, sport and going to the pub.",
+    "explanation": "True. Pubs are an important part of UK social life.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8601,7 +8601,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular pastimes in the UK include gardening, shopping, cooking, sport and going to the pub.",
+    "explanation": "True. People without a garden often rent an allotment to grow vegetables and flowers.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -8662,7 +8662,7 @@
     "correct": [
       0
     ],
-    "explanation": "UK landmarks include Big Ben, the Tower of London, Edinburgh Castle, the Giant's Causeway, Snowdonia and the Eden Project.",
+    "explanation": "True. The name is often used for the clock tower itself.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -8681,7 +8681,7 @@
     "correct": [
       1
     ],
-    "explanation": "UK landmarks include Big Ben, the Tower of London, Edinburgh Castle, the Giant's Causeway, Snowdonia and the Eden Project.",
+    "explanation": "False. Loch Lomond and the Trossachs is a national park in Scotland.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -8784,7 +8784,7 @@
     "correct": [
       0
     ],
-    "explanation": "The National Trust, founded in 1895, is a charity that preserves important buildings, coastline and countryside.",
+    "explanation": "True. Founded in 1895, it preserves important buildings, coastline and countryside.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -9132,7 +9132,7 @@
     "correct": [
       0
     ],
-    "explanation": "A census is taken every 10 years. Detailed census information is kept confidential for 100 years before release.",
+    "explanation": "True. Migration and longer life expectancy have both shaped the population.",
     "chapter": 4,
     "section": "The UK population",
     "difficulty": 3,
@@ -9151,7 +9151,7 @@
     "correct": [
       0
     ],
-    "explanation": "A census is taken every 10 years. Detailed census information is kept confidential for 100 years before release.",
+    "explanation": "True. England has about 84%, Scotland about 8%, Wales about 5% and Northern Ireland about 3%.",
     "chapter": 4,
     "section": "The UK population",
     "difficulty": 3,
@@ -9170,7 +9170,7 @@
     "correct": [
       0
     ],
-    "explanation": "A census is taken every 10 years. Detailed census information is kept confidential for 100 years before release.",
+    "explanation": "True. This means more elderly people and increasing pressure on pensions and health services.",
     "chapter": 4,
     "section": "The UK population",
     "difficulty": 3,
@@ -9252,7 +9252,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a tolerant society. Everyone has the right to practise a religion, change it, or have none at all.",
+    "explanation": "True. Quakers are another Protestant group.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -9271,7 +9271,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK is a tolerant society. Everyone has the right to practise a religion, change it, or have none at all.",
+    "explanation": "False. There is no established Church in Northern Ireland or Wales.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -9290,7 +9290,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK is a tolerant society. Everyone has the right to practise a religion, change it, or have none at all.",
+    "explanation": "True. The monarch makes the appointment on that advice.",
     "chapter": 4,
     "section": "Religion",
     "difficulty": 3,
@@ -9351,7 +9351,7 @@
     "correct": [
       0
     ],
-    "explanation": "Festivals celebrated in the UK include Christmas, Easter, Diwali, Eid, Hanukkah, Vaisakhi, Hogmanay, Halloween and Bonfire Night.",
+    "explanation": "True. It is celebrated by Hindus and Sikhs in the autumn and lasts five days.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 3,
@@ -9370,7 +9370,7 @@
     "correct": [
       0
     ],
-    "explanation": "Festivals celebrated in the UK include Christmas, Easter, Diwali, Eid, Hanukkah, Vaisakhi, Hogmanay, Halloween and Bonfire Night.",
+    "explanation": "True. In Scotland 2 January is also a public holiday.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 3,
@@ -9389,7 +9389,7 @@
     "correct": [
       0
     ],
-    "explanation": "Festivals celebrated in the UK include Christmas, Easter, Diwali, Eid, Hanukkah, Vaisakhi, Hogmanay, Halloween and Bonfire Night.",
+    "explanation": "True. New Year, or Hogmanay, is a bigger celebration in Scotland than elsewhere in the UK.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 3,
@@ -9408,7 +9408,7 @@
     "correct": [
       0
     ],
-    "explanation": "Festivals celebrated in the UK include Christmas, Easter, Diwali, Eid, Hanukkah, Vaisakhi, Hogmanay, Halloween and Bonfire Night.",
+    "explanation": "True. Father's Day is the third Sunday in June.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 3,
@@ -9427,7 +9427,7 @@
     "correct": [
       0
     ],
-    "explanation": "Festivals celebrated in the UK include Christmas, Easter, Diwali, Eid, Hanukkah, Vaisakhi, Hogmanay, Halloween and Bonfire Night.",
+    "explanation": "True. April Fool's Day falls on 1 April.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 3,
@@ -9530,7 +9530,7 @@
     "correct": [
       0
     ],
-    "explanation": "Traditional foods differ across the UK: roast beef in England, haggis in Scotland, Welsh cakes in Wales and the Ulster fry in Northern Ireland.",
+    "explanation": "True. Regional dishes include roast beef in England, haggis in Scotland and Welsh cakes in Wales.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 3,
@@ -9549,7 +9549,7 @@
     "correct": [
       1
     ],
-    "explanation": "Traditional foods differ across the UK: roast beef in England, haggis in Scotland, Welsh cakes in Wales and the Ulster fry in Northern Ireland.",
+    "explanation": "False. Haggis is Scottish. Welsh cakes are the traditional dish of Wales.",
     "chapter": 4,
     "section": "Customs and traditions",
     "difficulty": 3,
@@ -9610,7 +9610,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "explanation": "True. The Scottish cyclist has won six Olympic gold medals.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -9629,7 +9629,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "explanation": "True. She won 11 Paralympic gold medals and now sits in the House of Lords.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -9648,7 +9648,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "explanation": "True. He did so in 1954, breaking a barrier long thought impossible.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -9667,7 +9667,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK has produced many sporting champions and hosts world-famous events including Wimbledon, the Open and the Grand National.",
+    "explanation": "False. The Six Nations is a rugby union competition. The Ashes is the famous cricket series.",
     "chapter": 4,
     "section": "Sport",
     "difficulty": 3,
@@ -9812,7 +9812,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has a rich cultural life, with music, theatre, art, literature and film all celebrated by national awards and festivals.",
+    "explanation": "True. It is held in London each August.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -9831,7 +9831,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has a rich cultural life, with music, theatre, art, literature and film all celebrated by national awards and festivals.",
+    "explanation": "True. Others include the Isle of Wight Festival and the V Festival.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -9850,7 +9850,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has a rich cultural life, with music, theatre, art, literature and film all celebrated by national awards and festivals.",
+    "explanation": "True. The prize, established in 1984, recognises British contemporary artists.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -9869,7 +9869,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has a rich cultural life, with music, theatre, art, literature and film all celebrated by national awards and festivals.",
+    "explanation": "True. Their works include HMS Pinafore, The Pirates of Penzance and The Mikado.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -9972,7 +9972,7 @@
     "correct": [
       0
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "True. Many of his plays were first performed at the Globe Theatre in London.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -9991,7 +9991,7 @@
     "correct": [
       0
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "True. It is a series of poems in English about pilgrims travelling to Canterbury.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -10010,7 +10010,7 @@
     "correct": [
       0
     ],
-    "explanation": "British literature includes the work of Shakespeare, Chaucer, Austen, Dickens, the Brontes, Hardy, Orwell, Conan Doyle and many others.",
+    "explanation": "True. The Romantics were inspired by nature and human emotion.",
     "chapter": 4,
     "section": "Arts and culture",
     "difficulty": 3,
@@ -10155,7 +10155,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular leisure activities in the UK include gardening, sport, cinema, eating out, and visiting historic places.",
+    "explanation": "True. An allotment is a small plot of land rented for growing vegetables and flowers.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -10174,7 +10174,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular leisure activities in the UK include gardening, sport, cinema, eating out, and visiting historic places.",
+    "explanation": "True. It produced a celebrated run of comedies in the 1940s and 1950s.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -10193,7 +10193,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular leisure activities in the UK include gardening, sport, cinema, eating out, and visiting historic places.",
+    "explanation": "True. The licence fee funds the BBC.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -10212,7 +10212,7 @@
     "correct": [
       0
     ],
-    "explanation": "Popular leisure activities in the UK include gardening, sport, cinema, eating out, and visiting historic places.",
+    "explanation": "True. In public places dogs must also wear a collar showing the owner's name and address.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -10273,7 +10273,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "True. It has dominated the city skyline for centuries.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10292,7 +10292,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "True. It lies in Cumbria and is famous for its lakes and fells.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10311,7 +10311,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "True. Ben Nevis in Scotland is the highest in the UK.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10330,7 +10330,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "True. Snowdon is the highest mountain in Wales.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10349,7 +10349,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK has many places of interest, including national parks, castles, cathedrals and World Heritage Sites.",
+    "explanation": "False. Yeoman Warders, known as Beefeaters, guard the Tower of London.",
     "chapter": 4,
     "section": "Places of interest",
     "difficulty": 3,
@@ -10452,7 +10452,7 @@
     "correct": [
       0
     ],
-    "explanation": "Charities play a large part in UK life, and many people give money or volunteer their time to support them.",
+    "explanation": "True. Volunteering is one of the main ways of taking part in community life.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,
@@ -10471,7 +10471,7 @@
     "correct": [
       0
     ],
-    "explanation": "Charities play a large part in UK life, and many people give money or volunteer their time to support them.",
+    "explanation": "True. They are a common way of supporting a charity, either by giving or by volunteering.",
     "chapter": 4,
     "section": "Leisure",
     "difficulty": 3,

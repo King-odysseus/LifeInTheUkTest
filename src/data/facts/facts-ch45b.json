@@ -1,232 +1,947 @@
 [
-  { "id": "g4-census", "chapter": 4, "section": "The UK population", "difficulty": 2, "tags": ["population"],
+  {
+    "id": "g4-census",
+    "chapter": 4,
+    "section": "The UK population",
+    "difficulty": 2,
+    "tags": [
+      "population"
+    ],
     "explanation": "A census of the UK population is taken every 10 years, and the information collected is made public after 100 years.",
     "angles": [
-      { "q": "After how many years is detailed census information made public?", "a": "100", "pool": "counts" },
-      { "q": "What is a census?", "a": "A count of the whole population", "wrong": ["A list of registered voters", "A survey of businesses", "A record of births only"] }
-    ] },
-  { "id": "g4-population-share", "chapter": 4, "section": "The UK population", "difficulty": 3, "tags": ["population"],
+      {
+        "q": "After how many years is detailed census information made public?",
+        "a": "100",
+        "pool": "counts"
+      },
+      {
+        "q": "What is a census?",
+        "a": "A count of the whole population",
+        "wrong": [
+          "A list of registered voters",
+          "A survey of businesses",
+          "A record of births only"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-population-share",
+    "chapter": 4,
+    "section": "The UK population",
+    "difficulty": 3,
+    "tags": [
+      "population"
+    ],
     "explanation": "England has about 84% of the UK population, Scotland about 8%, Wales about 5% and Northern Ireland about 3%.",
     "angles": [
-      { "q": "Which country of the UK has the largest population?", "a": "England", "pool": "uk-countries" },
-      { "q": "Which country of the UK has the smallest population?", "a": "Northern Ireland", "pool": "uk-countries" }
-    ] },
-  { "id": "g4-cofe-head", "chapter": 4, "section": "Religion", "difficulty": 2, "tags": ["religion"],
+      {
+        "q": "Which country of the UK has the largest population?",
+        "a": "England",
+        "pool": "uk-countries"
+      },
+      {
+        "q": "Which country of the UK has the smallest population?",
+        "a": "Northern Ireland",
+        "pool": "uk-countries"
+      }
+    ]
+  },
+  {
+    "id": "g4-cofe-head",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 2,
+    "tags": [
+      "religion"
+    ],
     "explanation": "The monarch is the Supreme Governor of the Church of England, and the Archbishop of Canterbury is its spiritual leader.",
     "angles": [
-      { "q": "Who is the spiritual leader of the Church of England?", "a": "The Archbishop of Canterbury", "wrong": ["The Pope", "The Moderator", "The Prime Minister"] },
-      { "q": "The Church of England is also known as what in other countries?", "a": "The Anglican Church", "wrong": ["The Presbyterian Church", "The Lutheran Church", "The Orthodox Church"] }
-    ] },
-  { "id": "g4-scotland-church", "chapter": 4, "section": "Religion", "difficulty": 3, "tags": ["religion"],
+      {
+        "q": "Who is the spiritual leader of the Church of England?",
+        "a": "The Archbishop of Canterbury",
+        "wrong": [
+          "The Pope",
+          "The Moderator",
+          "The Prime Minister"
+        ]
+      },
+      {
+        "q": "The Church of England is also known as what in other countries?",
+        "a": "The Anglican Church",
+        "wrong": [
+          "The Presbyterian Church",
+          "The Lutheran Church",
+          "The Orthodox Church"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-scotland-church",
+    "chapter": 4,
+    "section": "Religion",
+    "difficulty": 3,
+    "tags": [
+      "religion"
+    ],
     "explanation": "The Church of Scotland is a Presbyterian Church, governed by ministers and elders, and its chair is the Moderator.",
     "angles": [
-      { "q": "The Church of Scotland is which kind of Church?", "a": "Presbyterian", "wrong": ["Anglican", "Roman Catholic", "Methodist"] },
-      { "q": "For how long is the Moderator of the Church of Scotland appointed?", "a": "One year", "wrong": ["Five years", "Ten years", "For life"] }
-    ] },
-  { "id": "g4-easter", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+      {
+        "q": "The Church of Scotland is which kind of Church?",
+        "a": "Presbyterian",
+        "wrong": [
+          "Anglican",
+          "Roman Catholic",
+          "Methodist"
+        ]
+      },
+      {
+        "q": "For how long is the Moderator of the Church of Scotland appointed?",
+        "a": "One year",
+        "wrong": [
+          "Five years",
+          "Ten years",
+          "For life"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-easter",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 2,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Easter celebrates the resurrection of Jesus Christ. Good Friday marks his death and Easter Sunday his resurrection.",
     "angles": [
-      { "q": "What does Easter Sunday celebrate?", "a": "The resurrection of Jesus Christ", "wrong": ["The birth of Jesus Christ", "The death of Jesus Christ", "The start of Lent"] },
-      { "q": "Which day marks the beginning of Lent?", "a": "Ash Wednesday", "wrong": ["Shrove Tuesday", "Good Friday", "Palm Sunday"] }
-    ] },
-  { "id": "g4-boxing-day", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+      {
+        "q": "What does Easter Sunday celebrate?",
+        "a": "The resurrection of Jesus Christ",
+        "wrong": [
+          "The birth of Jesus Christ",
+          "The death of Jesus Christ",
+          "The start of Lent"
+        ]
+      },
+      {
+        "q": "Which day marks the beginning of Lent?",
+        "a": "Ash Wednesday",
+        "wrong": [
+          "Shrove Tuesday",
+          "Good Friday",
+          "Palm Sunday"
+        ],
+        "e": "Lent begins on Ash Wednesday, the day after Shrove Tuesday, and lasts 40 days until Easter."
+      }
+    ]
+  },
+  {
+    "id": "g4-boxing-day",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 2,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Boxing Day, 26 December, is the day after Christmas Day and is a public holiday.",
     "angles": [
-      { "q": "Which public holiday falls the day after Christmas Day?", "a": "Boxing Day", "pool": "festivals" }
-    ] },
-  { "id": "g4-valentines", "chapter": 4, "section": "Customs and traditions", "difficulty": 2, "tags": ["festivals"],
+      {
+        "q": "Which public holiday falls the day after Christmas Day?",
+        "a": "Boxing Day",
+        "pool": "festivals"
+      }
+    ]
+  },
+  {
+    "id": "g4-valentines",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 2,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Valentine's Day, 14 February, is when people who are in love send cards and gifts to one another.",
     "angles": [
-      { "q": "On which date is Valentine's Day?", "a": "14 February", "pool": "calendar-dates" }
-    ] },
-  { "id": "g4-mothering", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+      {
+        "q": "On which date is Valentine's Day?",
+        "a": "14 February",
+        "pool": "calendar-dates"
+      }
+    ]
+  },
+  {
+    "id": "g4-mothering",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 3,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Mothering Sunday falls on the Sunday three weeks before Easter, and Father's Day is the third Sunday in June.",
     "angles": [
-      { "q": "When is Father's Day in the UK?", "a": "The third Sunday in June", "wrong": ["The first Sunday in May", "The second Sunday in March", "The last Sunday in July"] }
-    ] },
-  { "id": "g4-ramadan", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+      {
+        "q": "When is Father's Day in the UK?",
+        "a": "The third Sunday in June",
+        "wrong": [
+          "The first Sunday in May",
+          "The second Sunday in March",
+          "The last Sunday in July"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-ramadan",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 3,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "During Ramadan, Muslims fast during the hours of daylight. The end of Ramadan is marked by the festival of Eid al-Fitr.",
     "angles": [
-      { "q": "During Ramadan, Muslims fast during which hours?", "a": "The hours of daylight", "wrong": ["The hours of darkness", "Only at midday", "Only on Fridays"] },
-      { "q": "Which festival marks the end of Ramadan?", "a": "Eid al-Fitr", "pool": "festivals" }
-    ] },
-  { "id": "g4-vaisakhi", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+      {
+        "q": "During Ramadan, Muslims fast during which hours?",
+        "a": "The hours of daylight",
+        "wrong": [
+          "The hours of darkness",
+          "Only at midday",
+          "Only on Fridays"
+        ]
+      },
+      {
+        "q": "Which festival marks the end of Ramadan?",
+        "a": "Eid al-Fitr",
+        "pool": "festivals"
+      }
+    ]
+  },
+  {
+    "id": "g4-vaisakhi",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 3,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Vaisakhi, celebrated on 14 April, is a Sikh festival marking the founding of the Sikh community known as the Khalsa.",
     "angles": [
-      { "q": "On which date is Vaisakhi celebrated?", "a": "14 April", "pool": "calendar-dates" },
-      { "q": "Vaisakhi marks the founding of which Sikh community?", "a": "The Khalsa", "wrong": ["The Sangat", "The Langar", "The Gurdwara"] }
-    ] },
-  { "id": "g4-bank-holidays", "chapter": 4, "section": "Customs and traditions", "difficulty": 3, "tags": ["festivals"],
+      {
+        "q": "On which date is Vaisakhi celebrated?",
+        "a": "14 April",
+        "pool": "calendar-dates"
+      },
+      {
+        "q": "Vaisakhi marks the founding of which Sikh community?",
+        "a": "The Khalsa",
+        "wrong": [
+          "The Sangat",
+          "The Langar",
+          "The Gurdwara"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-bank-holidays",
+    "chapter": 4,
+    "section": "Customs and traditions",
+    "difficulty": 3,
+    "tags": [
+      "festivals"
+    ],
     "explanation": "Bank holidays are public holidays when banks and many businesses close. They include Christmas Day, Boxing Day, Good Friday and Easter Monday.",
     "angles": [
-      { "q": "What are public holidays in the UK commonly called?", "a": "Bank holidays", "wrong": ["Feast days", "Rest days", "Crown holidays"] }
-    ] },
-  { "id": "g4-football-leagues", "chapter": 4, "section": "Sport", "difficulty": 2, "tags": ["sport"],
+      {
+        "q": "What are public holidays in the UK commonly called?",
+        "a": "Bank holidays",
+        "wrong": [
+          "Feast days",
+          "Rest days",
+          "Crown holidays"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-football-leagues",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 2,
+    "tags": [
+      "sport"
+    ],
     "explanation": "Football is the UK's most popular sport, with professional leagues in England, Scotland, Wales and Northern Ireland.",
     "angles": [
-      { "q": "In which century were the first professional football clubs formed in Britain?", "a": "The 19th century", "wrong": ["The 17th century", "The 20th century", "The 16th century"] }
-    ] },
-  { "id": "g4-six-nations", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "In which century were the first professional football clubs formed in Britain?",
+        "a": "The 19th century",
+        "wrong": [
+          "The 17th century",
+          "The 20th century",
+          "The 16th century"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-six-nations",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "The Six Nations Championship is an annual rugby union competition between England, Scotland, Wales, Ireland, France and Italy.",
     "angles": [
-      { "q": "How many teams take part in the Six Nations Championship?", "a": "Six", "pool": "small-numbers" }
-    ] },
-  { "id": "g4-grand-national", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "How many teams take part in the Six Nations Championship?",
+        "a": "Six",
+        "pool": "small-numbers"
+      }
+    ]
+  },
+  {
+    "id": "g4-grand-national",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "The Grand National is a famous steeplechase held at Aintree near Liverpool. The Scottish Grand National is held at Ayr.",
     "angles": [
-      { "q": "The Grand National is an event in which sport?", "a": "Horse racing", "pool": "sports" }
-    ] },
-  { "id": "g4-silverstone", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "The Grand National is an event in which sport?",
+        "a": "Horse racing",
+        "pool": "sports"
+      }
+    ]
+  },
+  {
+    "id": "g4-silverstone",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "The British Grand Prix is held at Silverstone, and the UK has a long history of success in Formula 1.",
     "angles": [
-      { "q": "Silverstone hosts the British event in which sport?", "a": "Motor racing", "pool": "sports" }
-    ] },
-  { "id": "g4-paralympics", "chapter": 4, "section": "Sport", "difficulty": 3, "tags": ["sport"],
+      {
+        "q": "Silverstone hosts the British event in which sport?",
+        "a": "Motor racing",
+        "pool": "sports"
+      }
+    ]
+  },
+  {
+    "id": "g4-paralympics",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 3,
+    "tags": [
+      "sport"
+    ],
     "explanation": "The Paralympic Games grew out of competitions organised by Sir Ludwig Guttmann for injured servicemen at Stoke Mandeville Hospital.",
     "angles": [
-      { "q": "Who organised the competitions at Stoke Mandeville that led to the Paralympic Games?", "a": "Sir Ludwig Guttmann", "wrong": ["Baron Pierre de Coubertin", "Sir Roger Bannister", "Lord Coe"] }
-    ] },
-  { "id": "g4-olympics-2012", "chapter": 4, "section": "Sport", "difficulty": 2, "tags": ["sport", "olympics"],
+      {
+        "q": "Who organised the competitions at Stoke Mandeville that led to the Paralympic Games?",
+        "a": "Sir Ludwig Guttmann",
+        "wrong": [
+          "Baron Pierre de Coubertin",
+          "Sir Roger Bannister",
+          "Lord Coe"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-olympics-2012",
+    "chapter": 4,
+    "section": "Sport",
+    "difficulty": 2,
+    "tags": [
+      "sport",
+      "olympics"
+    ],
     "explanation": "London hosted the Olympic Games in 1908, 1948 and 2012, becoming the first city to host the modern Games three times.",
     "angles": [
-      { "q": "How many times has London hosted the Olympic Games?", "a": "Three", "pool": "small-numbers" },
-      { "q": "In which year did London most recently host the Olympic Games?", "a": "2012", "pool": "years-modern" }
-    ] },
-  { "id": "g4-proms", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["music"],
+      {
+        "q": "How many times has London hosted the Olympic Games?",
+        "a": "Three",
+        "pool": "small-numbers"
+      },
+      {
+        "q": "In which year did London most recently host the Olympic Games?",
+        "a": "2012",
+        "pool": "years-modern"
+      }
+    ]
+  },
+  {
+    "id": "g4-proms",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "music"
+    ],
     "explanation": "The Proms is an eight-week summer season of orchestral classical music, organised by the BBC since 1927.",
     "angles": [
-      { "q": "How long does the Proms season last?", "a": "Eight weeks", "wrong": ["Two weeks", "Three months", "One weekend"] }
-    ] },
-  { "id": "g4-turner-prize", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["art"],
+      {
+        "q": "How long does the Proms season last?",
+        "a": "Eight weeks",
+        "wrong": [
+          "Two weeks",
+          "Three months",
+          "One weekend"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-turner-prize",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "art"
+    ],
     "explanation": "The Turner Prize, established in 1984, recognises British contemporary artists and is named after JMW Turner.",
     "angles": [
-      { "q": "The Turner Prize recognises artists working in which field?", "a": "Contemporary art", "wrong": ["Classical music", "Architecture", "Literature"] }
-    ] },
-  { "id": "g4-booker", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["literature"],
+      {
+        "q": "The Turner Prize recognises artists working in which field?",
+        "a": "Contemporary art",
+        "wrong": [
+          "Classical music",
+          "Architecture",
+          "Literature"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-booker",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "literature"
+    ],
     "explanation": "The Booker Prize for Fiction has been awarded annually since 1968 for the best novel by a writer from the Commonwealth, Ireland or Zimbabwe.",
     "angles": [
-      { "q": "The Booker Prize is awarded for excellence in what?", "a": "Fiction writing", "wrong": ["Poetry", "Journalism", "Playwriting"] }
-    ] },
-  { "id": "g4-baftas", "chapter": 4, "section": "Leisure", "difficulty": 3, "tags": ["film"],
+      {
+        "q": "The Booker Prize is awarded for excellence in what?",
+        "a": "Fiction writing",
+        "wrong": [
+          "Poetry",
+          "Journalism",
+          "Playwriting"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-baftas",
+    "chapter": 4,
+    "section": "Leisure",
+    "difficulty": 3,
+    "tags": [
+      "film"
+    ],
     "explanation": "The British Academy Film Awards, known as the BAFTAs, are the UK's main film awards ceremony.",
     "angles": [
-      { "q": "What do the letters BAFTA stand for?", "a": "British Academy of Film and Television Arts", "wrong": ["British Association for Film and Theatre Awards", "British Arts Federation of Television Actors", "British Awards for Film, Theatre and Arts"] }
-    ] },
-  { "id": "g4-pantomime", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["theatre"],
+      {
+        "q": "What do the letters BAFTA stand for?",
+        "a": "British Academy of Film and Television Arts",
+        "wrong": [
+          "British Association for Film and Theatre Awards",
+          "British Arts Federation of Television Actors",
+          "British Awards for Film, Theatre and Arts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-pantomime",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "theatre"
+    ],
     "explanation": "Pantomime is a traditional form of comic theatre performed around Christmas, based on a well-known children's story.",
     "angles": [
-      { "q": "Pantomimes are usually based on what?", "a": "A well-known children's story", "wrong": ["A Shakespeare play", "A historical battle", "A Bible story"] }
-    ] },
-  { "id": "g4-edinburgh-fringe", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["theatre"],
+      {
+        "q": "Pantomimes are usually based on what?",
+        "a": "A well-known children's story",
+        "wrong": [
+          "A Shakespeare play",
+          "A historical battle",
+          "A Bible story"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-edinburgh-fringe",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "theatre"
+    ],
     "explanation": "The Edinburgh Festival takes place every summer and includes the Fringe, which showcases theatre and comedy.",
     "angles": [
-      { "q": "The Edinburgh Fringe is best known for showcasing what?", "a": "Theatre and comedy", "wrong": ["Classical music only", "Sport", "Visual art only"] }
-    ] },
-  { "id": "g4-gilbert-sullivan", "chapter": 4, "section": "Arts and culture", "difficulty": 3, "tags": ["theatre"],
+      {
+        "q": "The Edinburgh Fringe is best known for showcasing what?",
+        "a": "Theatre and comedy",
+        "wrong": [
+          "Classical music only",
+          "Sport",
+          "Visual art only"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-gilbert-sullivan",
+    "chapter": 4,
+    "section": "Arts and culture",
+    "difficulty": 3,
+    "tags": [
+      "theatre"
+    ],
     "explanation": "Gilbert and Sullivan wrote comic operas including HMS Pinafore, The Pirates of Penzance and The Mikado.",
     "angles": [
-      { "q": "Which of these was written by Gilbert and Sullivan?", "a": "The Pirates of Penzance", "wrong": ["Peter Grimes", "The Planets", "Land of Hope and Glory"] }
-    ] },
-  { "id": "g4-snowdon", "chapter": 4, "section": "Places of interest", "difficulty": 2, "tags": ["landmarks"],
+      {
+        "q": "Which of these was written by Gilbert and Sullivan?",
+        "a": "The Pirates of Penzance",
+        "wrong": [
+          "Peter Grimes",
+          "The Planets",
+          "Land of Hope and Glory"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g4-snowdon",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 2,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "Snowdon, in Snowdonia National Park, is the highest mountain in Wales.",
     "angles": [
-      { "q": "In which national park is Snowdon?", "a": "Snowdonia", "pool": "landmarks" }
-    ] },
-  { "id": "g4-loch-lomond", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "q": "In which national park is Snowdon?",
+        "a": "Snowdonia",
+        "pool": "landmarks"
+      }
+    ]
+  },
+  {
+    "id": "g4-loch-lomond",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "Loch Lomond and the Trossachs is a national park in Scotland, popular for walking and water sports.",
     "angles": [
-      { "q": "In which country of the UK is Loch Lomond?", "a": "Scotland", "pool": "uk-countries" }
-    ] },
-  { "id": "g4-beefeaters", "chapter": 4, "section": "Places of interest", "difficulty": 3, "tags": ["landmarks"],
+      {
+        "q": "In which country of the UK is Loch Lomond?",
+        "a": "Scotland",
+        "pool": "uk-countries"
+      }
+    ]
+  },
+  {
+    "id": "g4-beefeaters",
+    "chapter": 4,
+    "section": "Places of interest",
+    "difficulty": 3,
+    "tags": [
+      "landmarks"
+    ],
     "explanation": "The Tower of London is guarded by Yeoman Warders, popularly known as Beefeaters, who also give guided tours.",
     "angles": [
-      { "q": "Yeoman Warders guard which London landmark?", "a": "The Tower of London", "pool": "landmarks" }
-    ] },
-  { "id": "g5-monarch-role", "chapter": 5, "section": "The British constitution", "difficulty": 2, "tags": ["monarchy"],
+      {
+        "q": "Yeoman Warders guard which London landmark?",
+        "a": "The Tower of London",
+        "pool": "landmarks"
+      }
+    ]
+  },
+  {
+    "id": "g5-monarch-role",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 2,
+    "tags": [
+      "monarchy"
+    ],
     "explanation": "The monarch is Head of State but does not rule. The role is ceremonial and the monarch must remain politically neutral.",
     "angles": [
-      { "q": "What is the monarch's constitutional role called?", "a": "Head of State", "wrong": ["Head of Government", "Head of Parliament", "Head of the Judiciary"] },
-      { "q": "Who is the Head of Government in the UK?", "a": "The Prime Minister", "pool": "ministers" }
-    ] },
-  { "id": "g5-state-opening", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["parliament"],
+      {
+        "q": "What is the monarch's constitutional role called?",
+        "a": "Head of State",
+        "wrong": [
+          "Head of Government",
+          "Head of Parliament",
+          "Head of the Judiciary"
+        ]
+      },
+      {
+        "q": "Who is the Head of Government in the UK?",
+        "a": "The Prime Minister",
+        "pool": "ministers"
+      }
+    ]
+  },
+  {
+    "id": "g5-state-opening",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "parliament"
+    ],
     "explanation": "At the State Opening of Parliament each year, the monarch makes a speech written by the government setting out its policies for the year ahead.",
     "angles": [
-      { "q": "Who writes the speech the monarch gives at the State Opening of Parliament?", "a": "The government", "wrong": ["The monarch personally", "The Speaker", "The House of Lords"] }
-    ] },
-  { "id": "g5-lords-spiritual", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["parliament", "lords"],
+      {
+        "q": "Who writes the speech the monarch gives at the State Opening of Parliament?",
+        "a": "The government",
+        "wrong": [
+          "The monarch personally",
+          "The Speaker",
+          "The House of Lords"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-lords-spiritual",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "parliament",
+      "lords"
+    ],
     "explanation": "The House of Lords includes life peers, some hereditary peers, and senior bishops of the Church of England known as the Lords Spiritual.",
     "angles": [
-      { "q": "Senior Church of England bishops in the House of Lords are known as what?", "a": "The Lords Spiritual", "wrong": ["The Lords Temporal", "The Bishops' Bench", "The Convocation"] }
-    ] },
-  { "id": "g5-cabinet", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["government"],
+      {
+        "q": "Senior Church of England bishops in the House of Lords are known as what?",
+        "a": "The Lords Spiritual",
+        "wrong": [
+          "The Lords Temporal",
+          "The Bishops' Bench",
+          "The Convocation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-cabinet",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "government"
+    ],
     "explanation": "The Prime Minister appoints about 20 senior ministers to the Cabinet, which meets weekly and takes major decisions on government policy.",
     "angles": [
-      { "q": "How often does the Cabinet normally meet?", "a": "Weekly", "wrong": ["Daily", "Monthly", "Once a year"] },
-      { "q": "Who appoints members of the Cabinet?", "a": "The Prime Minister", "pool": "ministers" }
-    ] },
-  { "id": "g5-opposition", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["government"],
+      {
+        "q": "How often does the Cabinet normally meet?",
+        "a": "Weekly",
+        "wrong": [
+          "Daily",
+          "Monthly",
+          "Once a year"
+        ]
+      },
+      {
+        "q": "Who appoints members of the Cabinet?",
+        "a": "The Prime Minister",
+        "pool": "ministers"
+      }
+    ]
+  },
+  {
+    "id": "g5-opposition",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "government"
+    ],
     "explanation": "The second largest party in the House of Commons forms the Opposition, and its leader appoints a shadow cabinet.",
     "angles": [
-      { "q": "Which party forms the Opposition?", "a": "The second largest party in the House of Commons", "wrong": ["The smallest party", "The party with most peers", "Any party not in the Cabinet"] }
-    ] },
-  { "id": "g5-civil-service", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["civil-service"],
+      {
+        "q": "Which party forms the Opposition?",
+        "a": "The second largest party in the House of Commons",
+        "wrong": [
+          "The smallest party",
+          "The party with most peers",
+          "Any party not in the Cabinet"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-civil-service",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "civil-service"
+    ],
     "explanation": "Civil servants are politically neutral, appointed on merit, and serve whichever government is in power.",
     "angles": [
-      { "q": "How are civil servants appointed?", "a": "On merit, through open competition", "wrong": ["By the Prime Minister personally", "By election", "By the monarch"] }
-    ] },
-  { "id": "g5-council-tax", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["local-government"],
+      {
+        "q": "How are civil servants appointed?",
+        "a": "On merit, through open competition",
+        "wrong": [
+          "By the Prime Minister personally",
+          "By election",
+          "By the monarch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-council-tax",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "local-government"
+    ],
     "explanation": "Local authorities are funded by money from central government and by council tax raised locally.",
     "angles": [
-      { "q": "What is the local tax that helps fund council services called?", "a": "Council tax", "wrong": ["Income tax", "National Insurance", "Value added tax"] }
-    ] },
-  { "id": "g5-hansard", "chapter": 5, "section": "The British constitution", "difficulty": 3, "tags": ["parliament"],
+      {
+        "q": "What is the local tax that helps fund council services called?",
+        "a": "Council tax",
+        "wrong": [
+          "Income tax",
+          "National Insurance",
+          "Value added tax"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-hansard",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "parliament"
+    ],
     "explanation": "Hansard is the official report of proceedings in Parliament, published daily and available in libraries and online.",
     "angles": [
-      { "q": "How often is Hansard published?", "a": "Daily", "wrong": ["Weekly", "Monthly", "Once a session"] }
-    ] },
-  { "id": "g5-nato", "chapter": 5, "section": "The UK and international institutions", "difficulty": 3, "tags": ["nato"],
+      {
+        "q": "How often is Hansard published?",
+        "a": "Daily",
+        "wrong": [
+          "Weekly",
+          "Monthly",
+          "Once a session"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-nato",
+    "chapter": 5,
+    "section": "The UK and international institutions",
+    "difficulty": 3,
+    "tags": [
+      "nato"
+    ],
     "explanation": "NATO is a group of European and North American countries that agree to help one another if they come under attack.",
     "angles": [
-      { "q": "What is the main purpose of NATO?", "a": "Collective defence of its member countries", "wrong": ["Regulating world trade", "Enforcing human rights law", "Managing the Commonwealth"] }
-    ] },
-  { "id": "g5-echr", "chapter": 5, "section": "The UK and international institutions", "difficulty": 3, "tags": ["council-of-europe"],
+      {
+        "q": "What is the main purpose of NATO?",
+        "a": "Collective defence of its member countries",
+        "wrong": [
+          "Regulating world trade",
+          "Enforcing human rights law",
+          "Managing the Commonwealth"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-echr",
+    "chapter": 5,
+    "section": "The UK and international institutions",
+    "difficulty": 3,
+    "tags": [
+      "council-of-europe"
+    ],
     "explanation": "The Council of Europe is responsible for the protection and promotion of human rights, and drew up the European Convention on Human Rights.",
     "angles": [
-      { "q": "Which body drew up the European Convention on Human Rights?", "a": "The Council of Europe", "pool": "institutions" }
-    ] },
-  { "id": "g5-discrimination", "chapter": 5, "section": "Fundamental principles", "difficulty": 2, "tags": ["rights"],
+      {
+        "q": "Which body drew up the European Convention on Human Rights?",
+        "a": "The Council of Europe",
+        "pool": "institutions"
+      }
+    ]
+  },
+  {
+    "id": "g5-discrimination",
+    "chapter": 5,
+    "section": "Fundamental principles",
+    "difficulty": 2,
+    "tags": [
+      "rights"
+    ],
     "explanation": "It is against the law to discriminate on grounds including race, sex, religion, disability, age or sexual orientation.",
     "angles": [
-      { "q": "Which of these is unlawful discrimination in the UK?", "a": "Refusing to serve someone because of their religion", "wrong": ["Refusing to serve someone who is violent", "Requiring qualifications for a job", "Charging everyone the same price"] }
-    ] },
-  { "id": "g5-jury-duty", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["jury-service"],
+      {
+        "q": "Which of these is unlawful discrimination in the UK?",
+        "a": "Refusing to serve someone because of their religion",
+        "wrong": [
+          "Refusing to serve someone who is violent",
+          "Requiring qualifications for a job",
+          "Charging everyone the same price"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-jury-duty",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 3,
+    "tags": [
+      "jury-service"
+    ],
     "explanation": "Jurors are selected at random from the electoral register, and serving on a jury when called is a civic duty.",
     "angles": [
-      { "q": "How are jurors selected?", "a": "At random from the electoral register", "wrong": ["By the judge", "By the police", "By application"] }
-    ] },
-  { "id": "g5-polling", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["voting"],
+      {
+        "q": "How are jurors selected?",
+        "a": "At random from the electoral register",
+        "wrong": [
+          "By the judge",
+          "By the police",
+          "By application"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-polling",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 3,
+    "tags": [
+      "voting"
+    ],
     "explanation": "Polling stations are open from 7am until 10pm on election day, and voting is by secret ballot.",
     "angles": [
-      { "q": "What time do polling stations close on election day?", "a": "10pm", "wrong": ["6pm", "8pm", "Midnight"] }
-    ] },
-  { "id": "g5-national-insurance", "chapter": 5, "section": "Your role in the community", "difficulty": 3, "tags": ["taxes"],
+      {
+        "q": "What time do polling stations close on election day?",
+        "a": "10pm",
+        "wrong": [
+          "6pm",
+          "8pm",
+          "Midnight"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-national-insurance",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 3,
+    "tags": [
+      "taxes"
+    ],
     "explanation": "Almost everybody who works pays National Insurance contributions, which fund state benefits and services including the State Pension.",
     "angles": [
-      { "q": "What do National Insurance contributions help to fund?", "a": "State benefits and the State Pension", "wrong": ["Local council services", "The monarchy", "Private pensions"] }
-    ] },
-  { "id": "g5-volunteering", "chapter": 5, "section": "Your role in the community", "difficulty": 2, "tags": ["community"],
+      {
+        "q": "What do National Insurance contributions help to fund?",
+        "a": "State benefits and the State Pension",
+        "wrong": [
+          "Local council services",
+          "The monarchy",
+          "Private pensions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-volunteering",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 2,
+    "tags": [
+      "community"
+    ],
     "explanation": "Volunteering, becoming a school governor and helping in the local community are all ways of taking part in society.",
     "angles": [
-      { "q": "Which of these is a way of helping your local community?", "a": "Volunteering for a charity", "wrong": ["Avoiding local elections", "Ignoring planning notices", "Refusing jury service"] }
-    ] },
-  { "id": "g5-pcso", "chapter": 5, "section": "The law", "difficulty": 3, "tags": ["police"],
+      {
+        "q": "Which of these is a way of helping your local community?",
+        "a": "Volunteering for a charity",
+        "wrong": [
+          "Avoiding local elections",
+          "Ignoring planning notices",
+          "Refusing jury service"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-pcso",
+    "chapter": 5,
+    "section": "The law",
+    "difficulty": 3,
+    "tags": [
+      "police"
+    ],
     "explanation": "Police Community Support Officers work alongside police officers and have different powers from them.",
     "angles": [
-      { "q": "PCSOs work alongside which service?", "a": "The police", "wrong": ["The fire service", "The ambulance service", "The armed forces"] }
-    ] },
-  { "id": "g5-solicitor", "chapter": 5, "section": "The law", "difficulty": 3, "tags": ["law"],
+      {
+        "q": "PCSOs work alongside which service?",
+        "a": "The police",
+        "wrong": [
+          "The fire service",
+          "The ambulance service",
+          "The armed forces"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g5-solicitor",
+    "chapter": 5,
+    "section": "The law",
+    "difficulty": 3,
+    "tags": [
+      "law"
+    ],
     "explanation": "Solicitors give legal advice and can represent clients in court. Many specialise in particular areas of law.",
     "angles": [
-      { "q": "Who would you go to for legal advice?", "a": "A solicitor", "wrong": ["A magistrate", "A juror", "A councillor"] }
-    ] }
+      {
+        "q": "Who would you go to for legal advice?",
+        "a": "A solicitor",
+        "wrong": [
+          "A magistrate",
+          "A juror",
+          "A councillor"
+        ]
+      }
+    ]
+  }
 ]

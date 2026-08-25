@@ -1347,7 +1347,7 @@
     "correct": [
       0
     ],
-    "explanation": "Elizabeth I never married and left no heir, so the throne passed to her cousin's son, James VI of Scotland."
+    "explanation": "True. Elizabeth I left no heir, so the throne passed to James VI of Scotland in 1603."
   },
   {
     "id": "c3-064",
@@ -1369,7 +1369,7 @@
     "correct": [
       0
     ],
-    "explanation": "James VI of Scotland became James I of England, Wales and Ireland in 1603. This is known as the Union of the Crowns."
+    "explanation": "James VI of Scotland became James I of England, Wales and Ireland in 1603, uniting the crowns."
   },
   {
     "id": "c3-065",
@@ -1434,7 +1434,7 @@
     "correct": [
       0
     ],
-    "explanation": "Charles I was executed in 1649. England was declared a republic, called the Commonwealth."
+    "explanation": "Charles I was executed in 1649 and England was declared a republic called the Commonwealth."
   },
   {
     "id": "c3-068",
@@ -2498,7 +2498,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Second World War ended in 1945, with victory in Europe in May and in the Far East in August."
+    "explanation": "The Second World War lasted from 1939 to 1945. Winston Churchill became Prime Minister in 1940."
   },
   {
     "id": "c3-117",
@@ -2563,7 +2563,7 @@
     "correct": [
       0
     ],
-    "explanation": "Margaret Thatcher became Prime Minister in 1979 and was the longest-serving Prime Minister of the 20th century."
+    "explanation": "Margaret Thatcher became Prime Minister in 1979 and served until 1990."
   },
   {
     "id": "c3-120",
@@ -7745,7 +7745,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Romans invaded Britain in AD 43 under Claudius, built roads and towns, never conquered Scotland, and left in AD 410.",
+    "explanation": "False. The Romans never conquered Scotland. Hadrian's Wall was built across the north of England to hold that frontier.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -7764,7 +7764,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Romans invaded Britain in AD 43 under Claudius, built roads and towns, never conquered Scotland, and left in AD 410.",
+    "explanation": "True. The Romans built roads, towns and public buildings including baths, and introduced a structure of law.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -7783,7 +7783,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Romans invaded Britain in AD 43 under Claudius, built roads and towns, never conquered Scotland, and left in AD 410.",
+    "explanation": "False. Caesar's invasion of 55 BC failed. Britain was not conquered until AD 43, under Emperor Claudius.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -7802,7 +7802,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Romans invaded Britain in AD 43 under Claudius, built roads and towns, never conquered Scotland, and left in AD 410.",
+    "explanation": "True. The Roman army withdrew in AD 410 to defend other parts of the Empire, and never returned.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -7821,7 +7821,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Romans invaded Britain in AD 43 under Claudius, built roads and towns, never conquered Scotland, and left in AD 410.",
+    "explanation": "True. Emperor Hadrian ordered the wall built across northern England to keep out the Picts, ancestors of the Scottish people.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 2,
@@ -7840,7 +7840,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Anglo-Saxons came from northern Europe, and the Vikings arrived from Denmark and Norway in AD 789, later settling in the Danelaw.",
+    "explanation": "True. The Jutes, Angles and Saxons came from what is now Denmark, Germany and the Netherlands.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -7860,7 +7860,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Anglo-Saxons came from northern Europe, and the Vikings arrived from Denmark and Norway in AD 789, later settling in the Danelaw.",
+    "explanation": "False. The Vikings came from Denmark and Norway, first raiding the coast in AD 789.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -7880,7 +7880,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Anglo-Saxons came from northern Europe, and the Vikings arrived from Denmark and Norway in AD 789, later settling in the Danelaw.",
+    "explanation": "True. Alfred the Great defeated the Vikings, though they were allowed to settle in the Danelaw in the north and east.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -7900,7 +7900,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Anglo-Saxons came from northern Europe, and the Vikings arrived from Denmark and Norway in AD 789, later settling in the Danelaw.",
+    "explanation": "False. Sutton Hoo in Suffolk is an Anglo-Saxon ship burial, where a king was buried with treasure and armour.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -7920,7 +7920,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Anglo-Saxons came from northern Europe, and the Vikings arrived from Denmark and Norway in AD 789, later settling in the Danelaw.",
+    "explanation": "True. St Augustine led missionaries from Rome and became the first Archbishop of Canterbury.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -7940,7 +7940,7 @@
     "correct": [
       0
     ],
-    "explanation": "William of Normandy defeated Harold at Hastings in 1066, ordered the Domesday Book in 1086, and the Normans built castles across England and Wales.",
+    "explanation": "True. William of Normandy defeated Harold at Hastings in 1066, and Harold was killed in the battle.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -7959,7 +7959,7 @@
     "correct": [
       1
     ],
-    "explanation": "William of Normandy defeated Harold at Hastings in 1066, ordered the Domesday Book in 1086, and the Normans built castles across England and Wales.",
+    "explanation": "False. It was the other way round: William of Normandy won, and Harold was killed.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -7978,7 +7978,7 @@
     "correct": [
       0
     ],
-    "explanation": "William of Normandy defeated Harold at Hastings in 1066, ordered the Domesday Book in 1086, and the Normans built castles across England and Wales.",
+    "explanation": "True. Compiled in 1086, the Domesday Book lists the towns and villages of England, who lived there and what they owned.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -7997,7 +7997,7 @@
     "correct": [
       0
     ],
-    "explanation": "William of Normandy defeated Harold at Hastings in 1066, ordered the Domesday Book in 1086, and the Normans built castles across England and Wales.",
+    "explanation": "True. No foreign invasion of England has succeeded since 1066.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -8016,7 +8016,7 @@
     "correct": [
       1
     ],
-    "explanation": "William of Normandy defeated Harold at Hastings in 1066, ordered the Domesday Book in 1086, and the Normans built castles across England and Wales.",
+    "explanation": "False. The Bayeux Tapestry commemorates the Norman invasion and the Battle of Hastings. Magna Carta came in 1215.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 2,
@@ -8035,7 +8035,7 @@
     "correct": [
       0
     ],
-    "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348, and the Wars of the Roses ended at Bosworth Field in 1485.",
+    "explanation": "True. King John was forced to agree to Magna Carta in 1215, establishing that even the king was subject to the law.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -8054,7 +8054,7 @@
     "correct": [
       0
     ],
-    "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348, and the Wars of the Roses ended at Bosworth Field in 1485.",
+    "explanation": "True. The Black Death reached England in 1348 and killed roughly a third of the population.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -8073,7 +8073,7 @@
     "correct": [
       1
     ],
-    "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348, and the Wars of the Roses ended at Bosworth Field in 1485.",
+    "explanation": "False. The Wars of the Roses were a civil war between the English houses of Lancaster and York.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -8092,7 +8092,7 @@
     "correct": [
       0
     ],
-    "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348, and the Wars of the Roses ended at Bosworth Field in 1485.",
+    "explanation": "True. Robert the Bruce's victory at Bannockburn in 1314 kept Scotland independent.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -8111,7 +8111,7 @@
     "correct": [
       1
     ],
-    "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348, and the Wars of the Roses ended at Bosworth Field in 1485.",
+    "explanation": "False. Despite its name, the Hundred Years War lasted 116 years, from 1337 to 1453.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -8130,7 +8130,7 @@
     "correct": [
       0
     ],
-    "explanation": "Magna Carta was agreed in 1215, the Black Death arrived in 1348, and the Wars of the Roses ended at Bosworth Field in 1485.",
+    "explanation": "True. Chaucer wrote The Canterbury Tales, a series of poems in English about pilgrims travelling to Canterbury.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -8149,7 +8149,7 @@
     "correct": [
       0
     ],
-    "explanation": "Henry VIII had six wives and broke with Rome. Elizabeth I was Protestant and the Spanish Armada was defeated in 1588.",
+    "explanation": "True. Henry VIII's six wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 2,
@@ -8168,7 +8168,7 @@
     "correct": [
       0
     ],
-    "explanation": "Henry VIII had six wives and broke with Rome. Elizabeth I was Protestant and the Spanish Armada was defeated in 1588.",
+    "explanation": "True. Henry VIII broke with the Church of Rome so he could divorce and remarry, and established the Church of England.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 2,
@@ -8187,7 +8187,7 @@
     "correct": [
       1
     ],
-    "explanation": "Henry VIII had six wives and broke with Rome. Elizabeth I was Protestant and the Spanish Armada was defeated in 1588.",
+    "explanation": "False. The Spanish Armada was defeated in 1588, during the reign of Elizabeth I.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 2,
@@ -8206,7 +8206,7 @@
     "correct": [
       0
     ],
-    "explanation": "Henry VIII had six wives and broke with Rome. Elizabeth I was Protestant and the Spanish Armada was defeated in 1588.",
+    "explanation": "True. Mary I was a devout Catholic whose persecution of Protestants earned her the nickname Bloody Mary.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 2,
@@ -8225,7 +8225,7 @@
     "correct": [
       1
     ],
-    "explanation": "Henry VIII had six wives and broke with Rome. Elizabeth I was Protestant and the Spanish Armada was defeated in 1588.",
+    "explanation": "False. Henry VII was the first Tudor monarch. Elizabeth I was the last.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 2,
@@ -8244,7 +8244,7 @@
     "correct": [
       0
     ],
-    "explanation": "James VI of Scotland became James I of England in 1603. The Civil War began in 1642, Charles I was executed in 1649, and the monarchy was restored in 1660.",
+    "explanation": "True. This is known as the Union of the Crowns: one monarch over both kingdoms, but still two parliaments.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -8263,7 +8263,7 @@
     "correct": [
       0
     ],
-    "explanation": "James VI of Scotland became James I of England in 1603. The Civil War began in 1642, Charles I was executed in 1649, and the monarchy was restored in 1660.",
+    "explanation": "True. After the Civil War, Charles I was executed in 1649 and England was declared a republic called the Commonwealth.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -8282,7 +8282,7 @@
     "correct": [
       1
     ],
-    "explanation": "James VI of Scotland became James I of England in 1603. The Civil War began in 1642, Charles I was executed in 1649, and the monarchy was restored in 1660.",
+    "explanation": "False. Cromwell was never king. He ruled as Lord Protector of the Commonwealth.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -8301,7 +8301,7 @@
     "correct": [
       0
     ],
-    "explanation": "James VI of Scotland became James I of England in 1603. The Civil War began in 1642, Charles I was executed in 1649, and the monarchy was restored in 1660.",
+    "explanation": "True. The Great Fire of 1666 followed the Great Plague of 1665 and destroyed much of the city.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -8320,7 +8320,7 @@
     "correct": [
       1
     ],
-    "explanation": "James VI of Scotland became James I of England in 1603. The Civil War began in 1642, Charles I was executed in 1649, and the monarchy was restored in 1660.",
+    "explanation": "False. William of Orange took the throne in 1688 with no significant fighting in England, which is why it is called Glorious.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -8339,7 +8339,7 @@
     "correct": [
       0
     ],
-    "explanation": "James VI of Scotland became James I of England in 1603. The Civil War began in 1642, Charles I was executed in 1649, and the monarchy was restored in 1660.",
+    "explanation": "True. The Bill of Rights confirmed the rights of Parliament and the limits of the monarch's power.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -8358,7 +8358,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Act of Union of 1707 created Great Britain, Walpole is regarded as the first Prime Minister, and Britain led the Industrial Revolution.",
+    "explanation": "True. The Act of Union of 1707 created the Kingdom of Great Britain with a single parliament.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8377,7 +8377,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Act of Union of 1707 created Great Britain, Walpole is regarded as the first Prime Minister, and Britain led the Industrial Revolution.",
+    "explanation": "True. Walpole, from 1721, is regarded as the first Prime Minister and held the office for over 20 years.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8396,7 +8396,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Act of Union of 1707 created Great Britain, Walpole is regarded as the first Prime Minister, and Britain led the Industrial Revolution.",
+    "explanation": "True. Culloden ended the Jacobite rising and was the last battle fought on British soil.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8415,7 +8415,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Act of Union of 1707 created Great Britain, Walpole is regarded as the first Prime Minister, and Britain led the Industrial Revolution.",
+    "explanation": "False. Nelson died at the Battle of Trafalgar in 1805. Waterloo, in 1815, was fought on land by the Duke of Wellington.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8434,7 +8434,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Act of Union of 1707 created Great Britain, Walpole is regarded as the first Prime Minister, and Britain led the Industrial Revolution.",
+    "explanation": "True. Wellington, known as the Iron Duke, defeated Napoleon at Waterloo and later became Prime Minister.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8453,7 +8453,7 @@
     "correct": [
       1
     ],
-    "explanation": "The Act of Union of 1707 created Great Britain, Walpole is regarded as the first Prime Minister, and Britain led the Industrial Revolution.",
+    "explanation": "False. Britain led the world in the Industrial Revolution, powered by steam, coal and iron.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8472,7 +8472,7 @@
     "correct": [
       0
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901. Slavery was abolished across the Empire in 1833 and the Great Exhibition was held in 1851.",
+    "explanation": "True. Victoria reigned from 1837 to 1901, a period in which Britain became the most powerful nation in the world.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8491,7 +8491,7 @@
     "correct": [
       0
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901. Slavery was abolished across the Empire in 1833 and the Great Exhibition was held in 1851.",
+    "explanation": "True. The Emancipation Act of 1833 abolished slavery across the Empire. The trade itself was banned in 1807.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8510,7 +8510,7 @@
     "correct": [
       0
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901. Slavery was abolished across the Empire in 1833 and the Great Exhibition was held in 1851.",
+    "explanation": "True. The Great Exhibition was held in the Crystal Palace in Hyde Park and displayed goods from around the world.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8529,7 +8529,7 @@
     "correct": [
       0
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901. Slavery was abolished across the Empire in 1833 and the Great Exhibition was held in 1851.",
+    "explanation": "True. Nightingale served in the Crimean War and later founded a nursing school at St Thomas' Hospital.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8548,7 +8548,7 @@
     "correct": [
       1
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901. Slavery was abolished across the Empire in 1833 and the Great Exhibition was held in 1851.",
+    "explanation": "False. The Reform Act of 1832 abolished rotten boroughs and widened the male franchise. Women did not get the vote until 1918.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8567,7 +8567,7 @@
     "correct": [
       0
     ],
-    "explanation": "Queen Victoria reigned from 1837 to 1901. Slavery was abolished across the Empire in 1833 and the Great Exhibition was held in 1851.",
+    "explanation": "True. By 1913 the British Empire covered around a quarter of the world's population, the largest empire in history.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -8586,7 +8586,7 @@
     "correct": [
       0
     ],
-    "explanation": "The First World War ended in 1918 and the Second World War ran from 1939 to 1945. The NHS was founded in 1948.",
+    "explanation": "True. This is why Remembrance Day is marked on 11 November with a silence at 11am.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 2,
@@ -8606,7 +8606,7 @@
     "correct": [
       0
     ],
-    "explanation": "The First World War ended in 1918 and the Second World War ran from 1939 to 1945. The NHS was founded in 1948.",
+    "explanation": "True. Britain declared war in September 1939 after Germany invaded Poland. The war ended in 1945.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 2,
@@ -8626,7 +8626,7 @@
     "correct": [
       0
     ],
-    "explanation": "The First World War ended in 1918 and the Second World War ran from 1939 to 1945. The NHS was founded in 1948.",
+    "explanation": "True. Churchill succeeded Neville Chamberlain in 1940 and led Britain through most of the Second World War.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 2,
@@ -8646,7 +8646,7 @@
     "correct": [
       1
     ],
-    "explanation": "The First World War ended in 1918 and the Second World War ran from 1939 to 1945. The NHS was founded in 1948.",
+    "explanation": "False. The Battle of Britain was an air battle, won by the RAF in the summer of 1940.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 2,
@@ -8666,7 +8666,7 @@
     "correct": [
       0
     ],
-    "explanation": "The First World War ended in 1918 and the Second World War ran from 1939 to 1945. The NHS was founded in 1948.",
+    "explanation": "True. The NHS was created in 1948 by the Labour government, free at the point of use for everyone.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 2,
@@ -8686,7 +8686,7 @@
     "correct": [
       0
     ],
-    "explanation": "The First World War ended in 1918 and the Second World War ran from 1939 to 1945. The NHS was founded in 1948.",
+    "explanation": "True. Some women over 30 won the vote in 1918; equal voting rights at 21 followed in 1928.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 2,
@@ -8706,7 +8706,7 @@
     "correct": [
       0
     ],
-    "explanation": "The First World War ended in 1918 and the Second World War ran from 1939 to 1945. The NHS was founded in 1948.",
+    "explanation": "True. Thatcher took office in 1979 and was the longest-serving Prime Minister of the 20th century.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 2,
@@ -8726,7 +8726,7 @@
     "correct": [
       0
     ],
-    "explanation": "British discoveries include penicillin, radar, the jet engine, the hovercraft, television, the structure of DNA and the World Wide Web.",
+    "explanation": "True. Fleming discovered penicillin in 1928 and shared the Nobel Prize for Medicine in 1945.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -8745,7 +8745,7 @@
     "correct": [
       0
     ],
-    "explanation": "British discoveries include penicillin, radar, the jet engine, the hovercraft, television, the structure of DNA and the World Wide Web.",
+    "explanation": "True. Berners-Lee, a British inventor, created the World Wide Web in 1989.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -8764,7 +8764,7 @@
     "correct": [
       1
     ],
-    "explanation": "British discoveries include penicillin, radar, the jet engine, the hovercraft, television, the structure of DNA and the World Wide Web.",
+    "explanation": "False. Baird demonstrated the television in 1924. The telephone is credited to Alexander Graham Bell.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -8783,7 +8783,7 @@
     "correct": [
       0
     ],
-    "explanation": "British discoveries include penicillin, radar, the jet engine, the hovercraft, television, the structure of DNA and the World Wide Web.",
+    "explanation": "True. Turing's codebreaking work was vital in the war, and he is regarded as a founder of computer science.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -8802,7 +8802,7 @@
     "correct": [
       0
     ],
-    "explanation": "British discoveries include penicillin, radar, the jet engine, the hovercraft, television, the structure of DNA and the World Wide Web.",
+    "explanation": "True. Dolly was cloned at the Roslin Institute near Edinburgh in 1996.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -8821,7 +8821,7 @@
     "correct": [
       0
     ],
-    "explanation": "British discoveries include penicillin, radar, the jet engine, the hovercraft, television, the structure of DNA and the World Wide Web.",
+    "explanation": "True. Sir Robert Edwards and Patrick Steptoe pioneered IVF, and the first test-tube baby was born in Britain in 1978.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -8840,7 +8840,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK voted to leave the European Union on 23 June 2016 by 51.9% to 48.1%, and formally left on 31 January 2020.",
+    "explanation": "True. The referendum was held on 23 June 2016, and 51.9% voted to leave.",
     "chapter": 3,
     "section": "The 21st century",
     "difficulty": 2,
@@ -8859,7 +8859,7 @@
     "correct": [
       0
     ],
-    "explanation": "The UK voted to leave the European Union on 23 June 2016 by 51.9% to 48.1%, and formally left on 31 January 2020.",
+    "explanation": "True. The UK left the EU on 31 January 2020, following the 2016 referendum.",
     "chapter": 3,
     "section": "The 21st century",
     "difficulty": 2,
@@ -8878,7 +8878,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK voted to leave the European Union on 23 June 2016 by 51.9% to 48.1%, and formally left on 31 January 2020.",
+    "explanation": "False. 51.9% voted to leave and 48.1% voted to remain.",
     "chapter": 3,
     "section": "The 21st century",
     "difficulty": 2,
@@ -8897,7 +8897,7 @@
     "correct": [
       1
     ],
-    "explanation": "The UK voted to leave the European Union on 23 June 2016 by 51.9% to 48.1%, and formally left on 31 January 2020.",
+    "explanation": "False. A majority voted for Scotland to remain part of the UK.",
     "chapter": 3,
     "section": "The 21st century",
     "difficulty": 2,
@@ -11407,7 +11407,7 @@
     "correct": [
       0
     ],
-    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago. The first farmers arrived about 6,000 years ago.",
+    "explanation": "True. The land bridge was lost about 10,000 years ago, leaving Britain an island.",
     "chapter": 3,
     "section": "Early Britain",
     "difficulty": 2,
@@ -11426,7 +11426,7 @@
     "correct": [
       0
     ],
-    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago. The first farmers arrived about 6,000 years ago.",
+    "explanation": "True. It is the best preserved prehistoric village in northern Europe.",
     "chapter": 3,
     "section": "Early Britain",
     "difficulty": 2,
@@ -11445,7 +11445,7 @@
     "correct": [
       1
     ],
-    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago. The first farmers arrived about 6,000 years ago.",
+    "explanation": "False. Stonehenge dates from the Bronze Age, long before the Romans arrived in AD 43.",
     "chapter": 3,
     "section": "Early Britain",
     "difficulty": 2,
@@ -11464,7 +11464,7 @@
     "correct": [
       0
     ],
-    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago. The first farmers arrived about 6,000 years ago.",
+    "explanation": "True. Maiden Castle in Dorset is one of the most impressive Iron Age hill forts that survives.",
     "chapter": 3,
     "section": "Early Britain",
     "difficulty": 2,
@@ -11483,7 +11483,7 @@
     "correct": [
       0
     ],
-    "explanation": "Britain was joined to the continent by a land bridge until about 10,000 years ago. The first farmers arrived about 6,000 years ago.",
+    "explanation": "True. Some carried the names of Iron Age kings.",
     "chapter": 3,
     "section": "Early Britain",
     "difficulty": 2,
@@ -11544,7 +11544,7 @@
     "correct": [
       0
     ],
-    "explanation": "Roman Britain lasted nearly 400 years. The Romans built roads and towns, introduced law, and Christianity spread during their rule.",
+    "explanation": "True. The Romans conquered Britain in AD 43 and left in AD 410.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 3,
@@ -11563,7 +11563,7 @@
     "correct": [
       0
     ],
-    "explanation": "Roman Britain lasted nearly 400 years. The Romans built roads and towns, introduced law, and Christianity spread during their rule.",
+    "explanation": "True. Boudicca was queen of the Iceni in what is now eastern England. Her statue stands on Westminster Bridge.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 3,
@@ -11582,7 +11582,7 @@
     "correct": [
       0
     ],
-    "explanation": "Roman Britain lasted nearly 400 years. The Romans built roads and towns, introduced law, and Christianity spread during their rule.",
+    "explanation": "True. The Romans built many towns in Britain, London among them, linked by their road network.",
     "chapter": 3,
     "section": "The Romans",
     "difficulty": 3,
@@ -11643,7 +11643,7 @@
     "correct": [
       0
     ],
-    "explanation": "Missionaries including St Augustine and St Columba spread Christianity in Britain during the Anglo-Saxon period.",
+    "explanation": "True. Columba spread Christianity in Scotland, as Augustine did in southern England.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -11662,7 +11662,7 @@
     "correct": [
       0
     ],
-    "explanation": "Missionaries including St Augustine and St Columba spread Christianity in Britain during the Anglo-Saxon period.",
+    "explanation": "True. They covered most of what is now England; the west of Britain remained largely Celtic.",
     "chapter": 3,
     "section": "The Anglo-Saxons",
     "difficulty": 3,
@@ -11723,7 +11723,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Vikings settled in the Danelaw in the north and east of England, leaving place names ending in -by and -thorpe.",
+    "explanation": "True. Danish rule followed the Viking settlement before the Anglo-Saxon line was restored.",
     "chapter": 3,
     "section": "The Vikings",
     "difficulty": 3,
@@ -11742,7 +11742,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Vikings settled in the Danelaw in the north and east of England, leaving place names ending in -by and -thorpe.",
+    "explanation": "True. They came from Denmark and Norway, raiding coastal towns before later settling.",
     "chapter": 3,
     "section": "The Vikings",
     "difficulty": 3,
@@ -11803,7 +11803,7 @@
     "correct": [
       0
     ],
-    "explanation": "After 1066 the Normans built castles, compiled the Domesday Book and introduced Norman French, which shaped the English language.",
+    "explanation": "True. The castles secured the land they had conquered after 1066.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 3,
@@ -11822,7 +11822,7 @@
     "correct": [
       0
     ],
-    "explanation": "After 1066 the Normans built castles, compiled the Domesday Book and introduced Norman French, which shaped the English language.",
+    "explanation": "True. English replaced Norman French in the court and in Parliament.",
     "chapter": 3,
     "section": "The Norman Conquest",
     "difficulty": 3,
@@ -11883,7 +11883,7 @@
     "correct": [
       0
     ],
-    "explanation": "In the Middle Ages, Parliament began to develop, the wool trade was important, and the Black Death changed society.",
+    "explanation": "True. Knights and wealthy townspeople sat in the House of Commons.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -11902,7 +11902,7 @@
     "correct": [
       0
     ],
-    "explanation": "In the Middle Ages, Parliament began to develop, the wool trade was important, and the Black Death changed society.",
+    "explanation": "True. Nobles and bishops sat in the House of Lords.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -11921,7 +11921,7 @@
     "correct": [
       0
     ],
-    "explanation": "In the Middle Ages, Parliament began to develop, the wool trade was important, and the Black Death changed society.",
+    "explanation": "True. Caxton was the first person in England to print books using a press.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -11940,7 +11940,7 @@
     "correct": [
       1
     ],
-    "explanation": "In the Middle Ages, Parliament began to develop, the wool trade was important, and the Black Death changed society.",
+    "explanation": "False. The Statute of Rhuddlan of 1284 annexed Wales, not Scotland. Scotland remained independent until 1707.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -12001,7 +12001,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Hundred Years War against France lasted 116 years and included English victories at Crecy and Agincourt.",
+    "explanation": "True. It was lost in 1558, during the reign of Mary I.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -12020,7 +12020,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Hundred Years War against France lasted 116 years and included English victories at Crecy and Agincourt.",
+    "explanation": "True. It began in 1337, so lasted 116 years rather than a hundred.",
     "chapter": 3,
     "section": "The Middle Ages",
     "difficulty": 3,
@@ -12081,7 +12081,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Tudor monarchs were Henry VII, Henry VIII, Edward VI, Mary I and Elizabeth I.",
+    "explanation": "True. Henry VII was the first. Elizabeth left no heir, so the throne passed to James VI of Scotland.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 3,
@@ -12100,7 +12100,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Tudor monarchs were Henry VII, Henry VIII, Edward VI, Mary I and Elizabeth I.",
+    "explanation": "True. Edward VI was strongly Protestant, and the prayer book is still used in some churches today.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 3,
@@ -12119,7 +12119,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Tudor monarchs were Henry VII, Henry VIII, Edward VI, Mary I and Elizabeth I.",
+    "explanation": "True. Their land and wealth passed to the crown after the break with Rome.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 3,
@@ -12138,7 +12138,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Tudor monarchs were Henry VII, Henry VIII, Edward VI, Mary I and Elizabeth I.",
+    "explanation": "True. She fled to England, was imprisoned for about 20 years and was eventually executed.",
     "chapter": 3,
     "section": "The Tudors",
     "difficulty": 3,
@@ -12199,7 +12199,7 @@
     "correct": [
       0
     ],
-    "explanation": "Stuart events include the Gunpowder Plot of 1605, the Civil War, the Commonwealth, the Restoration, the Great Plague and Fire, and the Glorious Revolution.",
+    "explanation": "True. It guaranteed that no one could be held unlawfully and that every prisoner had a right to a court hearing.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -12218,7 +12218,7 @@
     "correct": [
       0
     ],
-    "explanation": "Stuart events include the Gunpowder Plot of 1605, the Civil War, the Commonwealth, the Restoration, the Great Plague and Fire, and the Glorious Revolution.",
+    "explanation": "True. It was formed in about 1660 to promote natural knowledge.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -12237,7 +12237,7 @@
     "correct": [
       0
     ],
-    "explanation": "Stuart events include the Gunpowder Plot of 1605, the Civil War, the Commonwealth, the Restoration, the Great Plague and Fire, and the Glorious Revolution.",
+    "explanation": "True. They left Plymouth in 1620 to escape religious persecution.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -12256,7 +12256,7 @@
     "correct": [
       0
     ],
-    "explanation": "Stuart events include the Gunpowder Plot of 1605, the Civil War, the Commonwealth, the Restoration, the Great Plague and Fire, and the Glorious Revolution.",
+    "explanation": "True. His attempt to rule without Parliament led to the Civil War.",
     "chapter": 3,
     "section": "The Stuarts",
     "difficulty": 3,
@@ -12317,7 +12317,7 @@
     "correct": [
       0
     ],
-    "explanation": "Georgian Britain saw the Act of Union of 1707, the rise of the office of Prime Minister, the Jacobite risings and the Industrial Revolution.",
+    "explanation": "True. This helped the office of Prime Minister develop under Sir Robert Walpole.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12336,7 +12336,7 @@
     "correct": [
       0
     ],
-    "explanation": "Georgian Britain saw the Act of Union of 1707, the rise of the office of Prime Minister, the Jacobite risings and the Industrial Revolution.",
+    "explanation": "True. Landlords cleared small farms to make way for sheep, and many people left for overseas.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12355,7 +12355,7 @@
     "correct": [
       0
     ],
-    "explanation": "Georgian Britain saw the Act of Union of 1707, the rise of the office of Prime Minister, the Jacobite risings and the Industrial Revolution.",
+    "explanation": "True. Smith is known for his ideas on economics and Hume as a philosopher.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12374,7 +12374,7 @@
     "correct": [
       0
     ],
-    "explanation": "Georgian Britain saw the Act of Union of 1707, the rise of the office of Prime Minister, the Jacobite risings and the Industrial Revolution.",
+    "explanation": "True. This created the United Kingdom of Great Britain and Ireland.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12435,7 +12435,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Victorian era saw the growth of the Empire, the Crimean War, the Great Exhibition, and social and political reform.",
+    "explanation": "True. It ran from 1853 to 1856 and was the first war covered by war correspondents.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12454,7 +12454,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Victorian era saw the growth of the Empire, the Crimean War, the Great Exhibition, and social and political reform.",
+    "explanation": "True. Kipling, born in India, wrote poems and stories celebrating the British Empire and won the prize in 1907.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12473,7 +12473,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Victorian era saw the growth of the Empire, the Crimean War, the Great Exhibition, and social and political reform.",
+    "explanation": "True. Reforms also limited the hours women and children could work.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12492,7 +12492,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Victorian era saw the growth of the Empire, the Crimean War, the Great Exhibition, and social and political reform.",
+    "explanation": "True. It ran from 1899 to 1902 and was more controversial in Britain than earlier colonial wars.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12511,7 +12511,7 @@
     "correct": [
       0
     ],
-    "explanation": "The Victorian era saw the growth of the Empire, the Crimean War, the Great Exhibition, and social and political reform.",
+    "explanation": "True. Brunel also built bridges and steamships, including the SS Great Britain.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12572,7 +12572,7 @@
     "correct": [
       0
     ],
-    "explanation": "The 20th century brought two world wars, votes for women, the welfare state, decolonisation and devolution.",
+    "explanation": "True. Many countries of the Empire gained independence after the Second World War, most joining the Commonwealth.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12591,7 +12591,7 @@
     "correct": [
       0
     ],
-    "explanation": "The 20th century brought two world wars, votes for women, the welfare state, decolonisation and devolution.",
+    "explanation": "True. The six northern counties remained part of the UK and the south became the Irish Free State.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12610,7 +12610,7 @@
     "correct": [
       0
     ],
-    "explanation": "The 20th century brought two world wars, votes for women, the welfare state, decolonisation and devolution.",
+    "explanation": "True. Argentina invaded and British forces recovered the islands the same year.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12629,7 +12629,7 @@
     "correct": [
       0
     ],
-    "explanation": "The 20th century brought two world wars, votes for women, the welfare state, decolonisation and devolution.",
+    "explanation": "True. It continued until the peace process of the 1990s and the Belfast Agreement of 1998.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12648,7 +12648,7 @@
     "correct": [
       0
     ],
-    "explanation": "The 20th century brought two world wars, votes for women, the welfare state, decolonisation and devolution.",
+    "explanation": "True. NATO members agree to help one another if any is attacked.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12751,7 +12751,7 @@
     "correct": [
       0
     ],
-    "explanation": "British scientific achievements include the discovery of penicillin, the structure of DNA, radar, the jet engine, IVF and the World Wide Web.",
+    "explanation": "True. Radar allowed Britain to detect incoming enemy aircraft during the Second World War.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12770,7 +12770,7 @@
     "correct": [
       0
     ],
-    "explanation": "British scientific achievements include the discovery of penicillin, the structure of DNA, radar, the jet engine, IVF and the World Wide Web.",
+    "explanation": "True. Cockerell, a British inventor, developed it in the 1950s.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12789,7 +12789,7 @@
     "correct": [
       0
     ],
-    "explanation": "British scientific achievements include the discovery of penicillin, the structure of DNA, radar, the jet engine, IVF and the World Wide Web.",
+    "explanation": "True. It was designed and developed in the UK.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12808,7 +12808,7 @@
     "correct": [
       0
     ],
-    "explanation": "British scientific achievements include the discovery of penicillin, the structure of DNA, radar, the jet engine, IVF and the World Wide Web.",
+    "explanation": "True. Whittle was an RAF engineer who developed the jet engine in the 1930s.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -12869,7 +12869,7 @@
     "correct": [
       0
     ],
-    "explanation": "Earlier British scientists include Sir Isaac Newton, Edward Jenner, Michael Faraday and Charles Darwin.",
+    "explanation": "True. Newton, born in Lincolnshire, also studied light, and is one of the greatest scientists in history.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12888,7 +12888,7 @@
     "correct": [
       0
     ],
-    "explanation": "Earlier British scientists include Sir Isaac Newton, Edward Jenner, Michael Faraday and Charles Darwin.",
+    "explanation": "True. It set out his theory of evolution by natural selection.",
     "chapter": 3,
     "section": "A global power",
     "difficulty": 3,
@@ -12991,7 +12991,7 @@
     "correct": [
       0
     ],
-    "explanation": "In the 21st century the UK hosted the 2012 Olympics, held the Scottish independence referendum in 2014, and left the EU in 2020.",
+    "explanation": "True. It was London's third Olympics, after 1908 and 1948.",
     "chapter": 3,
     "section": "The 21st century",
     "difficulty": 2,
@@ -13010,7 +13010,7 @@
     "correct": [
       0
     ],
-    "explanation": "In the 21st century the UK hosted the 2012 Olympics, held the Scottish independence referendum in 2014, and left the EU in 2020.",
+    "explanation": "True. She took office in July 2016, shortly after the EU referendum.",
     "chapter": 3,
     "section": "The 21st century",
     "difficulty": 2,
@@ -13029,7 +13029,7 @@
     "correct": [
       0
     ],
-    "explanation": "In the 21st century the UK hosted the 2012 Olympics, held the Scottish independence referendum in 2014, and left the EU in 2020.",
+    "explanation": "True. He succeeded Theresa May in July 2019.",
     "chapter": 3,
     "section": "The 21st century",
     "difficulty": 2,
@@ -13090,7 +13090,7 @@
     "correct": [
       0
     ],
-    "explanation": "The suffragettes campaigned for votes for women. Some women won the vote in 1918 and equal voting rights followed in 1928.",
+    "explanation": "True. Equal voting rights with men, at 21, followed in 1928.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
@@ -13109,7 +13109,7 @@
     "correct": [
       1
     ],
-    "explanation": "The suffragettes campaigned for votes for women. Some women won the vote in 1918 and equal voting rights followed in 1928.",
+    "explanation": "False. Some women won the vote in 1918 and equal rights came in 1928.",
     "chapter": 3,
     "section": "The 20th century",
     "difficulty": 3,
