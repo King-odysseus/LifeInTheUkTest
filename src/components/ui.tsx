@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom'
 type Variant = 'primary' | 'gold' | 'secondary' | 'ghost' | 'danger'
 
 const variants: Record<Variant, string> = {
-  primary: 'bg-brand text-white hover:opacity-90',
-  gold: 'bg-accent-fill text-white hover:bg-accent-fill-hover',
+  primary: 'button-neomorphic bg-brand text-white hover:opacity-90',
+  gold: 'button-neomorphic bg-accent-fill text-white hover:bg-accent-fill-hover',
   secondary: 'bg-surface text-ink border border-line hover:border-brand',
   ghost: 'text-muted hover:text-ink',
-  danger: 'bg-bad text-white hover:opacity-90',
+  danger: 'button-neomorphic bg-bad text-white hover:opacity-90',
 }
 
 const base =
-  'button-neomorphic inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5 text-sm font-medium ' +
+  'inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5 text-sm font-medium ' +
   'transition active:scale-[0.98] disabled:opacity-40 disabled:cursor-not-allowed ' +
   'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand'
 
