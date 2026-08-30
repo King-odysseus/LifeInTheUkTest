@@ -118,7 +118,7 @@ export default function Results() {
               const question = byId.get(answer.questionId)
               if (!question) return null
               return (
-                <li key={answer.questionId} className="card p-4">
+                <li key={answer.questionId} className="card px-5 py-6 sm:px-6 sm:py-7">
                   <div className="flex items-start gap-2">
                     <span className="mt-0.5 text-xs font-medium text-bad">✗</span>
                     <div className="min-w-0">

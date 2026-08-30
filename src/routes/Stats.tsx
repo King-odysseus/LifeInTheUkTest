@@ -211,7 +211,7 @@ function improvementPoints(attempts: Attempt[]): number | null {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="card p-4">
+    <div className="card px-5 py-6 sm:px-6 sm:py-7">
       <p className="text-2xl font-semibold tabular-nums">{value}</p>
       <p className="mt-0.5 text-xs text-muted">{label}</p>
     </div>

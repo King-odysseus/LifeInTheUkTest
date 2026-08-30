@@ -62,7 +62,7 @@ export function Field({
 }
 
 export function Card({ className = '', children }: { className?: string; children: ReactNode }) {
-  return <div className={`card p-4 sm:p-5 ${className}`}>{children}</div>
+  return <div className={`card px-5 py-6 sm:px-6 sm:py-7 ${className}`}>{children}</div>
 }
 
 export function Alert({ kind = 'bad', children }: { kind?: 'bad' | 'good'; children: ReactNode }) {
