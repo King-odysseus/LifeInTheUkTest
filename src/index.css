@@ -224,11 +224,30 @@ html {
   color-scheme: light dark;
 }
 
+:root[data-theme='light'] {
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+html {
+  background: var(--color-canvas);
+}
+
 body {
+  min-width: 320px;
+  min-height: 100dvh;
   background: var(--color-canvas);
   color: var(--color-ink);
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-brand-soft);
+  color: var(--color-ink);
 }
 
 /* Raised controls with a tactile inset press, tuned separately above for each theme. */

@@ -133,7 +133,11 @@ export default function Stats() {
                   {c.asked === 0 ? 'not started' : `${Math.round((c.right / c.asked) * 100)}%`}
                 </span>
               </div>
-              <Meter value={c.right} max={Math.max(c.asked, 1)} />
+              <Meter
+                value={c.right}
+                max={Math.max(c.asked, 1)}
+                label={`${c.short} mastery`}
+              />
             </li>
           ))}
         </ul>
@@ -154,7 +158,11 @@ export default function Stats() {
                   })}
                 </span>
                 <div className="flex-1">
-                  <Meter value={a.score} max={a.total} />
+                  <Meter
+                    value={a.score}
+                    max={a.total}
+                    label={`Mock test score on ${new Date(a.takenAt).toLocaleDateString('en-GB')}`}
+                  />
                 </div>
                 <span className={`w-14 text-right tabular-nums ${a.passed ? 'text-good' : 'text-bad'}`}>
                   {a.score}/{a.total}

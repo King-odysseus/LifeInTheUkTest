@@ -83,7 +83,15 @@ export function Spinner({ label = 'Loading' }: { label?: string }) {
 }
 
 /** Horizontal bar used for chapter mastery and score history. */
-export function Meter({ value, max = 100 }: { value: number; max?: number }) {
+export function Meter({
+  value,
+  max = 100,
+  label = 'Progress',
+}: {
+  value: number
+  max?: number
+  label?: string
+}) {
   const pct = Math.max(0, Math.min(100, (value / max) * 100))
   const tone = pct >= 75 ? 'bg-good' : pct >= 50 ? 'bg-warn' : 'bg-bad'
   const [width, setWidth] = useState(0)
@@ -100,7 +108,14 @@ export function Meter({ value, max = 100 }: { value: number; max?: number }) {
   }, [pct])
 
   return (
-    <div className="h-2 w-full overflow-hidden rounded-full bg-line">
+    <div
+      className="h-2 w-full overflow-hidden rounded-full bg-line"
+      role="progressbar"
+      aria-label={label}
+      aria-valuemin={0}
+      aria-valuemax={max}
+      aria-valuenow={Math.max(0, Math.min(max, value))}
+    >
       <div
         className={`h-full rounded-full ${tone} transition-[width] duration-700 ease-out`}
         style={{ width: `${width}%` }}

@@ -1,17 +1,18 @@
 import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Navigate, useNavigate } from 'react-router-dom'
 import { useTest } from '../store/test'
-import { Button, Card, Meter } from '../components/ui'
+import { Alert, Button, Card, Meter } from '../components/ui'
 import { CHAPTERS, EXAM, type ChapterId } from '../lib/types'
 
 export default function Results() {
   const navigate = useNavigate()
-  const { result, questions, reset, start } = useTest()
+  const { result, config, questions, reset, start } = useTest()
   const animatedScore = useCountUp(result?.score ?? 0)
+  const [starting, setStarting] = useState(false)
+  const [error, setError] = useState('')
 
   if (!result) {
-    navigate('/')
-    return null
+    return <Navigate to="/" replace />
   }
 
   const byId = new Map(questions.map((q) => [q.id, q]))
@@ -32,10 +33,16 @@ export default function Results() {
   const wrong = result.answers.filter((a) => !a.correct)
 
   const again = async () => {
-    const mode = result.mode
-    reset()
-    await start({ mode, instantFeedback: mode !== 'mock' })
-    navigate('/test')
+    const nextConfig = config ?? { mode: result.mode, instantFeedback: result.mode !== 'mock' }
+    setStarting(true)
+    setError('')
+    try {
+      await start(nextConfig)
+      navigate('/test')
+    } catch {
+      setStarting(false)
+      setError('Could not prepare another test. Please try again.')
+    }
   }
 
   return (
@@ -62,9 +69,12 @@ export default function Results() {
         )}
 
         <div className="mt-5 flex justify-center gap-2">
-          <Button onClick={() => void again()}>Try another</Button>
+          <Button disabled={starting} onClick={() => void again()}>
+            {starting ? 'Preparing…' : 'Try another'}
+          </Button>
           <Button
             variant="secondary"
+            disabled={starting}
             onClick={() => {
               reset()
               navigate('/')
@@ -73,6 +83,7 @@ export default function Results() {
             Done
           </Button>
         </div>
+        {error && <div className="mt-4 text-left"><Alert>{error}</Alert></div>}
       </Card>
 
       {perChapter.length > 1 && (
@@ -87,55 +98,53 @@ export default function Results() {
                     {c.right}/{c.asked}
                   </span>
                 </div>
-                <Meter value={c.right} max={c.asked} />
+                <Meter value={c.right} max={c.asked} label={`${c.short} score`} />
               </li>
             ))}
           </ul>
         </Card>
       )}
 
-      <h2 className="mt-6 mb-3 font-medium">
-        {wrong.length === 0 ? 'Every answer correct' : `Review ${wrong.length} you missed`}
-      </h2>
+      {wrong.length === 0 ? (
+        <Card className="mt-4 text-center">
+          <h2 className="font-medium text-good">Every answer correct</h2>
+          <p className="mt-1 text-sm text-muted">Excellent work — there is nothing to review this time.</p>
+        </Card>
+      ) : (
+        <>
+          <h2 className="mt-6 mb-3 font-medium">Review {wrong.length} you missed</h2>
+          <ul className="space-y-3">
+            {wrong.map((answer) => {
+              const question = byId.get(answer.questionId)
+              if (!question) return null
+              return (
+                <li key={answer.questionId} className="card p-4">
+                  <div className="flex items-start gap-2">
+                    <span className="mt-0.5 text-xs font-medium text-bad">✗</span>
+                    <div className="min-w-0">
+                      <p className="text-sm font-medium">{question.question}</p>
 
-      <ul className="space-y-3">
-        {result.answers.map((answer) => {
-          const question = byId.get(answer.questionId)
-          if (!question) return null
-          return (
-            <li key={answer.questionId} className="card p-4">
-              <div className="flex items-start gap-2">
-                <span
-                  className={`mt-0.5 text-xs font-medium ${
-                    answer.correct ? 'text-good' : 'text-bad'
-                  }`}
-                >
-                  {answer.correct ? '✓' : '✗'}
-                </span>
-                <div className="min-w-0">
-                  <p className="text-sm font-medium">{question.question}</p>
-
-                  {!answer.correct && (
-                    <p className="mt-1.5 text-sm text-bad">
-                      You chose:{' '}
-                      {answer.chosen.length
-                        ? answer.chosen.map((i) => question.options[i]).join(', ')
-                        : 'nothing'}
-                    </p>
-                  )}
-                  <p className="mt-1 text-sm text-good">
-                    Correct: {question.correct.map((i) => question.options[i]).join(', ')}
-                  </p>
-                  <p className="mt-2 text-sm text-muted">{question.explanation}</p>
-                  <p className="mt-2 text-xs text-muted">
-                    {chapterShort(question.chapter)} · {question.section}
-                  </p>
-                </div>
-              </div>
-            </li>
-          )
-        })}
-      </ul>
+                      <p className="mt-1.5 text-sm text-bad">
+                        You chose:{' '}
+                        {answer.chosen.length
+                          ? answer.chosen.map((i) => question.options[i]).join(', ')
+                          : 'nothing'}
+                      </p>
+                      <p className="mt-1 text-sm text-good">
+                        Correct: {question.correct.map((i) => question.options[i]).join(', ')}
+                      </p>
+                      <p className="mt-2 text-sm text-muted">{question.explanation}</p>
+                      <p className="mt-2 text-xs text-muted">
+                        {chapterShort(question.chapter)} · {question.section}
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              )
+            })}
+          </ul>
+        </>
+      )}
     </div>
   )
 }

@@ -26,8 +26,14 @@ export default function Practice() {
 
   const begin = async (config: Parameters<typeof start>[0]) => {
     setBusy(true)
-    await start(config)
-    navigate('/test')
+    setError('')
+    try {
+      await start(config)
+      navigate('/test')
+    } catch {
+      setError('Could not prepare the test. Check that browser storage is available and try again.')
+      setBusy(false)
+    }
   }
 
   const buildAndBegin = async () => {

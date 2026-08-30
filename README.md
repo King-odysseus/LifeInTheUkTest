@@ -44,9 +44,9 @@ Passwords use `scrypt` from `node:crypto` with a per-password salt; sessions are
 
 ## The question bank
 
-Questions live in `src/data/questions/chapterN.json`, one file per handbook chapter. Vite emits each as its own async chunk, so a 2,000-question bank never lands in the initial bundle.
+Questions live in `src/data/questions/chapterN.json`, one file per handbook chapter. Vite emits each as its own async chunk, so the full question bank never lands in the initial bundle.
 
-The official question bank is confidential and unpublished, so these are authored from *Life in the United Kingdom: A Guide for New Residents* (3rd ed.). **98 questions are in place; the target is 2,000+.** `npm run questions:stats` shows the gap per chapter.
+The official question bank is confidential and unpublished, so these are authored from *Life in the United Kingdom: A Guide for New Residents* (3rd ed.). **1,596 questions are in place; the target is 2,000+.** `npm run questions:stats` shows the gap per chapter.
 
 Adding questions:
 
@@ -68,7 +68,6 @@ scripts/           question bank validation and coverage tooling
 
 ## Not yet built
 
-- PWA / offline service worker
 - Handbook study notes alongside the questions
 - Google sign-in
-- The remaining ~1,900 questions
+- The remaining 404 questions needed to reach the 2,000-question target

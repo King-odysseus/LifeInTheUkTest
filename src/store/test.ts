@@ -75,52 +75,57 @@ export const useTest = create<TestStore>((set, get) => ({
 
   async start(config) {
     set({ status: 'loading' })
-    const count = config.count ?? defaultCounts[config.mode]
+    try {
+      const count = config.count ?? defaultCounts[config.mode]
 
-    let questions: Question[]
-    if (config.mode === 'mock') {
-      questions = await buildExam(EXAM.questionCount)
-    } else if (config.mode === 'weak' || config.focusWeak) {
-      const weak = await weakQuestionIds(500)
-      const prioritised = await sampleQuestions({
-        only: weak,
-        chapters: config.chapters,
-        difficulty: config.difficulty,
-        count,
+      let questions: Question[]
+      if (config.mode === 'mock') {
+        questions = await buildExam(EXAM.questionCount)
+      } else if (config.mode === 'weak' || config.focusWeak) {
+        const weak = await weakQuestionIds(500)
+        const prioritised = await sampleQuestions({
+          only: weak,
+          chapters: config.chapters,
+          difficulty: config.difficulty,
+          count,
+        })
+        // Fill any shortfall with unseen questions matching the other filters.
+        const shortfall = count - prioritised.length
+        const filler = shortfall > 0
+          ? await sampleQuestions({
+              chapters: config.chapters,
+              difficulty: config.difficulty,
+              exclude: prioritised.map((question) => question.id),
+              count: shortfall,
+            })
+          : []
+        questions = [...prioritised, ...filler]
+      } else {
+        questions = await sampleQuestions({
+          chapters: config.chapters,
+          difficulty: config.difficulty,
+          count,
+        })
+      }
+
+      const now = Date.now()
+      set({
+        status: 'active',
+        config,
+        questions,
+        index: 0,
+        chosen: {},
+        flagged: new Set(),
+        timeSpent: {},
+        startedAt: now,
+        questionStartedAt: now,
+        deadline: config.mode === 'mock' || config.timed ? now + EXAM.durationMs : null,
+        result: null,
       })
-      // Fill any shortfall with unseen questions matching the other filters.
-      const shortfall = count - prioritised.length
-      const filler = shortfall > 0
-        ? await sampleQuestions({
-            chapters: config.chapters,
-            difficulty: config.difficulty,
-            exclude: prioritised.map((question) => question.id),
-            count: shortfall,
-          })
-        : []
-      questions = [...prioritised, ...filler]
-    } else {
-      questions = await sampleQuestions({
-        chapters: config.chapters,
-        difficulty: config.difficulty,
-        count,
-      })
+    } catch (error) {
+      set({ status: 'idle' })
+      throw error
     }
-
-    const now = Date.now()
-    set({
-      status: 'active',
-      config,
-      questions,
-      index: 0,
-      chosen: {},
-      flagged: new Set(),
-      timeSpent: {},
-      startedAt: now,
-      questionStartedAt: now,
-      deadline: config.mode === 'mock' || config.timed ? now + EXAM.durationMs : null,
-      result: null,
-    })
   },
 
   select(optionIndex) {

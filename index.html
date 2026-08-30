@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#0B0B45" />
+    <script>
+      try {
+        const theme = localStorage.getItem('theme')
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme
+      } catch {}
+    </script>
     <meta
       name="description"
       content="Practice for the Life in the UK test with full mock exams, chapter drills and spaced repetition."

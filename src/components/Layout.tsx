@@ -27,11 +27,35 @@ type Theme = 'system' | 'light' | 'dark'
 
 const themeOrder: Theme[] = ['light', 'dark', 'system']
 
+function storedTheme(): Theme | null {
+  try {
+    const saved = localStorage.getItem('theme')
+    return saved === 'light' || saved === 'dark' || saved === 'system' ? saved : null
+  } catch {
+    return null
+  }
+}
+
+function rememberTheme(theme: Theme) {
+  try {
+    localStorage.setItem('theme', theme)
+  } catch {
+    // The preference still applies for this session when storage is blocked.
+  }
+}
+
 function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>('system')
+  const [theme, setTheme] = useState<Theme>(() => storedTheme() ?? 'system')
 
   useEffect(() => {
-    void getPref<Theme>('theme', 'system').then(setTheme)
+    // Migrate the older IndexedDB-only preference once. localStorage lets the
+    // tiny script in index.html apply the theme before React paints.
+    if (storedTheme() == null) {
+      void getPref<Theme>('theme', 'system').then((saved) => {
+        setTheme(saved)
+        rememberTheme(saved)
+      }).catch(() => undefined)
+    }
   }, [])
 
   useEffect(() => {
@@ -42,7 +66,8 @@ function ThemeToggle() {
   const cycle = () => {
     const next = themeOrder[(themeOrder.indexOf(theme) + 1) % themeOrder.length]
     setTheme(next)
-    void setPref('theme', next)
+    rememberTheme(next)
+    void setPref('theme', next).catch(() => undefined)
   }
 
   const Icon = theme === 'system' ? Monitor : theme === 'light' ? Sun : Moon

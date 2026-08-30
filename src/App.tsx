@@ -11,6 +11,7 @@ import SignIn from './routes/SignIn'
 import SignUp from './routes/SignUp'
 import ResetPassword from './routes/ResetPassword'
 import Account from './routes/Account'
+import NotFound from './routes/NotFound'
 import { useAuth } from './store/auth'
 
 export default function App() {
@@ -36,7 +37,7 @@ export default function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/reset" element={<ResetPassword />} />
           <Route path="/account" element={<Account />} />
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </>

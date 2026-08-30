@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { Check, Clock3, X } from 'lucide-react'
 import { useTest } from '../store/test'
 import { isCorrect } from '../lib/questions'
-import { Button, Spinner } from '../components/ui'
+import { Alert, Button, Spinner } from '../components/ui'
 
 function formatClock(ms: number) {
   const total = Math.max(0, Math.round(ms / 1000))
@@ -67,7 +67,11 @@ export default function TestScreen() {
     toggleFlag,
     openReview,
     finish,
+    reset,
   } = useTest()
+  const [submitting, setSubmitting] = useState(false)
+  const [submitError, setSubmitError] = useState('')
+  const submittingRef = useRef(false)
 
   const question = questions[index]
   const picks = question ? (chosen[question.id] ?? []) : []
@@ -76,16 +80,37 @@ export default function TestScreen() {
   const answered = picks.length === (question?.correct.length ?? 1)
   const revealed = instant && answered
 
-  const submit = async () => {
-    await finish()
-    navigate('/results')
+  const submit = useCallback(async () => {
+    if (submittingRef.current) return
+    submittingRef.current = true
+    setSubmitting(true)
+    setSubmitError('')
+    try {
+      await finish()
+      navigate('/results')
+    } catch {
+      submittingRef.current = false
+      setSubmitting(false)
+      setSubmitError('Could not save your result. Your answers are still here — please try again.')
+    }
+  }, [finish, navigate])
+
+  const exitTest = () => {
+    const hasAnswers = Object.values(chosen).some((answers) => answers.length > 0)
+    if (hasAnswers && !window.confirm('Leave this test? Your answers from this attempt will be lost.')) return
+    reset()
+    navigate('/')
   }
 
   // Keyboard shortcuts: 1-4 to answer, arrows to move, Enter to advance.
   useEffect(() => {
     if (status !== 'active' || !question) return
     const onKey = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement) return
+      const target = e.target
+      if (
+        target instanceof HTMLElement &&
+        target.closest('button, input, select, textarea, a, [contenteditable="true"]')
+      ) return
       const digit = Number(e.key)
       if (digit >= 1 && digit <= question.options.length) {
         select(digit - 1)
@@ -111,7 +136,7 @@ export default function TestScreen() {
       else openReview()
     }, autoAdvanceDelay)
     return () => window.clearTimeout(id)
-  }, [status, instant, answered, index, questions.length, next, openReview, autoAdvanceDelay])
+  }, [status, instant, answered, index, questions.length, next, openReview, autoAdvanceDelay, submit])
 
   if (status === 'idle') {
     return <Navigate to="/" replace />
@@ -158,11 +183,19 @@ export default function TestScreen() {
         </ol>
 
         <div className="mt-8 grid gap-2 sm:flex">
-          <Button className="w-full sm:w-auto" onClick={() => void submit()}>Submit test</Button>
-          <Button className="w-full sm:w-auto" variant="secondary" onClick={() => useTest.setState({ status: 'active' })}>
+          <Button className="w-full sm:w-auto" disabled={submitting} onClick={() => void submit()}>
+            {submitting ? 'Saving result…' : 'Submit test'}
+          </Button>
+          <Button
+            className="w-full sm:w-auto"
+            variant="secondary"
+            disabled={submitting}
+            onClick={() => useTest.setState({ status: 'active' })}
+          >
             Keep checking
           </Button>
         </div>
+        {submitError && <div className="mt-4 max-w-xl"><Alert>{submitError}</Alert></div>}
       </div>
     )
   }
@@ -177,7 +210,7 @@ export default function TestScreen() {
     <div className="flex min-h-dvh w-full flex-col px-4 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:px-6 lg:px-10">
       <header className="flex min-h-18 items-center gap-3 border-b border-line py-3 sm:min-h-24 sm:py-4">
         <button
-          onClick={() => navigate('/')}
+          onClick={exitTest}
           className="rounded-full px-3 py-2.5 text-base font-semibold text-muted transition hover:bg-surface hover:text-ink sm:px-5 sm:text-lg"
         >
           Exit
@@ -189,7 +222,7 @@ export default function TestScreen() {
               {index + 1} <span className="text-muted">of {questions.length}</span>
             </p>
           </div>
-          {deadline && <Timer deadline={deadline} onExpire={() => void submit()} />}
+          {deadline && <Timer deadline={deadline} onExpire={submit} />}
         </div>
       </header>
 
@@ -301,6 +334,7 @@ export default function TestScreen() {
           )}
         </div>
       </footer>
+      {submitError && <div className="pb-3"><Alert>{submitError}</Alert></div>}
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { BarChart3, Play, RefreshCw, Target, Trash2, UserPlus, Zap } from 'lucide-react'
-import { Button, ButtonLink, Card, Meter } from '../components/ui'
+import { Alert, Button, ButtonLink, Card, Meter } from '../components/ui'
 import { useTest } from '../store/test'
 import { useAuth } from '../store/auth'
 import { customTestPresets, deleteCustomTestPreset, recentAttempts, touchCustomTestPreset } from '../lib/db'
@@ -33,6 +33,7 @@ export default function Home() {
   const [due, setDue] = useState(0)
   const [recentTests, setRecentTests] = useState<CustomTestPreset[]>([])
   const [starting, setStarting] = useState(false)
+  const [error, setError] = useState('')
 
   useEffect(() => {
     void recentAttempts(20).then(setAttempts)
@@ -45,23 +46,35 @@ export default function Home() {
 
   const begin = async (mode: 'mock' | 'rapid' | 'weak') => {
     setStarting(true)
-    await start({ mode, instantFeedback: mode !== 'mock' })
-    navigate('/test')
+    setError('')
+    try {
+      await start({ mode, instantFeedback: mode !== 'mock' })
+      navigate('/test')
+    } catch {
+      setError('Could not prepare the test. Check that browser storage is available and try again.')
+      setStarting(false)
+    }
   }
 
   const beginPreset = async (preset: CustomTestPreset) => {
     setStarting(true)
-    const updated = await touchCustomTestPreset(preset)
-    await start({
-      mode: updated.rapid ? 'rapid' : 'custom',
-      chapters: updated.chapters.length ? updated.chapters : undefined,
-      difficulty: updated.difficulty.length ? updated.difficulty : undefined,
-      count: updated.count,
-      timed: updated.rapid ? false : updated.timed,
-      instantFeedback: updated.rapid || !updated.timed,
-      focusWeak: updated.focusWeak,
-    })
-    navigate('/test')
+    setError('')
+    try {
+      const updated = await touchCustomTestPreset(preset)
+      await start({
+        mode: updated.rapid ? 'rapid' : 'custom',
+        chapters: updated.chapters.length ? updated.chapters : undefined,
+        difficulty: updated.difficulty.length ? updated.difficulty : undefined,
+        count: updated.count,
+        timed: updated.rapid ? false : updated.timed,
+        instantFeedback: updated.rapid || !updated.timed,
+        focusWeak: updated.focusWeak,
+      })
+      navigate('/test')
+    } catch {
+      setError('Could not open this saved test. Please try again.')
+      setStarting(false)
+    }
   }
 
   const removePreset = async (id: string) => {
@@ -85,7 +98,7 @@ export default function Home() {
               <span className="text-sm text-muted">Readiness</span>
               <span className="text-2xl font-semibold tabular-nums">{score}%</span>
             </div>
-            <Meter value={score} />
+            <Meter value={score} label="Exam readiness" />
             <p className="mt-1.5 text-xs text-muted">
               {score >= 85
                 ? 'You are consistently passing. Book the test.'
@@ -112,6 +125,7 @@ export default function Home() {
             </Button>
           )}
         </div>
+        {error && <div className="mt-4"><Alert>{error}</Alert></div>}
       </section>
 
       {recentTests.length > 0 && (
