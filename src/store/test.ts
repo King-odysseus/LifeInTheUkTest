@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import {
   EXAM,
+  type ActiveTestSnapshot,
   type Attempt,
   type ChapterId,
   type Difficulty,
@@ -8,7 +9,7 @@ import {
   type TestMode,
 } from '../lib/types'
 import { buildExam, isCorrect, sampleQuestions } from '../lib/questions'
-import { saveAttempt, weakQuestionIds } from '../lib/db'
+import { clearActiveTest, loadActiveTest, saveActiveTest, saveAttempt, weakQuestionIds } from '../lib/db'
 import { recordReview } from '../lib/srs'
 import { newId } from '../lib/id'
 import { useAuth } from './auth'
@@ -24,6 +25,8 @@ export interface TestConfig {
   /** Prioritise questions the learner has previously answered incorrectly. */
   focusWeak?: boolean
 }
+
+export type ResumeResult = 'resumed' | 'expired' | 'none'
 
 interface TestStore {
   status: 'idle' | 'loading' | 'active' | 'review' | 'finished'
@@ -47,8 +50,13 @@ interface TestStore {
   prev: () => void
   toggleFlag: () => void
   openReview: () => void
+  backToActive: () => void
   finish: () => Promise<Attempt>
   reset: () => void
+  /** Restores a saved test from IndexedDB. Expired timed tests are submitted immediately. */
+  resume: () => Promise<ResumeResult>
+  /** Deletes a saved test without restoring it. */
+  discardSaved: () => Promise<void>
 }
 
 const defaultCounts: Record<TestMode, number> = {
@@ -58,6 +66,28 @@ const defaultCounts: Record<TestMode, number> = {
   rapid: 10,
   endless: 200,
   custom: 24,
+}
+
+/** Only an active or in-review test is worth persisting; anything else clears the saved slot. */
+function persist(state: TestStore) {
+  if ((state.status !== 'active' && state.status !== 'review') || !state.config) {
+    void clearActiveTest().catch(() => undefined)
+    return
+  }
+  const snapshot: Omit<ActiveTestSnapshot, 'id'> = {
+    config: state.config,
+    questions: state.questions,
+    index: state.index,
+    chosen: state.chosen,
+    flagged: [...state.flagged],
+    startedAt: state.startedAt,
+    questionStartedAt: state.questionStartedAt,
+    timeSpent: state.timeSpent,
+    deadline: state.deadline,
+    status: state.status,
+    savedAt: Date.now(),
+  }
+  void saveActiveTest(snapshot).catch(() => undefined)
 }
 
 export const useTest = create<TestStore>((set, get) => ({
@@ -189,6 +219,10 @@ export const useTest = create<TestStore>((set, get) => ({
     set({ status: 'review' })
   },
 
+  backToActive() {
+    set({ status: 'active', questionStartedAt: Date.now() })
+  },
+
   async finish() {
     const { questions, chosen, timeSpent, startedAt, index, questionStartedAt, config } = get()
 
@@ -236,6 +270,7 @@ export const useTest = create<TestStore>((set, get) => ({
     void useAuth.getState().syncUp()
 
     set({ status: 'finished', result: attempt })
+    await clearActiveTest().catch(() => undefined)
     return attempt
   },
 
@@ -252,5 +287,45 @@ export const useTest = create<TestStore>((set, get) => ({
       deadline: null,
       result: null,
     })
+    void clearActiveTest().catch(() => undefined)
+  },
+
+  async resume() {
+    const snapshot = await loadActiveTest()
+    if (!snapshot) return 'none'
+
+    const expired = snapshot.deadline != null && snapshot.deadline <= Date.now()
+    const now = Date.now()
+    set({
+      status: 'active',
+      config: snapshot.config,
+      questions: snapshot.questions,
+      index: snapshot.index,
+      chosen: snapshot.chosen,
+      flagged: new Set(snapshot.flagged),
+      startedAt: snapshot.startedAt,
+      questionStartedAt: now,
+      timeSpent: snapshot.timeSpent,
+      deadline: snapshot.deadline,
+      result: null,
+    })
+
+    if (expired) {
+      // The clock ran out while this browser was closed. Submit safely with
+      // whatever was answered rather than resuming a test whose time is gone.
+      await get().finish()
+      return 'expired'
+    }
+
+    set({ status: snapshot.status })
+    return 'resumed'
+  },
+
+  async discardSaved() {
+    await clearActiveTest()
   },
 }))
+
+// Persist after every meaningful state change so a refresh or a closed tab
+// can restore exactly where the learner left off.
+useTest.subscribe((state) => persist(state))

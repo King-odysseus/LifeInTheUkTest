@@ -1,5 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie'
-import type { Attempt, CustomTestPreset, SrsState } from './types'
+import type { ActiveTestSnapshot, Attempt, CustomTestPreset, MistakeOverride, SrsState } from './types'
 
 /**
  * Local-first storage. Everything works with no account at all; when someone
@@ -9,6 +9,7 @@ class LiukDatabase extends Dexie {
   attempts!: EntityTable<Attempt, 'id'>
   srs!: EntityTable<SrsState, 'questionId'>
   prefs!: EntityTable<{ key: string; value: unknown }, 'key'>
+  activeTest!: EntityTable<ActiveTestSnapshot, 'id'>
 
   constructor() {
     super('life-in-the-uk')
@@ -16,6 +17,14 @@ class LiukDatabase extends Dexie {
       attempts: 'id, takenAt, mode, synced',
       srs: 'questionId, dueAt',
       prefs: 'key',
+    })
+    // v2 adds a singleton table for resuming an in-progress test after a
+    // refresh or a closed tab. Existing installs upgrade with no data loss.
+    this.version(2).stores({
+      attempts: 'id, takenAt, mode, synced',
+      srs: 'questionId, dueAt',
+      prefs: 'key',
+      activeTest: 'id',
     })
   }
 }
@@ -28,6 +37,11 @@ export async function saveAttempt(attempt: Attempt) {
 
 export async function recentAttempts(limit = 50): Promise<Attempt[]> {
   return db.attempts.orderBy('takenAt').reverse().limit(limit).toArray()
+}
+
+/** Every attempt ever recorded on this device, used to build the mistake bank. */
+export async function allAttempts(): Promise<Attempt[]> {
+  return db.attempts.toArray()
 }
 
 export async function unsyncedAttempts(): Promise<Attempt[]> {
@@ -115,4 +129,39 @@ export async function deleteCustomTestPreset(id: string) {
 
 export async function clearLocalProgress() {
   await Promise.all([db.attempts.clear(), db.srs.clear()])
+}
+
+// -------------------------------------------------------------- active test
+
+const ACTIVE_TEST_ID = 'current'
+
+export async function saveActiveTest(snapshot: Omit<ActiveTestSnapshot, 'id'>) {
+  await db.activeTest.put({ ...snapshot, id: ACTIVE_TEST_ID })
+}
+
+export async function loadActiveTest(): Promise<ActiveTestSnapshot | null> {
+  const row = await db.activeTest.get(ACTIVE_TEST_ID)
+  return row ?? null
+}
+
+export async function clearActiveTest() {
+  await db.activeTest.delete(ACTIVE_TEST_ID)
+}
+
+// ------------------------------------------------------------ mistake bank
+
+const MISTAKE_OVERRIDES_KEY = 'mistake-overrides'
+
+export async function mistakeOverrides(): Promise<Record<string, MistakeOverride>> {
+  const overrides = await getPref<Record<string, MistakeOverride>>(MISTAKE_OVERRIDES_KEY, {})
+  return overrides && typeof overrides === 'object' ? overrides : {}
+}
+
+/** Pass `null` to clear back to the automatic (score-derived) state. */
+export async function setMistakeOverride(questionId: string, override: MistakeOverride | null) {
+  const current = await mistakeOverrides()
+  const next = { ...current }
+  if (override) next[questionId] = override
+  else delete next[questionId]
+  await setPref(MISTAKE_OVERRIDES_KEY, next)
 }

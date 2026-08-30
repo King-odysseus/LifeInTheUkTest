@@ -4,7 +4,14 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 import path from 'node:path'
 
+// A fresh id per build (rather than a hand-maintained version string) so the
+// update notice never depends on a developer remembering to bump anything.
+const buildId = process.env.SOURCE_VERSION ?? String(Date.now())
+
 export default defineConfig({
+  define: {
+    __APP_BUILD_ID__: JSON.stringify(buildId),
+  },
   plugins: [
     react(),
     tailwindcss(),

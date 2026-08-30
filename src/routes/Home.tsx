@@ -1,12 +1,27 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { BarChart3, Play, RefreshCw, Target, Trash2, UserPlus, Zap } from 'lucide-react'
+import { BarChart3, Play, RefreshCw, RotateCcw, Target, Trash2, UserPlus, X, Zap } from 'lucide-react'
 import { Alert, Button, ButtonLink, Card, Meter } from '../components/ui'
 import { useTest } from '../store/test'
 import { useAuth } from '../store/auth'
-import { customTestPresets, deleteCustomTestPreset, recentAttempts, touchCustomTestPreset } from '../lib/db'
+import {
+  customTestPresets,
+  deleteCustomTestPreset,
+  loadActiveTest,
+  recentAttempts,
+  touchCustomTestPreset,
+} from '../lib/db'
 import { dueCount } from '../lib/srs'
-import { EXAM, type Attempt, type CustomTestPreset } from '../lib/types'
+import { EXAM, type ActiveTestSnapshot, type Attempt, type CustomTestPreset } from '../lib/types'
+
+const modeLabels: Record<ActiveTestSnapshot['config']['mode'], string> = {
+  mock: 'Full mock test',
+  chapter: 'Chapter drill',
+  weak: 'Weak areas practice',
+  rapid: 'Quick 10',
+  endless: 'Endless practice',
+  custom: 'Custom test',
+}
 
 /**
  * A single readiness number is more motivating than a wall of statistics.
@@ -34,12 +49,35 @@ export default function Home() {
   const [recentTests, setRecentTests] = useState<CustomTestPreset[]>([])
   const [starting, setStarting] = useState(false)
   const [error, setError] = useState('')
+  const [saved, setSaved] = useState<ActiveTestSnapshot | null>(null)
+  const [resuming, setResuming] = useState(false)
 
   useEffect(() => {
     void recentAttempts(20).then(setAttempts)
     void dueCount().then(setDue)
     void customTestPresets().then(setRecentTests)
+    void loadActiveTest().then(setSaved)
   }, [])
+
+  const resumeSaved = async () => {
+    setResuming(true)
+    setError('')
+    try {
+      const result = await useTest.getState().resume()
+      if (result === 'resumed') navigate('/test')
+      else if (result === 'expired') navigate('/results')
+      setSaved(null)
+    } catch {
+      setError('Could not resume your saved test. Please try again.')
+    } finally {
+      setResuming(false)
+    }
+  }
+
+  const discardSaved = async () => {
+    await useTest.getState().discardSaved()
+    setSaved(null)
+  }
 
   const score = readiness(attempts)
   const lastMock = attempts.find((a) => a.mode === 'mock')
@@ -84,6 +122,45 @@ export default function Home() {
 
   return (
     <div className="space-y-5">
+      {saved && (
+        <div className="rounded-2xl border border-brand/30 bg-brand-soft px-5 py-4 sm:px-6">
+          <div className="flex items-start gap-3">
+            <RotateCcw size={20} className="mt-0.5 shrink-0 text-brand" aria-hidden="true" />
+            <div className="min-w-0 flex-1">
+              <h2 className="font-semibold text-navy">Resume your test</h2>
+              <p className="mt-1 text-sm text-muted">
+                {modeLabels[saved.config.mode]} · question {Math.min(saved.index + 1, saved.questions.length)} of{' '}
+                {saved.questions.length}
+                {saved.deadline && saved.deadline > Date.now()
+                  ? ` · ${Math.max(1, Math.round((saved.deadline - Date.now()) / 60000))} min left`
+                  : saved.deadline
+                    ? ' · time is up'
+                    : ''}
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                <Button
+                  className="min-h-11"
+                  onClick={() => void resumeSaved()}
+                  disabled={resuming}
+                >
+                  <Play size={16} />
+                  Resume test
+                </Button>
+                <Button
+                  className="min-h-11"
+                  variant="secondary"
+                  onClick={() => void discardSaved()}
+                  disabled={resuming}
+                >
+                  <X size={16} />
+                  Discard
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <section className="card px-5 py-7 sm:px-6 sm:py-9 lg:px-8 lg:py-10">
         <p className="eyebrow">Mock exam & revision</p>
         <h1 className="mt-1 text-xl font-semibold text-navy">Practice for the Life in the UK test</h1>

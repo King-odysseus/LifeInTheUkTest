@@ -99,3 +99,34 @@ export interface User {
   displayName: string | null
   createdAt: number
 }
+
+/**
+ * A snapshot of an in-progress test, persisted so it survives a refresh or a
+ * closed tab. Only one test can be active at a time, so this is a singleton
+ * row keyed by `id: 'current'`.
+ */
+export interface ActiveTestSnapshot {
+  id: 'current'
+  config: {
+    mode: TestMode
+    chapters?: ChapterId[]
+    count?: number
+    difficulty?: Difficulty[]
+    timed?: boolean
+    instantFeedback?: boolean
+    focusWeak?: boolean
+  }
+  questions: Question[]
+  index: number
+  chosen: Record<string, number[]>
+  flagged: string[]
+  startedAt: number
+  questionStartedAt: number
+  timeSpent: Record<string, number>
+  deadline: number | null
+  status: 'active' | 'review'
+  savedAt: number
+}
+
+/** Manual override for a mistake-bank entry; `undefined` means "let it auto-resolve". */
+export type MistakeOverride = 'reviewed' | 'reopened'

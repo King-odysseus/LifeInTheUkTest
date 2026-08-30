@@ -16,7 +16,12 @@ npm run build              # typecheck + production bundle
 npm start                  # serve the built app from the Hono server
 npm run questions:validate # gate the question bank (runs in the Docker build)
 npm run questions:stats    # coverage against the 2,000-question target
+npm run typecheck          # tsc, no emit
+npm test                   # Vitest suite, once
+npm run test:watch         # Vitest in watch mode
 ```
+
+Frontend tests run on Vitest + Testing Library in jsdom, with `fake-indexeddb` standing in for the browser's IndexedDB so the Dexie layer is exercised for real rather than mocked.
 
 ## Deploying to Railway
 
@@ -41,6 +46,22 @@ Deliberately minimal, because a sign-up wall is where practice apps lose people:
 Passwords use `scrypt` from `node:crypto` with a per-password salt; sessions are httpOnly, SameSite=Lax cookies stored in Postgres.
 
 > The in-memory rate limiter is per-process. If this ever scales past one Railway replica, move it to Postgres or Redis.
+
+## Resuming an unfinished test
+
+An in-progress test is snapshotted to IndexedDB after every meaningful change — questions, current position, answers, flags, per-question timings and the deadline. A refresh, a closed tab or a browser restart therefore loses nothing: the Home screen offers **Resume test** or **Discard**.
+
+A timed test keeps its *original* deadline rather than restarting the clock. If that deadline passed while the browser was closed, resuming submits the attempt with whatever was answered instead of handing back a test whose time is already gone. Finished tests are cleared from the slot, so they never reappear as resumable. All of this is local-first and works with no account.
+
+## Mistake Bank
+
+`/mistakes` derives every missed question from local attempt history — no server sync in this direction. Repeated misses on the same question merge into a single entry with an occurrence count, shown alongside the learner's latest answer, the correct answer, the explanation, and the chapter and section.
+
+Answering a question correctly later resolves its mistake automatically. Entries can also be marked reviewed or reopened by hand; those manual overrides live in Dexie preferences and take precedence over the automatic state. Filter by **Open**, **Reviewed** or **All**. Reachable from the Progress page.
+
+## Update notices
+
+`vite.config.ts` injects a fresh `__APP_BUILD_ID__` on every build, so nothing has to be bumped by hand. A returning browser holding an older id sees a dismissible notice with **Refresh now**, which updates the service worker and drops its CacheStorage entries. IndexedDB is never touched, so attempts, flashcard schedules and any in-progress test survive the refresh. The notice never appears on a first visit.
 
 ## The question bank
 

@@ -5,6 +5,7 @@ import Home from './routes/Home'
 import Practice from './routes/Practice'
 import Study from './routes/Study'
 import Stats from './routes/Stats'
+import Mistakes from './routes/Mistakes'
 import TestScreen from './routes/TestScreen'
 import Results from './routes/Results'
 import SignIn from './routes/SignIn'
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/practice" element={<Practice />} />
           <Route path="/study" element={<Study />} />
           <Route path="/stats" element={<Stats />} />
+          <Route path="/mistakes" element={<Mistakes />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/reset" element={<ResetPassword />} />

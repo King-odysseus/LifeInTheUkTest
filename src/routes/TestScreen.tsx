@@ -66,6 +66,7 @@ export default function TestScreen() {
     goto,
     toggleFlag,
     openReview,
+    backToActive,
     finish,
     reset,
   } = useTest()
@@ -164,7 +165,7 @@ export default function TestScreen() {
                 <button
                   onClick={() => {
                     goto(i)
-                    useTest.setState({ status: 'active' })
+                    backToActive()
                   }}
                   className={`h-12 w-full rounded-xl border text-sm font-medium tabular-nums transition hover:-translate-y-0.5 ${
                     flag
@@ -190,7 +191,7 @@ export default function TestScreen() {
             className="w-full sm:w-auto"
             variant="secondary"
             disabled={submitting}
-            onClick={() => useTest.setState({ status: 'active' })}
+            onClick={backToActive}
           >
             Keep checking
           </Button>

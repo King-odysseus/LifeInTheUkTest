@@ -15,6 +15,7 @@ import {
 } from 'lucide-react'
 import { useAuth } from '../store/auth'
 import { getPref, setPref } from '../lib/db'
+import { AppUpdateNotice } from './AppUpdateNotice'
 
 const links = [
   { to: '/', label: 'Home', mobileLabel: 'Home', icon: Home, end: true },
@@ -189,6 +190,7 @@ export default function Layout() {
       </header>
 
       <main className="w-full px-4 pt-5 pb-[calc(7rem+env(safe-area-inset-bottom))] sm:px-6 lg:px-8 lg:py-8 xl:px-10">
+        <AppUpdateNotice />
         <div key={location.pathname} className="animate-fade-up">
           <Outlet />
         </div>

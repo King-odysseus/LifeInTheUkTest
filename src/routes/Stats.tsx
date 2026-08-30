@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import { Card, Meter, Spinner } from '../components/ui'
+import { BookX } from 'lucide-react'
+import { ButtonLink, Card, Meter, Spinner } from '../components/ui'
 import { db, questionHistory, recentAttempts } from '../lib/db'
 import { loadAll } from '../lib/questions'
 import { dueCount } from '../lib/srs'
@@ -109,6 +110,18 @@ export default function Stats() {
           </p>
         </Card>
       )}
+
+      <Card>
+        <h2 className="font-medium">Mistake Bank</h2>
+        <p className="mt-1 text-sm text-muted">
+          Every question you have missed, merged into one place, with the correct answer and
+          explanation alongside your latest attempt.
+        </p>
+        <ButtonLink to="/mistakes" variant="secondary" className="mt-3">
+          <BookX size={16} />
+          Review mistakes
+        </ButtonLink>
+      </Card>
 
       <Card>
         <h2 className="font-medium">Flashcard progress</h2>
