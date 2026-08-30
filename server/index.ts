@@ -3,6 +3,7 @@ import { serve } from '@hono/node-server'
 import { serveStatic } from '@hono/node-server/serve-static'
 import { compress } from 'hono/compress'
 import { logger } from 'hono/logger'
+import { randomUUID } from 'node:crypto'
 import { authRoutes } from './routes/auth.ts'
 import { progressRoutes } from './routes/progress.ts'
 import { dbEnabled, migrate } from './db.ts'
@@ -10,6 +11,19 @@ import { dbEnabled, migrate } from './db.ts'
 const isProd = process.env.NODE_ENV === 'production'
 
 const app = new Hono()
+
+// Correlate production errors without logging learner answers or account data.
+app.use('*', async (c, next) => {
+  const incoming = c.req.header('x-request-id')
+  const requestId = incoming && /^[A-Za-z0-9._-]{1,100}$/.test(incoming) ? incoming : randomUUID()
+  c.header('X-Request-Id', requestId)
+  c.header('X-Content-Type-Options', 'nosniff')
+  c.header('X-Frame-Options', 'DENY')
+  c.header('Referrer-Policy', 'strict-origin-when-cross-origin')
+  c.header('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
+  if (isProd) c.header('Strict-Transport-Security', 'max-age=31536000; includeSubDomains')
+  await next()
+})
 
 // The question bank is the bulk of what this server sends, and it is highly
 // compressible JSON. Without this every visitor downloads roughly three times
@@ -37,7 +51,7 @@ app.route('/api/auth', authRoutes)
 app.route('/api/progress', progressRoutes)
 
 app.onError((err, c) => {
-  console.error('[api]', err)
+  console.error('[api]', { requestId: c.res.headers.get('X-Request-Id'), error: err })
   return c.json({ error: 'Something went wrong. Please try again.' }, 500)
 })
 

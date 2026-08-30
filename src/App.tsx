@@ -12,6 +12,7 @@ import SignUp from './routes/SignUp'
 import ResetPassword from './routes/ResetPassword'
 import Account from './routes/Account'
 import NotFound from './routes/NotFound'
+import StudyPlan from './routes/StudyPlan'
 import { useAuth } from './store/auth'
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/practice" element={<Practice />} />
           <Route path="/study" element={<Study />} />
           <Route path="/stats" element={<Stats />} />
+          <Route path="/plan" element={<StudyPlan />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/reset" element={<ResetPassword />} />

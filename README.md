@@ -26,6 +26,10 @@ npm run questions:stats    # coverage against the 2,000-question target
 
 `railway.json` sets the healthcheck to `/api/health`, which reports whether accounts are available.
 
+Operational guidance lives in [`docs/PRODUCTION_DEPLOYMENT.md`](docs/PRODUCTION_DEPLOYMENT.md),
+[`docs/RELEASE_CHECKLIST.md`](docs/RELEASE_CHECKLIST.md), and
+[`docs/BACKUP_RESTORE.md`](docs/BACKUP_RESTORE.md).
+
 ## How accounts work
 
 Deliberately minimal, because a sign-up wall is where practice apps lose people:
@@ -35,6 +39,9 @@ Deliberately minimal, because a sign-up wall is where practice apps lose people:
 - **Simple in-app recovery.** A signed-in user can change their password directly. They can also set a security question for forgotten-password recovery without an email or verification code.
 - **Cross-device progress.** Local guest work is merged into the account and the complete attempt/SRS history is restored after sign-in. The Progress page shows the score trend in percentage points.
 - **Account-backed flashcards.** Every flashcard grade updates its spaced-repetition schedule, syncs for signed-in users, and contributes to learning/mastered totals on the Progress page.
+- **Adaptive study planning.** Test date, daily minutes, preferred days and timezone produce a local-first daily plan, exam countdown and practice streak. Settings sync for signed-in users.
+- **Explainable readiness.** Performance, chapter coverage, recency and practice volume are shown separately; the combined indicator is revision guidance rather than an official result prediction.
+- **Account privacy controls.** Signed-in learners can download a JSON copy of their learning data or permanently delete the account after confirming their current password.
 - **90-day sliding sessions**, so the cheapest reset is the one nobody needs.
 - **Rate limited** to 10 attempts per IP per minute on auth routes.
 

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type PointerEvent } from 'react'
 import { ChevronLeft, ChevronRight, RotateCw } from 'lucide-react'
-import { Button, Card, Spinner } from '../components/ui'
+import { Button, ButtonLink, Card, Spinner } from '../components/ui'
 import { db } from '../lib/db'
 import { dueQuestionIds } from '../lib/srs'
 import { schedule } from '../lib/srs'
@@ -112,6 +112,7 @@ export default function Study() {
             {index + 1} of {cards.length}
           </span>
         </div>
+        <ButtonLink to="/plan" variant="ghost" className="mt-2 px-0">View today&rsquo;s study plan</ButtonLink>
       </div>
 
       <div

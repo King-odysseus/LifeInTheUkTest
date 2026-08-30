@@ -1,11 +1,65 @@
 import { Hono } from 'hono'
 import { pool, query } from '../db.ts'
 import { requireAuth, type SessionUser } from '../auth.ts'
-import type { Attempt, SrsState } from '../../src/lib/types.ts'
+import type { Attempt, SrsState, StudyProfile } from '../../src/lib/types.ts'
 
 export const progressRoutes = new Hono<{ Variables: { user: SessionUser } }>()
 
 progressRoutes.use('*', requireAuth)
+
+function validProfile(profile: StudyProfile): string | null {
+  if (profile.examDate != null) {
+    const parsed = new Date(`${profile.examDate}T00:00:00Z`)
+    if (
+      !/^\d{4}-\d{2}-\d{2}$/.test(profile.examDate) ||
+      !Number.isFinite(parsed.getTime()) ||
+      parsed.toISOString().slice(0, 10) !== profile.examDate
+    ) return 'Choose a valid exam date.'
+  }
+  if (!Number.isInteger(profile.dailyMinutes) || profile.dailyMinutes < 5 || profile.dailyMinutes > 180)
+    return 'Daily study time must be between 5 and 180 minutes.'
+  if (
+    !Array.isArray(profile.preferredWeekdays) || profile.preferredWeekdays.length === 0 ||
+    profile.preferredWeekdays.some((day) => !Number.isInteger(day) || day < 1 || day > 7)
+  ) return 'Preferred study days are invalid.'
+  try {
+    new Intl.DateTimeFormat('en-GB', { timeZone: profile.timezone })
+  } catch {
+    return 'Choose a valid timezone.'
+  }
+  return null
+}
+
+async function saveProfile(userId: string, profile: StudyProfile) {
+  const error = validProfile(profile)
+  if (error) throw new Error(error)
+  const rows = await query<{
+    examDate: string | null
+    dailyMinutes: number
+    preferredWeekdays: number[]
+    timezone: string
+  }>(
+    `INSERT INTO learner_profiles (user_id, exam_date, daily_minutes, preferred_weekdays, timezone)
+     VALUES ($1, $2, $3, $4, $5)
+     ON CONFLICT (user_id) DO UPDATE SET
+       exam_date = EXCLUDED.exam_date,
+       daily_minutes = EXCLUDED.daily_minutes,
+       preferred_weekdays = EXCLUDED.preferred_weekdays,
+       timezone = EXCLUDED.timezone,
+       updated_at = now()
+     RETURNING exam_date::text AS "examDate", daily_minutes AS "dailyMinutes",
+               preferred_weekdays AS "preferredWeekdays", timezone`,
+    [userId, profile.examDate, profile.dailyMinutes, [...new Set(profile.preferredWeekdays)], profile.timezone],
+  )
+  return rows[0]!
+}
+
+progressRoutes.put('/profile', async (c) => {
+  const profile = await c.req.json<StudyProfile>()
+  const error = validProfile(profile)
+  if (error) return c.json({ error }, 400)
+  return c.json({ profile: await saveProfile(c.get('user').id, profile) })
+})
 
 /**
  * Upserts attempts by the client-generated id, so the same payload can be sent
@@ -114,6 +168,12 @@ progressRoutes.get('/snapshot', async (c) => {
        FROM srs WHERE user_id = $1`,
     [userId],
   )
+  const profiles = await query<StudyProfile>(
+    `SELECT exam_date::text AS "examDate", daily_minutes AS "dailyMinutes",
+            preferred_weekdays AS "preferredWeekdays", timezone
+       FROM learner_profiles WHERE user_id = $1`,
+    [userId],
+  )
 
   return c.json({
     attempts: attempts.map(({ serverId, ...attempt }) => ({
@@ -123,6 +183,7 @@ progressRoutes.get('/snapshot', async (c) => {
       synced: true,
     })),
     srs: srs.map((row) => ({ ...row, dueAt: Number(row.dueAt) })),
+    profile: profiles[0] ?? null,
   })
 })
 
@@ -208,7 +269,7 @@ progressRoutes.put('/srs', async (c) => {
 
 /** Called once after signup or first login, to adopt guest-mode progress. */
 progressRoutes.post('/merge', async (c) => {
-  const body = await c.req.json<{ attempts: Attempt[]; srs: SrsState[] }>()
+  const body = await c.req.json<{ attempts: Attempt[]; srs: SrsState[]; profile?: StudyProfile | null }>()
   const userId = c.get('user').id
 
   await saveAttempts(userId, body.attempts ?? [])
@@ -226,6 +287,12 @@ progressRoutes.post('/merge', async (c) => {
          due_at = greatest(srs.due_at, EXCLUDED.due_at)`,
       [userId, s.questionId, s.ease, s.intervalDays, s.repetitions, s.lapses, s.dueAt],
     )
+  }
+
+  if (body.profile) {
+    const error = validProfile(body.profile)
+    if (error) return c.json({ error }, 400)
+    await saveProfile(userId, body.profile)
   }
 
   return c.json({ ok: true, merged: body.attempts?.length ?? 0 })

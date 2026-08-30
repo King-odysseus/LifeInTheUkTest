@@ -232,8 +232,60 @@ authRoutes.patch('/profile', requireAuth, async (c) => {
   return c.json({ ok: true })
 })
 
-authRoutes.delete('/account', requireAuth, async (c) => {
+/** Privacy-safe account export. Secret hashes and session tokens never leave the server. */
+authRoutes.get('/export', requireAuth, async (c) => {
   const user = c.get('user')
+  const [profile, attempts, answers, srs] = await Promise.all([
+    query(
+      `SELECT exam_date::text AS "examDate", daily_minutes AS "dailyMinutes",
+              preferred_weekdays AS "preferredWeekdays", timezone, updated_at AS "updatedAt"
+         FROM learner_profiles WHERE user_id = $1`,
+      [user.id],
+    ),
+    query(
+      `SELECT id, client_id AS "clientId", mode, chapters, score, total, passed,
+              duration_ms AS "durationMs", taken_at AS "takenAt"
+         FROM attempts WHERE user_id = $1 ORDER BY taken_at`,
+      [user.id],
+    ),
+    query(
+      `SELECT a.attempt_id AS "attemptId", a.question_id AS "questionId", a.chosen,
+              a.correct, a.time_ms AS "timeMs"
+         FROM answers a JOIN attempts t ON t.id = a.attempt_id
+        WHERE t.user_id = $1 ORDER BY a.id`,
+      [user.id],
+    ),
+    query(
+      `SELECT question_id AS "questionId", ease, interval_days AS "intervalDays",
+              repetitions, lapses, due_at AS "dueAt"
+         FROM srs WHERE user_id = $1 ORDER BY question_id`,
+      [user.id],
+    ),
+  ])
+
+  return c.json({
+    exportedAt: new Date().toISOString(),
+    account: publicUser(user),
+    studyProfile: profile[0] ?? null,
+    attempts,
+    answers,
+    spacedRepetition: srs,
+  })
+})
+
+/** Permanent deletion requires the current password, even for an active session. */
+authRoutes.delete('/account', requireAuth, rateLimit(5, 60_000), async (c) => {
+  const user = c.get('user')
+  const body: { password?: string } = await c.req.json<{ password?: string }>().catch(() => ({}))
+  if (!body.password) return c.json({ error: 'Enter your current password to delete the account.' }, 400)
+
+  const rows = await query<{ password_hash: string }>(
+    'SELECT password_hash FROM users WHERE id = $1',
+    [user.id],
+  )
+  if (!rows[0] || !(await verifyPassword(body.password, rows[0].password_hash)))
+    return c.json({ error: 'Current password is incorrect.' }, 401)
+
   await query('DELETE FROM users WHERE id = $1', [user.id])
   await destroySession(c)
   return c.json({ ok: true })

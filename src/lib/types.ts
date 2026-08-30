@@ -99,3 +99,27 @@ export interface User {
   displayName: string | null
   createdAt: number
 }
+
+/** Preferences used to turn a broad revision goal into a practical routine. */
+export interface StudyProfile {
+  examDate: string | null
+  dailyMinutes: number
+  /** ISO weekday numbers: Monday = 1, Sunday = 7. */
+  preferredWeekdays: number[]
+  timezone: string
+}
+
+export interface ReadinessComponent {
+  key: 'performance' | 'coverage' | 'recency' | 'volume'
+  label: string
+  value: number
+  weight: number
+  explanation: string
+}
+
+export interface ReadinessSummary {
+  indicator: number | null
+  state: 'insufficient-evidence' | 'ready'
+  components: ReadinessComponent[]
+  explanation: string
+}

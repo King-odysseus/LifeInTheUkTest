@@ -88,3 +88,12 @@ CREATE TABLE IF NOT EXISTS srs (
 );
 
 CREATE INDEX IF NOT EXISTS srs_due_idx ON srs (user_id, due_at);
+
+CREATE TABLE IF NOT EXISTS learner_profiles (
+  user_id            uuid PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+  exam_date          date,
+  daily_minutes      int NOT NULL DEFAULT 20 CHECK (daily_minutes BETWEEN 5 AND 180),
+  preferred_weekdays int[] NOT NULL DEFAULT '{1,2,3,4,5}',
+  timezone           text NOT NULL DEFAULT 'Europe/London',
+  updated_at         timestamptz NOT NULL DEFAULT now()
+);

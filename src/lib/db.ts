@@ -1,5 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie'
-import type { Attempt, CustomTestPreset, SrsState } from './types'
+import type { Attempt, CustomTestPreset, SrsState, StudyProfile } from './types'
 
 /**
  * Local-first storage. Everything works with no account at all; when someone
@@ -115,4 +115,43 @@ export async function deleteCustomTestPreset(id: string) {
 
 export async function clearLocalProgress() {
   await Promise.all([db.attempts.clear(), db.srs.clear()])
+}
+
+export const DEFAULT_STUDY_PROFILE: StudyProfile = {
+  examDate: null,
+  dailyMinutes: 20,
+  preferredWeekdays: [1, 2, 3, 4, 5],
+  timezone: 'Europe/London',
+}
+
+const STUDY_PROFILE_KEY = 'study-profile'
+
+export async function getStudyProfile(): Promise<StudyProfile> {
+  const saved: Partial<StudyProfile> = (await getStoredStudyProfile()) ?? {}
+  return {
+    ...DEFAULT_STUDY_PROFILE,
+    ...saved,
+    preferredWeekdays: Array.isArray(saved.preferredWeekdays)
+      ? saved.preferredWeekdays.filter((day) => Number.isInteger(day) && day >= 1 && day <= 7)
+      : DEFAULT_STUDY_PROFILE.preferredWeekdays,
+  }
+}
+
+export async function getStoredStudyProfile(): Promise<StudyProfile | null> {
+  return getPref<StudyProfile | null>(STUDY_PROFILE_KEY, null)
+}
+
+export async function saveStudyProfile(profile: StudyProfile) {
+  await setPref(STUDY_PROFILE_KEY, profile)
+  if (typeof window !== 'undefined') window.dispatchEvent(new Event('study-profile-changed'))
+}
+
+/** Clears learner-owned browser data while preserving display preferences. */
+export async function clearUserData() {
+  const theme = await getPref<unknown>('theme', null)
+  await db.transaction('rw', db.attempts, db.srs, db.prefs, async () => {
+    await Promise.all([db.attempts.clear(), db.srs.clear(), db.prefs.clear()])
+    if (theme != null) await db.prefs.put({ key: 'theme', value: theme })
+  })
+  if (typeof window !== 'undefined') window.dispatchEvent(new Event('study-profile-changed'))
 }

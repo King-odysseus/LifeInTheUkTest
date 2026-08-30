@@ -1,29 +1,14 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { BarChart3, Play, RefreshCw, Target, Trash2, UserPlus, Zap } from 'lucide-react'
+import { BarChart3, CalendarDays, Flame, Play, RefreshCw, Target, Trash2, UserPlus, Zap } from 'lucide-react'
 import { Alert, Button, ButtonLink, Card, Meter } from '../components/ui'
 import { useTest } from '../store/test'
 import { useAuth } from '../store/auth'
-import { customTestPresets, deleteCustomTestPreset, recentAttempts, touchCustomTestPreset } from '../lib/db'
+import { customTestPresets, deleteCustomTestPreset, getStudyProfile, recentAttempts, touchCustomTestPreset } from '../lib/db'
 import { dueCount } from '../lib/srs'
-import { EXAM, type Attempt, type CustomTestPreset } from '../lib/types'
-
-/**
- * A single readiness number is more motivating than a wall of statistics.
- * Recent mock attempts are weighted more heavily than old ones.
- */
-function readiness(attempts: Attempt[]): number | null {
-  const mocks = attempts.filter((a) => a.mode === 'mock').slice(0, 5)
-  if (mocks.length === 0) return null
-  let weighted = 0
-  let weight = 0
-  mocks.forEach((a, i) => {
-    const w = 1 / (i + 1)
-    weighted += (a.score / a.total) * w
-    weight += w
-  })
-  return Math.round((weighted / weight) * 100)
-}
+import { calculateReadiness } from '../lib/readiness'
+import { daysUntilExam, studyStreak } from '../lib/planning'
+import { EXAM, type Attempt, type CustomTestPreset, type StudyProfile } from '../lib/types'
 
 export default function Home() {
   const navigate = useNavigate()
@@ -34,15 +19,23 @@ export default function Home() {
   const [recentTests, setRecentTests] = useState<CustomTestPreset[]>([])
   const [starting, setStarting] = useState(false)
   const [error, setError] = useState('')
+  const [profile, setProfile] = useState<StudyProfile | null>(null)
 
   useEffect(() => {
     void recentAttempts(20).then(setAttempts)
     void dueCount().then(setDue)
     void customTestPresets().then(setRecentTests)
+    void getStudyProfile().then(setProfile)
+    const refreshProfile = () => void getStudyProfile().then(setProfile)
+    window.addEventListener('study-profile-changed', refreshProfile)
+    return () => window.removeEventListener('study-profile-changed', refreshProfile)
   }, [])
 
-  const score = readiness(attempts)
+  const readiness = calculateReadiness(attempts)
+  const score = readiness.indicator
   const lastMock = attempts.find((a) => a.mode === 'mock')
+  const countdown = profile ? daysUntilExam(profile) : null
+  const streak = profile ? studyStreak(attempts, profile) : 0
 
   const begin = async (mode: 'mock' | 'rapid' | 'weak') => {
     setStarting(true)
@@ -100,12 +93,20 @@ export default function Home() {
             </div>
             <Meter value={score} label="Exam readiness" />
             <p className="mt-1.5 text-xs text-muted">
-              {score >= 85
-                ? 'You are consistently passing. Book the test.'
-                : score >= 75
-                  ? 'On track. Keep drilling your weak areas.'
-                  : 'Below the pass mark. Work through the chapters you are missing.'}
+              {readiness.explanation}
             </p>
+            <details className="mt-3 rounded-xl border border-line px-3 py-2 text-sm">
+              <summary className="cursor-pointer font-medium text-brand">How this is calculated</summary>
+              <dl className="mt-3 space-y-2">
+                {readiness.components.map((component) => (
+                  <div key={component.key} className="flex items-start justify-between gap-3">
+                    <div><dt className="font-medium">{component.label} · {Math.round(component.weight * 100)}%</dt><dd className="text-xs text-muted">{component.explanation}</dd></div>
+                    <span className="shrink-0 font-semibold tabular-nums">{component.value}/100</span>
+                  </div>
+                ))}
+              </dl>
+              <p className="mt-3 text-xs text-muted">This is an unofficial revision-planning indicator, not a prediction of your official result.</p>
+            </details>
           </div>
         )}
 
@@ -179,6 +180,24 @@ export default function Home() {
       )}
 
       <div className="grid gap-4 sm:grid-cols-2">
+        <Card>
+          <div className="flex items-start gap-3">
+            <CalendarDays size={20} className="mt-0.5 shrink-0 text-accent" />
+            <div>
+              <h2 className="font-medium">Your study plan</h2>
+              <p className="mt-1 text-sm text-muted">
+                {countdown == null
+                  ? 'Set your test date and build a revision routine.'
+                  : countdown < 0
+                    ? 'Your saved test date has passed. Update your plan.'
+                    : `${countdown} day${countdown === 1 ? '' : 's'} until your test.`}
+                {streak > 0 && <> <Flame size={14} className="inline" /> {streak}-day streak.</>}
+              </p>
+              <ButtonLink to="/plan" variant="secondary" className="mt-3">Open study plan</ButtonLink>
+            </div>
+          </div>
+        </Card>
+
         {due > 0 && (
           <Card>
             <h2 className="font-medium">{due} questions due for review</h2>

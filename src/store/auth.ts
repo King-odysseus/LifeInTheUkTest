@@ -1,6 +1,13 @@
 import { create } from 'zustand'
 import { api } from '../lib/api'
-import { db, markSynced, restoreProgress, unsyncedAttempts } from '../lib/db'
+import {
+  db,
+  getStoredStudyProfile,
+  markSynced,
+  restoreProgress,
+  saveStudyProfile,
+  unsyncedAttempts,
+} from '../lib/db'
 import type { User } from '../lib/types'
 
 interface AuthStore {
@@ -82,10 +89,14 @@ export const useAuth = create<AuthStore>((set, get) => ({
 
 /** Adopts whatever the user did before they had an account. */
 async function mergeGuestProgress() {
-  const [attempts, srs] = await Promise.all([db.attempts.toArray(), db.srs.toArray()])
-  if (attempts.length === 0 && srs.length === 0) return
+  const [attempts, srs, profile] = await Promise.all([
+    db.attempts.toArray(),
+    db.srs.toArray(),
+    getStoredStudyProfile(),
+  ])
+  if (attempts.length === 0 && srs.length === 0 && !profile) return
   try {
-    await api.merge(attempts, srs)
+    await api.merge(attempts, srs, profile)
     await markSynced(attempts.map((a) => a.id))
   } catch {
     // Non-fatal: the attempts stay marked unsynced and retry later.
@@ -96,8 +107,9 @@ async function mergeGuestProgress() {
 async function syncAccountProgress() {
   await mergeGuestProgress()
   try {
-    const { attempts, srs } = await api.snapshot()
+    const { attempts, srs, profile } = await api.snapshot()
     await restoreProgress(attempts, srs)
+    if (profile) await saveStudyProfile(profile)
   } catch {
     // Local progress remains usable and the next app start retries the restore.
   }
