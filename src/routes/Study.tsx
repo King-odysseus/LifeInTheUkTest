@@ -2,9 +2,8 @@ import { useCallback, useEffect, useRef, useState, type PointerEvent } from 'rea
 import { ChevronLeft, ChevronRight, RotateCw } from 'lucide-react'
 import { Button, ButtonLink, Card, Spinner } from '../components/ui'
 import { db } from '../lib/db'
-import { dueQuestionIds } from '../lib/srs'
 import { schedule } from '../lib/srs'
-import { findQuestions, sampleQuestions } from '../lib/questions'
+import { loadAll, shuffle } from '../lib/questions'
 import { CHAPTERS, type Question } from '../lib/types'
 import { useAuth } from '../store/auth'
 
@@ -22,9 +21,18 @@ export default function Study() {
   const swipeStartY = useRef<number | null>(null)
 
   const load = useCallback(async () => {
-    const due = await dueQuestionIds(40)
-    // Nothing scheduled yet, so seed the session with a spread of new material.
-    const questions = due.length ? await findQuestions(due) : await sampleQuestions({ count: 20 })
+    // Build the deck from the complete question bank. Due cards come first,
+    // followed by every card that has not been studied yet. This means a new
+    // learner can work through the whole syllabus instead of seeing a small
+    // random sample and never getting a meaningful coverage view.
+    const [allQuestions, scheduled] = await Promise.all([loadAll(), db.srs.toArray()])
+    const dueIds = new Set(
+      scheduled.filter((card) => card.dueAt <= Date.now()).map((card) => card.questionId),
+    )
+    const scheduledIds = new Set(scheduled.map((card) => card.questionId))
+    const due = allQuestions.filter((question) => dueIds.has(question.id))
+    const newCards = allQuestions.filter((question) => !scheduledIds.has(question.id))
+    const questions = [...due, ...shuffle(newCards)]
     setCards(questions)
     setIndex(0)
     setRevealed(false)
@@ -78,7 +86,7 @@ export default function Study() {
         <Card className="text-center">
           <h1 className="font-medium">Review complete</h1>
           <p className="mt-1 text-sm text-muted">
-            {reviewed} card{reviewed === 1 ? '' : 's'} reviewed. Come back when more fall due.
+            {reviewed} card{reviewed === 1 ? '' : 's'} reviewed. You&rsquo;re up to date for now.
           </p>
           <Button className="mt-4" onClick={() => void load()}>
             Study more
@@ -112,6 +120,9 @@ export default function Study() {
             {index + 1} of {cards.length}
           </span>
         </div>
+        <p className="mt-1 text-sm text-muted">
+          Review due cards first, then work through the remaining syllabus cards.
+        </p>
         <ButtonLink to="/plan" variant="ghost" className="mt-2 px-0">View today&rsquo;s study plan</ButtonLink>
       </div>
 
