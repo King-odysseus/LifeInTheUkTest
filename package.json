@@ -12,6 +12,7 @@
     "start": "node dist-server/index.js",
     "preview": "vite preview",
     "questions:validate": "tsx scripts/validate-questions.ts",
+    "lessons:validate": "tsx scripts/validate-lessons.ts",
     "questions:stats": "tsx scripts/question-stats.ts",
     "typecheck": "tsc -b --noEmit",
     "questions:generate": "tsx scripts/generate.ts",

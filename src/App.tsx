@@ -17,6 +17,8 @@ import StudyHub from './routes/StudyHub'
 import Learn from './routes/Learn'
 import Lesson from './routes/Lesson'
 import Mistakes from './routes/Mistakes'
+import QuestionLesson from './routes/QuestionLesson'
+import Topic from './routes/Topic'
 import { useAuth } from './store/auth'
 
 export default function App() {
@@ -40,6 +42,8 @@ export default function App() {
           <Route path="/study/flashcards" element={<Study />} />
           <Route path="/study/learn" element={<Learn />} />
           <Route path="/study/learn/:lessonId" element={<Lesson />} />
+          <Route path="/study/question/:questionId" element={<QuestionLesson />} />
+          <Route path="/study/topics/:chapterId/:section" element={<Topic />} />
           <Route path="/study/mistakes" element={<Mistakes />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/plan" element={<StudyPlan />} />

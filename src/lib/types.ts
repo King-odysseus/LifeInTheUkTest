@@ -132,6 +132,9 @@ export interface Lesson {
   topic: string
   summary: string
   minutes: number
+  /** Handbook reference used during editorial review. */
+  source: string
+  reviewedAt: string
   keywords: string[]
   facts: { heading: string; text: string }[]
   memoryAid: { title: string; text: string }
@@ -145,4 +148,5 @@ export interface LessonProgress {
   completedAt: number | null
   lastOpenedAt: number
   recalls: Record<number, 'remembered' | 'nearly' | 'forgot'>
+  quiz: Record<string, boolean>
 }

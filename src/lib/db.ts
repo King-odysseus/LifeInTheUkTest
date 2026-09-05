@@ -131,7 +131,7 @@ export async function lessonProgresses(): Promise<LessonProgress[]> {
 export async function openLesson(lessonId: string): Promise<LessonProgress> {
   const now = Date.now()
   const existing = await db.lessons.get(lessonId)
-  const progress = existing ?? { lessonId, startedAt: now, completedAt: null, lastOpenedAt: now, recalls: {} }
+  const progress = existing ?? { lessonId, startedAt: now, completedAt: null, lastOpenedAt: now, recalls: {}, quiz: {} }
   const next = { ...progress, lastOpenedAt: now }
   await db.lessons.put(next)
   return next

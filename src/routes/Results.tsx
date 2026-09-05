@@ -3,7 +3,6 @@ import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { useTest } from '../store/test'
 import { Alert, Button, Card, Meter } from '../components/ui'
 import { CHAPTERS, EXAM, type ChapterId } from '../lib/types'
-import { lessonsForQuestion } from '../lib/learning'
 
 export default function Results() {
   const navigate = useNavigate()
@@ -138,11 +137,7 @@ export default function Results() {
                       <p className="mt-2 text-xs text-muted">
                         {chapterShort(question.chapter)} · {question.section}
                       </p>
-                      {lessonsForQuestion(question.id).map((lesson) => (
-                        <Link key={lesson.id} className="mt-3 inline-block text-sm font-medium text-brand hover:underline" to={`/study/learn/${lesson.id}`}>
-                          Help me understand and remember this
-                        </Link>
-                      ))}
+                      <Link className="mt-3 inline-block text-sm font-medium text-brand hover:underline" to={`/study/question/${question.id}`}>Help me understand and remember this</Link>
                     </div>
                   </div>
                 </li>

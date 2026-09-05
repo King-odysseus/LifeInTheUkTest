@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Card, Meter, Spinner } from '../components/ui'
-import { db, questionHistory, recentAttempts } from '../lib/db'
+import { db, lessonProgresses, questionHistory, recentAttempts } from '../lib/db'
 import { loadAll } from '../lib/questions'
 import { dueCount } from '../lib/srs'
 import { CHAPTERS, type Attempt, type Question } from '../lib/types'
+import { LESSONS } from '../data/lessons'
 
 interface ChapterStat {
   id: number
@@ -18,15 +19,17 @@ export default function Stats() {
   const [worst, setWorst] = useState<{ question: Question; asked: number; right: number }[]>([])
   const [due, setDue] = useState(0)
   const [flashcards, setFlashcards] = useState({ studied: 0, learning: 0, mastered: 0 })
+  const [lessons, setLessons] = useState({ started: 0, completed: 0, difficult: 0 })
 
   useEffect(() => {
     void (async () => {
-      const [history, all, list, dueNow, schedules] = await Promise.all([
+      const [history, all, list, dueNow, schedules, learning] = await Promise.all([
         questionHistory(),
         loadAll(),
         recentAttempts(100),
         dueCount(),
         db.srs.toArray(),
+        lessonProgresses(),
       ])
       const byId = new Map(all.map((q) => [q.id, q]))
 
@@ -61,12 +64,17 @@ export default function Stats() {
         learning: schedules.filter((s) => s.repetitions > 0 && s.intervalDays < 7).length,
         mastered: schedules.filter((s) => s.repetitions > 0 && s.intervalDays >= 7).length,
       })
+      setLessons({
+        started: learning.length,
+        completed: learning.filter((lesson) => lesson.completedAt != null).length,
+        difficult: learning.filter((lesson) => Object.values(lesson.recalls).includes('forgot')).length,
+      })
     })()
   }, [])
 
   if (!attempts) return <Spinner label="Working out your progress" />
 
-  if (attempts.length === 0) {
+  if (attempts.length === 0 && lessons.started === 0) {
     return (
       <Card>
         <h1 className="font-medium">No attempts yet</h1>
@@ -101,6 +109,16 @@ export default function Stats() {
           value={improvement == null ? 'Keep practising' : `${improvement > 0 ? '+' : ''}${improvement} pts`}
         />
       </div>
+
+      <Card>
+        <h2 className="font-medium">Learning progress</h2>
+        <div className="mt-3 grid grid-cols-1 gap-2 min-[380px]:grid-cols-3 sm:gap-3">
+          <Stat label="Lessons started" value={`${lessons.started}/${LESSONS.length}`} />
+          <Stat label="Lessons completed" value={String(lessons.completed)} />
+          <Stat label="Topics needing practice" value={String(lessons.difficult)} />
+        </div>
+        <p className="mt-3 text-xs text-muted">Lesson checks and recall confidence are tracked separately from your exam score.</p>
+      </Card>
 
       {due > 0 && (
         <Card>

@@ -16,9 +16,16 @@ export function recommendLessons(attempts: Attempt[], progress: LessonProgress[]
   }).filter((item) => !completed.has(item.lesson.id) || item.score > 0).sort((a,b) => b.score-a.score).slice(0,3)
 }
 
-export function lessonsForQuestion(questionId: string) {
+export function lessonsForQuestion(questionId: string, context = '') {
   const direct = LESSONS.filter((lesson) => lesson.questionIds.includes(questionId))
   if (direct.length) return direct
   const chapter = Number(/^c([1-5])-/.exec(questionId)?.[1])
-  return chapter ? LESSONS.filter((lesson) => lesson.chapter === chapter).slice(0, 1) : []
+  if (!chapter) return []
+  const words = new Set(context.toLowerCase().split(/[^a-z0-9]+/).filter((word) => word.length > 2))
+  const candidates = LESSONS.filter((lesson) => lesson.chapter === chapter)
+  return candidates
+    .map((lesson) => ({ lesson, score: [lesson.topic, lesson.title, ...lesson.keywords].reduce((score, text) => score + [...words].filter((word) => text.toLowerCase().includes(word)).length, 0) }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 1)
+    .map(({ lesson }) => lesson)
 }
