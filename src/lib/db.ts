@@ -1,5 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie'
-import type { Attempt, CustomTestPreset, SrsState, StudyProfile } from './types'
+import type { Attempt, CustomTestPreset, LessonProgress, SrsState, StudyProfile } from './types'
 
 /**
  * Local-first storage. Everything works with no account at all; when someone
@@ -9,6 +9,7 @@ class LiukDatabase extends Dexie {
   attempts!: EntityTable<Attempt, 'id'>
   srs!: EntityTable<SrsState, 'questionId'>
   prefs!: EntityTable<{ key: string; value: unknown }, 'key'>
+  lessons!: EntityTable<LessonProgress, 'lessonId'>
 
   constructor() {
     super('life-in-the-uk')
@@ -16,6 +17,12 @@ class LiukDatabase extends Dexie {
       attempts: 'id, takenAt, mode, synced',
       srs: 'questionId, dueAt',
       prefs: 'key',
+    })
+    this.version(2).stores({
+      attempts: 'id, takenAt, mode, synced',
+      srs: 'questionId, dueAt',
+      prefs: 'key',
+      lessons: 'lessonId, lastOpenedAt, completedAt',
     })
   }
 }
@@ -114,7 +121,28 @@ export async function deleteCustomTestPreset(id: string) {
 }
 
 export async function clearLocalProgress() {
-  await Promise.all([db.attempts.clear(), db.srs.clear()])
+  await Promise.all([db.attempts.clear(), db.srs.clear(), db.lessons.clear()])
+}
+
+export async function lessonProgresses(): Promise<LessonProgress[]> {
+  return db.lessons.toArray()
+}
+
+export async function openLesson(lessonId: string): Promise<LessonProgress> {
+  const now = Date.now()
+  const existing = await db.lessons.get(lessonId)
+  const progress = existing ?? { lessonId, startedAt: now, completedAt: null, lastOpenedAt: now, recalls: {} }
+  const next = { ...progress, lastOpenedAt: now }
+  await db.lessons.put(next)
+  return next
+}
+
+export async function saveLessonProgress(progress: LessonProgress) {
+  await db.lessons.put(progress)
+}
+
+export async function restoreLessonProgress(progress: LessonProgress[]) {
+  if (progress.length) await db.lessons.bulkPut(progress)
 }
 
 export const DEFAULT_STUDY_PROFILE: StudyProfile = {
@@ -149,8 +177,8 @@ export async function saveStudyProfile(profile: StudyProfile) {
 /** Clears learner-owned browser data while preserving display preferences. */
 export async function clearUserData() {
   const theme = await getPref<unknown>('theme', null)
-  await db.transaction('rw', db.attempts, db.srs, db.prefs, async () => {
-    await Promise.all([db.attempts.clear(), db.srs.clear(), db.prefs.clear()])
+  await db.transaction('rw', db.attempts, db.srs, db.prefs, db.lessons, async () => {
+    await Promise.all([db.attempts.clear(), db.srs.clear(), db.prefs.clear(), db.lessons.clear()])
     if (theme != null) await db.prefs.put({ key: 'theme', value: theme })
   })
   if (typeof window !== 'undefined') window.dispatchEvent(new Event('study-profile-changed'))

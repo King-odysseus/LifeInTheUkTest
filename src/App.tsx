@@ -13,6 +13,10 @@ import ResetPassword from './routes/ResetPassword'
 import Account from './routes/Account'
 import NotFound from './routes/NotFound'
 import StudyPlan from './routes/StudyPlan'
+import StudyHub from './routes/StudyHub'
+import Learn from './routes/Learn'
+import Lesson from './routes/Lesson'
+import Mistakes from './routes/Mistakes'
 import { useAuth } from './store/auth'
 
 export default function App() {
@@ -32,7 +36,11 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/practice" element={<Practice />} />
-          <Route path="/study" element={<Study />} />
+          <Route path="/study" element={<StudyHub />} />
+          <Route path="/study/flashcards" element={<Study />} />
+          <Route path="/study/learn" element={<Learn />} />
+          <Route path="/study/learn/:lessonId" element={<Lesson />} />
+          <Route path="/study/mistakes" element={<Mistakes />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/plan" element={<StudyPlan />} />
           <Route path="/signin" element={<SignIn />} />

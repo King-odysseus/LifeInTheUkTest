@@ -19,7 +19,7 @@ import { getPref, setPref } from '../lib/db'
 const links = [
   { to: '/', label: 'Home', mobileLabel: 'Home', icon: Home, end: true },
   { to: '/practice', label: 'Practice', mobileLabel: 'Practice', icon: ClipboardList },
-  { to: '/study', label: 'Study', mobileLabel: 'Cards', icon: BookOpen },
+  { to: '/study', label: 'Study', mobileLabel: 'Study', icon: BookOpen },
   { to: '/stats', label: 'Progress', mobileLabel: 'Progress', icon: BarChart3 },
 ]
 

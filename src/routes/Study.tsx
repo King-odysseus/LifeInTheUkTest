@@ -123,7 +123,7 @@ export default function Study() {
         <p className="mt-1 text-sm text-muted">
           Review due cards first, then work through the remaining syllabus cards.
         </p>
-        <ButtonLink to="/plan" variant="ghost" className="mt-2 px-0">View today&rsquo;s study plan</ButtonLink>
+        <div className="mt-2 flex flex-wrap gap-x-4"><ButtonLink to="/study" variant="ghost" className="px-0">Study home</ButtonLink><ButtonLink to="/plan" variant="ghost" className="px-0">View today&rsquo;s study plan</ButtonLink></div>
       </div>
 
       <div

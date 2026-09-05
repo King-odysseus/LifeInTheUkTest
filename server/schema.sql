@@ -89,6 +89,16 @@ CREATE TABLE IF NOT EXISTS srs (
 
 CREATE INDEX IF NOT EXISTS srs_due_idx ON srs (user_id, due_at);
 
+CREATE TABLE IF NOT EXISTS lesson_progress (
+  user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  lesson_id text NOT NULL,
+  started_at timestamptz NOT NULL,
+  completed_at timestamptz,
+  last_opened_at timestamptz NOT NULL,
+  recalls jsonb NOT NULL DEFAULT '{}',
+  PRIMARY KEY (user_id, lesson_id)
+);
+
 CREATE TABLE IF NOT EXISTS learner_profiles (
   user_id            uuid PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
   exam_date          date,

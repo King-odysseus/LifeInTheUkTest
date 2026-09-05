@@ -5,6 +5,8 @@ import {
   getStoredStudyProfile,
   markSynced,
   restoreProgress,
+  restoreLessonProgress,
+  lessonProgresses,
   saveStudyProfile,
   unsyncedAttempts,
 } from '../lib/db'
@@ -73,12 +75,13 @@ export const useAuth = create<AuthStore>((set, get) => ({
 
   async syncUp() {
     if (!get().user) return
-    const [pending, srs] = await Promise.all([unsyncedAttempts(), db.srs.toArray()])
-    if (pending.length === 0 && srs.length === 0) return
+    const [pending, srs, lessons] = await Promise.all([unsyncedAttempts(), db.srs.toArray(), lessonProgresses()])
+    if (pending.length === 0 && srs.length === 0 && lessons.length === 0) return
     try {
       await Promise.all([
         pending.length ? api.pushAttempts(pending) : Promise.resolve(),
         srs.length ? api.pushSrs(srs) : Promise.resolve(),
+        lessons.length ? api.pushLessons(lessons) : Promise.resolve(),
       ])
       if (pending.length) await markSynced(pending.map((a) => a.id))
     } catch {
@@ -89,14 +92,16 @@ export const useAuth = create<AuthStore>((set, get) => ({
 
 /** Adopts whatever the user did before they had an account. */
 async function mergeGuestProgress() {
-  const [attempts, srs, profile] = await Promise.all([
+  const [attempts, srs, profile, lessons] = await Promise.all([
     db.attempts.toArray(),
     db.srs.toArray(),
     getStoredStudyProfile(),
+    lessonProgresses(),
   ])
-  if (attempts.length === 0 && srs.length === 0 && !profile) return
+  if (attempts.length === 0 && srs.length === 0 && lessons.length === 0 && !profile) return
   try {
     await api.merge(attempts, srs, profile)
+    if (lessons.length) await api.pushLessons(lessons)
     await markSynced(attempts.map((a) => a.id))
   } catch {
     // Non-fatal: the attempts stay marked unsynced and retry later.
@@ -107,8 +112,9 @@ async function mergeGuestProgress() {
 async function syncAccountProgress() {
   await mergeGuestProgress()
   try {
-    const { attempts, srs, profile } = await api.snapshot()
+    const { attempts, srs, profile, lessons = [] } = await api.snapshot()
     await restoreProgress(attempts, srs)
+    await restoreLessonProgress(lessons)
     if (profile) await saveStudyProfile(profile)
   } catch {
     // Local progress remains usable and the next app start retries the restore.

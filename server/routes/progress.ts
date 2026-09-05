@@ -1,7 +1,7 @@
 import { Hono } from 'hono'
 import { pool, query } from '../db.ts'
 import { requireAuth, type SessionUser } from '../auth.ts'
-import type { Attempt, SrsState, StudyProfile } from '../../src/lib/types.ts'
+import type { Attempt, LessonProgress, SrsState, StudyProfile } from '../../src/lib/types.ts'
 
 export const progressRoutes = new Hono<{ Variables: { user: SessionUser } }>()
 
@@ -174,6 +174,19 @@ progressRoutes.get('/snapshot', async (c) => {
        FROM learner_profiles WHERE user_id = $1`,
     [userId],
   )
+  const lessons = await query<{
+    lessonId: string
+    startedAt: string
+    completedAt: string | null
+    lastOpenedAt: string
+    recalls: LessonProgress['recalls']
+  }>(
+    `SELECT lesson_id AS "lessonId", (extract(epoch FROM started_at) * 1000)::bigint AS "startedAt",
+            (extract(epoch FROM completed_at) * 1000)::bigint AS "completedAt",
+            (extract(epoch FROM last_opened_at) * 1000)::bigint AS "lastOpenedAt", recalls
+       FROM lesson_progress WHERE user_id = $1`,
+    [userId],
+  )
 
   return c.json({
     attempts: attempts.map(({ serverId, ...attempt }) => ({
@@ -184,6 +197,12 @@ progressRoutes.get('/snapshot', async (c) => {
     })),
     srs: srs.map((row) => ({ ...row, dueAt: Number(row.dueAt) })),
     profile: profiles[0] ?? null,
+    lessons: lessons.map((lesson) => ({
+      ...lesson,
+      startedAt: Number(lesson.startedAt),
+      completedAt: lesson.completedAt == null ? null : Number(lesson.completedAt),
+      lastOpenedAt: Number(lesson.lastOpenedAt),
+    })),
   })
 })
 
@@ -263,6 +282,23 @@ progressRoutes.put('/srs', async (c) => {
     throw err
   } finally {
     client.release()
+  }
+  return c.json({ ok: true })
+})
+
+progressRoutes.put('/lessons', async (c) => {
+  const body = await c.req.json<{ lessons: LessonProgress[] }>()
+  for (const lesson of body.lessons ?? []) {
+    await query(
+      `INSERT INTO lesson_progress (user_id, lesson_id, started_at, completed_at, last_opened_at, recalls)
+       VALUES ($1, $2, to_timestamp($3 / 1000.0), $4, to_timestamp($5 / 1000.0), $6::jsonb)
+       ON CONFLICT (user_id, lesson_id) DO UPDATE SET
+         started_at = least(lesson_progress.started_at, EXCLUDED.started_at),
+         completed_at = coalesce(lesson_progress.completed_at, EXCLUDED.completed_at),
+         last_opened_at = greatest(lesson_progress.last_opened_at, EXCLUDED.last_opened_at),
+         recalls = CASE WHEN EXCLUDED.last_opened_at >= lesson_progress.last_opened_at THEN EXCLUDED.recalls ELSE lesson_progress.recalls END`,
+      [c.get('user').id, lesson.lessonId, lesson.startedAt, lesson.completedAt ? new Date(lesson.completedAt).toISOString() : null, lesson.lastOpenedAt, JSON.stringify(lesson.recalls)],
+    )
   }
   return c.json({ ok: true })
 })

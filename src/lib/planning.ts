@@ -91,6 +91,12 @@ export function buildDailyPlan(
     minutes -= allocation
   }
 
+  if (hasMistakes && minutes >= 5) {
+    const allocation = Math.min(10, minutes)
+    tasks.push({ id: 'learn', title: 'Learn a difficult topic', detail: 'Use a short lesson to connect facts you have missed.', minutes: allocation, to: '/study/learn' })
+    minutes -= allocation
+  }
+
   if (minutes >= 15) {
     tasks.push({
       id: 'mock',

@@ -1,4 +1,4 @@
-import type { Attempt, SrsState, StudyProfile, User } from './types'
+import type { Attempt, LessonProgress, SrsState, StudyProfile, User } from './types'
 
 class ApiError extends Error {
   constructor(
@@ -64,7 +64,7 @@ export const api = {
 
   pullAttempts: () => request<{ attempts: Attempt[] }>('/progress/attempts'),
 
-  snapshot: () => request<{ attempts: Attempt[]; srs: SrsState[]; profile: StudyProfile | null }>('/progress/snapshot'),
+  snapshot: () => request<{ attempts: Attempt[]; srs: SrsState[]; profile: StudyProfile | null; lessons?: LessonProgress[] }>('/progress/snapshot'),
 
   saveStudyProfile: (profile: StudyProfile) => request<{ profile: StudyProfile }>('/progress/profile', {
     method: 'PUT',
@@ -72,6 +72,7 @@ export const api = {
   }),
 
   exportData: () => request<Record<string, unknown>>('/auth/export'),
+  pushLessons: (lessons: LessonProgress[]) => request<{ ok: boolean }>('/progress/lessons', { method: 'PUT', body: JSON.stringify({ lessons }) }),
 
   deleteAccount: (password: string) => request<{ ok: true }>('/auth/account', {
     method: 'DELETE',

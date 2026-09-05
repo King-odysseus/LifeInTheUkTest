@@ -235,7 +235,7 @@ authRoutes.patch('/profile', requireAuth, async (c) => {
 /** Privacy-safe account export. Secret hashes and session tokens never leave the server. */
 authRoutes.get('/export', requireAuth, async (c) => {
   const user = c.get('user')
-  const [profile, attempts, answers, srs] = await Promise.all([
+  const [profile, attempts, answers, srs, lessons] = await Promise.all([
     query(
       `SELECT exam_date::text AS "examDate", daily_minutes AS "dailyMinutes",
               preferred_weekdays AS "preferredWeekdays", timezone, updated_at AS "updatedAt"
@@ -261,6 +261,12 @@ authRoutes.get('/export', requireAuth, async (c) => {
          FROM srs WHERE user_id = $1 ORDER BY question_id`,
       [user.id],
     ),
+    query(
+      `SELECT lesson_id AS "lessonId", started_at AS "startedAt", completed_at AS "completedAt",
+              last_opened_at AS "lastOpenedAt", recalls
+         FROM lesson_progress WHERE user_id = $1 ORDER BY lesson_id`,
+      [user.id],
+    ),
   ])
 
   return c.json({
@@ -270,6 +276,7 @@ authRoutes.get('/export', requireAuth, async (c) => {
     attempts,
     answers,
     spacedRepetition: srs,
+    lessonProgress: lessons,
   })
 })
 

@@ -123,3 +123,26 @@ export interface ReadinessSummary {
   components: ReadinessComponent[]
   explanation: string
 }
+
+/** Authored teaching content, kept separate from exam questions and scores. */
+export interface Lesson {
+  id: string
+  chapter: ChapterId
+  title: string
+  topic: string
+  summary: string
+  minutes: number
+  keywords: string[]
+  facts: { heading: string; text: string }[]
+  memoryAid: { title: string; text: string }
+  recall: { prompt: string; answer: string }
+  questionIds: string[]
+}
+
+export interface LessonProgress {
+  lessonId: string
+  startedAt: number
+  completedAt: number | null
+  lastOpenedAt: number
+  recalls: Record<number, 'remembered' | 'nearly' | 'forgot'>
+}
