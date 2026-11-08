@@ -4,11 +4,13 @@ import { serveStatic } from '@hono/node-server/serve-static'
 import { compress } from 'hono/compress'
 import { logger } from 'hono/logger'
 import { randomUUID } from 'node:crypto'
+import path from 'node:path'
 import { authRoutes } from './routes/auth.ts'
 import { progressRoutes } from './routes/progress.ts'
 import { dbEnabled, migrate } from './db.ts'
 
-const isProd = process.env.NODE_ENV === 'production'
+// The bundled start command must serve the web build even when a local shell has no NODE_ENV.
+const isProd = process.env.NODE_ENV === 'production' || path.extname(process.argv[1] ?? '') === '.js'
 
 const app = new Hono()
 

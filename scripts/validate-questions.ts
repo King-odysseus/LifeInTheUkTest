@@ -109,13 +109,48 @@ for (const q of all) {
   byStem.set(stem, q.id)
 }
 
+// Current facts need a deliberate review cycle so a passing build cannot hide stale office holders.
+const CURRENT_KNOWLEDGE_REVIEWED_AT = '2026-11-08'
+const MAX_CURRENT_KNOWLEDGE_AGE_DAYS = 180
+const expectedCurrentAnswers = new Map([
+  ['c5-083', 'King Charles III'],
+  ['c5-084', '2022'],
+  ['c5-085', '70 years'],
+  ['c5-276', 'Andy Burnham'],
+  ['c5-277', 'Andy Burnham'],
+])
+
+for (const [id, expectedAnswer] of expectedCurrentAnswers) {
+  const question = all.find((item) => item.id === id)
+  if (!question) {
+    errors.push(`Missing current-knowledge question ${id}`)
+    continue
+  }
+  const answers = question.correct.map((index) => question.options[index])
+  if (!answers.includes(expectedAnswer)) {
+    errors.push(`${id}: expected current answer "${expectedAnswer}"`)
+  }
+  if (!question.tags.includes('volatile')) {
+    errors.push(`${id}: current-knowledge question must be tagged "volatile"`)
+  }
+}
+
+const currentKnowledgeAgeDays = Math.floor(
+  (Date.now() - Date.parse(`${CURRENT_KNOWLEDGE_REVIEWED_AT}T00:00:00Z`)) / 86_400_000,
+)
+if (currentKnowledgeAgeDays > MAX_CURRENT_KNOWLEDGE_AGE_DAYS) {
+  errors.push(
+    `Current knowledge was last reviewed on ${CURRENT_KNOWLEDGE_REVIEWED_AT}; review volatile facts before release`,
+  )
+}
+
 // ------------------------------------------------------------------- report
 
 for (const w of warnings) console.warn(`warn  ${w}`)
 for (const e of errors) console.error(`error ${e}`)
 
 console.log(
-  `\n${all.length} questions across ${files.length} files — ` +
+  `\n${all.length} questions across ${files.length} files - ` +
     `${errors.length} errors, ${warnings.length} warnings`,
 )
 
@@ -126,6 +161,7 @@ const volatile = all.filter((q) => q.tags?.includes('volatile'))
 if (volatile.length) {
   console.log(`\n${volatile.length} time-sensitive questions tagged "volatile":`)
   for (const q of volatile) console.log(`  ${q.id}  ${q.question}`)
+  console.log(`  reviewed ${CURRENT_KNOWLEDGE_REVIEWED_AT}`)
 }
 
 if (all.length < 2000) {

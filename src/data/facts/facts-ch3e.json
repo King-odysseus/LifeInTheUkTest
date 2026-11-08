@@ -380,6 +380,19 @@
           "George I came to the British throne from which German state?"
         ],
         "e": "George I was the German Elector of Hanover, chosen as the nearest Protestant relative of Queen Anne. He spoke little English and relied on his ministers."
+      },
+      {
+        "q": "In which field is the Scottish Enlightenment thinker David Hume best known?",
+        "a": "Philosophy",
+        "wrong": [
+          "Architecture",
+          "Engineering",
+          "Medicine"
+        ],
+        "alts": [
+          "David Hume made his main contribution in which area?"
+        ],
+        "e": "David Hume was a leading philosopher of the Scottish Enlightenment. Adam Smith, another major figure, is known for his ideas about economics."
       }
     ],
     "tf": [
@@ -426,6 +439,19 @@
         "alts": [
           "The Crimean War saw the creation of which award for outstanding bravery?"
         ]
+      },
+      {
+        "q": "Who were the Boers, whom Britain fought in South Africa?",
+        "a": "Settlers of Dutch origin",
+        "wrong": [
+          "French soldiers",
+          "Portuguese sailors",
+          "German merchants"
+        ],
+        "alts": [
+          "The Boer War was fought against South African settlers mainly descended from which Europeans?"
+        ],
+        "e": "The Boers were settlers of Dutch origin in South Africa. Britain fought them from 1899 to 1902 in a war that became controversial at home."
       }
     ],
     "tf": [

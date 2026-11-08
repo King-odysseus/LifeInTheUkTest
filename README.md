@@ -53,14 +53,16 @@ Passwords use `scrypt` from `node:crypto` with a per-password salt; sessions are
 
 Questions live in `src/data/questions/chapterN.json`, one file per handbook chapter. Vite emits each as its own async chunk, so the full question bank never lands in the initial bundle.
 
-The official question bank is confidential and unpublished, so these are authored from *Life in the United Kingdom: A Guide for New Residents* (3rd ed.). **1,596 questions are in place; the target is 2,000+.** `npm run questions:stats` shows the gap per chapter.
+The official question bank is confidential and unpublished, so these are authored from *Life in the United Kingdom: A Guide for New Residents* (3rd ed.). **1,611 questions are in place; the target is 2,000+.** `npm run questions:stats` shows the gap per chapter.
+
+Current office holders are tagged as time-sensitive, shown as additional study context and reviewed on a dated cycle. They are excluded from handbook mock exams unless the fact is part of the handbook-aligned bank. The validation script fails after 180 days without a current-knowledge review.
 
 Adding questions:
 
 1. Append to the relevant `chapterN.json`, following the existing shape.
 2. Run `npm run questions:validate`. It fails the build on duplicate ids, duplicate or near-duplicate stems, out-of-range answer indices, type/answer-count mismatches, missing explanations and chapter mismatches.
 
-Mock tests sample by the real exam's chapter weighting (history ~40%), not uniformly — see `buildExam` in `src/lib/questions.ts`.
+Mock tests use a stable chapter mix that gives more space to the larger handbook sections. Current-context questions are excluded from mock exams. See `buildExam` in `src/lib/questions.ts`.
 
 ## Layout
 
@@ -77,4 +79,4 @@ scripts/           question bank validation and coverage tooling
 
 - Handbook study notes alongside the questions
 - Google sign-in
-- The remaining 404 questions needed to reach the 2,000-question target
+- The remaining 389 questions needed to reach the 2,000-question target

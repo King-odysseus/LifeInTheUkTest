@@ -68,7 +68,8 @@ function take<T>(items: T[], n: number): T[] {
  * is always full length.
  */
 export async function buildExam(count: number): Promise<Question[]> {
-  const all = await loadAll()
+  // Current office holders are useful study context, but the official test is based on the handbook.
+  const all = (await loadAll()).filter((question) => !question.tags.includes('current-context'))
   const byChapter = new Map<ChapterId, Question[]>()
   for (const q of all) {
     const list = byChapter.get(q.chapter) ?? []

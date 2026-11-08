@@ -1,5 +1,38 @@
 [
   {
+    "id": "e5-constitutional-institutions",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "constitution"
+    ],
+    "explanation": "The UK's main constitutional institutions include the monarchy, Parliament, the Prime Minister and Cabinet, the courts, the police, the civil service and local government. The armed forces are not listed as a constitutional institution.",
+    "angles": [
+      {
+        "q": "Which of these is not one of the UK's main constitutional institutions?",
+        "a": "The armed forces",
+        "wrong": [
+          "Parliament",
+          "The police",
+          "The civil service"
+        ],
+        "alts": [
+          "Which body is not included in the handbook's list of constitutional institutions?"
+        ]
+      },
+      {
+        "q": "Which of these is a constitutional institution of the UK?",
+        "a": "Local government",
+        "wrong": [
+          "A trade union",
+          "A newspaper",
+          "A private company"
+        ]
+      }
+    ]
+  },
+  {
     "id": "e5-monarch",
     "chapter": 5,
     "section": "The British constitution",
@@ -572,6 +605,30 @@
         "alts": [
           "Where can constituents meet their MP to discuss a problem?"
         ]
+      },
+      {
+        "q": "Whom does an MP represent in their constituency?",
+        "a": "Everyone in the constituency",
+        "wrong": [
+          "Only members of their party",
+          "Only people who voted for them",
+          "Only local councillors"
+        ],
+        "e": "An MP represents everyone in their constituency, including people who voted for another candidate or did not vote."
+      }
+    ],
+    "multi": [
+      {
+        "q": "Which TWO are responsibilities of a Member of Parliament?",
+        "a": [
+          "Represent people in their constituency",
+          "Help create new laws"
+        ],
+        "wrong": [
+          "Command the armed forces",
+          "Choose local councillors"
+        ],
+        "e": "MPs represent everyone in their constituency, help create laws, scrutinise the government and debate important national issues."
       }
     ],
     "tf": [
@@ -584,6 +641,31 @@
         "s": "Members of the public can watch debates in Parliament from the public gallery.",
         "v": true,
         "e": "True. You can queue on the day or arrange a visit through your MP."
+      }
+    ]
+  },
+  {
+    "id": "e5-current-prime-minister",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 2,
+    "tags": [
+      "volatile",
+      "current-context"
+    ],
+    "explanation": "Andy Burnham became Prime Minister on 20 July 2026. The office holder can change, so this current-context fact is excluded from handbook mock exams.",
+    "angles": [
+      {
+        "q": "Who is the current Prime Minister of the UK as of November 2026?",
+        "a": "Andy Burnham",
+        "wrong": [
+          "Keir Starmer",
+          "Rishi Sunak",
+          "Boris Johnson"
+        ],
+        "alts": [
+          "Who became UK Prime Minister on 20 July 2026?"
+        ]
       }
     ]
   },

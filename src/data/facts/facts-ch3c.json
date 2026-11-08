@@ -560,6 +560,19 @@
           "About ten thousand",
           "About ten million"
         ]
+      },
+      {
+        "q": "Which crop failure triggered the Irish famine in the mid-19th century?",
+        "a": "The potato crop",
+        "wrong": [
+          "The wheat crop",
+          "The oat crop",
+          "The barley crop"
+        ],
+        "alts": [
+          "The failure of which crop led to the 19th-century famine in Ireland?"
+        ],
+        "e": "In the middle of the 19th century, repeated failure of the potato crop caused a famine in Ireland. About a million people died and many more emigrated."
       }
     ]
   },
@@ -581,6 +594,19 @@
           "Soldiers",
           "Civil servants"
         ]
+      },
+      {
+        "q": "What limit did the Factories Act of 1847 place on work by women and children?",
+        "a": "Ten hours a day",
+        "wrong": [
+          "Eight hours a week",
+          "Twelve hours a day",
+          "Sixteen hours a day"
+        ],
+        "alts": [
+          "Under the Factories Act of 1847, how many hours a day could women and children work?"
+        ],
+        "e": "The Factories Act of 1847 limited the working day for women and children to 10 hours. It was part of wider 19th-century factory reform."
       }
     ]
   },

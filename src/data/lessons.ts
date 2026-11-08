@@ -15,10 +15,106 @@ const STARTER_LESSONS = [
 ] satisfies Omit<Lesson, 'source' | 'reviewedAt'>[]
 
 /** Every starter lesson was editorially reviewed against the named handbook. */
-export const LESSONS: Lesson[] = STARTER_LESSONS.map((lesson) => ({
+const HANDBOOK_LESSONS: Lesson[] = STARTER_LESSONS.map((lesson) => ({
   ...lesson,
   source: 'Life in the United Kingdom: A Guide for New Residents',
   reviewedAt: '2026-09-05',
 }))
+
+const UPDATED_LESSONS: Lesson[] = [
+  {
+    id: 'current-test-day',
+    chapter: 1,
+    topic: 'Test preparation',
+    title: 'Current test format and test-day checks',
+    summary: 'The current official format, pass mark and identification rules.',
+    minutes: 4,
+    source: 'GOV.UK: Life in the UK Test',
+    reviewedAt: '2026-11-08',
+    keywords: ['test', 'format', 'identity', 'pass mark'],
+    facts: [
+      { heading: 'Format', text: 'The official test has 24 questions, lasts 45 minutes and requires at least 18 correct answers, which is 75%.' },
+      { heading: 'On the day', text: 'Bring the same original identity document used to book. If you use an eVisa, follow the current share-code instructions on GOV.UK.' },
+      { heading: 'Study source', text: 'Official test questions are based on the Guide for New Residents, not current affairs or a general knowledge syllabus.' },
+    ],
+    memoryAid: { title: '24 - 45 - 18', text: 'Remember 24 questions, 45 minutes and 18 correct answers to pass.' },
+    recall: { prompt: 'What three numbers describe the official test?', answer: '24 questions, 45 minutes and 18 correct answers to pass.' },
+    questionIds: ['c1-049', 'c1-050'],
+  },
+  {
+    id: 'irish-famine-factory-reform',
+    chapter: 3,
+    topic: 'Victorian Britain',
+    title: 'The Irish famine and factory reform',
+    summary: 'Two major social changes in 19th-century Britain and Ireland.',
+    minutes: 5,
+    source: 'Life in the United Kingdom: A Guide for New Residents',
+    reviewedAt: '2026-11-08',
+    keywords: ['ireland', 'famine', 'potato', 'factories act', 'victorian'],
+    facts: [
+      { heading: 'Irish famine', text: 'Repeated failure of the potato crop in the mid-19th century caused famine. About a million people died and many others emigrated.' },
+      { heading: 'Factories Act 1847', text: 'The Act limited the working day for women and children to 10 hours as part of wider factory reform.' },
+    ],
+    memoryAid: { title: 'Crop and clock', text: 'Link the famine to the potato crop, then link factory reform to the 10-hour clock.' },
+    recall: { prompt: 'What crop failed, and what limit did the 1847 Act set?', answer: 'The potato crop failed, and the Act set a 10-hour working day for women and children.' },
+    questionIds: ['c3-652', 'c3-654'],
+  },
+  {
+    id: 'scottish-enlightenment',
+    chapter: 3,
+    topic: 'The Enlightenment',
+    title: 'Adam Smith and David Hume',
+    summary: 'Keep the two leading Scottish Enlightenment thinkers distinct.',
+    minutes: 4,
+    source: 'Life in the United Kingdom: A Guide for New Residents',
+    reviewedAt: '2026-11-08',
+    keywords: ['scotland', 'enlightenment', 'adam smith', 'david hume'],
+    facts: [
+      { heading: 'Adam Smith', text: 'Adam Smith is remembered for influential ideas about economics.' },
+      { heading: 'David Hume', text: 'David Hume was a philosopher whose work examined human nature.' },
+    ],
+    memoryAid: { title: 'Smith studies markets; Hume studies humans', text: 'Use the subjects to connect Smith with economics and Hume with philosophy.' },
+    recall: { prompt: 'Which thinker is linked to philosophy?', answer: 'David Hume. Adam Smith is linked to economics.' },
+    questionIds: ['c3-656', 'c3-589'],
+  },
+  {
+    id: 'institutions-and-mps',
+    chapter: 5,
+    topic: 'Government',
+    title: 'Constitutional institutions and MPs',
+    summary: 'The bodies that make the constitution work and what MPs do.',
+    minutes: 6,
+    source: 'Life in the United Kingdom: A Guide for New Residents',
+    reviewedAt: '2026-11-08',
+    keywords: ['constitution', 'institutions', 'parliament', 'mps', 'constituency'],
+    facts: [
+      { heading: 'Institutions', text: 'The main institutions include the monarchy, Parliament, the Prime Minister and Cabinet, courts, police, civil service and local government.' },
+      { heading: 'MPs', text: 'An MP represents everyone in a constituency, helps make laws, scrutinises the government and debates national issues.' },
+    ],
+    memoryAid: { title: 'Represent, legislate, scrutinise, debate', text: 'Use these four verbs to recall the work of an MP.' },
+    recall: { prompt: 'Does an MP represent only the people who voted for them?', answer: 'No. An MP represents everyone in the constituency.' },
+    questionIds: ['c5-271', 'c5-274', 'c5-275'],
+  },
+  {
+    id: 'uk-leaders-current',
+    chapter: 5,
+    topic: 'Current context',
+    title: 'The UK today: monarch and Prime Minister',
+    summary: 'Current office holders, kept separate from handbook mock exams.',
+    minutes: 3,
+    source: 'GOV.UK and The Royal Family official websites',
+    reviewedAt: '2026-11-08',
+    keywords: ['current', 'king', 'charles', 'prime minister', 'andy burnham'],
+    facts: [
+      { heading: 'Head of State', text: 'King Charles III is the monarch and Head of State. He acceded to the throne in September 2022.' },
+      { heading: 'Head of Government', text: 'Andy Burnham became Prime Minister on 20 July 2026. This office holder can change and is current context, not handbook mock-test content.' },
+    ],
+    memoryAid: { title: 'State and government', text: 'The monarch is Head of State; the Prime Minister is Head of Government.' },
+    recall: { prompt: 'Who currently holds the two roles?', answer: 'King Charles III is monarch, and Andy Burnham is Prime Minister as reviewed on 8 November 2026.' },
+    questionIds: ['c5-083', 'c5-276'],
+  },
+]
+
+export const LESSONS: Lesson[] = [...HANDBOOK_LESSONS, ...UPDATED_LESSONS]
 
 export const lessonById = (id: string) => LESSONS.find((lesson) => lesson.id === id)

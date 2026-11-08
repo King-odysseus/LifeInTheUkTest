@@ -13642,5 +13642,173 @@
     "tags": [
       "inventions"
     ]
+  },
+  {
+    "id": "c3-652",
+    "type": "single",
+    "question": "Which crop failure triggered the Irish famine in the mid-19th century?",
+    "options": [
+      "The wheat crop",
+      "The potato crop",
+      "The oat crop",
+      "The barley crop"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "In the middle of the 19th century, repeated failure of the potato crop caused a famine in Ireland. About a million people died and many more emigrated.",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "ireland"
+    ]
+  },
+  {
+    "id": "c3-653",
+    "type": "single",
+    "question": "The failure of which crop led to the 19th-century famine in Ireland?",
+    "options": [
+      "The oat crop",
+      "The wheat crop",
+      "The barley crop",
+      "The potato crop"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "In the middle of the 19th century, repeated failure of the potato crop caused a famine in Ireland. About a million people died and many more emigrated.",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "ireland"
+    ]
+  },
+  {
+    "id": "c3-654",
+    "type": "single",
+    "question": "What limit did the Factories Act of 1847 place on work by women and children?",
+    "options": [
+      "Eight hours a week",
+      "Sixteen hours a day",
+      "Ten hours a day",
+      "Twelve hours a day"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The Factories Act of 1847 limited the working day for women and children to 10 hours. It was part of wider 19th-century factory reform.",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "industrial-revolution"
+    ]
+  },
+  {
+    "id": "c3-655",
+    "type": "single",
+    "question": "Under the Factories Act of 1847, how many hours a day could women and children work?",
+    "options": [
+      "Ten hours a day",
+      "Eight hours a week",
+      "Sixteen hours a day",
+      "Twelve hours a day"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Factories Act of 1847 limited the working day for women and children to 10 hours. It was part of wider 19th-century factory reform.",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "industrial-revolution"
+    ]
+  },
+  {
+    "id": "c3-656",
+    "type": "single",
+    "question": "In which field is the Scottish Enlightenment thinker David Hume best known?",
+    "options": [
+      "Architecture",
+      "Medicine",
+      "Engineering",
+      "Philosophy"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "David Hume was a leading philosopher of the Scottish Enlightenment. Adam Smith, another major figure, is known for his ideas about economics.",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "georgian"
+    ]
+  },
+  {
+    "id": "c3-657",
+    "type": "single",
+    "question": "David Hume made his main contribution in which area?",
+    "options": [
+      "Engineering",
+      "Architecture",
+      "Philosophy",
+      "Medicine"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "David Hume was a leading philosopher of the Scottish Enlightenment. Adam Smith, another major figure, is known for his ideas about economics.",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "georgian"
+    ]
+  },
+  {
+    "id": "c3-658",
+    "type": "single",
+    "question": "Who were the Boers, whom Britain fought in South Africa?",
+    "options": [
+      "Settlers of Dutch origin",
+      "German merchants",
+      "French soldiers",
+      "Portuguese sailors"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Boers were settlers of Dutch origin in South Africa. Britain fought them from 1899 to 1902 in a war that became controversial at home.",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "victorian"
+    ]
+  },
+  {
+    "id": "c3-659",
+    "type": "single",
+    "question": "The Boer War was fought against South African settlers mainly descended from which Europeans?",
+    "options": [
+      "Portuguese sailors",
+      "Settlers of Dutch origin",
+      "German merchants",
+      "French soldiers"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Boers were settlers of Dutch origin in South Africa. Britain fought them from 1899 to 1902 in a war that became controversial at home.",
+    "chapter": 3,
+    "section": "A global power",
+    "difficulty": 3,
+    "tags": [
+      "victorian"
+    ]
   }
 ]

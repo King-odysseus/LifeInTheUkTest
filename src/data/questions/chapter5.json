@@ -4932,7 +4932,7 @@
     "correct": [
       0
     ],
-    "explanation": "MPs hold surgeries in their constituency so local people can discuss problems with them directly.",
+    "explanation": "An MP represents everyone in their constituency, including people who voted for another candidate or did not vote.",
     "chapter": 5,
     "section": "Your role in the community",
     "difficulty": 3,
@@ -5609,6 +5609,156 @@
     "difficulty": 3,
     "tags": [
       "institutions"
+    ]
+  },
+  {
+    "id": "c5-271",
+    "type": "single",
+    "question": "Which of these is not one of the UK's main constitutional institutions?",
+    "options": [
+      "The civil service",
+      "Parliament",
+      "The armed forces",
+      "The police"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The UK's main constitutional institutions include the monarchy, Parliament, the Prime Minister and Cabinet, the courts, the police, the civil service and local government. The armed forces are not listed as a constitutional institution.",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "constitution"
+    ]
+  },
+  {
+    "id": "c5-272",
+    "type": "single",
+    "question": "Which body is not included in the handbook's list of constitutional institutions?",
+    "options": [
+      "The civil service",
+      "The police",
+      "The armed forces",
+      "Parliament"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The UK's main constitutional institutions include the monarchy, Parliament, the Prime Minister and Cabinet, the courts, the police, the civil service and local government. The armed forces are not listed as a constitutional institution.",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "constitution"
+    ]
+  },
+  {
+    "id": "c5-273",
+    "type": "single",
+    "question": "Which of these is a constitutional institution of the UK?",
+    "options": [
+      "A trade union",
+      "A private company",
+      "A newspaper",
+      "Local government"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The UK's main constitutional institutions include the monarchy, Parliament, the Prime Minister and Cabinet, the courts, the police, the civil service and local government. The armed forces are not listed as a constitutional institution.",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 3,
+    "tags": [
+      "constitution"
+    ]
+  },
+  {
+    "id": "c5-274",
+    "type": "multi",
+    "question": "Which TWO are responsibilities of a Member of Parliament?",
+    "options": [
+      "Choose local councillors",
+      "Command the armed forces",
+      "Help create new laws",
+      "Represent people in their constituency"
+    ],
+    "correct": [
+      2,
+      3
+    ],
+    "explanation": "MPs represent everyone in their constituency, help create laws, scrutinise the government and debate important national issues.",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 3,
+    "tags": [
+      "mps"
+    ]
+  },
+  {
+    "id": "c5-275",
+    "type": "single",
+    "question": "Whom does an MP represent in their constituency?",
+    "options": [
+      "Only local councillors",
+      "Only people who voted for them",
+      "Everyone in the constituency",
+      "Only members of their party"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "An MP represents everyone in their constituency, including people who voted for another candidate or did not vote.",
+    "chapter": 5,
+    "section": "Your role in the community",
+    "difficulty": 3,
+    "tags": [
+      "mps"
+    ]
+  },
+  {
+    "id": "c5-276",
+    "type": "single",
+    "question": "Who is the current Prime Minister of the UK as of November 2026?",
+    "options": [
+      "Andy Burnham",
+      "Rishi Sunak",
+      "Boris Johnson",
+      "Keir Starmer"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Andy Burnham became Prime Minister on 20 July 2026. The office holder can change, so this current-context fact is excluded from handbook mock exams.",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 2,
+    "tags": [
+      "volatile",
+      "current-context"
+    ]
+  },
+  {
+    "id": "c5-277",
+    "type": "single",
+    "question": "Who became UK Prime Minister on 20 July 2026?",
+    "options": [
+      "Rishi Sunak",
+      "Boris Johnson",
+      "Keir Starmer",
+      "Andy Burnham"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Andy Burnham became Prime Minister on 20 July 2026. The office holder can change, so this current-context fact is excluded from handbook mock exams.",
+    "chapter": 5,
+    "section": "The British constitution",
+    "difficulty": 2,
+    "tags": [
+      "volatile",
+      "current-context"
     ]
   }
 ]
