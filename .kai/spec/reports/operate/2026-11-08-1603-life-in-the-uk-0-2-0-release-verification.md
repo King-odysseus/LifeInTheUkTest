@@ -39,9 +39,11 @@
 - Size: 380,766 bytes.
 - SHA-256: `DAD5E43390437467D2B814F069FD8575A7710F7830DD1C39C121776921A1DB7C`.
 
-## Approved branch command
+## Branch publication result
 
-- `git push origin main` was explicitly approved by the user and will be run after the release commit.
+- Release commit: `872cf15d62949385089d9d2553e0fa6669fc3210`.
+- `git push origin main`: passed.
+- `origin/main` resolved to the same release commit after the push.
 
 ## Publish commands left unrun
 
@@ -51,4 +53,4 @@
 
 ## Rollback
 
-- Before any later tag or deployment, revert the release commit with `git revert <release-commit>` and push the revert to `main`.
+- Revert the release with `git revert 872cf15d62949385089d9d2553e0fa6669fc3210` and push the revert to `main`.
